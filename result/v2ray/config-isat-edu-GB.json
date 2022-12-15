@@ -1,0 +1,198 @@
+{
+  "log": {
+    "access": "none",
+    "loglevel": "info",
+    "dnsLog": true
+  },
+  "inbounds": [
+    {
+      "tag": "proxy-in",
+      "port": 9898,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "network": "tcp,udp",
+        "followRedirect": true
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tproxy": "tproxy"
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    },
+    {
+      "tag": "socks-in",
+      "port": 10802,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "ip": null,
+        "address": null,
+        "clients": null
+      },
+      "streamSettings": null
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "Direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "tag": "Block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "streamSettings": null,
+      "mux": null
+    },
+    {
+      "tag": "dns-out",
+      "protocol": "dns",
+      "settings": {
+        "address": "8.8.8.8"
+      }
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 2053,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "foxuk.fovi.tk"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "foxuk.fovi.tk"
+          },
+          "path": "/eisasqa"
+        }
+      },
+      "tag": "proxy-105 🇬🇧 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.10",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ad1454a4-c9e2-4836-c98d-66e3646c2aa4",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "uk.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "uk.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-186 🇬🇧 Iomart Clo CDN 👾 漁師"
+    }
+  ],
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com",
+      "geosite:category-ads-all": "127.0.0.1"
+    },
+    "servers": [
+      "8.8.8.8",
+      "https+local://223.5.5.5/dns-query"
+    ],
+    "tag": "dns",
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "mph",
+    "balancers": [
+      {
+        "tag": "Balancer",
+        "selector": [
+          "proxy-"
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "port": 53,
+        "inboundTag": [
+          "proxy-in"
+        ],
+        "outboundTag": "dns-out"
+      },
+      {
+        "network": "tcp,udp",
+        "balancerTag": "Balancer",
+        "type": "field"
+      }
+    ]
+  }
+}

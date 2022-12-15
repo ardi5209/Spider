@@ -1,0 +1,98 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "error",
+    "output": "",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "cloudflare",
+        "address": "1.1.1.1",
+        "detour": "direct-out"
+      }
+    ],
+    "final": "cloudflare",
+    "strategy": "prefer_ipv4",
+    "disable_cache": false,
+    "disable_expire": false
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 10800,
+      "domain_strategy": "prefer_ipv4",
+      "set_system_proxy": false
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "48 🇫🇮 Hetzner On SNI 👾 漁師"
+      ]
+    },
+    {
+      "type": "vmess",
+      "tag": "48 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "135.181.235.21",
+      "server_port": 34303,
+      "uuid": "1ce52047-ad8a-4ef3-cdcd-46ff29b262fb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "tcp",
+        "outbound": "select"
+      },
+      {
+        "network": "udp",
+        "outbound": "select"
+      }
+    ],
+    "geoip": {
+      "path": "./geoip.db",
+      "download_detour": "direct-out"
+    },
+    "geosite": {
+      "path": "./geosite.db",
+      "download_detour": "direct-out"
+    },
+    "final": "select"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "error",
+    "output": "",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "cloudflare",
+        "address": "1.1.1.1",
+        "detour": "direct-out"
+      }
+    ],
+    "final": "cloudflare",
+    "strategy": "prefer_ipv4",
+    "disable_cache": false,
+    "disable_expire": false
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 10800,
+      "domain_strategy": "prefer_ipv4",
+      "set_system_proxy": false
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "53 🇩🇪 Hetzner On CDN 👾 漁師",
+        "69 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+        "78 🇩🇪 DIGITALOCE SNI 👾 漁師",
+        "118 🇩🇪 Melbikomas CDN 👾 漁師",
+        "129 🇩🇪 OVH SAS SNI 👾 漁師",
+        "238 🇩🇪 DIGITALOCE SNI 👾 漁師",
+        "201 🇩🇪 Hetzner On SNI 👾 漁師",
+        "262 🇩🇪 Hetzner On SNI 👾 漁師"
+      ]
+    },
+    {
+      "type": "vmess",
+      "tag": "53 🇩🇪 Hetzner On CDN 👾 漁師",
+      "server": "hohm.microsoft.com",
+      "server_port": 80,
+      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "sun.prxpro.cc"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/p3573l6m92h1ham3q23t",
+        "headers": {
+          "Host": "sun.prxpro.cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "69 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "server": "hohm.microsoft.com",
+      "server_port": 2053,
+      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "haxeu2.zikkcc.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "haxeu2.zikkcc.ga"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "78 🇩🇪 DIGITALOCE SNI 👾 漁師",
+      "server": "206.81.31.184",
+      "server_port": 6245,
+      "uuid": "9d39cb34-5261-43fb-b0f8-4f8a22b10f15",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "118 🇩🇪 Melbikomas CDN 👾 漁師",
+      "server": "hohm.microsoft.com",
+      "server_port": 8443,
+      "uuid": "2d24372b-b1ad-4962-b9a0-a766c593ab43",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "eu1.daishujiasunode.uk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tv",
+        "headers": {
+          "Host": "eu1.daishujiasunode.uk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "129 🇩🇪 OVH SAS SNI 👾 漁師",
+      "server": "162.19.226.84",
+      "server_port": 80,
+      "uuid": "a4025f5a-3beb-435d-895d-f89209c3b2de",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/JAGOANSSH/",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "238 🇩🇪 DIGITALOCE SNI 👾 漁師",
+      "server": "165.227.153.15",
+      "server_port": 47497,
+      "uuid": "205d9c7d-840d-4027-9151-5154ac0ee7fc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "201 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "5.75.152.12",
+      "server_port": 443,
+      "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "262 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "content-provider29.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "origin",
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "tcp",
+        "outbound": "select"
+      },
+      {
+        "network": "udp",
+        "outbound": "select"
+      }
+    ],
+    "geoip": {
+      "path": "./geoip.db",
+      "download_detour": "direct-out"
+    },
+    "geosite": {
+      "path": "./geosite.db",
+      "download_detour": "direct-out"
+    },
+    "final": "select"
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "log": {
+    "access": "none",
+    "loglevel": "info",
+    "dnsLog": true
+  },
+  "inbounds": [
+    {
+      "tag": "proxy-in",
+      "port": 9898,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "network": "tcp,udp",
+        "followRedirect": true
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tproxy": "tproxy"
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    },
+    {
+      "tag": "socks-in",
+      "port": 10802,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "ip": null,
+        "address": null,
+        "clients": null
+      },
+      "streamSettings": null
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "Direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "tag": "Block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "streamSettings": null,
+      "mux": null
+    },
+    {
+      "tag": "dns-out",
+      "protocol": "dns",
+      "settings": {
+        "address": "8.8.8.8"
+      }
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "206.119.112.6",
+            "port": 8189,
+            "users": [
+              {
+                "alterId": 10,
+                "encryption": "",
+                "flow": "",
+                "id": "a90597c1-bab3-4217-ad6f-0838675c8638",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-5 🇭🇰 STARCLOUD  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ah.yd01.paopaocloud.cyou",
+            "port": 10002,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "click.zoom.us"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-25 🇭🇰 ADCDATA.CO SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-33 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-42 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "165.154.5.235",
+            "port": 14444,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0eb9d2fa-17d1-4276-af80-15323dc1dca5",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-80 🇭🇰 UCLOUD INF SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dsj17.1062cdn.top",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "caf2e1ff-cf38-11eb-b239-00163cc6d021",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-94 🇭🇰 Alibaba US SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hk2.sanfen001.pics",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e30fa02c-d604-4191-9b81-c550b32f82bc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/zh-cn"
+        }
+      },
+      "tag": "proxy-114 🇭🇰 MICROSOFT- SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hk1vdf-node.aiqiche123.com",
+            "port": 8189,
+            "users": [
+              {
+                "alterId": 10,
+                "encryption": "",
+                "flow": "",
+                "id": "a90597c1-bab3-4217-ad6f-0838675c8638",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-158 🇭🇰 STARCLOUD  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-168 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "206.119.112.6",
+            "port": 8189,
+            "users": [
+              {
+                "alterId": 10,
+                "encryption": "",
+                "flow": "",
+                "id": "a90597c1-bab3-4217-ad6f-0838675c8638",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        }
+      },
+      "tag": "proxy-175 🇭🇰 STARCLOUD  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-187 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "petal.ga",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "b744f5cc-eab2-d2cd-f477-76646d17987f",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/petalvws"
+        }
+      },
+      "tag": "proxy-268 🇭🇰 MICROSOFT- SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-269 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "vfly6.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "vfly6.xyz"
+          },
+          "path": "/myblog"
+        }
+      },
+      "tag": "proxy-272 🇭🇰 Alibaba US CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hkbn03.tizi1.net",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0565f51e-f7e9-4962-ab9c-61407ef581c8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/clientarea"
+        }
+      },
+      "tag": "proxy-292 🇭🇰 Hong Kong  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "194.156.99.39",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "xxoo",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-236 🇭🇰 ADCDATA.CO SNI 👾 漁師"
+    }
+  ],
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com",
+      "geosite:category-ads-all": "127.0.0.1"
+    },
+    "servers": [
+      "8.8.8.8",
+      "https+local://223.5.5.5/dns-query"
+    ],
+    "tag": "dns",
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "mph",
+    "balancers": [
+      {
+        "tag": "Balancer",
+        "selector": [
+          "proxy-"
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "port": 53,
+        "inboundTag": [
+          "proxy-in"
+        ],
+        "outboundTag": "dns-out"
+      },
+      {
+        "network": "tcp,udp",
+        "balancerTag": "Balancer",
+        "type": "field"
+      }
+    ]
+  }
+}
