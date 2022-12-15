@@ -1,5 +1,5 @@
 proxies:
-  - name: '301 🇱🇺 PONYNET CDN 👾 漁師'
+  - name: '66 🇱🇺 PONYNET CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -8,7 +8,23 @@ proxies:
     cipher: auto
     tls: true
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
+    network: ws
+    servername: buyvm.imkcp.eu.org
+    ws-opts: 
+      path: /imkcpyyds
+      headers:
+        Host: buyvm.imkcp.eu.org
+  - name: '146 🇱🇺 PONYNET CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
     network: ws
     servername: buyvm.imkcp.eu.org
     ws-opts: 

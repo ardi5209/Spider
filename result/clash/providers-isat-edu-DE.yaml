@@ -1,33 +1,17 @@
 proxies:
-  - name: '123 🇩🇪 MICROSOFT- CDN 👾 漁師'
-    server: 104.18.25.139
+  - name: '286 🇩🇪 Melbikomas CDN 👾 漁師'
+    server: 104.16.51.111
     type: vmess
-    port: 443
-    uuid: c7bb08ea-c242-4d2f-9621-c217d3de7d14
+    port: 8443
+    uuid: 2d24372b-b1ad-4962-b9a0-a766c593ab43
     alterId: 0
     cipher: auto
     tls: true
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     network: ws
-    servername: pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io
+    servername: eu1.daishujiasunode.uk
     ws-opts: 
-      path: /huipu
+      path: /tv
       headers:
-        Host: pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io
-  - name: '253 🇩🇪 CLOUDFLARE CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 2053
-    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: haxeu2.zikkcc.ga
-    ws-opts: 
-      path: /
-      headers:
-        Host: haxeu2.zikkcc.ga
+        Host: eu1.daishujiasunode.uk

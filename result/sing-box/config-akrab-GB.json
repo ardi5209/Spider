@@ -45,61 +45,47 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "21 🇬🇧 Iomart Clo CDN 👾 漁師",
-        "27 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "80 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "100 🇬🇧 Iomart Clo CDN 👾 漁師",
-        "157 🇬🇧 OVH SAS SNI 👾 漁師",
-        "94 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "119 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "172 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "183 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "223 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "271 🇬🇧 Iomart Clo SNI 👾 漁師",
-        "288 🇬🇧 Stark Indu SNI 👾 漁師"
+        "24 🇬🇧 OVH SAS SNI 👾 漁師",
+        "36 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "78 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "122 🇬🇧 Iomart Clo CDN 👾 漁師",
+        "143 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "185 🇬🇧 ORACLE-BMC SNI 👾 漁師",
+        "195 🇬🇧 OVH SAS SNI 👾 漁師",
+        "207 🇬🇧 OVH SAS SNI 👾 漁師",
+        "254 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "258 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "262 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "278 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "21 🇬🇧 Iomart Clo CDN 👾 漁師",
-      "server": "hohm.microsoft.com",
-      "server_port": 2086,
-      "uuid": "ad1454a4-c9e2-4836-c98d-66e3646c2aa4",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "uk.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "uk.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "27 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "tag": "24 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "54.36.162.144",
+      "server_port": 80,
+      "uuid": "e1d130f8-0465-4610-b5b3-9ad9368e40f5",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": false,
         "insecure": true,
         "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "80 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "36 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -110,7 +96,21 @@
     },
     {
       "type": "vmess",
-      "tag": "100 🇬🇧 Iomart Clo CDN 👾 漁師",
+      "tag": "78 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "122 🇬🇧 Iomart Clo CDN 👾 漁師",
       "server": "hohm.microsoft.com",
       "server_port": 2086,
       "uuid": "ad1454a4-c9e2-4836-c98d-66e3646c2aa4",
@@ -130,44 +130,47 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "157 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "54.36.162.144",
-      "server_port": 80,
-      "uuid": "267c49df-b4ae-4ed8-85b2-a12b730c82c6",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "config.teams.microsoft.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "94 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "tag": "143 🇬🇧 Hydra Comm SNI 👾 漁師",
       "server": "185.16.206.209",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
       "type": "trojan",
-      "tag": "119 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider21.cdn-delivery.akamaicd.com",
+      "tag": "185 🇬🇧 ORACLE-BMC SNI 👾 漁師",
+      "server": "jgwld1.gaox.ml",
       "server_port": 443,
-      "password": "shefelnak",
+      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "195 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "t1.samsung.googlemailcdn.live",
+      "server_port": 443,
+      "password": "a8a6c5ab-6b96-4834-a14d-f0a5588d80f2",
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "207 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "ukt1.sshocean.net",
+      "server_port": 443,
+      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
       "tls": {
         "enabled": false,
         "insecure": true,
@@ -176,32 +179,20 @@
     },
     {
       "type": "trojan",
-      "tag": "172 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider20.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "shefelnak",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "183 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "tag": "254 🇬🇧 Hydra Comm SNI 👾 漁師",
       "server": "content-provider22.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
       "type": "trojan",
-      "tag": "223 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "185.16.206.211",
+      "tag": "258 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.212",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
@@ -212,26 +203,26 @@
     },
     {
       "type": "trojan",
-      "tag": "271 🇬🇧 Iomart Clo SNI 👾 漁師",
-      "server": "content-provider3.cdn-delivery.akamaicd.com",
+      "tag": "262 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider20.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
       "type": "trojan",
-      "tag": "288 🇬🇧 Stark Indu SNI 👾 漁師",
-      "server": "146.19.230.241",
+      "tag": "278 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider21.cdn-delivery.akamaicd.com",
       "server_port": 443,
-      "password": "xxoo",
+      "password": "shefelnak",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     }
   ],
