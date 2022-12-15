@@ -1,9 +1,18 @@
 proxies:
-  - name: '242 🇮🇪 OVH SAS SNI 👾 漁師'
-    server: 51.77.71.134
+  - name: '12 🇮🇪 OVH SAS SNI 👾 漁師'
+    server: content-provider12.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '81 🇮🇪 OVH SAS SNI 👾 漁師'
+    server: 51.77.71.131
+    type: trojan
+    port: 443
+    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp
