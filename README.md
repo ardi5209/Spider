@@ -1,23 +1,23 @@
-<div align=center>
-    <img src="./assets/Spider.png" width=300px></br>
-    <i>Spider Status:</i></br>
+<img src="./assets/Spider.jpg" width=21% align=right></br>
+
+```
+About The Spider.
+
+The Spider generate config for V2ray, Sing-Box, Surfboard, and URL format as well.
+
+He/She/It stole em all from The Fisherman, what a bad.
+But, did the spider help us in 'some' things ?
+I think no.
+
+Anyway, i suggest you to meet The Fool, he is a fine folk. One of The Fisherman's friend
+```
+
+<div align=right>
     <img src="https://img.shields.io/github/last-commit/dickymuliafiqri/Spider?label=Last%20Update&style=flat-square">
     <img src="https://img.shields.io/github/repo-size/dickymuliafiqri/Spider?color=yellow&label=Size&style=flat-square">
-    <br/>
     <a href="https://t.me/v2scrape"><img src="https://img.shields.io/badge/Telegram-Channel-blue?style=flat-square&logo=telegram"></a>
+
 </div>
-
-```
-About Spider.
-
-Spider is an animal, lol.
-
-Spider is a software that scavenge V2ray VPN account on the internet, remove duplicate, and test the connection.
-Spider do not speedtest it anyway, please read High Speed Nodes section below.
-
-Spider start as personal needs project, but now it's public so you can enjoy the result freely...
-However, if you have a brilliant idea, your contribution are widely welcome.
-```
 
 ## Features
 
