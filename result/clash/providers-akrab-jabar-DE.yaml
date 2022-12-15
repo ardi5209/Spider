@@ -1,17 +1,33 @@
 proxies:
-  - name: '249 🇩🇪 MICROSOFT- CDN 👾 漁師'
+  - name: '6 🇩🇪 DIGITALOCE CDN 👾 漁師'
     server: 172.67.199.34
     type: vmess
-    port: 443
-    uuid: c7bb08ea-c242-4d2f-9621-c217d3de7d14
+    port: 80
+    uuid: 8626e5b2-4bcd-49a7-b70d-8f270b5266ea
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: vmes-de.goserver.pw
+    ws-opts: 
+      path: /worryfree/ntls
+      headers:
+        Host: vmes-de.goserver.pw
+  - name: '295 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+    server: 172.67.199.34
+    type: vmess
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: false
     network: ws
-    servername: pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io
+    servername: haxeu2.zikkcc.ga
     ws-opts: 
-      path: /huipu
+      path: /
       headers:
-        Host: pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io
+        Host: haxeu2.zikkcc.ga
