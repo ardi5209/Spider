@@ -45,37 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "25 🇮🇩 PT Linkgo  SNI 👾 漁師",
-        "226 🇮🇩 PT Linkgo  SNI 👾 漁師",
-        "228 🇮🇩 PT Linkgo  CDN 👾 漁師",
-        "143 🇮🇩 Media Anta SNI 👾 漁師",
-        "261 🇮🇩 Media Anta SNI 👾 漁師"
+        "110 🇮🇩 PT Linkgo  SNI 👾 漁師",
+        "111 🇮🇩 PT Linkgo  CDN 👾 漁師",
+        "261 🇮🇩 PT Linkgo  CDN 👾 漁師",
+        "263 🇮🇩 PT Linkgo  SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "25 🇮🇩 PT Linkgo  SNI 👾 漁師",
-      "server": "id-v.sshmax.xyz",
-      "server_port": 80,
-      "uuid": "781adf87-0afa-420c-875f-879162a2bce1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "226 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "tag": "110 🇮🇩 PT Linkgo  SNI 👾 漁師",
       "server": "id-v.sshmax.xyz",
       "server_port": 80,
       "uuid": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
@@ -84,19 +62,19 @@
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/vmess",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "228 🇮🇩 PT Linkgo  CDN 👾 漁師",
+      "tag": "111 🇮🇩 PT Linkgo  CDN 👾 漁師",
       "server": "hohm.microsoft.com",
       "server_port": 80,
       "uuid": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
@@ -116,27 +94,45 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "143 🇮🇩 Media Anta SNI 👾 漁師",
-      "server": "38.9.140.66",
-      "server_port": 443,
-      "password": "vvip-periantara",
+      "type": "vmess",
+      "tag": "261 🇮🇩 PT Linkgo  CDN 👾 漁師",
+      "server": "hohm.microsoft.com",
+      "server_port": 80,
+      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "id-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "id-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "263 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "server": "id-v.sshmax.xyz",
+      "server_port": 80,
+      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": false,
         "insecure": true,
         "server_name": "config.teams.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "261 🇮🇩 Media Anta SNI 👾 漁師",
-      "server": "id3tr.jagoan.vip",
-      "server_port": 443,
-      "password": "vvip-periantara",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
       }
     }
   ],

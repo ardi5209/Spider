@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "69 🇯🇵 Alibaba US CDN 👾 漁師"
+        "162 🇯🇵 Alibaba US CDN 👾 漁師",
+        "225 🇯🇵 Linode LL CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "69 🇯🇵 Alibaba US CDN 👾 漁師",
+      "tag": "162 🇯🇵 Alibaba US CDN 👾 漁師",
       "server": "172.67.199.34",
       "server_port": 443,
       "uuid": "f4ef14c4-d811-455c-a4c3-c63dfeffb0a6",
@@ -66,6 +67,27 @@
         "path": "/myblog",
         "headers": {
           "Host": "vfly3.win"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "225 🇯🇵 Linode LL CDN 👾 漁師",
+      "server": "172.67.199.34",
+      "server_port": 80,
+      "uuid": "77e1c7e2-ce47-4826-8959-296fbc2257ac",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "cdn.jpeli.6641634715834932.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wel/8",
+        "headers": {
+          "Host": "cdn.jpeli.6641634715834932.me"
         }
       }
     }
