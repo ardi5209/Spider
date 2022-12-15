@@ -45,13 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "82 🇩🇪 DIGITALOCE CDN 👾 漁師"
+        "92 🇩🇪 MICROSOFT- CDN 👾 漁師",
+        "106 🇩🇪 DIGITALOCE CDN 👾 漁師",
+        "130 🇩🇪 CLOUDFLARE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "82 🇩🇪 DIGITALOCE CDN 👾 漁師",
-      "server": "104.16.66.85",
+      "tag": "92 🇩🇪 MICROSOFT- CDN 👾 漁師",
+      "server": "162.159.128.7",
+      "server_port": 443,
+      "uuid": "c7bb08ea-c242-4d2f-9621-c217d3de7d14",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/huipu",
+        "headers": {
+          "Host": "pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "106 🇩🇪 DIGITALOCE CDN 👾 漁師",
+      "server": "162.159.128.7",
       "server_port": 80,
       "uuid": "8626e5b2-4bcd-49a7-b70d-8f270b5266ea",
       "security": "auto",
@@ -66,6 +89,27 @@
         "path": "/worryfree/ntls",
         "headers": {
           "Host": "vmes-de.goserver.pw"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "130 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "server": "104.16.51.111",
+      "server_port": 2053,
+      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "haxeu2.zikkcc.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "haxeu2.zikkcc.ga"
         }
       }
     }

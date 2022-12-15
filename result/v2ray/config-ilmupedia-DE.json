@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "de2-v2ray.ipracevpn.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "f1fc0e29-7e34-4de7-fa37-43fd4d995aed",
+                "id": "c7bb08ea-c242-4d2f-9621-c217d3de7d14",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "news.microsoft.com"
+          "serverName": "pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "pn02vmm-prod-hpllo-tdfqbk.mo2.mogenius.io"
+          },
+          "path": "/huipu"
         }
       },
-      "tag": "proxy-38 🇩🇪 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-92 🇩🇪 MICROSOFT- CDN 👾 漁師"
     },
     {
       "mux": {
@@ -147,7 +153,7 @@
           "path": "/worryfree/ntls"
         }
       },
-      "tag": "proxy-81 🇩🇪 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-105 🇩🇪 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -158,7 +164,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
+            "address": "news.microsoft.com",
             "port": 80,
             "users": [
               {
@@ -187,87 +193,7 @@
           "path": "/worryfree/ntls"
         }
       },
-      "tag": "proxy-82 🇩🇪 DIGITALOCE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "165.227.155.35",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "fb8cab39-962f-4a70-8ed5-48aad413dd9d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/graphql"
-        }
-      },
-      "tag": "proxy-102 🇩🇪 DIGITALOCE SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "206.81.31.184",
-            "port": 6245,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "9d39cb34-5261-43fb-b0f8-4f8a22b10f15",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-133 🇩🇪 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-106 🇩🇪 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -307,119 +233,207 @@
           "path": "/"
         }
       },
-      "tag": "proxy-222 🇩🇪 BitCommand SNI 👾 漁師"
+      "tag": "proxy-111 🇩🇪 BitCommand SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.40.236.127",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "yxGY7A5MczQYg6UqSFx9u78V",
-            "port": 443
+            "address": "cacerts.digicert.com",
+            "port": 2053,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "news.microsoft.com"
+          "serverName": "haxeu2.zikkcc.ga"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "haxeu2.zikkcc.ga"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-5 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-130 🇩🇪 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "bdvasxmahl.injafarvpnwebelieve.gq",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "TvBypqQJ9b",
-            "port": 443
+            "address": "165.227.155.35",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "fb8cab39-962f-4a70-8ed5-48aad413dd9d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/graphql"
         }
       },
-      "tag": "proxy-30 🇩🇪 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-132 🇩🇪 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "content-provider28.cdn-delivery.akamaicd.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
+            "address": "206.81.31.184",
+            "port": 6245,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9d39cb34-5261-43fb-b0f8-4f8a22b10f15",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-57 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-213 🇩🇪 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "5.75.152.12",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
-            "port": 443
+            "address": "a.aramisshimi.ir",
+            "port": 16343,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "49680439-ddb7-4a8a-95e2-9e9b441d1c98",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-70 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-215 🇩🇪 BitCommand SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "165.227.153.15",
+            "port": 47497,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "205d9c7d-840d-4027-9151-5154ac0ee7fc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-275 🇩🇪 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -447,7 +461,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-106 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-12 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
@@ -458,7 +472,91 @@
       "settings": {
         "servers": [
           {
-            "address": "content-provider29.cdn-delivery.akamaicd.com",
+            "address": "5.75.152.12",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-18 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "aleph-tj015.thatfreeservicewhicheveryoneuse.uk",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-30 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bdvasxmahl.injafarvpnwebelieve.gq",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "TvBypqQJ9b",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-99 🇩🇪 DIGITALOCE SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.40.250.247",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -475,7 +573,91 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-266 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-211 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.40.236.127",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "yxGY7A5MczQYg6UqSFx9u78V",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-245 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider9.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "yxGY7A5MczQYg6UqSFx9u78V",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-277 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider28.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-282 🇩🇪 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {
