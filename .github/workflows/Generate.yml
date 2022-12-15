@@ -1,0 +1,39 @@
+name: Config Generator
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: generate
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: "npm"
+      - name: Get database
+        run: |
+          mkdir ./resources/database/
+          curl https://github.com/dickymuliafiqri/Fisherman/raw/main/result/db.sqlite -L -o ./resources/database/db.sqlite
+      - name: Get secrets
+        run: |
+          echo ${{ secrets.BOT_TOKEN }} > ./bot_token
+      - name: Start Generating
+        run: |
+          npm install && npx tsc && node ./app/index.js
+      - name: Publish Result
+        if: ${{ success() }}
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: '["./result --force"]'
+          default_author: github_actions
+          fetch: false
+          tag_push: "--force"
+          message: "Update VPN"
