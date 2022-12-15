@@ -1,37 +1,5 @@
 proxies:
-  - name: '46 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: amshare.jingledev.me
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-  - name: '54 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: amshare.jingledev.me
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-  - name: '93 🇳🇱 AEZA GROUP SNI 👾 漁師'
+  - name: '31 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.207.202
     type: vmess
     port: 38755
@@ -43,23 +11,23 @@ proxies:
     skip-cert-verify: false
     network: tcp
     servername: news.microsoft.com
-  - name: '115 🇳🇱 Online S.a SNI 👾 漁師'
-    server: 51.15.113.164
+  - name: '110 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
-    port: 80
-    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     network: ws
-    servername: news.microsoft.com
+    servername: amshare.jingledev.me
     ws-opts: 
-      path: /Danhuang/Jiang
+      path: /pkhhvws
       headers:
-        Host: news.microsoft.com
-  - name: '147 🇳🇱 Online S.a SNI 👾 漁師'
+        Host: amshare.jingledev.me
+  - name: '132 🇳🇱 Online S.a SNI 👾 漁師'
     server: nl1.v2rayserv.com
     type: vmess
     port: 80
@@ -75,7 +43,39 @@ proxies:
       path: /Danhuang/Jiang
       headers:
         Host: news.microsoft.com
-  - name: '282 🇳🇱 DIGITALOCE CDN 👾 漁師'
+  - name: '154 🇳🇱 The Infras CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hl1.cachexy.ga
+    ws-opts: 
+      path: /lXvA0Vse/
+      headers:
+        Host: hl1.cachexy.ga
+  - name: '248 🇳🇱 Online S.a CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: v6nt.gongyiyun.cf
+    ws-opts: 
+      path: /
+      headers:
+        Host: v6nt.gongyiyun.cf
+  - name: '250 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -91,8 +91,33 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '48 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.75
+  - name: '283 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: amshare.jingledev.me
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+  - name: '122 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider14.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '134 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider23.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: Sp3eDVp
@@ -100,7 +125,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '114 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '140 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.53.20
     type: trojan
     port: 443
@@ -109,17 +134,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '154 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.66
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '223 🇳🇱 AS40676 SNI 👾 漁師'
-    server: content-provider24.cdn-delivery.akamaicd.com
+  - name: '149 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.75
     type: trojan
     port: 443
     password: Sp3eDVp
@@ -127,7 +143,34 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '234 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '161 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.53.19
+    type: trojan
+    port: 443
+    password: TestingServer@@
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '256 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider2.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: TestingServer@@2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '286 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.74
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '138 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.57.163
     type: ssr
     port: 11708
