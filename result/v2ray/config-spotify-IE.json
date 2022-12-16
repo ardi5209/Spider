@@ -80,34 +80,28 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win",
-            "port": 15092,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "2100274e-55ae-4686-a380-a66ae8b0ef1b",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "content-provider12.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-80 🇮🇪 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-87 🇮🇪 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -135,35 +129,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-90 🇮🇪 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "content-provider12.cdn-delivery.akamaicd.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-179 🇮🇪 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-162 🇮🇪 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
