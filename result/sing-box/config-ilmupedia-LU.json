@@ -45,14 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "62 🇱🇺 PONYNET SNI 👾 漁師",
-        "171 🇱🇺 PONYNET CDN 👾 漁師",
-        "304 🇱🇺 PONYNET CDN 👾 漁師"
+        "316 🇱🇺 PONYNET CDN 👾 漁師",
+        "363 🇱🇺 PONYNET SNI 👾 漁師",
+        "430 🇱🇺 PONYNET CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "62 🇱🇺 PONYNET SNI 👾 漁師",
+      "tag": "316 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lu1.gogogoo.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/go",
+        "headers": {
+          "Host": "lu1.gogogoo.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "363 🇱🇺 PONYNET SNI 👾 漁師",
       "server": "104.244.73.218",
       "server_port": 443,
       "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
@@ -73,8 +94,8 @@
     },
     {
       "type": "vmess",
-      "tag": "171 🇱🇺 PONYNET CDN 👾 漁師",
-      "server": "news.microsoft.com",
+      "tag": "430 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
       "server_port": 443,
       "uuid": "6fb9a750-55b8-4e6e-857b-242b795399dc",
       "security": "auto",
@@ -89,27 +110,6 @@
         "path": "/imkcpyyds",
         "headers": {
           "Host": "buyvm.imkcp.eu.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "304 🇱🇺 PONYNET CDN 👾 漁師",
-      "server": "news.microsoft.com",
-      "server_port": 443,
-      "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "lu1.gogogoo.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/go",
-        "headers": {
-          "Host": "lu1.gogogoo.cyou"
         }
       }
     }
