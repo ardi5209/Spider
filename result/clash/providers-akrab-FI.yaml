@@ -1,5 +1,5 @@
 proxies:
-  - name: '37 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '370 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
     port: 34303
@@ -8,10 +8,26 @@ proxies:
     cipher: auto
     tls: false
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     servername: safebrowsing.google.com
     ws-opts: 
-      path: 
+      path: /
       headers:
         Host: safebrowsing.google.com
+  - name: '411 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 65.109.5.94
+    type: vmess
+    port: 10693
+    uuid: 38cb0897-c457-4f91-c1ef-700f38928942
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us

@@ -1,65 +1,21 @@
 proxies:
-  - name: '70 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 29210
-    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '131 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '37 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 51.75.160.126
     type: vmess
     port: 443
-    uuid: 2ed33a1b-5c47-4c4e-8473-eea30c2d337f
+    uuid: ed2c7ae0-e199-4f98-ada0-8f5fdc80ca8d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-  - name: '169 🇬🇧 Iomart Clo CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 2086
-    uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: uk.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: uk.cloudflare.quest
-  - name: '184 🇬🇧 Iomart Clo CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 2086
-    uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: uk.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: uk.cloudflare.quest
-  - name: '252 🇬🇧 DIGITALOCE SNI 👾 漁師'
+        Host: config.teams.microsoft.com
+  - name: '90 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -71,32 +27,44 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '321 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.75.160.126
+  - name: '98 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
     type: vmess
-    port: 443
-    uuid: ed2c7ae0-e199-4f98-ada0-8f5fdc80ca8d
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '276 🇬🇧 Iomart Clo CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 2086
+    uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4
+    alterId: 0
+    cipher: auto
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: uk.cloudflare.quest
     ws-opts: 
-      path: /vmess
+      path: /aries
       headers:
-        Host: safebrowsing.google.com
-  - name: '25 🇬🇧 Iomart Clo SNI 👾 漁師'
-    server: content-provider3.cdn-delivery.akamaicd.com
+        Host: uk.cloudflare.quest
+  - name: '17 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.209
     type: trojan
     port: 443
     password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
-  - name: '31 🇬🇧 Iomart Clo SNI 👾 漁師'
+    servername: click.zoom.us
+  - name: '117 🇬🇧 Iomart Clo SNI 👾 漁師'
     server: 82.102.8.79
     type: trojan
     port: 443
@@ -105,34 +73,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '132 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.195.203.223
+  - name: '139 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: t1.samsung.googlemailcdn.live
     type: trojan
     port: 443
-    password: 45149558-8df5-4b44-aa1a-db9631396ff4
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '137 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: ukt1.sshocean.net
-    type: trojan
-    port: 443
-    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    password: a8a6c5ab-6b96-4834-a14d-f0a5588d80f2
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '145 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.195.202.124
-    type: trojan
-    port: 443
-    password: d4d07b5e-779b-4111-b627-92e33bb5aaa5
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '147 🇬🇧 Hydra Comm SNI 👾 漁師'
+  - name: '158 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: 185.16.206.212
     type: trojan
     port: 443
@@ -141,25 +91,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '188 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.211
+  - name: '184 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: ukt1.sshocean.net
     type: trojan
     port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '192 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.195.202.124
-    type: trojan
-    port: 443
-    password: 267af089-734c-48ca-9d47-88b0435d541b
+    password: 0f5e6d9a-49af-4bc0-b04b-503102382144
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '248 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '207 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.195.203.223
+    type: trojan
+    port: 443
+    password: 45149558-8df5-4b44-aa1a-db9631396ff4
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '235 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 51.195.219.173
     type: trojan
     port: 443
@@ -167,18 +117,9 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
-  - name: '318 🇬🇧 Stark Indu SNI 👾 漁師'
-    server: 146.19.230.241
-    type: trojan
-    port: 443
-    password: xxoo
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '330 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider21.cdn-delivery.akamaicd.com
+    servername: config.teams.microsoft.com
+  - name: '237 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider20.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: shefelnak
@@ -186,7 +127,34 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '278 🇬🇧 Iomart Clo SNI 👾 漁師'
+  - name: '261 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: ukt1.sshocean.net
+    type: trojan
+    port: 443
+    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '295 🇬🇧 Iomart Clo SNI 👾 漁師'
+    server: content-provider3.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '348 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.195.202.124
+    type: trojan
+    port: 443
+    password: d4d07b5e-779b-4111-b627-92e33bb5aaa5
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '54 🇬🇧 Iomart Clo SNI 👾 漁師'
     server: 88.150.137.201
     type: ssr
     port: 1021

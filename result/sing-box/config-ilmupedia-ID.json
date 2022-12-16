@@ -45,18 +45,147 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "96 🇮🇩 PT Linkgo  SNI 👾 漁師",
-        "245 🇮🇩 PT Linkgo  CDN 👾 漁師",
-        "246 🇮🇩 PT Linkgo  SNI 👾 漁師",
-        "258 🇮🇩 PT Linkgo  SNI 👾 漁師",
-        "260 🇮🇩 PT Linkgo  CDN 👾 漁師",
-        "79 🇮🇩 Media Anta SNI 👾 漁師",
-        "123 🇮🇩 Media Anta SNI 👾 漁師"
+        "12 🇮🇩 PT Linkgo  SNI 👾 漁師",
+        "16 🇮🇩 PT Linkgo  CDN 👾 漁師",
+        "183 🇮🇩 PT Linkgo  SNI 👾 漁師",
+        "187 🇮🇩 PT Linkgo  CDN 👾 漁師",
+        "234 🇮🇩 PT Linkgo  CDN 👾 漁師",
+        "306 🇮🇩 PT Linkgo  SNI 👾 漁師",
+        "320 🇮🇩 PT Linkgo  SNI 👾 漁師",
+        "45 🇮🇩 PT Industr SNI 👾 漁師",
+        "81 🇮🇩 Media Anta SNI 👾 漁師",
+        "281 🇮🇩 Media Anta SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "96 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "tag": "12 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "server": "id-v.sshmax.xyz",
+      "server_port": 443,
+      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "16 🇮🇩 PT Linkgo  CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "id-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "183 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "server": "id-v.sshmax.xyz",
+      "server_port": 443,
+      "uuid": "781adf87-0afa-420c-875f-879162a2bce1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "187 🇮🇩 PT Linkgo  CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "781adf87-0afa-420c-875f-879162a2bce1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "id-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "234 🇮🇩 PT Linkgo  CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "id-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "306 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "server": "id-v.sshmax.xyz",
+      "server_port": 443,
+      "uuid": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "320 🇮🇩 PT Linkgo  SNI 👾 漁師",
       "server": "103.157.27.148",
       "server_port": 443,
       "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
@@ -76,92 +205,20 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "245 🇮🇩 PT Linkgo  CDN 👾 漁師",
-      "server": "cacerts.digicert.com",
+      "type": "trojan",
+      "tag": "45 🇮🇩 PT Industr SNI 👾 漁師",
+      "server": "103.167.34.206",
       "server_port": 443,
-      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
-      "security": "auto",
-      "alter_id": 0,
+      "password": "60d47bb6-47d1-45b1-b67b-4d236a4a5957",
       "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "id-v.sshmax.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "id-v.sshmax.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "246 🇮🇩 PT Linkgo  SNI 👾 漁師",
-      "server": "id-v.sshmax.xyz",
-      "server_port": 443,
-      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
+        "enabled": false,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "258 🇮🇩 PT Linkgo  SNI 👾 漁師",
-      "server": "id-v.sshmax.xyz",
-      "server_port": 443,
-      "uuid": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "260 🇮🇩 PT Linkgo  CDN 👾 漁師",
-      "server": "cacerts.digicert.com",
-      "server_port": 443,
-      "uuid": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "id-v.sshmax.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "id-v.sshmax.xyz"
-        }
       }
     },
     {
       "type": "trojan",
-      "tag": "79 🇮🇩 Media Anta SNI 👾 漁師",
+      "tag": "81 🇮🇩 Media Anta SNI 👾 漁師",
       "server": "38.9.140.66",
       "server_port": 443,
       "password": "vvip-periantara",
@@ -173,7 +230,7 @@
     },
     {
       "type": "trojan",
-      "tag": "123 🇮🇩 Media Anta SNI 👾 漁師",
+      "tag": "281 🇮🇩 Media Anta SNI 👾 漁師",
       "server": "id3tr.jagoan.vip",
       "server_port": 443,
       "password": "vvip-periantara",

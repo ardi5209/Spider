@@ -1,5 +1,5 @@
 proxies:
-  - name: '259 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '274 🇹🇼 Data Commu SNI 👾 漁師'
     server: f1f3227.v8.glados-config.net
     type: vmess
     port: 3331
@@ -15,8 +15,8 @@ proxies:
       path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: image-upload4.spotify.com
-  - name: '266 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 1.171.191.234
+  - name: '364 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
     type: vmess
     port: 224
     uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
@@ -27,12 +27,16 @@ proxies:
     skip-cert-verify: false
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '324 🇹🇼 Data Commu SNI 👾 漁師'
-    server: fhost-tapi02.zlhost.xyz
+  - name: '302 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
     type: trojan
-    port: 17005
-    password: e198c059-18e0-4c5e-8358-b4b7850d4d86
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com
