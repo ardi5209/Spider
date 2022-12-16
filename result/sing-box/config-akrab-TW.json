@@ -62,13 +62,34 @@
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
       "type": "vmess",
       "tag": "92 🇹🇼 Data Commu SNI 👾 漁師",
       "server": "f1f3227.v8.glados-config.net",
+      "server_port": 3331,
+      "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/s/f1f3227.fm.apple.com:111548",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "94 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "f1f3227.v1.glados-config.net",
       "server_port": 3331,
       "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
       "security": "auto",
@@ -87,27 +108,6 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "94 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "f1f3227.v1.glados-config.net",
-      "server_port": 3331,
-      "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/s/f1f3227.fm.apple.com:111548",
-        "headers": {
-          "Host": "config.teams.microsoft.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "102 🇹🇼 Data Commu SNI 👾 漁師",
       "server": "211.72.35.154",
@@ -116,13 +116,13 @@
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
         "path": "/gateway/connect",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "click.zoom.us"
         }
       }
     }
