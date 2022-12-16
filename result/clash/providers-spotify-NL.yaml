@@ -1,40 +1,6 @@
 proxies:
-  - name: '40 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: amshare.jingledev.me
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-  - name: '18 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.74
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '57 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider2.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: TestingServer@@2
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '115 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
+  - name: '24 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider1.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: TestingServer@@
@@ -42,14 +8,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '114 🇳🇱 DIGITALOCE SNI 👾 漁師'
-    server: 167.99.214.62
-    type: ssr
-    port: 11909
-    password: azadi2030
-    cipher: aes-256-cfb
-    protocol: origin
-    protocol-param: 
-    obfs: http_simple
-    obfs-param: obfs=http;obfs-host=image-upload4.spotify.com
-    udp: true

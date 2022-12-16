@@ -1,5 +1,5 @@
 proxies:
-  - name: '38 🇱🇺 Unknown CDN 👾 漁師'
+  - name: '5 🇱🇺 Unknown CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -15,35 +15,19 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '64 🇱🇺 Unknown CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '15 🇱🇺 PONYNET SNI 👾 漁師'
+    server: 104.244.73.218
     type: vmess
     port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: false
     network: ws
-    servername: hk.sharecentre.online
+    servername: news.microsoft.com
     ws-opts: 
-      path: /shirker
+      path: /v2ray
       headers:
-        Host: hk.sharecentre.online
-  - name: '71 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
+        Host: news.microsoft.com
