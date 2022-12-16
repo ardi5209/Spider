@@ -1,5 +1,21 @@
 proxies:
-  - name: '29 🇸🇪 AMAZON-02 SNI 👾 漁師'
+  - name: '80 🇸🇪 AMAZON-02 SNI 👾 漁師'
+    server: 13.50.153.230
+    type: vmess
+    port: 27366
+    uuid: 07430d2a-289b-4927-f97f-559c18fe1d63
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: safebrowsing.google.com
+  - name: '174 🇸🇪 AMAZON-02 SNI 👾 漁師'
     server: 13.50.153.230
     type: vmess
     port: 25289
@@ -8,10 +24,10 @@ proxies:
     cipher: auto
     tls: false
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
