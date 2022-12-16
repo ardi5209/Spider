@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-gcore.sharecentre.online"
+          "serverName": "sg-gcore-2.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg-gcore.sharecentre.online"
+            "Host": "sg-gcore-2.sharecentre.online"
           },
           "path": "/shirker"
         }
       },
-      "tag": "proxy-3 🇸🇬 Linode LL CDN 👾 漁師"
+      "tag": "proxy-4 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -124,14 +124,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.66.85",
+            "address": "141.193.213.10",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,16 +144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-gcore-2.sharecentre.online"
+          "serverName": "sg3-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg-gcore-2.sharecentre.online"
+            "Host": "sg3-v2ray.sshkit.org"
           },
-          "path": "/shirker"
+          "path": "/sshkit/1736960111/63859bc177a33/"
         }
       },
-      "tag": "proxy-6 🇸🇬 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-6 🇸🇬 HURRICANE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -165,6 +165,126 @@
         "vnext": [
           {
             "address": "104.16.66.85",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "azstu.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "azstu.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-12 🇸🇬 Contabo As CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.20",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg1-v2ray.sshkit.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg1-v2ray.sshkit.org"
+          },
+          "path": "/sshkit/1736960111/63859b5b38f53/"
+        }
+      },
+      "tag": "proxy-13 🇸🇬 HURRICANE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.128.7",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "azstu.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "azstu.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-14 🇸🇬 Contabo As CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.10",
             "port": 443,
             "users": [
               {
@@ -193,7 +313,87 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-16 🇭🇰 Global Int CDN 👾 漁師"
+      "tag": "proxy-28 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-32 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.128.7",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "uk2.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "uk2.v2rayserv.com"
+          },
+          "path": "/sshocean"
+        }
+      },
+      "tag": "proxy-36 🇸🇦 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -224,86 +424,6 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-gcore-2.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg-gcore-2.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-18 🇸🇬 G-Core Lab CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.135.42",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "781adf87-0afa-420c-875f-879162a2bce1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "id-v.sshmax.xyz"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "id-v.sshmax.xyz"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-22 🇮🇩 PT Linkgo  CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.66.85",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
           "serverName": "hk.sharecentre.online"
         },
         "wsSettings": {
@@ -313,127 +433,7 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-23 🇭🇰 Global Int CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.10",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0b873cff-11ab-4716-c41a-04f886135091",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "suzhihan.eu.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "suzhihan.eu.org"
-          },
-          "path": "/roewesu"
-        }
-      },
-      "tag": "proxy-28 🇯🇵 ORACLE-BMC CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.10",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "opc-jp.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "opc-jp.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-41 🇯🇵 ORACLE-BMC CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "hk.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-52 🇭🇰 Global Int CDN 👾 漁師"
+      "tag": "proxy-46 🇭🇰 Global Int CDN 👾 漁師"
     },
     {
       "mux": {
@@ -445,246 +445,6 @@
         "vnext": [
           {
             "address": "162.159.135.42",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "azstu.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-57 🇸🇬 Contabo As CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0baaf014-af04-4028-be53-f5c75bb276ae",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg-v.sshmax.xyz"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg-v.sshmax.xyz"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-65 🇸🇬 Contabo As CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.10",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "uk2.v2rayserv.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "uk2.v2rayserv.com"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-70 🇸🇦 OVH SAS CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.135.42",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg-gcore-2.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg-gcore-2.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-72 🇸🇬 G-Core Lab CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.135.42",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "opc-jp.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "opc-jp.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-86 🇯🇵 ORACLE-BMC CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.17.70.206",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "uk2.v2rayserv.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "uk2.v2rayserv.com"
-          },
-          "path": "/sshocean"
-        }
-      },
-      "tag": "proxy-129 🇸🇦 OVH SAS CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.51.111",
             "port": 443,
             "users": [
               {
@@ -713,7 +473,7 @@
           "path": "/sshkit/1736960111/63859b5b38f53/"
         }
       },
-      "tag": "proxy-134 🇸🇬 HURRICANE CDN 👾 漁師"
+      "tag": "proxy-52 🇸🇬 HURRICANE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -724,7 +484,47 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.128.7",
+            "address": "104.18.25.139",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "uk2.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "uk2.v2rayserv.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-57 🇸🇦 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.20",
             "port": 2086,
             "users": [
               {
@@ -753,7 +553,87 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-156 🇸🇬 Contabo As CDN 👾 漁師"
+      "tag": "proxy-62 🇸🇬 Contabo As CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.51.111",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0baaf014-af04-4028-be53-f5c75bb276ae",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg-v.sshmax.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg-v.sshmax.xyz"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-71 🇸🇬 Contabo As CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.66.85",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "id-v.sshmax.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "id-v.sshmax.xyz"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-99 🇮🇩 PT Linkgo  CDN 👾 漁師"
     },
     {
       "mux": {
@@ -765,6 +645,46 @@
         "vnext": [
           {
             "address": "162.159.128.7",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "781adf87-0afa-420c-875f-879162a2bce1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "id-v.sshmax.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "id-v.sshmax.xyz"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-109 🇮🇩 PT Linkgo  CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.51.111",
             "port": 443,
             "users": [
               {
@@ -784,16 +704,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "opc-jp.sharecentre.online"
+          "serverName": "sg-gcore-2.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "opc-jp.sharecentre.online"
+            "Host": "sg-gcore-2.sharecentre.online"
           },
           "path": "/shirker"
         }
       },
-      "tag": "proxy-160 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-145 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -804,7 +724,127 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.128.7",
+            "address": "141.193.213.20",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "azstu.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "azstu.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-153 🇸🇬 Contabo As CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.20",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg-gcore.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg-gcore.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-164 🇸🇬 Linode LL CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.66.85",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "id-v.sshmax.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "id-v.sshmax.xyz"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-172 🇮🇩 PT Linkgo  CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.66.85",
             "port": 443,
             "users": [
               {
@@ -844,247 +884,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "azstu.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-223 🇸🇬 Contabo As CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.20",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg3-v2ray.sshkit.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg3-v2ray.sshkit.org"
-          },
-          "path": "/sshkit/1736960111/63859bc177a33/"
-        }
-      },
-      "tag": "proxy-227 🇸🇬 HURRICANE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.66.85",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "f4ef14c4-d811-455c-a4c3-c63dfeffb0a6",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "vfly3.win"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "vfly3.win"
-          },
-          "path": "/myblog"
-        }
-      },
-      "tag": "proxy-232 🇯🇵 Alibaba US CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "104.16.51.111",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "kh1.v2rayserv.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "kh1.v2rayserv.com"
-          },
-          "path": "/sshocean"
-        }
-      },
-      "tag": "proxy-240 🇰🇭 Kaopu Clou CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.66.85",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg1-v2ray.sshkit.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg1-v2ray.sshkit.org"
-          },
-          "path": "/sshkit/1736960111/63859b5b38f53/"
-        }
-      },
-      "tag": "proxy-241 🇸🇬 HURRICANE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.51.111",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg3-v2ray.sshkit.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg3-v2ray.sshkit.org"
-          },
-          "path": "/sshkit/1736960111/63859bc177a33/"
-        }
-      },
-      "tag": "proxy-245 🇸🇬 HURRICANE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.17.70.206",
             "port": 443,
             "users": [
               {
@@ -1104,16 +904,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-gcore-2.sharecentre.online"
+          "serverName": "hk.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg-gcore-2.sharecentre.online"
+            "Host": "hk.sharecentre.online"
           },
           "path": "/shirker"
         }
       },
-      "tag": "proxy-246 🇸🇬 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-196 🇭🇰 Global Int CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1124,7 +924,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.66.85",
+            "address": "104.16.51.111",
             "port": 443,
             "users": [
               {
@@ -1144,96 +944,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-gcore-2.sharecentre.online"
+          "serverName": "opc-jp.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg-gcore-2.sharecentre.online"
+            "Host": "opc-jp.sharecentre.online"
           },
           "path": "/shirker"
         }
       },
-      "tag": "proxy-248 🇸🇬 G-Core Lab CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.17.70.206",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "id-v.sshmax.xyz"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "id-v.sshmax.xyz"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-251 🇮🇩 PT Linkgo  CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "azstu.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-252 🇸🇬 Contabo As CDN 👾 漁師"
+      "tag": "proxy-197 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1245,13 +965,53 @@
         "vnext": [
           {
             "address": "162.159.135.42",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "azstu.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "azstu.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-203 🇸🇬 Contabo As CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.70.206",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "02c99c32-0058-4b87-b51a-8f5d6a59bddd",
+                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
                 "level": 8,
                 "security": "auto"
               }
@@ -1264,16 +1024,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg5.v2rayserv.com"
+          "serverName": "uk2.v2rayserv.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg5.v2rayserv.com"
+            "Host": "uk2.v2rayserv.com"
           },
-          "path": "/"
+          "path": "/sshocean"
         }
       },
-      "tag": "proxy-258 🇸🇬 OVH SAS CDN 👾 漁師"
+      "tag": "proxy-207 🇸🇦 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1291,7 +1051,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "id": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
                 "level": 8,
                 "security": "auto"
               }
@@ -1304,16 +1064,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg1-v2ray.sshkit.org"
+          "serverName": "vfly6.xyz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg1-v2ray.sshkit.org"
+            "Host": "vfly6.xyz"
           },
-          "path": "/sshkit/1736960111/63859b5b38f53/"
+          "path": "/myblog"
         }
       },
-      "tag": "proxy-265 🇸🇬 HURRICANE CDN 👾 漁師"
+      "tag": "proxy-212 🇭🇰 Alibaba US CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1353,7 +1113,7 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-272 🇭🇰 Global Int CDN 👾 漁師"
+      "tag": "proxy-215 🇭🇰 Global Int CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1364,14 +1124,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.135.42",
+            "address": "104.16.51.111",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
                 "level": 8,
                 "security": "auto"
               }
@@ -1384,16 +1144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "vfly6.xyz"
+          "serverName": "hk.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "vfly6.xyz"
+            "Host": "hk.sharecentre.online"
           },
-          "path": "/myblog"
+          "path": "/shirker"
         }
       },
-      "tag": "proxy-282 🇭🇰 Alibaba US CDN 👾 漁師"
+      "tag": "proxy-219 🇭🇰 Global Int CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1404,14 +1164,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.51.111",
-            "port": 2086,
+            "address": "104.17.70.206",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
                 "level": 8,
                 "security": "auto"
               }
@@ -1421,19 +1181,99 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
+          "serverName": "uk2.v2rayserv.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "azstu.cloudflare.quest"
+            "Host": "uk2.v2rayserv.com"
           },
-          "path": "/aries"
+          "path": "/"
         }
       },
-      "tag": "proxy-293 🇸🇬 Contabo As CDN 👾 漁師"
+      "tag": "proxy-224 🇸🇦 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.10",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg-gcore-2.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg-gcore-2.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-225 🇸🇬 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.70.206",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "02c99c32-0058-4b87-b51a-8f5d6a59bddd",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg5.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg5.v2rayserv.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-262 🇸🇬 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1484,14 +1324,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.66.85",
+            "address": "162.159.128.7",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -1504,16 +1344,96 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
+          "serverName": "sg1-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hk.sharecentre.online"
+            "Host": "sg1-v2ray.sshkit.org"
           },
-          "path": "/shirker"
+          "path": "/sshkit/1736960111/63859b5b38f53/"
         }
       },
-      "tag": "proxy-320 🇭🇰 Global Int CDN 👾 漁師"
+      "tag": "proxy-310 🇸🇬 HURRICANE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.20",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg1-v2ray.sshkit.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg1-v2ray.sshkit.org"
+          },
+          "path": "/sshkit/1736960111/63859b5b38f53/"
+        }
+      },
+      "tag": "proxy-334 🇸🇬 HURRICANE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.128.7",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "azstu.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "azstu.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-347 🇸🇬 Contabo As CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1544,16 +1464,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
+          "serverName": "opc-jp.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hk.sharecentre.online"
+            "Host": "opc-jp.sharecentre.online"
           },
           "path": "/shirker"
         }
       },
-      "tag": "proxy-324 🇭🇰 Global Int CDN 👾 漁師"
+      "tag": "proxy-355 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1564,14 +1484,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.51.111",
+            "address": "162.159.135.42",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "f307af7e-24cd-48c2-96a8-65dd665dcb06",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -1584,56 +1504,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "cloudreve.daycat.space"
+          "serverName": "sg3-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "cloudreve.daycat.space"
+            "Host": "sg3-v2ray.sshkit.org"
           },
-          "path": "/"
+          "path": "/sshkit/1736960111/63859bc177a33/"
         }
       },
-      "tag": "proxy-327 🇹🇷 Datacamp L CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0764a598-82c4-4b41-ba10-551a625beed5",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "uk2.v2rayserv.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "uk2.v2rayserv.com"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-341 🇸🇦 OVH SAS CDN 👾 漁師"
+      "tag": "proxy-361 🇸🇬 HURRICANE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1651,7 +1531,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "82d5ea73-8002-4319-cd3c-29d1560bd290",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
                 "level": 8,
                 "security": "auto"
               }
@@ -1664,16 +1544,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "xjp4h.mayaa.ml"
+          "serverName": "sg-gcore-2.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "xjp4h.mayaa.ml"
+            "Host": "sg-gcore-2.sharecentre.online"
           },
-          "path": "/dsadsa1dsadsa33434"
+          "path": "/shirker"
         }
       },
-      "tag": "proxy-345 🇸🇬 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-365 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1684,7 +1564,47 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "104.16.51.111",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-371 🇭🇰 Global Int CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.20",
             "port": 8880,
             "users": [
               {
@@ -1713,7 +1633,7 @@
           "path": "/hkaa0"
         }
       },
-      "tag": "proxy-358 🇸🇬 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-372 🇸🇬 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1747,7 +1667,7 @@
           "path": "/c6c05fbac0e4"
         }
       },
-      "tag": "proxy-60 🇸🇬 Linode LL CDN 👾 漁師"
+      "tag": "proxy-53 🇸🇬 Linode LL CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1758,7 +1678,7 @@
       "settings": {
         "servers": [
           {
-            "address": "141.193.213.10",
+            "address": "141.193.213.20",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -1781,7 +1701,7 @@
           "path": "/c6c05fbac0e4"
         }
       },
-      "tag": "proxy-210 🇸🇬 Linode LL CDN 👾 漁師"
+      "tag": "proxy-159 🇸🇬 Linode LL CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1792,7 +1712,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.16.66.85",
+            "address": "104.16.51.111",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -1815,7 +1735,41 @@
           "path": "/c6c05fbac0e4"
         }
       },
-      "tag": "proxy-372 🇸🇬 Linode LL CDN 👾 漁師"
+      "tag": "proxy-264 🇸🇬 Linode LL CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "162.159.135.42",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4X1ebJpQWg",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg.yydsdy.top"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg.yydsdy.top"
+          },
+          "path": "/c6c05fbac0e4"
+        }
+      },
+      "tag": "proxy-352 🇸🇬 Linode LL CDN 👾 漁師"
     }
   ],
   "dns": {

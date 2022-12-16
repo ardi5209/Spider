@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/v2ray"
         }
       },
-      "tag": "proxy-34 🇨🇦 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-43 🇨🇦 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -147,7 +147,7 @@
           "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-179 🇨🇦 AS-CHOOPA SNI 👾 漁師"
+      "tag": "proxy-140 🇨🇦 AS-CHOOPA SNI 👾 漁師"
     },
     {
       "mux": {
@@ -172,10 +172,10 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-149 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-55 🇨🇦 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -200,10 +200,38 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-159 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-218 🇨🇦 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "148.113.141.99",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "HdsUZmsHQW",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-249 🇨🇦 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -231,63 +259,7 @@
           "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-220 🇨🇦 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "cat1.sshocean.net",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-250 🇨🇦 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "148.113.141.99",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "HdsUZmsHQW",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-325 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-327 🇨🇦 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
