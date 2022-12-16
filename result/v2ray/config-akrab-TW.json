@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "a02-tw2.moontoday.uk",
-            "port": 443,
+            "address": "hinet1261.gfwisbest.xyz",
+            "port": 224,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "145e21ac-ab0c-4f89-b68c-e61149095ef3",
+                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,20 +100,48 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
+        "network": "tcp",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-9 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "1.171.191.234",
+            "port": 224,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "safebrowsing.google.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "safebrowsing.google.com"
-          },
-          "path": "/moontoday"
         }
       },
-      "tag": "proxy-80 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-202 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

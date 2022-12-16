@@ -1,17 +1,25 @@
 proxies:
-  - name: '80 🇹🇼 Data Commu SNI 👾 漁師'
-    server: a02-tw2.moontoday.uk
+  - name: '9 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
     type: vmess
-    port: 443
-    uuid: 145e21ac-ab0c-4f89-b68c-e61149095ef3
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: false
-    network: ws
+    network: tcp
     servername: safebrowsing.google.com
-    ws-opts: 
-      path: /moontoday
-      headers:
-        Host: safebrowsing.google.com
+  - name: '202 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 1.171.191.234
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: tcp
+    servername: safebrowsing.google.com

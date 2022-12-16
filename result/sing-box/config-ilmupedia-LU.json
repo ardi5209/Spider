@@ -45,13 +45,145 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "5 🇱🇺 Unknown CDN 👾 漁師",
-        "15 🇱🇺 PONYNET SNI 👾 漁師"
+        "101 🇱🇺 PONYNET SNI 👾 漁師",
+        "141 🇱🇺 Unknown CDN 👾 漁師",
+        "174 🇱🇺 Unknown CDN 👾 漁師",
+        "218 🇱🇺 PONYNET CDN 👾 漁師",
+        "273 🇱🇺 PONYNET CDN 👾 漁師",
+        "286 🇱🇺 Unknown CDN 👾 漁師",
+        "334 🇱🇺 Unknown CDN 👾 漁師",
+        "362 🇱🇺 Unknown CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "5 🇱🇺 Unknown CDN 👾 漁師",
+      "tag": "101 🇱🇺 PONYNET SNI 👾 漁師",
+      "server": "104.244.73.218",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "141 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "174 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "218 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "6fb9a750-55b8-4e6e-857b-242b795399dc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "buyvm.imkcp.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/imkcpyyds",
+        "headers": {
+          "Host": "buyvm.imkcp.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "273 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "6fb9a750-55b8-4e6e-857b-242b795399dc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "buyvm.imkcp.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/imkcpyyds",
+        "headers": {
+          "Host": "buyvm.imkcp.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "286 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "334 🇱🇺 Unknown CDN 👾 漁師",
       "server": "cacerts.digicert.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -72,22 +204,22 @@
     },
     {
       "type": "vmess",
-      "tag": "15 🇱🇺 PONYNET SNI 👾 漁師",
-      "server": "104.244.73.218",
+      "tag": "362 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "news.microsoft.com",
       "server_port": 443,
-      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "news.microsoft.com"
+        "server_name": "hk.sharecentre.online"
       },
       "transport": {
         "type": "ws",
-        "path": "/v2ray",
+        "path": "/shirker",
         "headers": {
-          "Host": "news.microsoft.com"
+          "Host": "hk.sharecentre.online"
         }
       }
     }
