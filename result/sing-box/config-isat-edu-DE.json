@@ -45,13 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "25 🇩🇪 CLOUDFLARE CDN 👾 漁師"
+        "205 🇩🇪 Hetzner On CDN 👾 漁師",
+        "243 🇩🇪 CLOUDFLARE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "25 🇩🇪 CLOUDFLARE CDN 👾 漁師",
-      "server": "104.18.25.139",
+      "tag": "205 🇩🇪 Hetzner On CDN 👾 漁師",
+      "server": "104.16.51.111",
+      "server_port": 443,
+      "uuid": "1d7f97be-e0a9-4377-97eb-c05c45392509",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "xvnp.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/in-vpn-majani-ast-vws",
+        "headers": {
+          "Host": "xvnp.de"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "243 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "server": "162.159.135.42",
       "server_port": 2053,
       "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
       "security": "auto",
