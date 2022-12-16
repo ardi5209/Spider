@@ -1,6 +1,34 @@
 proxies:
-  - name: '274 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '35 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '92 🇹🇼 Data Commu SNI 👾 漁師'
     server: f1f3227.v8.glados-config.net
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: safebrowsing.google.com
+  - name: '94 🇹🇼 Data Commu SNI 👾 漁師'
+    server: f1f3227.v1.glados-config.net
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -15,19 +43,7 @@ proxies:
       path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: config.teams.microsoft.com
-  - name: '364 🇹🇼 Data Commu SNI 👾 漁師'
-    server: hinet1261.gfwisbest.xyz
-    type: vmess
-    port: 224
-    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: click.zoom.us
-  - name: '302 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '102 🇹🇼 Data Commu SNI 👾 漁師'
     server: 211.72.35.154
     type: trojan
     port: 3306

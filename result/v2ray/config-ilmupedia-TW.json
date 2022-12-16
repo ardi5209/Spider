@@ -84,6 +84,40 @@
       "settings": {
         "vnext": [
           {
+            "address": "hinet1261.gfwisbest.xyz",
+            "port": 224,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-35 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "f1f3227.v8.glados-config.net",
             "port": 3331,
             "users": [
@@ -113,7 +147,7 @@
           "path": "/s/f1f3227.fm.apple.com:111548"
         }
       },
-      "tag": "proxy-274 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-92 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -124,14 +158,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "hinet1261.gfwisbest.xyz",
-            "port": 224,
+            "address": "f1f3227.v1.glados-config.net",
+            "port": 3331,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
+                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
                 "level": 8,
                 "security": "auto"
               }
@@ -140,14 +174,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "",
+        "network": "ws",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/s/f1f3227.fm.apple.com:111548"
         }
       },
-      "tag": "proxy-364 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-94 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -181,7 +221,7 @@
           "path": "/gateway/connect"
         }
       },
-      "tag": "proxy-302 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-102 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

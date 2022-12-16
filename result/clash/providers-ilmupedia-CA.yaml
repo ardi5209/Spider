@@ -1,5 +1,48 @@
 proxies:
-  - name: '91 🇨🇦 OVH SAS SNI 👾 漁師'
+  - name: '354 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: 35.182.165.120
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '7 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: 148.113.141.99
+    type: trojan
+    port: 443
+    password: HdsUZmsHQW
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '46 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: 149.56.141.11
+    type: trojan
+    port: 443
+    password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '248 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: cat2.sshocean.net
+    type: trojan
+    port: 443
+    password: 30e722ba-b187-49d1-92cc-7f895032c1fc
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '381 🇨🇦 OVH SAS SNI 👾 漁師'
     server: 144.217.5.29
     type: trojan
     port: 443
@@ -8,7 +51,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '104 🇨🇦 OVH SAS SNI 👾 漁師'
+  - name: '390 🇨🇦 OVH SAS SNI 👾 漁師'
     server: cat1.sshocean.net
     type: trojan
     port: 443

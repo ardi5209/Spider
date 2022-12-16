@@ -84,6 +84,86 @@
       "settings": {
         "vnext": [
           {
+            "address": "id-v.sshmax.xyz",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-178 🇮🇩 PT Linkgo  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "id-v.sshmax.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "id-v.sshmax.xyz"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-179 🇮🇩 PT Linkgo  CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
@@ -113,7 +193,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-139 🇮🇩 PT Linkgo  CDN 👾 漁師"
+      "tag": "proxy-202 🇮🇩 PT Linkgo  CDN 👾 漁師"
     },
     {
       "mux": {
@@ -153,7 +233,47 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-140 🇮🇩 PT Linkgo  SNI 👾 漁師"
+      "tag": "proxy-206 🇮🇩 PT Linkgo  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "103.157.27.148",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-394 🇮🇩 PT Linkgo  SNI 👾 漁師"
     },
     {
       "mux": {
@@ -164,12 +284,12 @@
       "settings": {
         "servers": [
           {
-            "address": "103.167.34.206",
+            "address": "id3tr.jagoan.vip",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "60d47bb6-47d1-45b1-b67b-4d236a4a5957",
+            "password": "vvip-periantara",
             "port": 443
           }
         ]
@@ -181,7 +301,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-111 🇮🇩 PT Industr SNI 👾 漁師"
+      "tag": "proxy-13 🇮🇩 Media Anta SNI 👾 漁師"
     },
     {
       "mux": {
@@ -209,7 +329,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-152 🇮🇩 Media Anta SNI 👾 漁師"
+      "tag": "proxy-25 🇮🇩 Media Anta SNI 👾 漁師"
     }
   ],
   "dns": {
