@@ -45,13 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "88 🇱🇺 PONYNET CDN 👾 漁師",
-        "218 🇱🇺 PONYNET SNI 👾 漁師"
+        "150 🇱🇺 Unknown CDN 👾 漁師",
+        "218 🇱🇺 PONYNET CDN 👾 漁師",
+        "260 🇱🇺 Unknown CDN 👾 漁師",
+        "286 🇱🇺 PONYNET SNI 👾 漁師",
+        "364 🇱🇺 PONYNET CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "88 🇱🇺 PONYNET CDN 👾 漁師",
+      "tag": "150 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "218 🇱🇺 PONYNET CDN 👾 漁師",
       "server": "cacerts.digicert.com",
       "server_port": 443,
       "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
@@ -72,7 +96,28 @@
     },
     {
       "type": "vmess",
-      "tag": "218 🇱🇺 PONYNET SNI 👾 漁師",
+      "tag": "260 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "286 🇱🇺 PONYNET SNI 👾 漁師",
       "server": "104.244.73.218",
       "server_port": 443,
       "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
@@ -88,6 +133,27 @@
         "path": "/v2ray",
         "headers": {
           "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "364 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "6fb9a750-55b8-4e6e-857b-242b795399dc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "buyvm.imkcp.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/imkcpyyds",
+        "headers": {
+          "Host": "buyvm.imkcp.eu.org"
         }
       }
     }
