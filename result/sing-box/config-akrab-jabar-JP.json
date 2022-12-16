@@ -45,34 +45,56 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "5 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "155 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+        "14 🇯🇵 Linode LL CDN 👾 漁師",
+        "146 🇯🇵 Alibaba US CDN 👾 漁師",
+        "268 🇯🇵 ORACLE-BMC CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "5 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "tag": "14 🇯🇵 Linode LL CDN 👾 漁師",
       "server": "172.67.199.34",
       "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "uuid": "77e1c7e2-ce47-4826-8959-296fbc2257ac",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "opc-jp.sharecentre.online"
+        "server_name": "cdn.jpeli.6641634715834932.me"
       },
       "transport": {
         "type": "ws",
-        "path": "/shirker",
+        "path": "/wel/8",
         "headers": {
-          "Host": "opc-jp.sharecentre.online"
+          "Host": "cdn.jpeli.6641634715834932.me"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "155 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "tag": "146 🇯🇵 Alibaba US CDN 👾 漁師",
+      "server": "172.67.199.34",
+      "server_port": 443,
+      "uuid": "f4ef14c4-d811-455c-a4c3-c63dfeffb0a6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vfly3.win"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/myblog",
+        "headers": {
+          "Host": "vfly3.win"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "268 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "172.67.199.34",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
