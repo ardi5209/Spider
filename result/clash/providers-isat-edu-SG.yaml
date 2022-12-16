@@ -1,22 +1,6 @@
 proxies:
-  - name: '24 🇸🇬 G-Core Lab CDN 👾 漁師'
-    server: 104.16.51.111
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg-gcore-2.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: sg-gcore-2.sharecentre.online
-  - name: '55 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 104.17.70.206
+  - name: '2 🇸🇬 Contabo As CDN 👾 漁師'
+    server: 162.159.128.7
     type: vmess
     port: 443
     uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -24,15 +8,31 @@ proxies:
     cipher: auto
     tls: true
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     network: ws
     servername: sg-v.sshmax.xyz
     ws-opts: 
       path: /vmess
       headers:
         Host: sg-v.sshmax.xyz
-  - name: '70 🇸🇬 G-Core Lab CDN 👾 漁師'
+  - name: '9 🇸🇬 DIGITALOCE CDN 👾 漁師'
     server: 104.18.25.139
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '32 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: 141.193.213.20
     type: vmess
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -47,24 +47,8 @@ proxies:
       path: /shirker
       headers:
         Host: sg-gcore-2.sharecentre.online
-  - name: '75 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 104.18.25.139
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '79 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: 141.193.213.20
+  - name: '46 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: 104.17.70.206
     type: vmess
     port: 443
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -72,206 +56,14 @@ proxies:
     cipher: auto
     tls: true
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     network: ws
     servername: sg1-v2ray.sshkit.org
     ws-opts: 
       path: /sshkit/1736960111/63859b5b38f53/
       headers:
         Host: sg1-v2ray.sshkit.org
-  - name: '95 🇸🇬 Linode LL CDN 👾 漁師'
-    server: 104.18.25.139
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg-gcore.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: sg-gcore.sharecentre.online
-  - name: '106 🇸🇬 DIGITALOCE CDN 👾 漁師'
-    server: 104.16.66.85
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg1021.hkaa0.tk
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: sg1021.hkaa0.tk
-  - name: '127 🇸🇬 DIGITALOCE CDN 👾 漁師'
-    server: 104.16.66.85
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg1021.hkaa0.tk
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: sg1021.hkaa0.tk
-  - name: '160 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 104.16.51.111
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '192 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 104.16.66.85
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '201 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 141.193.213.10
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '219 🇸🇬 OVH SAS CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 443
-    uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg5.v2rayserv.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: sg5.v2rayserv.com
-  - name: '220 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: 104.16.66.85
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg1-v2ray.sshkit.org
-    ws-opts: 
-      path: /sshkit/1736960111/63859b5b38f53/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-  - name: '267 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '271 🇸🇬 OVH SAS CDN 👾 漁師'
-    server: 104.17.70.206
-    type: vmess
-    port: 443
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg-lb.vhax.net
-    ws-opts: 
-      path: /sshkit/Ertusg86/635014638c264/
-      headers:
-        Host: sg-lb.vhax.net
-  - name: '274 🇸🇬 DIGITALOCE CDN 👾 漁師'
-    server: 141.193.213.20
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg1021.hkaa0.tk
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: sg1021.hkaa0.tk
-  - name: '279 🇸🇬 G-Core Lab CDN 👾 漁師'
-    server: 104.17.70.206
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg-gcore-2.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: sg-gcore-2.sharecentre.online
-  - name: '293 🇸🇬 HURRICANE CDN 👾 漁師'
+  - name: '73 🇸🇬 HURRICANE CDN 👾 漁師'
     server: 162.159.128.7
     type: vmess
     port: 443
@@ -287,24 +79,8 @@ proxies:
       path: /sshkit/1736960111/63859bc177a33/
       headers:
         Host: sg3-v2ray.sshkit.org
-  - name: '305 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '344 🇸🇬 G-Core Lab CDN 👾 漁師'
-    server: 104.16.51.111
+  - name: '117 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: 162.159.128.7
     type: vmess
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -319,202 +95,3 @@ proxies:
       path: /shirker
       headers:
         Host: sg-gcore-2.sharecentre.online
-  - name: '345 🇸🇬 DIGITALOCE CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg1021.hkaa0.tk
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: sg1021.hkaa0.tk
-  - name: '362 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 104.16.51.111
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '371 🇸🇬 DIGITALOCE CDN 👾 漁師'
-    server: 104.17.70.206
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg1021.hkaa0.tk
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: sg1021.hkaa0.tk
-  - name: '386 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: 104.16.51.111
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg3-v2ray.sshkit.org
-    ws-opts: 
-      path: /sshkit/1736960111/63859bc177a33/
-      headers:
-        Host: sg3-v2ray.sshkit.org
-  - name: '393 🇸🇬 DIGITALOCE CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg1021.hkaa0.tk
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: sg1021.hkaa0.tk
-  - name: '420 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: 141.193.213.10
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg3-v2ray.sshkit.org
-    ws-opts: 
-      path: /sshkit/1736960111/63859bc177a33/
-      headers:
-        Host: sg3-v2ray.sshkit.org
-  - name: '421 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: 141.193.213.10
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg1-v2ray.sshkit.org
-    ws-opts: 
-      path: /sshkit/1736960111/63859b5b38f53/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-  - name: '437 🇸🇬 G-Core Lab CDN 👾 漁師'
-    server: 141.193.213.10
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg-gcore-2.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: sg-gcore-2.sharecentre.online
-  - name: '441 🇸🇬 Contabo As CDN 👾 漁師'
-    server: 141.193.213.20
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '456 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: sg1-v2ray.sshkit.org
-    ws-opts: 
-      path: /sshkit/1736960111/63859b5b38f53/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-  - name: '114 🇸🇬 Linode LL CDN 👾 漁師'
-    server: 141.193.213.10
-    type: trojan
-    port: 443
-    password: 4X1ebJpQWg
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg.yydsdy.top
-    ws-opts: 
-      path: /c6c05fbac0e4
-      headers:
-        Host: sg.yydsdy.top
-  - name: '124 🇸🇬 Linode LL CDN 👾 漁師'
-    server: 162.159.135.42
-    type: trojan
-    port: 443
-    password: 4X1ebJpQWg
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg.yydsdy.top
-    ws-opts: 
-      path: /c6c05fbac0e4
-      headers:
-        Host: sg.yydsdy.top
-  - name: '451 🇸🇬 Linode LL CDN 👾 漁師'
-    server: 141.193.213.10
-    type: trojan
-    port: 443
-    password: 4X1ebJpQWg
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg.yydsdy.top
-    ws-opts: 
-      path: /c6c05fbac0e4
-      headers:
-        Host: sg.yydsdy.top

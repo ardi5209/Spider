@@ -1,6 +1,6 @@
 proxies:
-  - name: '7 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: fr2.v2rayserv.com
+  - name: '6 🇫🇷 OVH SAS CDN 👾 漁師'
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
@@ -10,12 +10,12 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: news.microsoft.com
+    servername: fr2.v2rayserv.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
-        Host: news.microsoft.com
-  - name: '8 🇫🇷 Online S.a SNI 👾 漁師'
+        Host: fr2.v2rayserv.com
+  - name: '15 🇫🇷 Online S.a SNI 👾 漁師'
     server: FR-166-134.shoptunnel.live
     type: vmess
     port: 31990
@@ -27,264 +27,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '9 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '10 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: v2ray1.zhujicn2.org
-    ws-opts: 
-      path: /UMW36262
-      headers:
-        Host: v2ray1.zhujicn2.org
-  - name: '16 🇳🇱 The Infras CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hl1.cachexy.ga
-    ws-opts: 
-      path: /lXvA0Vse/
-      headers:
-        Host: hl1.cachexy.ga
-  - name: '30 🇩🇪 BitCommand SNI 👾 漁師'
-    server: 154.91.170.22
-    type: vmess
-    port: 16343
-    uuid: 49680439-ddb7-4a8a-95e2-9e9b441d1c98
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '34 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '35 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '40 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '43 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 65.109.5.94
-    type: vmess
-    port: 10693
-    uuid: 38cb0897-c457-4f91-c1ef-700f38928942
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '48 🇳🇱 The Infras CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hl1.cachexy.ga
-    ws-opts: 
-      path: /lXvA0Vse/
-      headers:
-        Host: hl1.cachexy.ga
-  - name: '50 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '51 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '60 🇱🇺 PONYNET CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lu1.gogogoo.cyou
-    ws-opts: 
-      path: /go
-      headers:
-        Host: lu1.gogogoo.cyou
-  - name: '62 🇩🇪 combahton  SNI 👾 漁師'
-    server: 45.146.252.141
-    type: vmess
-    port: 443
-    uuid: 30d9dbcc-bd01-4641-9362-440a90034f40
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '68 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '69 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '71 🇵🇱 OVH SAS SNI 👾 漁師'
-    server: 147.135.208.210
-    type: vmess
-    port: 443
-    uuid: 9ec73f71-1d2c-4ef7-a814-15fb272ab5a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '80 🇪🇪 BlueVPS OU SNI 👾 漁師'
-    server: EE-120-85.shoptunnel.live
+  - name: '17 🇫🇷 Online S.a SNI 👾 漁師'
+    server: FR-166-134.shoptunnel.live
     type: vmess
     port: 31990
     uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
@@ -295,455 +39,7 @@ proxies:
     skip-cert-verify: false
     network: none
     servername: news.microsoft.com
-  - name: '81 🇫🇷 Online S.a SNI 👾 漁師'
-    server: FR-166-134.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '87 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '99 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: de2-v2ray.ipracevpn.com
-    type: vmess
-    port: 443
-    uuid: f1fc0e29-7e34-4de7-fa37-43fd4d995aed
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '107 🇱🇺 Unknown CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '109 🇱🇺 PONYNET CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: buyvm.imkcp.eu.org
-    ws-opts: 
-      path: /imkcpyyds
-      headers:
-        Host: buyvm.imkcp.eu.org
-  - name: '121 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '129 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '132 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '148 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '149 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '150 🇩🇪 BitCommand SNI 👾 漁師'
-    server: a.aramisshimi.ir
-    type: vmess
-    port: 16343
-    uuid: 49680439-ddb7-4a8a-95e2-9e9b441d1c98
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '158 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '161 🇸🇪 AS-CHOOPA SNI 👾 漁師'
-    server: SE-202-207.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: none
-    servername: news.microsoft.com
-  - name: '171 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '176 🇩🇪 myLoc mana SNI 👾 漁師'
-    server: 213.202.233.147
-    type: vmess
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /path/243535322906
-      headers:
-        Host: news.microsoft.com
-  - name: '181 🇦🇹 Hohl IT e. SNI 👾 漁師'
-    server: 94.177.8.87
-    type: vmess
-    port: 38752
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '182 🇩🇪 CLOUDFLARE CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 2053
-    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: haxeu2.zikkcc.ga
-    ws-opts: 
-      path: /
-      headers:
-        Host: haxeu2.zikkcc.ga
-  - name: '190 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '200 🇫🇷 Online S.a SNI 👾 漁師'
-    server: 163.172.166.134
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '202 🇫🇷 Online S.a SNI 👾 漁師'
-    server: FR-166-134.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '205 🇷🇺 LLC Baxet SNI 👾 漁師'
-    server: RU-153-16.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '208 🇫🇷 Online S.a SNI 👾 漁師'
-    server: 51.159.2.152
-    type: vmess
-    port: 8880
-    uuid: a2ecce43-c6fb-4978-8b1d-8018ddd9faf4
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '211 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '215 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '216 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 206.81.31.184
-    type: vmess
-    port: 6245
-    uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: 
-      headers:
-        Host: news.microsoft.com
-  - name: '230 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: opfr1.v2rayfree1.xyz
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-  - name: '232 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '235 🇷🇺 LLC Baxet SNI 👾 漁師'
-    server: 45.136.244.23
-    type: vmess
-    port: 443
-    uuid: 794a6a61-b225-45fc-fb31-7dee188b1bbb
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /wweedw
-      headers:
-        Host: news.microsoft.com
-  - name: '239 🇱🇺 Unknown CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '244 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '255 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '21 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 145.239.186.192
     type: vmess
     port: 13509
@@ -759,40 +55,8 @@ proxies:
       path: 
       headers:
         Host: news.microsoft.com
-  - name: '260 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '261 🇱🇺 Unknown CDN 👾 漁師'
+  - name: '22 🇫🇷 Online S.a CDN 👾 漁師'
     server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '263 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
@@ -807,23 +71,23 @@ proxies:
       path: /A2DJOPFT
       headers:
         Host: lg10.cfcdn1.xyz
-  - name: '265 🇬🇧 Iomart Clo CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '23 🇫🇷 Online S.a CDN 👾 漁師'
+    server: news.microsoft.com
     type: vmess
-    port: 2086
-    uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
-    servername: uk.cloudflare.quest
+    servername: lg10.cfcdn1.xyz
     ws-opts: 
-      path: /aries
+      path: /A2DJOPFT
       headers:
-        Host: uk.cloudflare.quest
-  - name: '272 🇱🇺 Unknown CDN 👾 漁師'
+        Host: lg10.cfcdn1.xyz
+  - name: '38 🇱🇺 Unknown CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -839,8 +103,8 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '273 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '40 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
@@ -855,59 +119,11 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '275 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '45 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
     type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '280 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '285 🇫🇷 Online S.a CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: fr1.trump2023.org
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-  - name: '290 🇭🇺 23VNet Kft SNI 👾 漁師'
-    server: 185.225.69.134
-    type: vmess
-    port: 45081
-    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
     alterId: 0
     cipher: auto
     tls: false
@@ -915,24 +131,8 @@ proxies:
     skip-cert-verify: false
     network: tcp
     servername: news.microsoft.com
-  - name: '291 🇫🇷 Online S.a CDN 👾 漁師'
+  - name: '51 🇫🇷 Online S.a CDN 👾 漁師'
     server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '298 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
@@ -947,7 +147,35 @@ proxies:
       path: /9JZFDTKE
       headers:
         Host: fr1.trump2023.org
-  - name: '300 🇱🇺 Unknown CDN 👾 漁師'
+  - name: '53 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 163.172.166.134
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: tcp
+    servername: news.microsoft.com
+  - name: '56 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: fr2.v2rayserv.com
+    type: vmess
+    port: 443
+    uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: news.microsoft.com
+  - name: '64 🇱🇺 Unknown CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -963,7 +191,39 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '322 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '70 🇫🇷 Online S.a CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: lg10.cfcdn1.xyz
+    ws-opts: 
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: '71 🇱🇺 Unknown CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: hk.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: '77 🇫🇷 Online S.a SNI 👾 漁師'
     server: 51.159.2.152
     type: vmess
     port: 443
@@ -979,144 +239,8 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '333 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '335 🇫🇷 Online S.a CDN 👾 漁師'
+  - name: '78 🇫🇷 Online S.a CDN 👾 漁師'
     server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '341 🇧🇪 OVH SAS SNI 👾 漁師'
-    server: 51.77.230.27
-    type: vmess
-    port: 50728
-    uuid: 58362f48-b66c-4fec-a91e-25714d4ff299
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '350 🇪🇪 BlueVPS OU SNI 👾 漁師'
-    server: EE-120-85.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '351 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '352 🇱🇺 Unknown CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '361 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: amshare.jingledev.me
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-  - name: '363 🇭🇺 23VNet Kft SNI 👾 漁師'
-    server: 185.225.69.134
-    type: vmess
-    port: 45081
-    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: news.microsoft.com
-  - name: '365 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '374 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -1131,127 +255,27 @@ proxies:
       path: /IYKLD53M
       headers:
         Host: opfr1.v2rayfree1.xyz
-  - name: '378 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 165.227.153.15
-    type: vmess
-    port: 47497
-    uuid: 205d9c7d-840d-4027-9151-5154ac0ee7fc
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '381 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 145.239.186.192
-    type: vmess
-    port: 13509
-    uuid: 55b4e6a3-15b2-4b2c-e495-4ffb9135b508
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '385 🇱🇺 Unknown CDN 👾 漁師'
+  - name: '83 🇫🇷 Online S.a CDN 👾 漁師'
     server: news.microsoft.com
     type: vmess
     port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '390 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.202
-    type: vmess
-    port: 38752
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '402 🇪🇪 BlueVPS OU SNI 👾 漁師'
-    server: 193.109.120.85
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '413 🇫🇷 Online S.a CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 2086
-    uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
     network: ws
-    servername: fr.cloudflare.quest
+    servername: opfr1.v2rayfree1.xyz
     ws-opts: 
-      path: /aries
+      path: /IYKLD53M
       headers:
-        Host: fr.cloudflare.quest
-  - name: '417 🇫🇷 Online S.a SNI 👾 漁師'
-    server: FR-166-134.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: none
-    servername: news.microsoft.com
-  - name: '425 🇱🇺 PONYNET CDN 👾 漁師'
-    server: news.microsoft.com
+        Host: opfr1.v2rayfree1.xyz
+  - name: '85 🇩🇪 combahton  SNI 👾 漁師'
+    server: 45.146.252.141
     type: vmess
     port: 443
-    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: buyvm.imkcp.eu.org
-    ws-opts: 
-      path: /imkcpyyds
-      headers:
-        Host: buyvm.imkcp.eu.org
-  - name: '429 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: 152.228.217.34
-    type: vmess
-    port: 443
-    uuid: 1392c17a-3787-4144-aec9-74ce6f50682a
+    uuid: 30d9dbcc-bd01-4641-9362-440a90034f40
     alterId: 0
     cipher: auto
     tls: true
@@ -1263,67 +287,7 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '434 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '450 🇬🇧 Linode LL SNI 👾 漁師'
-    server: vuk2.0bad.com
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: news.microsoft.com
-  - name: '454 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: amshare.jingledev.me
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-  - name: '455 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.88
-    type: vmess
-    port: 38752
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '460 🇫🇷 Online S.a CDN 👾 漁師'
+  - name: '86 🇫🇷 Online S.a CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -1339,11 +303,59 @@ proxies:
       path: /IYKLD53M
       headers:
         Host: opfr1.v2rayfree1.xyz
-  - name: '464 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 135.181.235.21
+  - name: '87 🇫🇷 Online S.a CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
-    port: 34303
-    uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: lg10.cfcdn1.xyz
+    ws-opts: 
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: '105 🇫🇷 Online S.a CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: lg10.cfcdn1.xyz
+    ws-opts: 
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: '113 🇩🇪 myLoc mana SNI 👾 漁師'
+    server: 213.202.233.147
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com
+  - name: '116 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 51.159.2.152
+    type: vmess
+    port: 8880
+    uuid: a2ecce43-c6fb-4978-8b1d-8018ddd9faf4
     alterId: 0
     cipher: auto
     tls: false
@@ -1355,35 +367,61 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '18 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.20
+  - name: '119 🇫🇷 Online S.a CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: fr1.trump2023.org
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+  - name: '122 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: RU-153-16.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: tcp
+    servername: news.microsoft.com
+  - name: '126 🇫🇷 Online S.a CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: lg10.cfcdn1.xyz
+    ws-opts: 
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: '5 🇱🇹 UAB Intern SNI 👾 漁師'
+    server: 212.24.103.3
     type: trojan
     port: 443
-    password: TestingServer@@2
+    password: 4f9ca636-5195-406a-b48c-0388689dd9a7
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '38 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.209
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '91 🇬🇧 ORACLE-BMC SNI 👾 漁師'
-    server: 132.145.51.172
-    type: trojan
-    port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '97 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider28.cdn-delivery.akamaicd.com
+  - name: '8 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: content-provider26.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: origin
@@ -1391,17 +429,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '98 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider29.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '118 🇪🇸 OVH SAS SNI 👾 漁師'
-    server: 91.121.225.119
+  - name: '18 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.74
     type: trojan
     port: 443
     password: Sp3eDVp
@@ -1409,178 +438,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '125 🇬🇧 Iomart Clo SNI 👾 漁師'
-    server: content-provider3.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '131 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.212
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '133 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: ukt1.sshocean.net
-    type: trojan
-    port: 443
-    password: 0f5e6d9a-49af-4bc0-b04b-503102382144
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '136 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider14.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '226 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.75
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '233 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: ukt1.sshocean.net
-    type: trojan
-    port: 443
-    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '236 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: t1.samsung.googlemailcdn.live
-    type: trojan
-    port: 443
-    password: a8a6c5ab-6b96-4834-a14d-f0a5588d80f2
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '237 🇬🇧 ORACLE-BMC SNI 👾 漁師'
-    server: jgwld1.gaox.ml
-    type: trojan
-    port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '247 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider21.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '249 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: 141.94.76.177
-    type: trojan
-    port: 443
-    password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '266 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.152.12
-    type: trojan
-    port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '292 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.195.202.124
-    type: trojan
-    port: 443
-    password: 267af089-734c-48ca-9d47-88b0435d541b
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '315 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.211
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '316 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
-    type: trojan
-    port: 443
-    password: TestingServer@@
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '324 🇪🇸 OVH SAS SNI 👾 漁師'
-    server: content-provider6.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '326 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider20.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '367 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider22.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '375 🇮🇪 OVH SAS SNI 👾 漁師'
-    server: content-provider12.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '376 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.66
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '387 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '26 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 51.195.203.223
     type: trojan
     port: 443
@@ -1589,25 +447,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '408 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.195.202.124
+  - name: '28 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider21.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: d4d07b5e-779b-4111-b627-92e33bb5aaa5
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '418 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: bdvasxmahl.injafarvpnwebelieve.gq
-    type: trojan
-    port: 443
-    password: TvBypqQJ9b
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '426 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '29 🇩🇪 Hetzner On SNI 👾 漁師'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
     port: 443
@@ -1616,25 +465,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '433 🇬🇧 Iomart Clo SNI 👾 漁師'
-    server: 82.102.8.79
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '442 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.236.127
-    type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '443 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '57 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider2.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
@@ -1643,47 +474,70 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '447 🇳🇱 AS40676 SNI 👾 漁師'
-    server: content-provider24.cdn-delivery.akamaicd.com
+  - name: '62 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.211
     type: trojan
     port: 443
-    password: Sp3eDVp
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '453 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
+  - name: '72 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.195.202.124
     type: trojan
     port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
+    password: d4d07b5e-779b-4111-b627-92e33bb5aaa5
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '119 🇬🇧 Iomart Clo SNI 👾 漁師'
-    server: 88.150.137.201
-    type: ssr
-    port: 1021
-    password: sEscPBiAD9K$&@79
-    cipher: aes-128-ctr
-    protocol: auth_aes128_md5
-    protocol-param: 
-    obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=news.microsoft.com
+  - name: '76 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider22.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
     udp: true
-  - name: '401 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.57.163
-    type: ssr
-    port: 11708
-    password: sEscPBiAD9K$&@79
-    cipher: aes-256-cfb
-    protocol: origin
-    protocol-param: 
-    obfs: http_simple
-    obfs-param: obfs=http;obfs-host=news.microsoft.com
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '92 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.212
+    type: trojan
+    port: 443
+    password: shefelnak
     udp: true
-  - name: '457 🇳🇱 DIGITALOCE SNI 👾 漁師'
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '102 🇬🇧 Iomart Clo SNI 👾 漁師'
+    server: 82.102.8.79
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '109 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: ukt1.sshocean.net
+    type: trojan
+    port: 443
+    password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '115 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.53.19
+    type: trojan
+    port: 443
+    password: TestingServer@@
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '114 🇳🇱 DIGITALOCE SNI 👾 漁師'
     server: 167.99.214.62
     type: ssr
     port: 11909
