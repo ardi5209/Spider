@@ -1,5 +1,5 @@
 proxies:
-  - name: '169 🇸🇪 AMAZON-02 SNI 👾 漁師'
+  - name: '252 🇸🇪 AMAZON-02 SNI 👾 漁師'
     server: 13.50.153.230
     type: vmess
     port: 27366
@@ -8,23 +8,7 @@ proxies:
     cipher: auto
     tls: false
     udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '244 🇸🇪 AMAZON-02 SNI 👾 漁師'
-    server: 13.50.153.230
-    type: vmess
-    port: 25289
-    uuid: fe2bd77d-312e-4ac0-defe-afdb279528a0
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     servername: news.microsoft.com
     ws-opts: 

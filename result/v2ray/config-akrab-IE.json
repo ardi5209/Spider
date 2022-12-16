@@ -98,10 +98,38 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-21 🇮🇪 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider5.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "Sp3eDVp",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
           "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-172 🇮🇪 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-73 🇮🇪 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
