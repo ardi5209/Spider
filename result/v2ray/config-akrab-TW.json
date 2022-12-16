@@ -80,68 +80,34 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "hinet1261.gfwisbest.xyz",
-            "port": 224,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "211.72.35.154",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4bacb8f1a089763b",
+            "port": 3306
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "",
+        "network": "ws",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/gateway/connect"
         }
       },
-      "tag": "proxy-9 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "1.171.191.234",
-            "port": 224,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-202 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-112 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

@@ -1,53 +1,85 @@
 proxies:
-  - name: '29 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: hohm.microsoft.com
+  - name: '6 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: suzhihan.eu.org
     type: vmess
     port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
     alterId: 0
     cipher: auto
     tls: true
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
-    servername: opc-jp.sharecentre.online
+    servername: config.teams.microsoft.com
     ws-opts: 
-      path: /shirker
+      path: /roewesu
       headers:
-        Host: opc-jp.sharecentre.online
-  - name: '47 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: hohm.microsoft.com
+        Host: config.teams.microsoft.com
+  - name: '7 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 140.83.57.80
     type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: opc-jp.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: opc-jp.sharecentre.online
-  - name: '126 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 152.69.197.60
-    type: vmess
-    port: 1069
-    uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+    port: 49840
+    uuid: 2969ad1b-9787-4927-94e6-22f597618de0
     alterId: 0
     cipher: auto
     tls: false
     udp: true
     skip-cert-verify: false
     network: tcp
-    servername: click.zoom.us
-  - name: '163 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    servername: config.teams.microsoft.com
+  - name: '8 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: suzhihan.eu.org
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: suzhihan.eu.org
+  - name: '194 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: 138.2.49.230
     type: vmess
     port: 10021
     uuid: a12e496e-f89a-434a-8011-108846f0e412
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+  - name: '211 🇯🇵 Linode LL SNI 👾 漁師'
+    server: vjp3.0bad.com
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: safebrowsing.google.com
+  - name: '234 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp02.170203.xyz
+    type: vmess
+    port: 23245
+    uuid: 15300052-1a37-460f-bf05-8e3a263427c6
     alterId: 0
     cipher: auto
     tls: false
@@ -59,7 +91,19 @@ proxies:
       path: /
       headers:
         Host: safebrowsing.google.com
-  - name: '235 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+  - name: '270 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 152.69.197.60
+    type: vmess
+    port: 1069
+    uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: false
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '272 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -75,92 +119,41 @@ proxies:
       path: /shirker
       headers:
         Host: opc-jp.sharecentre.online
-  - name: '242 🇯🇵 NTT PC Com SNI 👾 漁師'
-    server: ah.yd01.paopaocloud.cyou
+  - name: '276 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp04.170203.xyz
     type: vmess
-    port: 10015
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    port: 23245
+    uuid: 15300052-1a37-460f-bf05-8e3a263427c6
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: false
     network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '271 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.44.211
-    type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '321 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.44.211
-    type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: false
-    network: tcp
     servername: safebrowsing.google.com
-  - name: '15 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.45.243
+    ws-opts: 
+      path: /
+      headers:
+        Host: safebrowsing.google.com
+  - name: '82 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
     type: trojan
-    port: 443
-    password: c19d1432-8b3e-4818-8837-3d160cf65908
+    port: 20220
+    password: 2b3431bf-feb2-47ec-bb6c-327398b14c9b
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
-  - name: '17 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 150.230.96.103
+    servername: safebrowsing.google.com
+  - name: '136 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: jgwdj3.gaox.ml
     type: trojan
     port: 443
     password: da777aae-defb-41d0-a183-2c27da2b4677
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
-  - name: '50 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: jgwdb2.gaox.ml
-    type: trojan
-    port: 443
-    password: c19d1432-8b3e-4818-8837-3d160cf65908
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '220 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 150.230.217.213
-    type: trojan
-    port: 443
-    password: c09eb137-bf68-4658-84e0-102d94b74168
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '225 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 168.138.44.176
-    type: trojan
-    port: 443
-    password: 8d2d5953-d649-4034-94f2-72f2df2623da
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '228 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    servername: config.teams.microsoft.com
+  - name: '166 🇯🇵 MIKU NETWO SNI 👾 漁師'
     server: zzjp01.fuqiangren.com
     type: trojan
     port: 20221
@@ -169,14 +162,21 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '16 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: jp-am48-6.eqnode.net
-    type: ssr
-    port: 8081
-    password: eAokbaDN6
-    cipher: aes-256-cfb
-    protocol: origin
-    protocol-param: 
-    obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=safebrowsing.google.com
+  - name: '192 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: jgwdj4.gaox.ml
+    type: trojan
+    port: 443
+    password: c09eb137-bf68-4658-84e0-102d94b74168
     udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '217 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.45.243
+    type: trojan
+    port: 443
+    password: c19d1432-8b3e-4818-8837-3d160cf65908
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
