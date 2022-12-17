@@ -1,30 +1,14 @@
 proxies:
-  - name: '456 🇮🇪 AMAZON-02 SNI 👾 漁師'
-    server: 52.214.4.7
-    type: vmess
-    port: 40311
-    uuid: f6ee7492-6623-4fd9-e908-1880eeb26f22
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: safebrowsing.google.com
-  - name: '336 🇮🇪 OVH SAS SNI 👾 漁師'
-    server: 51.77.71.131
+  - name: '95 🇮🇪 OVH SAS SNI 👾 漁師'
+    server: 51.77.71.134
     type: trojan
     port: 443
-    password: Sp3eDVp
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
-  - name: '364 🇮🇪 OVH SAS SNI 👾 漁師'
+    servername: safebrowsing.google.com
+  - name: '132 🇮🇪 OVH SAS SNI 👾 漁師'
     server: content-provider5.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
@@ -32,4 +16,13 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
+  - name: '137 🇮🇪 OVH SAS SNI 👾 漁師'
+    server: 51.77.71.131
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
