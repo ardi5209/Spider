@@ -131,7 +131,7 @@ class Database {
             port: account["PORT"],
             id: account["PASSWORD"],
             host: account["HOST"],
-            security: account["SECURITY"],
+            tls: account["SECURITY"],
             flow: account["FLOW"],
             level: account["LEVEL"],
             method: account["METHOD"],
