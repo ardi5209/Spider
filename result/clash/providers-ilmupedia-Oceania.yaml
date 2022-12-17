@@ -1,5 +1,21 @@
 proxies:
-  - name: '144 🇦🇺 AMAZON-02 SNI 👾 漁師'
+  - name: '22 🇦🇺 Linode LL SNI 👾 漁師'
+    server: au.tencent.cfd
+    type: vmess
+    port: 65529
+    uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '32 🇦🇺 AMAZON-02 SNI 👾 漁師'
     server: au-a.tencent.cfd
     type: vmess
     port: 65528
@@ -15,26 +31,8 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '60 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: jgwxn4.gaox.ml
-    type: trojan
-    port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '420 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.98.30
-    type: trojan
-    port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '453 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: 140.238.205.173
+  - name: '49 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
     type: trojan
     port: 443
     password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
