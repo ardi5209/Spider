@@ -45,41 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "41 🇫🇮 Hetzner On SNI 👾 漁師",
-        "131 🇫🇮 Hetzner On SNI 👾 漁師",
-        "142 🇫🇮 Hetzner On SNI 👾 漁師",
-        "189 🇫🇮 CLOUDFLARE SNI 👾 漁師",
-        "395 🇫🇮 Hetzner On SNI 👾 漁師",
-        "169 🇫🇮 Hetzner On SNI 👾 漁師"
+        "23 🇫🇮 Hetzner On SNI 👾 漁師",
+        "31 🇫🇮 CLOUDFLARE SNI 👾 漁師",
+        "207 🇫🇮 Hetzner On SNI 👾 漁師",
+        "367 🇫🇮 Hetzner On SNI 👾 漁師",
+        "204 🇫🇮 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "41 🇫🇮 Hetzner On SNI 👾 漁師",
+      "tag": "23 🇫🇮 Hetzner On SNI 👾 漁師",
       "server": "135.181.235.21",
-      "server_port": 34303,
-      "uuid": "1ce52047-ad8a-4ef3-cdcd-46ff29b262fb",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "131 🇫🇮 Hetzner On SNI 👾 漁師",
-      "server": "65.109.7.215",
-      "server_port": 40587,
-      "uuid": "50acc8ba-7b2e-4bd4-9320-b79d02549e1e",
+      "server_port": 12951,
+      "uuid": "18827895-b647-4570-81e2-de3bd795fa04",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -97,10 +75,52 @@
     },
     {
       "type": "vmess",
-      "tag": "142 🇫🇮 Hetzner On SNI 👾 漁師",
+      "tag": "31 🇫🇮 CLOUDFLARE SNI 👾 漁師",
+      "server": "65.109.129.15",
+      "server_port": 25459,
+      "uuid": "ead3843c-d06a-4224-88db-8946e448de6b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "207 🇫🇮 Hetzner On SNI 👾 漁師",
       "server": "65.109.5.94",
       "server_port": 10693,
       "uuid": "38cb0897-c457-4f91-c1ef-700f38928942",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "367 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "65.109.7.215",
+      "server_port": 40587,
+      "uuid": "50acc8ba-7b2e-4bd4-9320-b79d02549e1e",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -117,57 +137,15 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "189 🇫🇮 CLOUDFLARE SNI 👾 漁師",
-      "server": "65.109.129.15",
-      "server_port": 25459,
-      "uuid": "ead3843c-d06a-4224-88db-8946e448de6b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "config.teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "395 🇫🇮 Hetzner On SNI 👾 漁師",
-      "server": "135.181.235.21",
-      "server_port": 12951,
-      "uuid": "18827895-b647-4570-81e2-de3bd795fa04",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "169 🇫🇮 Hetzner On SNI 👾 漁師",
+      "tag": "204 🇫🇮 Hetzner On SNI 👾 漁師",
       "server": "wdock.aslibekhar.com",
       "server_port": 443,
       "password": "t5wt9NwaB9",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     }
   ],

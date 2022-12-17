@@ -1,36 +1,5 @@
 proxies:
-  - name: '85 🇹🇼 Data Commu SNI 👾 漁師'
-    server: fhost-tapi01.zlhost.xyz
-    type: trojan
-    port: 17005
-    password: e198c059-18e0-4c5e-8358-b4b7850d4d86
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '97 🇹🇼 Data Commu SNI 👾 漁師'
-    server: fhost-tapi02.zlhost.xyz
-    type: trojan
-    port: 17005
-    password: e198c059-18e0-4c5e-8358-b4b7850d4d86
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '162 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 211.72.35.154
-    type: trojan
-    port: 3306
-    password: 4bacb8f1a089763b
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /gateway/connect
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '445 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '35 🇹🇼 Data Commu SNI 👾 漁師'
     server: fhost-tapi03.zlhost.xyz
     type: trojan
     port: 17005
@@ -38,4 +7,26 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
+  - name: '194 🇹🇼 Data Commu SNI 👾 漁師'
+    server: fhost-tapi01.zlhost.xyz
+    type: trojan
+    port: 17005
+    password: e198c059-18e0-4c5e-8358-b4b7850d4d86
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '310 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: click.zoom.us
