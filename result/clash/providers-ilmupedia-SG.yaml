@@ -1,6 +1,22 @@
 proxies:
-  - name: '10 🇸🇬 Contabo As SNI 👾 漁師'
-    server: 194.233.81.125
+  - name: '19 🇸🇬 Contabo As CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-v.sshmax.xyz
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: sg-v.sshmax.xyz
+  - name: '20 🇸🇬 Contabo As SNI 👾 漁師'
+    server: sg-v.sshmax.xyz
     type: vmess
     port: 443
     uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
@@ -15,7 +31,147 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '12 🇸🇬 Linode LL SNI 👾 漁師'
+  - name: '48 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: SG-244-255.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: none
+    servername: news.microsoft.com
+  - name: '50 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 129.150.44.64
+    type: vmess
+    port: 46075
+    uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /jhndsmlanj11223
+      headers:
+        Host: news.microsoft.com
+  - name: '52 🇸🇬 Tencent Bu SNI 👾 漁師'
+    server: do5.yyhm9.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /das321
+      headers:
+        Host: news.microsoft.com
+  - name: '53 🇸🇬 Tencent Bu CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: do5.yyhm9.com
+    ws-opts: 
+      path: /das321
+      headers:
+        Host: do5.yyhm9.com
+  - name: '57 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: 54.254.213.176
+    type: vmess
+    port: 443
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '60 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '69 🇸🇬 Tencent Bu SNI 👾 漁師'
+    server: do7.yyhm9.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /book
+      headers:
+        Host: news.microsoft.com
+  - name: '71 🇸🇬 Tencent Bu CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: do7.yyhm9.com
+    ws-opts: 
+      path: /book
+      headers:
+        Host: do7.yyhm9.com
+  - name: '75 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 15.235.192.195
+    type: vmess
+    port: 443
+    uuid: b5a9c7bc-8bdb-4ff3-b03f-96b941c414c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '80 🇸🇬 Linode LL SNI 👾 漁師'
     server: sg.tencent.cfd
     type: vmess
     port: 65529
@@ -31,27 +187,11 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '13 🇸🇬 Contabo As CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 2086
-    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: azstu.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: azstu.cloudflare.quest
-  - name: '30 🇸🇬 DIGITALOCE SNI 👾 漁師'
-    server: 157.230.36.235
+  - name: '98 🇸🇬 AS-CHOOPA SNI 👾 漁師'
+    server: 66.42.59.36
     type: vmess
     port: 443
-    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
     alterId: 0
     cipher: auto
     tls: true
@@ -60,62 +200,14 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /graphql
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
         Host: news.microsoft.com
-  - name: '33 🇸🇬 Linode LL SNI 👾 漁師'
-    server: sg02.170203.xyz
-    type: vmess
-    port: 43543
-    uuid: 72962fac-a602-4031-bcea-9a41910a486b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: 
-      headers:
-        Host: news.microsoft.com
-  - name: '36 🇸🇬 Tencent Bu CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: do9.yyhm9.com
-    ws-opts: 
-      path: /das321S8
-      headers:
-        Host: do9.yyhm9.com
-  - name: '37 🇸🇬 Tencent Bu SNI 👾 漁師'
-    server: do9.yyhm9.com
-    type: vmess
-    port: 443
-    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /das321S8
-      headers:
-        Host: news.microsoft.com
-  - name: '47 🇸🇬 AMAZON-02 SNI 👾 漁師'
+  - name: '101 🇸🇬 AMAZON-02 SNI 👾 漁師'
     server: sg-a.tencent.cfd
     type: vmess
     port: 65528
-    uuid: 4eaa7036-4209-4ba5-a404-bcdeb68e504e
+    uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0
     alterId: 0
     cipher: auto
     tls: true
@@ -127,71 +219,7 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '65 🇸🇬 DIGITALOCE SNI 👾 漁師'
-    server: sg1021.hkaa0.tk
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: news.microsoft.com
-  - name: '73 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg1-v2ray.sshkit.org
-    ws-opts: 
-      path: /sshkit/1736960111/63859b5b38f53/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-  - name: '80 🇸🇬 AMAZON-02 SNI 👾 漁師'
-    server: xin1.mooooobai.top
-    type: vmess
-    port: 15547
-    uuid: 8a256eff-41f4-3cde-961f-c3ecd90ff07a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /usr
-      headers:
-        Host: news.microsoft.com
-  - name: '83 🇸🇬 Tencent Bu SNI 👾 漁師'
-    server: xjp1.mvzaixian3.com
-    type: vmess
-    port: 443
-    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /das3218ssxc
-      headers:
-        Host: news.microsoft.com
-  - name: '89 🇸🇬 Contabo As CDN 👾 漁師'
+  - name: '108 🇸🇬 Contabo As CDN 👾 漁師'
     server: news.microsoft.com
     type: vmess
     port: 2086
@@ -207,19 +235,39 @@ proxies:
       path: /aries
       headers:
         Host: azstu.cloudflare.quest
-  - name: '91 🇸🇬 DIGITALOCE SNI 👾 漁師'
-    server: SG-244-255.shoptunnel.live
+  - name: '109 🇸🇬 Contabo As CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: none
-    servername: news.microsoft.com
-  - name: '92 🇸🇬 G-Core Lab CDN 👾 漁師'
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '120 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg3-v2ray.sshkit.org
+    ws-opts: 
+      path: /sshkit/1736960111/63859bc177a33/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+  - name: '121 🇸🇬 G-Core Lab CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -235,29 +283,1010 @@ proxies:
       path: /shirker
       headers:
         Host: sg-gcore-2.sharecentre.online
-  - name: '6 🇸🇬 Linode LL CDN 👾 漁師'
-    server: news.microsoft.com
-    type: trojan
+  - name: '122 🇸🇬 Tencent Bu SNI 👾 漁師'
+    server: xjp1.mvzaixian3.com
+    type: vmess
     port: 443
-    password: 4X1ebJpQWg
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: sg.yydsdy.top
+    servername: news.microsoft.com
     ws-opts: 
-      path: /c6c05fbac0e4
+      path: /das3218ssxc
       headers:
-        Host: sg.yydsdy.top
-  - name: '15 🇸🇬 Contabo As SNI 👾 漁師'
-    server: 194.233.88.109
-    type: trojan
+        Host: news.microsoft.com
+  - name: '128 🇸🇬 Contabo As CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '173 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg-a.tencent.cfd
+    type: vmess
+    port: 65528
+    uuid: 4eaa7036-4209-4ba5-a404-bcdeb68e504e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '173 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg2.czs1000.com
+    type: vmess
     port: 443
-    password: 123456
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '176 🇸🇬 Contabo As CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '178 🇸🇬 Contabo As CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '185 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1-v2ray.sshkit.org
+    ws-opts: 
+      path: /sshkit/1736960111/63859b5b38f53/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+  - name: '187 🇸🇬 Leaseweb A SNI 👾 漁師'
+    server: 23.106.249.2
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com
+  - name: '191 🇸🇬 Tencent Bu SNI 👾 漁師'
+    server: do9.yyhm9.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /das321S8
+      headers:
+        Host: news.microsoft.com
+  - name: '192 🇸🇬 Tencent Bu CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: do9.yyhm9.com
+    ws-opts: 
+      path: /das321S8
+      headers:
+        Host: do9.yyhm9.com
+  - name: '207 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcssg.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcssgnode
+      headers:
+        Host: gcssg.sylu.cyou
+  - name: '225 🇸🇬 Contabo As CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '231 🇸🇬 MICROSOFT- SNI 👾 漁師'
+    server: sg5.czs1000.com
+    type: vmess
+    port: 21217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '41 🇸🇬 DIGITALOCE SNI 👾 漁師'
+  - name: '238 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg3-v2ray.sshkit.org
+    ws-opts: 
+      path: /sshkit/1736960111/63859bc177a33/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+  - name: '253 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-gcore-2.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: sg-gcore-2.sharecentre.online
+  - name: '258 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-gcore-2.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: sg-gcore-2.sharecentre.online
+  - name: '277 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: 157.230.36.235
+    type: vmess
+    port: 443
+    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: news.microsoft.com
+  - name: '285 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '293 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '305 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: 157.230.244.255
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '306 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sg-lb.vhax.net
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /sshkit/Ertusg86/635014638c264/
+      headers:
+        Host: news.microsoft.com
+  - name: '310 🇸🇬 Linode LL SNI 👾 漁師'
+    server: sg8.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '312 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1-v2ray.sshkit.org
+    ws-opts: 
+      path: /sshkit/1736960111/63859b5b38f53/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+  - name: '320 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '324 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: sg1021.hkaa0.tk
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: news.microsoft.com
+  - name: '351 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 15.235.147.186
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /sshkit/Ertusg86/635014638c264/
+      headers:
+        Host: news.microsoft.com
+  - name: '353 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '358 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '360 🇸🇬 G-Core Lab SNI 👾 漁師'
+    server: gcssg.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /Falling42gcssgnode
+      headers:
+        Host: news.microsoft.com
+  - name: '361 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcssg.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcssgnode
+      headers:
+        Host: gcssg.sylu.cyou
+  - name: '364 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '374 🇸🇬 ORACLE-BMC CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: xjp4h.mayaa.ml
+    ws-opts: 
+      path: /dsadsa1dsadsa33434
+      headers:
+        Host: xjp4h.mayaa.ml
+  - name: '378 🇸🇬 Contabo As CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '382 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '387 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg002.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: df9a431f-c7cb-42ec-b636-a798e1569cb8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: 
+      headers:
+        Host: news.microsoft.com
+  - name: '392 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '395 🇸🇬 MICROSOFT- SNI 👾 漁師'
+    server: sg5.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '399 🇸🇬 ORACLE-BMC CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: xjp4h.mayaa.ml
+    ws-opts: 
+      path: /dsadsa1dsadsa33434
+      headers:
+        Host: xjp4h.mayaa.ml
+  - name: '403 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-gcore-2.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: sg-gcore-2.sharecentre.online
+  - name: '407 🇸🇬 Linode LL SNI 👾 漁師'
+    server: sg02.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: 61118e59-3766-46d7-8868-0dabf8a326ac
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '414 🇸🇬 Linode LL SNI 👾 漁師'
+    server: sg02.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: df9a431f-c7cb-42ec-b636-a798e1569cb8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: 
+      headers:
+        Host: news.microsoft.com
+  - name: '417 🇸🇬 Contabo As CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '418 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '422 🇸🇬 Contabo As SNI 👾 漁師'
+    server: 194.233.81.125
+    type: vmess
+    port: 443
+    uuid: ceb8a921-ec72-4804-ae92-cbd309f2f213
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '442 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '448 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg3-v2ray.sshkit.org
+    ws-opts: 
+      path: /sshkit/1736960111/63859bc177a33/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+  - name: '455 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '458 🇸🇬 HURRICANE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1-v2ray.sshkit.org
+    ws-opts: 
+      path: /sshkit/1736960111/63859b5b38f53/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+  - name: '468 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+    type: vmess
+    port: 443
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '470 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-gcore-2.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: sg-gcore-2.sharecentre.online
+  - name: '498 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '500 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg3.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '504 🇸🇬 Tencent Bu SNI 👾 漁師'
+    server: az.mvzaixian3.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /das2
+      headers:
+        Host: news.microsoft.com
+  - name: '510 🇸🇬 Tencent Bu SNI 👾 漁師'
+    server: do6.yyhm9.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /das321
+      headers:
+        Host: news.microsoft.com
+  - name: '511 🇸🇬 Tencent Bu CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: do6.yyhm9.com
+    ws-opts: 
+      path: /das321
+      headers:
+        Host: do6.yyhm9.com
+  - name: '521 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+    type: vmess
+    port: 4122
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '530 🇸🇬 Contabo As CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 2086
+    uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: azstu.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: azstu.cloudflare.quest
+  - name: '533 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg11.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '536 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '550 🇸🇬 DIGITALOCE CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg1021.hkaa0.tk
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: '554 🇸🇬 G-Core Lab SNI 👾 漁師'
+    server: gcoresg.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /Falling42gcoresgnode
+      headers:
+        Host: news.microsoft.com
+  - name: '555 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcoresg.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcoresgnode
+      headers:
+        Host: gcoresg.sylu.cyou
+  - name: '560 🇸🇬 MICROSOFT- SNI 👾 漁師'
+    server: sg5.czs1000.com
+    type: vmess
+    port: 31217
+    uuid: 5280aa7c-cd42-4b05-ba80-815410411170
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '584 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '46 🇸🇬 Linode LL SNI 👾 漁師'
+    server: 139.162.45.139
+    type: trojan
+    port: 443
+    password: FLpONjB2Lb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '86 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sgt3.sshocean.net
+    type: trojan
+    port: 443
+    password: 10ccaf5d-293c-4ee7-9e76-2ff9e5b2eee9
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '105 🇸🇬 Melbikomas SNI 👾 漁師'
+    server: 5.44.249.44
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: news.microsoft.com
+  - name: '140 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: cm.henet.top
     type: trojan
     port: 30103
@@ -266,7 +1295,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '44 🇸🇬 Linode LL CDN 👾 漁師'
+  - name: '198 🇸🇬 Linode LL CDN 👾 漁師'
     server: news.microsoft.com
     type: trojan
     port: 443
@@ -279,3 +1308,76 @@ proxies:
       path: /c6c05fbac0e4
       headers:
         Host: sg.yydsdy.top
+  - name: '227 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sgt2.sshocean.net
+    type: trojan
+    port: 443
+    password: dbee48ec-3390-4e1c-9d4b-884277d58202
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '326 🇸🇬 Contabo As SNI 👾 漁師'
+    server: 194.233.88.109
+    type: trojan
+    port: 443
+    password: 123456
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '348 🇸🇬 Linode LL CDN 👾 漁師'
+    server: news.microsoft.com
+    type: trojan
+    port: 443
+    password: 4X1ebJpQWg
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg.yydsdy.top
+    ws-opts: 
+      path: /c6c05fbac0e4
+      headers:
+        Host: sg.yydsdy.top
+  - name: '388 🇸🇬 Linode LL CDN 👾 漁師'
+    server: news.microsoft.com
+    type: trojan
+    port: 443
+    password: 4X1ebJpQWg
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg.yydsdy.top
+    ws-opts: 
+      path: /c6c05fbac0e4
+      headers:
+        Host: sg.yydsdy.top
+  - name: '413 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: cm.henet.top
+    type: trojan
+    port: 30004
+    password: 0ab6879a-f523-4f3a-9008-6bee1f08f511
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '476 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sgt3.sshocean.net
+    type: trojan
+    port: 443
+    password: d6530eef-8d92-475f-9d28-e1a36ad7f441
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '357 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg-am3.eqsunshine.com
+    type: ssr
+    port: 32001
+    password: 3g0dHlKME
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: 
+    obfs: tls1.2_ticket_auth
+    obfs-param: obfs=tls;obfs-host=news.microsoft.com
+    udp: true
