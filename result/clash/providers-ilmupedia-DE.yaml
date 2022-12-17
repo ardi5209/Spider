@@ -1,21 +1,5 @@
 proxies:
-  - name: '186 🇩🇪 Linode LL SNI 👾 漁師'
-    server: 172.105.74.134
-    type: vmess
-    port: 37867
-    uuid: 4623f949-e0e4-4d40-d177-049ca6fd7518
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '335 🇩🇪 CLOUDFLARE SNI 👾 漁師'
+  - name: '69 🇩🇪 CLOUDFLARE SNI 👾 漁師'
     server: 49.12.184.152
     type: vmess
     port: 443
@@ -31,12 +15,28 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '410 🇩🇪 myLoc mana SNI 👾 漁師'
-    server: 213.202.233.147
+  - name: '74 🇩🇪 Hetzner On CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
     port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sun.prxpro.cc
+    ws-opts: 
+      path: /p3573l6m92h1ham3q23t
+      headers:
+        Host: sun.prxpro.cc
+  - name: '145 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.250.163
+    type: vmess
+    port: 2096
+    uuid: e175ba8e-f3e8-4ec5-a350-f058537dca8e
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
@@ -44,28 +44,10 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /path/243535322906
+      path: /
       headers:
         Host: news.microsoft.com
-  - name: '5 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider28.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '97 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '193 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '20 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
@@ -74,17 +56,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '294 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: bdvasxmahl.injafarvpnwebelieve.gq
-    type: trojan
-    port: 443
-    password: TvBypqQJ9b
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '348 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.236.127
+  - name: '45 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider9.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: yxGY7A5MczQYg6UqSFx9u78V
@@ -92,11 +65,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '418 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+  - name: '106 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp

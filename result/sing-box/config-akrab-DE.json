@@ -45,23 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "186 🇩🇪 Linode LL SNI 👾 漁師",
-        "335 🇩🇪 CLOUDFLARE SNI 👾 漁師",
-        "410 🇩🇪 myLoc mana SNI 👾 漁師",
-        "5 🇩🇪 Hetzner On SNI 👾 漁師",
-        "97 🇩🇪 Hetzner On SNI 👾 漁師",
-        "193 🇩🇪 Hetzner On SNI 👾 漁師",
-        "294 🇩🇪 DIGITALOCE SNI 👾 漁師",
-        "348 🇩🇪 Hetzner On SNI 👾 漁師",
-        "418 🇩🇪 Hetzner On SNI 👾 漁師"
+        "69 🇩🇪 CLOUDFLARE SNI 👾 漁師",
+        "74 🇩🇪 Hetzner On CDN 👾 漁師",
+        "145 🇩🇪 Hetzner On SNI 👾 漁師",
+        "20 🇩🇪 Hetzner On SNI 👾 漁師",
+        "45 🇩🇪 Hetzner On SNI 👾 漁師",
+        "106 🇩🇪 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "186 🇩🇪 Linode LL SNI 👾 漁師",
-      "server": "172.105.74.134",
-      "server_port": 37867,
-      "uuid": "4623f949-e0e4-4d40-d177-049ca6fd7518",
+      "tag": "69 🇩🇪 CLOUDFLARE SNI 👾 漁師",
+      "server": "49.12.184.152",
+      "server_port": 443,
+      "uuid": "3819d60e-221e-4a3c-ad10-b9b2bd016ad5",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -71,7 +68,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/",
         "headers": {
           "Host": "click.zoom.us"
         }
@@ -79,73 +76,49 @@
     },
     {
       "type": "vmess",
-      "tag": "335 🇩🇪 CLOUDFLARE SNI 👾 漁師",
-      "server": "49.12.184.152",
+      "tag": "74 🇩🇪 Hetzner On CDN 👾 漁師",
+      "server": "hohm.microsoft.com",
       "server_port": 443,
-      "uuid": "3819d60e-221e-4a3c-ad10-b9b2bd016ad5",
+      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "sun.prxpro.cc"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/p3573l6m92h1ham3q23t",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "sun.prxpro.cc"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "410 🇩🇪 myLoc mana SNI 👾 漁師",
-      "server": "213.202.233.147",
-      "server_port": 443,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "tag": "145 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "5.75.250.163",
+      "server_port": 2096,
+      "uuid": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
       "security": "auto",
-      "alter_id": 64,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
-        "path": "/path/243535322906",
+        "path": "/",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "click.zoom.us"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "5 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "content-provider28.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "origin",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "97 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "content-provider9.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "yxGY7A5MczQYg6UqSFx9u78V",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "193 🇩🇪 Hetzner On SNI 👾 漁師",
+      "tag": "20 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "content-provider29.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "origin",
@@ -157,38 +130,26 @@
     },
     {
       "type": "trojan",
-      "tag": "294 🇩🇪 DIGITALOCE SNI 👾 漁師",
-      "server": "bdvasxmahl.injafarvpnwebelieve.gq",
-      "server_port": 443,
-      "password": "TvBypqQJ9b",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "348 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "188.40.236.127",
+      "tag": "45 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "content-provider9.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "yxGY7A5MczQYg6UqSFx9u78V",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
       "type": "trojan",
-      "tag": "418 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "aleph-tj015.thatfreeservicewhicheveryoneuse.uk",
+      "tag": "106 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "content-provider28.cdn-delivery.akamaicd.com",
       "server_port": 443,
-      "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
+      "password": "origin",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     }
   ],
