@@ -1,17 +1,25 @@
 proxies:
-  - name: '178 🇦🇹 CLOUDFLARE SNI 👾 漁師'
-    server: 49.12.184.152
+  - name: '134 🇦🇹 Hohl IT e. SNI 👾 漁師'
+    server: 94.177.8.87
     type: vmess
-    port: 443
-    uuid: 3819d60e-221e-4a3c-ad10-b9b2bd016ad5
+    port: 38746
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
+  - name: '317 🇦🇹 Hohl IT e. SNI 👾 漁師'
+    server: 94.177.8.87
+    type: vmess
+    port: 38746
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com

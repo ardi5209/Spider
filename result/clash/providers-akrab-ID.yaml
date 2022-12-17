@@ -1,9 +1,9 @@
 proxies:
-  - name: '61 🇮🇩 PT Linkgo  SNI 👾 漁師'
+  - name: '40 🇮🇩 PT Linkgo  SNI 👾 漁師'
     server: id-v.sshmax.xyz
     type: vmess
     port: 443
-    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
     alterId: 0
     cipher: auto
     tls: true
@@ -15,7 +15,23 @@ proxies:
       path: /vmess
       headers:
         Host: click.zoom.us
-  - name: '62 🇮🇩 PT Linkgo  CDN 👾 漁師'
+  - name: '42 🇮🇩 PT Linkgo  CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: id-v.sshmax.xyz
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: id-v.sshmax.xyz
+  - name: '105 🇮🇩 PT Linkgo  CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -31,7 +47,73 @@ proxies:
       path: /vmess
       headers:
         Host: id-v.sshmax.xyz
-  - name: '91 🇮🇩 PT Industr SNI 👾 漁師'
+  - name: '107 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: id-v.sshmax.xyz
+    type: vmess
+    port: 443
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: safebrowsing.google.com
+  - name: '255 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: 103.157.27.148
+    type: vmess
+    port: 443
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: safebrowsing.google.com
+  - name: '397 🇮🇩 PT Industr CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 781be00e-1e09-4e27-a464-e14197418c8f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: id5.v2rayserv.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: id5.v2rayserv.com
+  - name: '139 🇮🇩 Media Anta SNI 👾 漁師'
+    server: 38.9.140.66
+    type: trojan
+    port: 443
+    password: vvip-periantara
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '170 🇮🇩 Media Anta SNI 👾 漁師'
+    server: id3tr.jagoan.vip
+    type: trojan
+    port: 443
+    password: vvip-periantara
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '413 🇮🇩 PT Industr SNI 👾 漁師'
     server: 103.167.34.206
     type: trojan
     port: 443
@@ -39,4 +121,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
