@@ -101,13 +101,13 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-334 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-164 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,14 +118,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "f1f3227.v1.glados-config.net",
-            "port": 3331,
+            "address": "1.171.191.234",
+            "port": 224,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
                 "level": 8,
                 "security": "auto"
               }
@@ -134,8 +134,36 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-166 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "211.72.35.154",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4bacb8f1a089763b",
+            "port": 3306
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
@@ -144,66 +172,10 @@
           "headers": {
             "Host": "image-upload4.spotify.com"
           },
-          "path": "/s/f1f3227.fm.apple.com:111548"
+          "path": "/gateway/connect"
         }
       },
-      "tag": "proxy-389 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "fhost-tapi01.zlhost.xyz",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e198c059-18e0-4c5e-8358-b4b7850d4d86",
-            "port": 17005
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-114 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "fhost-tapi03.zlhost.xyz",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e198c059-18e0-4c5e-8358-b4b7850d4d86",
-            "port": 17005
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-199 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-168 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

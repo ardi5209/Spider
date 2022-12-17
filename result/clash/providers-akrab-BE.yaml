@@ -1,17 +1,33 @@
 proxies:
-  - name: '321 🇧🇪 OVH SAS SNI 👾 漁師'
+  - name: '28 🇧🇪 OVH SAS SNI 👾 漁師'
     server: 51.77.230.27
     type: vmess
     port: 50728
     uuid: 58362f48-b66c-4fec-a91e-25714d4ff299
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     network: ws
     servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
         Host: config.teams.microsoft.com
+  - name: '135 🇧🇪 Unknown CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: lvryzenkvm1gb.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: lvryzenkvm1gb.sharecentre.online
