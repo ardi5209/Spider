@@ -45,21 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "42 🇵🇭 HONG KONG  SNI 👾 漁師"
+        "138 🇵🇭 IP-Converg SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "42 🇵🇭 HONG KONG  SNI 👾 漁師",
-      "server": "109.248.19.132",
-      "server_port": 32189,
-      "uuid": "63d1a93e-1916-4396-a476-ae623f2d3834",
+      "tag": "138 🇵🇭 IP-Converg SNI 👾 漁師",
+      "server": "ph1.netflix6.com",
+      "server_port": 443,
+      "uuid": "a1279cd2-04c7-3e0e-a2cb-01859e829570",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/ph1.m3u8",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],

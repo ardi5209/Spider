@@ -80,28 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "aut1.sshocean.net",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "fe100e71-1dcf-48d7-90ea-5809db9ce6cf",
-            "port": 443
+            "address": "v2au1.594888.xyz",
+            "port": 34561,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a1279cd2-04c7-3e0e-a2cb-01859e829570",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/v2ray"
         }
       },
-      "tag": "proxy-77 🇦🇺 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-181 🇦🇺 UpCloud Lt SNI 👾 漁師"
     },
     {
       "mux": {
@@ -112,7 +124,7 @@
       "settings": {
         "servers": [
           {
-            "address": "152.67.98.30",
+            "address": "jgwxn4.gaox.ml",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -126,10 +138,10 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-153 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-32 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {

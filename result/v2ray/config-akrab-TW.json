@@ -80,78 +80,62 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "fhost-tapi03.zlhost.xyz",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e198c059-18e0-4c5e-8358-b4b7850d4d86",
-            "port": 17005
+            "address": "1.171.191.234",
+            "port": 224,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "tcp",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-35 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-2 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "fhost-tapi01.zlhost.xyz",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e198c059-18e0-4c5e-8358-b4b7850d4d86",
-            "port": 17005
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        }
-      },
-      "tag": "proxy-194 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "211.72.35.154",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "4bacb8f1a089763b",
-            "port": 3306
+            "address": "tw3.594888.xyz",
+            "port": 25551,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a1279cd2-04c7-3e0e-a2cb-01859e829570",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "config.teams.microsoft.com"
@@ -160,10 +144,10 @@
           "headers": {
             "Host": "config.teams.microsoft.com"
           },
-          "path": "/gateway/connect"
+          "path": "/v2ray"
         }
       },
-      "tag": "proxy-310 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-5 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {
