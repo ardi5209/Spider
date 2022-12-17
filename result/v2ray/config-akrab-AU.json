@@ -80,6 +80,46 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "v2au1.594888.xyz",
+            "port": 34561,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "66f1da4b-65e5-37e1-9e7b-24a72af164d8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/v2ray"
+        }
+      },
+      "tag": "proxy-174 🇦🇺 UpCloud Lt SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -98,10 +138,10 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-228 🇦🇺 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-209 🇦🇺 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -112,12 +152,12 @@
       "settings": {
         "servers": [
           {
-            "address": "152.67.98.30",
+            "address": "jgwxn3.gaox.ml",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+            "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
             "port": 443
           }
         ]
@@ -126,10 +166,10 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-313 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-252 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {

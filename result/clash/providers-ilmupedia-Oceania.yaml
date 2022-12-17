@@ -1,5 +1,21 @@
 proxies:
-  - name: '228 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '174 🇦🇺 UpCloud Lt SNI 👾 漁師'
+    server: v2au1.594888.xyz
+    type: vmess
+    port: 34561
+    uuid: 66f1da4b-65e5-37e1-9e7b-24a72af164d8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '209 🇦🇺 OVH SAS SNI 👾 漁師'
     server: aut1.sshocean.net
     type: trojan
     port: 443
@@ -8,11 +24,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '313 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.98.30
+  - name: '252 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
     type: trojan
     port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
     udp: true
     skip-cert-verify: true
     network: tcp

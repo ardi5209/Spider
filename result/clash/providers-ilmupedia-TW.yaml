@@ -1,9 +1,25 @@
 proxies:
-  - name: '309 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw1.sanfen001.pics
+  - name: '64 🇹🇼 Data Commu CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
     port: 443
-    uuid: 34f3a23d-bb24-4e68-8e51-60c49b503bdf
+    uuid: 66f1da4b-65e5-37e1-9e7b-24a72af164d8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hinet.nbsd.win
+    ws-opts: 
+      path: /videos/stream
+      headers:
+        Host: hinet.nbsd.win
+  - name: '122 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw2.594888.xyz
+    type: vmess
+    port: 25551
+    uuid: 66f1da4b-65e5-37e1-9e7b-24a72af164d8
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +28,18 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /zh-cn
+      path: /v2ray
       headers:
         Host: news.microsoft.com
+  - name: '140 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 117.164.185.222
+    type: vmess
+    port: 16130
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
