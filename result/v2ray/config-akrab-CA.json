@@ -84,6 +84,40 @@
       "settings": {
         "vnext": [
           {
+            "address": "CA-177-89.shoptunnel.live",
+            "port": 31990,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a6a37e04-5e81-44c9-be53-baa3ff46eb8b",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-70 🇨🇦 AS-CHOOPA SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "35.182.165.120",
             "port": 443,
             "users": [
@@ -104,16 +138,72 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "config.teams.microsoft.com"
+            "Host": "safebrowsing.google.com"
           },
           "path": "/v2ray"
         }
       },
-      "tag": "proxy-91 🇨🇦 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-284 🇨🇦 AMAZON-02 SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "cat1.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        }
+      },
+      "tag": "proxy-92 🇨🇦 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "cat1.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-296 🇨🇦 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -138,38 +228,10 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-46 🇨🇦 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "148.113.141.99",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "HdsUZmsHQW",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
-        }
-      },
-      "tag": "proxy-90 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-373 🇨🇦 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

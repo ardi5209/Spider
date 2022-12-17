@@ -1,21 +1,21 @@
 proxies:
-  - name: '189 🇹🇼 Data Commu SNI 👾 漁師'
-    server: f1f3227.v8.glados-config.net
+  - name: '20 🇹🇼 Data Commu CDN 👾 漁師'
+    server: news.microsoft.com
     type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    port: 443
+    uuid: 27995755-50ca-3206-9cb0-9b525981ba1f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: news.microsoft.com
+    servername: hinet.nbsd.win
     ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /videos/stream
       headers:
-        Host: news.microsoft.com
-  - name: '220 🇹🇼 Data Commu SNI 👾 漁師'
+        Host: hinet.nbsd.win
+  - name: '49 🇹🇼 Data Commu SNI 👾 漁師'
     server: 1.171.191.234
     type: vmess
     port: 224
@@ -27,3 +27,84 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
+  - name: '74 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw3.594888.xyz
+    type: vmess
+    port: 25551
+    uuid: 27995755-50ca-3206-9cb0-9b525981ba1f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '265 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: 165.154.226.95
+    type: vmess
+    port: 38526
+    uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /ny
+      headers:
+        Host: news.microsoft.com
+  - name: '351 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '449 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '454 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '195 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: news.microsoft.com

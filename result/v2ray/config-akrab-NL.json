@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "79.137.207.88",
+            "address": "79.137.207.202",
             "port": 38746,
             "users": [
               {
@@ -104,10 +104,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-38 🇳🇱 AEZA GROUP SNI 👾 漁師"
+      "tag": "proxy-32 🇳🇱 AEZA GROUP SNI 👾 漁師"
     },
     {
       "mux": {
@@ -147,7 +147,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-56 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-77 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -178,10 +178,50 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-124 🇳🇱 AEZA GROUP SNI 👾 漁師"
+      "tag": "proxy-106 🇳🇱 AEZA GROUP SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "amshare.jingledev.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "amshare.jingledev.me"
+          },
+          "path": "/pkhhvws"
+        }
+      },
+      "tag": "proxy-163 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -212,10 +252,174 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        }
+      },
+      "tag": "proxy-270 🇳🇱 AEZA GROUP SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "amshare.jingledev.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "amshare.jingledev.me"
+          },
+          "path": "/pkhhvws"
+        }
+      },
+      "tag": "proxy-357 🇳🇱 DIGITALOCE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "amshare.jingledev.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "amshare.jingledev.me"
+          },
+          "path": "/pkhhvws"
+        }
+      },
+      "tag": "proxy-390 🇳🇱 DIGITALOCE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "185.212.200.75",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "Sp3eDVp",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        }
+      },
+      "tag": "proxy-28 🇳🇱 AS40676 SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "142.93.235.234",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "9a5d3d87-563e-4a27-b579-6d146718aa66",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
           "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-170 🇳🇱 AEZA GROUP SNI 👾 漁師"
+      "tag": "proxy-98 🇳🇱 DIGITALOCE SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "185.212.200.74",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "Sp3eDVp",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-299 🇳🇱 AS40676 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -240,10 +444,10 @@
         "network": "tcp",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-116 🇳🇱 AS40676 SNI 👾 漁師"
+      "tag": "proxy-312 🇳🇱 AS40676 SNI 👾 漁師"
     },
     ""
   ],
