@@ -1,5 +1,37 @@
 proxies:
-  - name: '6 🇱🇺 PONYNET SNI 👾 漁師'
+  - name: '10 🇱🇺 PONYNET CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: lu1.gogogoo.cyou
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+  - name: '215 🇱🇺 Unknown CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hk.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: '229 🇱🇺 PONYNET SNI 👾 漁師'
     server: 104.244.73.218
     type: vmess
     port: 443
@@ -15,8 +47,8 @@ proxies:
       path: /v2ray
       headers:
         Host: news.microsoft.com
-  - name: '141 🇱🇺 PONYNET CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '260 🇱🇺 PONYNET CDN 👾 漁師'
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
@@ -31,35 +63,3 @@ proxies:
       path: /imkcpyyds
       headers:
         Host: buyvm.imkcp.eu.org
-  - name: '200 🇱🇺 Unknown CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '265 🇱🇺 PONYNET CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: lu1.gogogoo.cyou
-    ws-opts: 
-      path: /go
-      headers:
-        Host: lu1.gogogoo.cyou

@@ -1,45 +1,30 @@
 proxies:
-  - name: '64 🇹🇼 Data Commu CDN 👾 漁師'
-    server: hohm.microsoft.com
+  - name: '4 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: 165.154.226.95
     type: vmess
-    port: 443
-    uuid: 66f1da4b-65e5-37e1-9e7b-24a72af164d8
+    port: 38526
+    uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: hinet.nbsd.win
-    ws-opts: 
-      path: /videos/stream
-      headers:
-        Host: hinet.nbsd.win
-  - name: '122 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw2.594888.xyz
-    type: vmess
-    port: 25551
-    uuid: 66f1da4b-65e5-37e1-9e7b-24a72af164d8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '140 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 117.164.185.222
-    type: vmess
-    port: 16130
-    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
     servername: safebrowsing.google.com
+    ws-opts: 
+      path: /ny
+      headers:
+        Host: safebrowsing.google.com
+  - name: '199 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: click.zoom.us
