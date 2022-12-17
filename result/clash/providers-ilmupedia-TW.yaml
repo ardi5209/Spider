@@ -1,9 +1,9 @@
 proxies:
-  - name: '104 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw02.henet.top
+  - name: '81 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: 165.154.226.95
     type: vmess
-    port: 20000
-    uuid: 0ab6879a-f523-4f3a-9008-6bee1f08f511
+    port: 38526
+    uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
     alterId: 0
     cipher: auto
     tls: true
@@ -12,40 +12,6 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /live
+      path: /ny
       headers:
         Host: news.microsoft.com
-  - name: '123 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw4.594888.xyz
-    type: vmess
-    port: 11463
-    uuid: 9d03b291-57eb-3d34-9153-320f690ce0e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: news.microsoft.com
-  - name: '7 🇹🇼 Data Commu SNI 👾 漁師'
-    server: cm.henet.top
-    type: trojan
-    port: 30105
-    password: 0ab6879a-f523-4f3a-9008-6bee1f08f511
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '37 🇹🇼 Data Commu SNI 👾 漁師'
-    server: cm1.henet.top
-    type: trojan
-    port: 30105
-    password: 0ab6879a-f523-4f3a-9008-6bee1f08f511
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com

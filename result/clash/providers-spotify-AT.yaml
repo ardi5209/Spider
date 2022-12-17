@@ -1,13 +1,17 @@
 proxies:
-  - name: '126 🇦🇹 Hohl IT e. SNI 👾 漁師'
-    server: 94.177.8.87
+  - name: '178 🇦🇹 CLOUDFLARE SNI 👾 漁師'
+    server: 49.12.184.152
     type: vmess
-    port: 38746
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 443
+    uuid: 3819d60e-221e-4a3c-ad10-b9b2bd016ad5
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
