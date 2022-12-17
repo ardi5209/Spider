@@ -45,21 +45,91 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "18 🇯🇵 AMAZON-02 SNI 👾 漁師",
-        "67 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "40 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "54 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "56 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "71 🇯🇵 MIKU NETWO SNI 👾 漁師",
-        "170 🇯🇵 MIKU NETWO SNI 👾 漁師"
+        "14 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "26 🇯🇵 xTom SNI 👾 漁師",
+        "28 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "33 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "57 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "72 🇯🇵 Linode LL SNI 👾 漁師",
+        "79 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "80 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "118 🇯🇵 Linode LL SNI 👾 漁師",
+        "128 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "132 🇯🇵 Linode LL SNI 👾 漁師",
+        "15 🇯🇵 MIKU NETWO SNI 👾 漁師",
+        "35 🇯🇵 MIKU NETWO SNI 👾 漁師",
+        "82 🇯🇵 AMAZON-02 SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "18 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "tag": "14 🇯🇵 AMAZON-02 SNI 👾 漁師",
       "server": "jp04.170203.xyz",
       "server_port": 23245,
-      "uuid": "a370f173-0cc6-4548-93df-8a01afa4d8df",
+      "uuid": "61118e59-3766-46d7-8868-0dabf8a326ac",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "26 🇯🇵 xTom SNI 👾 漁師",
+      "server": "jp24.czs1000.com",
+      "server_port": 11217,
+      "uuid": "c2479daf-7fe7-409a-b31c-c2f856487d50",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "28 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "152.69.197.60",
+      "server_port": 1069,
+      "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "33 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "138.2.44.211",
+      "server_port": 20081,
+      "uuid": "593b8525-0c48-4b0f-d9af-2d73a9148973",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "57 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp02.170203.xyz",
+      "server_port": 23245,
+      "uuid": "61118e59-3766-46d7-8868-0dabf8a326ac",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -69,7 +139,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "",
         "headers": {
           "Host": "click.zoom.us"
         }
@@ -77,12 +147,12 @@
     },
     {
       "type": "vmess",
-      "tag": "67 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "138.2.44.211",
-      "server_port": 20081,
-      "uuid": "593b8525-0c48-4b0f-d9af-2d73a9148973",
+      "tag": "72 🇯🇵 Linode LL SNI 👾 漁師",
+      "server": "jp1.czs1000.com",
+      "server_port": 4144,
+      "uuid": "c2479daf-7fe7-409a-b31c-c2f856487d50",
       "security": "auto",
-      "alter_id": 64,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -90,44 +160,99 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "40 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "150.230.217.213",
-      "server_port": 443,
-      "password": "c09eb137-bf68-4658-84e0-102d94b74168",
+      "type": "vmess",
+      "tag": "79 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "ri2.mooooobai.top",
+      "server_port": 15142,
+      "uuid": "8a256eff-41f4-3cde-961f-c3ecd90ff07a",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
-        "enabled": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/usr",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "80 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp04.170203.xyz",
+      "server_port": 23245,
+      "uuid": "a370f173-0cc6-4548-93df-8a01afa4d8df",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "118 🇯🇵 Linode LL SNI 👾 漁師",
+      "server": "jp19.czs1000.com",
+      "server_port": 6633,
+      "uuid": "c2479daf-7fe7-409a-b31c-c2f856487d50",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "128 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp5.czs1000.com",
+      "server_port": 11217,
+      "uuid": "c2479daf-7fe7-409a-b31c-c2f856487d50",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "132 🇯🇵 Linode LL SNI 👾 漁師",
+      "server": "jp3.czs1000.com",
+      "server_port": 8886,
+      "uuid": "c2479daf-7fe7-409a-b31c-c2f856487d50",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
         "insecure": true,
         "server_name": "safebrowsing.google.com"
       }
     },
     {
       "type": "trojan",
-      "tag": "54 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "jgwdj4.gaox.ml",
-      "server_port": 443,
-      "password": "c09eb137-bf68-4658-84e0-102d94b74168",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "56 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "150.230.96.103",
-      "server_port": 443,
-      "password": "da777aae-defb-41d0-a183-2c27da2b4677",
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "71 🇯🇵 MIKU NETWO SNI 👾 漁師",
+      "tag": "15 🇯🇵 MIKU NETWO SNI 👾 漁師",
       "server": "zzjp01.fuqiangren.com",
       "server_port": 20220,
       "password": "6d595620-e1b2-48e1-b60c-5b2322968a11",
@@ -139,15 +264,27 @@
     },
     {
       "type": "trojan",
-      "tag": "170 🇯🇵 MIKU NETWO SNI 👾 漁師",
+      "tag": "35 🇯🇵 MIKU NETWO SNI 👾 漁師",
       "server": "zzjp01.fuqiangren.com",
-      "server_port": 20221,
-      "password": "6d595620-e1b2-48e1-b60c-5b2322968a11",
+      "server_port": 20220,
+      "password": "d079b7f5-3a0c-48a5-8b59-67d986bba6b0",
       "tls": {
         "enabled": false,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
+    },
+    {
+      "type": "shadowsocksr",
+      "tag": "82 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp-am48-6.eqnode.net",
+      "server_port": 8081,
+      "method": "aes-256-cfb",
+      "password": "eAokbaDN6",
+      "obfs": "tls1.2_ticket_auth",
+      "obfs_param": "obfs=tls;obfs-host=config.teams.microsoft.com",
+      "protocol": "origin",
+      "protocol_param": ""
     }
   ],
   "route": {

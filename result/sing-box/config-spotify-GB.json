@@ -45,15 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "39 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "173 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "10 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "48 🇬🇧 Hydra Comm SNI 👾 漁師"
+        "53 🇬🇧 OVH SAS SNI 👾 漁師",
+        "95 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "127 🇬🇧 Linode LL SNI 👾 漁師",
+        "62 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "101 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "39 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "53 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "51.75.160.126",
+      "server_port": 443,
+      "uuid": "2ed33a1b-5c47-4c4e-8473-eea30c2d337f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "95 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
       "server_port": 29210,
       "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
@@ -67,21 +89,28 @@
     },
     {
       "type": "vmess",
-      "tag": "173 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "tag": "127 🇬🇧 Linode LL SNI 👾 漁師",
+      "server": "gb1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "c2479daf-7fe7-409a-b31c-c2f856487d50",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "10 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "tag": "62 🇬🇧 Hydra Comm SNI 👾 漁師",
       "server": "185.16.206.211",
       "server_port": 443,
       "password": "shefelnak",
@@ -93,8 +122,8 @@
     },
     {
       "type": "trojan",
-      "tag": "48 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider20.cdn-delivery.akamaicd.com",
+      "tag": "101 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider21.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {

@@ -1,30 +1,13 @@
 proxies:
-  - name: '4 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: 165.154.226.95
+  - name: '135 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: tw3.czs1000.com
     type: vmess
-    port: 38526
-    uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
+    port: 1001
+    uuid: c2479daf-7fe7-409a-b31c-c2f856487d50
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /ny
-      headers:
-        Host: news.microsoft.com
-  - name: '199 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 211.72.35.154
-    type: trojan
-    port: 3306
-    password: 4bacb8f1a089763b
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /gateway/connect
-      headers:
-        Host: news.microsoft.com
