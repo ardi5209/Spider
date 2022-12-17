@@ -45,16 +45,18 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "32 🇫🇮 CLOUDFLARE SNI 👾 漁師",
-        "48 🇫🇮 Hetzner On SNI 👾 漁師"
+        "62 🇫🇮 Hetzner On SNI 👾 漁師",
+        "173 🇫🇮 Oy Crea No SNI 👾 漁師",
+        "311 🇫🇮 Hetzner On SNI 👾 漁師",
+        "407 🇫🇮 CLOUDFLARE SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "32 🇫🇮 CLOUDFLARE SNI 👾 漁師",
-      "server": "65.109.129.15",
-      "server_port": 25459,
-      "uuid": "ead3843c-d06a-4224-88db-8946e448de6b",
+      "tag": "62 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "65.109.5.94",
+      "server_port": 10693,
+      "uuid": "38cb0897-c457-4f91-c1ef-700f38928942",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -72,10 +74,52 @@
     },
     {
       "type": "vmess",
-      "tag": "48 🇫🇮 Hetzner On SNI 👾 漁師",
-      "server": "65.109.5.94",
-      "server_port": 10693,
-      "uuid": "38cb0897-c457-4f91-c1ef-700f38928942",
+      "tag": "173 🇫🇮 Oy Crea No SNI 👾 漁師",
+      "server": "37.143.129.238",
+      "server_port": 6616,
+      "uuid": "e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "311 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "135.181.235.21",
+      "server_port": 34303,
+      "uuid": "1ce52047-ad8a-4ef3-cdcd-46ff29b262fb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "407 🇫🇮 CLOUDFLARE SNI 👾 漁師",
+      "server": "65.109.129.15",
+      "server_port": 25459,
+      "uuid": "ead3843c-d06a-4224-88db-8946e448de6b",
       "security": "auto",
       "alter_id": 0,
       "tls": {

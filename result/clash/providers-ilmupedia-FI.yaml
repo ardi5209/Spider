@@ -1,9 +1,9 @@
 proxies:
-  - name: '32 🇫🇮 CLOUDFLARE SNI 👾 漁師'
-    server: 65.109.129.15
+  - name: '62 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 65.109.5.94
     type: vmess
-    port: 25459
-    uuid: ead3843c-d06a-4224-88db-8946e448de6b
+    port: 10693
+    uuid: 38cb0897-c457-4f91-c1ef-700f38928942
     alterId: 0
     cipher: auto
     tls: true
@@ -15,11 +15,43 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '48 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 65.109.5.94
+  - name: '173 🇫🇮 Oy Crea No SNI 👾 漁師'
+    server: 37.143.129.238
     type: vmess
-    port: 10693
-    uuid: 38cb0897-c457-4f91-c1ef-700f38928942
+    port: 6616
+    uuid: e0fb2c7f-9ab3-4290-b9d8-7a60af2cd47f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '311 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
+    type: vmess
+    port: 34303
+    uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '407 🇫🇮 CLOUDFLARE SNI 👾 漁師'
+    server: 65.109.129.15
+    type: vmess
+    port: 25459
+    uuid: ead3843c-d06a-4224-88db-8946e448de6b
     alterId: 0
     cipher: auto
     tls: true
