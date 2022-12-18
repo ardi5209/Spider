@@ -1,0 +1,124 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "error",
+    "output": "",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "cloudflare",
+        "address": "1.1.1.1",
+        "detour": "direct-out"
+      }
+    ],
+    "final": "cloudflare",
+    "strategy": "prefer_ipv4",
+    "disable_cache": false,
+    "disable_expire": false
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 10800,
+      "domain_strategy": "prefer_ipv4",
+      "set_system_proxy": false
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "156 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "51 🇨🇦 OVH SAS SNI 👾 漁師",
+        "90 🇨🇦 OVH SAS SNI 👾 漁師"
+      ]
+    },
+    {
+      "type": "vmess",
+      "tag": "156 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "server": "35.182.165.120",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "api.midtrans.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "api.midtrans.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "51 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "cat1.sshocean.net",
+      "server_port": 443,
+      "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "api.midtrans.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "90 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "148.113.141.99",
+      "server_port": 443,
+      "password": "HdsUZmsHQW",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "api.midtrans.com"
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "tcp",
+        "outbound": "select"
+      },
+      {
+        "network": "udp",
+        "outbound": "select"
+      }
+    ],
+    "geoip": {
+      "path": "./geoip.db",
+      "download_detour": "direct-out"
+    },
+    "geosite": {
+      "path": "./geosite.db",
+      "download_detour": "direct-out"
+    },
+    "final": "select"
+  }
+}

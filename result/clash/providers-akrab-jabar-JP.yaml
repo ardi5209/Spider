@@ -1,5 +1,45 @@
 proxies:
-  - name: '98 🇯🇵 Linode LL CDN 👾 漁師'
+  - name: '12 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.44.211
+    type: vmess
+    port: 20081
+    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: api.midtrans.com
+  - name: '48 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp02.170203.xyz
+    type: vmess
+    port: 23245
+    uuid: a257a83f-d6d4-4bc0-9cc9-10484348ee8f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.midtrans.com
+    ws-opts: 
+      path: 
+      headers:
+        Host: api.midtrans.com
+  - name: '73 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.44.211
+    type: vmess
+    port: 20081
+    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: api.midtrans.com
+  - name: '75 🇯🇵 Linode LL CDN 👾 漁師'
     server: 172.67.199.34
     type: vmess
     port: 443
@@ -15,8 +55,40 @@ proxies:
       path: /
       headers:
         Host: v2.583181.xyz
-  - name: '148 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: 172.67.199.34
+  - name: '76 🇯🇵 Linode LL SNI 👾 漁師'
+    server: v2.583181.xyz
+    type: vmess
+    port: 443
+    uuid: 0c715bce-b12f-42c6-84c8-eeb10311378c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.midtrans.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: api.midtrans.com
+  - name: '115 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: suzhihan.eu.org
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.midtrans.com
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: api.midtrans.com
+  - name: '116 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: 104.18.21.226
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -31,3 +103,65 @@ proxies:
       path: /roewesu
       headers:
         Host: suzhihan.eu.org
+  - name: '118 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.49.230
+    type: vmess
+    port: 10021
+    uuid: a12e496e-f89a-434a-8011-108846f0e412
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.midtrans.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: api.midtrans.com
+  - name: '134 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 141.147.181.219
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.midtrans.com
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: api.midtrans.com
+  - name: '148 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.44.211
+    type: vmess
+    port: 20081
+    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: api.midtrans.com
+  - name: '71 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.45.243
+    type: trojan
+    port: 443
+    password: c19d1432-8b3e-4818-8837-3d160cf65908
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: api.midtrans.com
+  - name: '140 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: tennouji.mike22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: api.midtrans.com

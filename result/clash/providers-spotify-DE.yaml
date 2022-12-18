@@ -1,26 +1,17 @@
 proxies:
-  - name: '191 🇩🇪 Linode LL SNI 👾 漁師'
-    server: 172.105.74.134
+  - name: '159 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 37867
-    uuid: 4623f949-e0e4-4d40-d177-049ca6fd7518
+    port: 443
+    uuid: 9bd493b0-f91e-4059-ef7c-9e2b3da5f26d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: image-upload4.spotify.com
+    servername: de100.tehvp.xyz
     ws-opts: 
-      path: /vmess
+      path: /
       headers:
-        Host: image-upload4.spotify.com
-  - name: '29 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+        Host: de100.tehvp.xyz
