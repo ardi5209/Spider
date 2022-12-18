@@ -1,21 +1,37 @@
 proxies:
-  - name: '47 🇳🇱 DIGITALOCE CDN 👾 漁師'
+  - name: '23 🇳🇱 CLOUDFLARE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: amshare.jingledev.me
+    servername: scw.cloudflare.quest
     ws-opts: 
-      path: /pkhhvws
+      path: /aries
       headers:
-        Host: amshare.jingledev.me
-  - name: '108 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+        Host: scw.cloudflare.quest
+  - name: '48 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 104.18.21.226
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '167 🇳🇱 CLOUDFLARE CDN 👾 漁師'
     server: 172.67.199.34
     type: vmess
     port: 2086
@@ -31,8 +47,8 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '129 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.18.21.226
+  - name: '173 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 172.67.199.34
     type: vmess
     port: 2086
     uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
@@ -47,8 +63,8 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '154 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.18.10.39
+  - name: '185 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 172.67.199.34
     type: vmess
     port: 2086
     uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
@@ -63,62 +79,14 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '181 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.18.10.39
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '92 🇳🇱 DIGITALOCE SNI 👾 漁師'
+    server: 167.99.214.62
+    type: ssr
+    port: 11909
+    password: azadi2030
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: 
+    obfs: http_simple
+    obfs-param: obfs=http;obfs-host=api.midtrans.com
     udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '184 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: 104.18.21.226
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: amshare.jingledev.me
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-  - name: '52 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider14.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: api.midtrans.com
-  - name: '87 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.65
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: api.midtrans.com
-  - name: '186 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.66
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: api.midtrans.com

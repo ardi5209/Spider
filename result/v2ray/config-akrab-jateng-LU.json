@@ -104,6 +104,46 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
+          "serverName": "buyvm.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "buyvm.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-35 🇱🇺 PONYNET CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
           "serverName": "BuyVM.CLOUDFLARE.QUEST"
         },
         "wsSettings": {
@@ -113,7 +153,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-36 🇱🇺 PONYNET CDN 👾 漁師"
+      "tag": "proxy-162 🇱🇺 PONYNET CDN 👾 漁師"
     }
   ],
   "dns": {

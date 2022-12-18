@@ -1,22 +1,38 @@
 proxies:
-  - name: '145 🇩🇪 OVH SAS CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '65 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: 206.81.31.184
     type: vmess
-    port: 443
-    uuid: 9bd493b0-f91e-4059-ef7c-9e2b3da5f26d
+    port: 6245
+    uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: de100.tehvp.xyz
+    servername: news.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: de100.tehvp.xyz
-  - name: '96 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider29.cdn-delivery.akamaicd.com
+        Host: news.microsoft.com
+  - name: '116 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 168.119.178.182
+    type: vmess
+    port: 16014
+    uuid: 5740f1b8-3dee-4bba-9a80-ad57f0ce0380
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '152 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: origin
