@@ -1,54 +1,38 @@
 proxies:
-  - name: '78 🇱🇺 PONYNET SNI 👾 漁師'
-    server: 104.244.73.218
+  - name: '15 🇱🇺 PONYNET CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 2086
+    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: BuyVM.CLOUDFLARE.QUEST
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: BuyVM.CLOUDFLARE.QUEST
+  - name: '103 🇱🇺 PONYNET CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
     port: 443
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: image-upload4.spotify.com
+    servername: buyvm.imkcp.eu.org
     ws-opts: 
-      path: /v2ray
+      path: /imkcpyyds
       headers:
-        Host: image-upload4.spotify.com
-  - name: '112 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '115 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '130 🇱🇺 PONYNET SNI 👾 漁師'
-    server: 107.189.28.253
+        Host: buyvm.imkcp.eu.org
+  - name: '253 🇱🇺 PONYNET SNI 👾 漁師'
+    server: buyvm.oppo.quest
     type: vmess
     port: 2086
     uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
@@ -63,3 +47,19 @@ proxies:
       path: /aries
       headers:
         Host: image-upload4.spotify.com
+  - name: '373 🇱🇺 PONYNET CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: lu1.gogogoo.cyou
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
