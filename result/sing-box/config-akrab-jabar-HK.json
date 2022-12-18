@@ -45,13 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "11 🇭🇰 Global Int CDN 👾 漁師",
-        "132 🇭🇰 Global Int CDN 👾 漁師"
+        "16 🇭🇰 Global Int CDN 👾 漁師",
+        "22 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "47 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "79 🇭🇰 Global Int CDN 👾 漁師",
+        "150 🇭🇰 Global Int CDN 👾 漁師",
+        "202 🇭🇰 Global Int CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "11 🇭🇰 Global Int CDN 👾 漁師",
+      "tag": "16 🇭🇰 Global Int CDN 👾 漁師",
       "server": "172.67.199.34",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -72,7 +76,91 @@
     },
     {
       "type": "vmess",
-      "tag": "132 🇭🇰 Global Int CDN 👾 漁師",
+      "tag": "22 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "172.67.199.34",
+      "server_port": 2086,
+      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorehk.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "gcorehk.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "47 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "172.67.199.34",
+      "server_port": 2086,
+      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorehk.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "gcorehk.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "79 🇭🇰 Global Int CDN 👾 漁師",
+      "server": "172.67.199.34",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "150 🇭🇰 Global Int CDN 👾 漁師",
+      "server": "172.67.199.34",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "202 🇭🇰 Global Int CDN 👾 漁師",
       "server": "172.67.199.34",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
