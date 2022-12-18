@@ -45,15 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "123 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "80 🇬🇧 OVH SAS SNI 👾 漁師",
-        "99 🇬🇧 Iomart Clo SNI 👾 漁師",
-        "44 🇬🇧 Iomart Clo SNI 👾 漁師"
+        "6 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "31 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "76 🇬🇧 OVH SAS CDN 👾 漁師",
+        "107 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "143 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "226 🇬🇧 Iomart Clo CDN 👾 漁師",
+        "94 🇬🇧 Iomart Clo SNI 👾 漁師",
+        "148 🇬🇧 OVH SAS SNI 👾 漁師",
+        "197 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "123 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "6 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
       "server_port": 29210,
       "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
@@ -66,8 +71,104 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "31 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "76 🇬🇧 OVH SAS CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk1.v2-ray.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "uk1.v2-ray.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "161.35.47.70",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "226 🇬🇧 Iomart Clo CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "ad1454a4-c9e2-4836-c98d-66e3646c2aa4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "uk.cloudflare.quest"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "80 🇬🇧 OVH SAS SNI 👾 漁師",
+      "tag": "94 🇬🇧 Iomart Clo SNI 👾 漁師",
+      "server": "content-provider3.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "148 🇬🇧 OVH SAS SNI 👾 漁師",
       "server": "uk1.trojanvh.xyz",
       "server_port": 443,
       "password": "b640d791-ff83-4300-b509-c2a02f97f167",
@@ -79,8 +180,8 @@
     },
     {
       "type": "trojan",
-      "tag": "99 🇬🇧 Iomart Clo SNI 👾 漁師",
-      "server": "content-provider3.cdn-delivery.akamaicd.com",
+      "tag": "197 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider20.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
@@ -88,18 +189,6 @@
         "insecure": true,
         "server_name": "news.microsoft.com"
       }
-    },
-    {
-      "type": "shadowsocksr",
-      "tag": "44 🇬🇧 Iomart Clo SNI 👾 漁師",
-      "server": "88.150.137.201",
-      "server_port": 1021,
-      "method": "aes-128-ctr",
-      "password": "sEscPBiAD9K$&@79",
-      "obfs": "tls1.2_ticket_auth",
-      "obfs_param": "obfs=tls;obfs-host=news.microsoft.com",
-      "protocol": "auth_aes128_md5",
-      "protocol_param": ""
     }
   ],
   "route": {

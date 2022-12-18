@@ -45,52 +45,23 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "25 🇳🇱 AEZA GROUP SNI 👾 漁師",
-        "39 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "69 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "73 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "26 🇳🇱 IP Volume  SNI 👾 漁師",
-        "72 🇳🇱 DIGITALOCE SNI 👾 漁師"
+        "50 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "72 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "86 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "135 🇳🇱 DIGITALOCE CDN 👾 漁師",
+        "137 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "142 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "177 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "189 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "232 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "234 🇳🇱 DIGITALOCE CDN 👾 漁師",
+        "139 🇳🇱 IP Volume  SNI 👾 漁師",
+        "210 🇳🇱 DIGITALOCE SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "25 🇳🇱 AEZA GROUP SNI 👾 漁師",
-      "server": "79.137.207.202",
-      "server_port": 38746,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "39 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "cacerts.digicert.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "69 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "tag": "50 🇳🇱 CLOUDFLARE CDN 👾 漁師",
       "server": "news.microsoft.com",
       "server_port": 2086,
       "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
@@ -111,7 +82,63 @@
     },
     {
       "type": "vmess",
-      "tag": "73 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "tag": "72 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.207.202",
+      "server_port": 38746,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "86 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "135 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "amshare.jingledev.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pkhhvws",
+        "headers": {
+          "Host": "amshare.jingledev.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "137 🇳🇱 CLOUDFLARE CDN 👾 漁師",
       "server": "cacerts.digicert.com",
       "server_port": 2086,
       "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
@@ -131,11 +158,116 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "26 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.54.65",
+      "type": "vmess",
+      "tag": "142 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "177 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "189 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "232 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "234 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
       "server_port": 443,
-      "password": "Sp3eDVp",
+      "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "amshare.jingledev.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pkhhvws",
+        "headers": {
+          "Host": "amshare.jingledev.me"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "139 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "content-provider2.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "TestingServer@@2",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -143,16 +275,16 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "72 🇳🇱 DIGITALOCE SNI 👾 漁師",
-      "server": "142.93.235.234",
-      "server_port": 443,
-      "password": "9a5d3d87-563e-4a27-b579-6d146718aa66",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
+      "type": "shadowsocksr",
+      "tag": "210 🇳🇱 DIGITALOCE SNI 👾 漁師",
+      "server": "167.99.214.62",
+      "server_port": 11909,
+      "method": "aes-256-cfb",
+      "password": "azadi2030",
+      "obfs": "http_simple",
+      "obfs_param": "obfs=http;obfs-host=news.microsoft.com",
+      "protocol": "origin",
+      "protocol_param": ""
     }
   ],
   "route": {

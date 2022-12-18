@@ -84,6 +84,35 @@
       "settings": {
         "servers": [
           {
+            "address": "aut1.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "fe100e71-1dcf-48d7-90ea-5809db9ce6cf",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-98 🇦🇺 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
             "address": "140.238.205.173",
             "flow": "",
             "level": 8,
@@ -102,65 +131,7 @@
           "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-53 🇦🇺 ORACLE-BMC SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "152.67.98.30",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-170 🇦🇺 ORACLE-BMC SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "aut1.sshocean.net",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "fe100e71-1dcf-48d7-90ea-5809db9ce6cf",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
-        }
-      },
-      "tag": "proxy-175 🇦🇺 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-150 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {

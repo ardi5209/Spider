@@ -1,5 +1,53 @@
 proxies:
-  - name: '5 🇩🇪 OVH SAS CDN 👾 漁師'
+  - name: '101 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 168.119.178.182
+    type: vmess
+    port: 16014
+    uuid: 5740f1b8-3dee-4bba-9a80-ad57f0ce0380
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: safebrowsing.google.com
+  - name: '126 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: haxeu2.zikkcc.ga
+    ws-opts: 
+      path: /
+      headers:
+        Host: haxeu2.zikkcc.ga
+  - name: '169 🇩🇪 Hetzner On CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sun.prxpro.cc
+    ws-opts: 
+      path: /g7970d1b58m1ixn3i16i
+      headers:
+        Host: sun.prxpro.cc
+  - name: '235 🇩🇪 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -15,28 +63,12 @@ proxies:
       path: /
       headers:
         Host: de100.tehvp.xyz
-  - name: '9 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 168.119.178.182
+  - name: '239 🇩🇪 myLoc mana SNI 👾 漁師'
+    server: 213.202.233.147
     type: vmess
-    port: 16014
-    uuid: 5740f1b8-3dee-4bba-9a80-ad57f0ce0380
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: 
-      headers:
-        Host: click.zoom.us
-  - name: '100 🇩🇪 CLOUDFLARE SNI 👾 漁師'
-    server: 5.75.249.253
-    type: vmess
-    port: 47550
-    uuid: 6103e792-4192-4390-8e1a-6124fad1aa3e
-    alterId: 0
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
@@ -44,22 +76,15 @@ proxies:
     network: ws
     servername: config.teams.microsoft.com
     ws-opts: 
-      path: /
+      path: /path/243535322906
       headers:
         Host: config.teams.microsoft.com
-  - name: '124 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.250.163
-    type: vmess
-    port: 2096
-    uuid: e175ba8e-f3e8-4ec5-a350-f058537dca8e
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '82 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: safebrowsing.google.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: safebrowsing.google.com
