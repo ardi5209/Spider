@@ -1,21 +1,49 @@
 proxies:
-  - name: '15 🇭🇰 Global Int CDN 👾 漁師'
-    server: hohm.microsoft.com
+  - name: '28 🇭🇰 Netsec Lim SNI 👾 漁師'
+    server: hrgdvpn.flycdnedc55.vip
     type: vmess
     port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /opt/video/images
+      headers:
+        Host: click.zoom.us
+  - name: '58 🇭🇰 Netsec Lim SNI 👾 漁師'
+    server: 182.16.1.194
+    type: vmess
+    port: 443
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: hk.sharecentre.online
+    servername: click.zoom.us
     ws-opts: 
-      path: /shirker
+      path: /opt/video/images
       headers:
-        Host: hk.sharecentre.online
-  - name: '23 🇭🇰 STARCLOUD  SNI 👾 漁師'
+        Host: click.zoom.us
+  - name: '67 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '70 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: 206.119.112.6
     type: vmess
     port: 8189
@@ -27,19 +55,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '46 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: 206.119.112.6
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '77 🇭🇰 UCLOUD INF SNI 👾 漁師'
+  - name: '75 🇭🇰 UCLOUD INF SNI 👾 漁師'
     server: 165.154.5.235
     type: vmess
     port: 14444
@@ -51,7 +67,23 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '94 🇭🇰 Global Int CDN 👾 漁師'
+  - name: '83 🇭🇰 MICROSOFT- SNI 👾 漁師'
+    server: petal.ga
+    type: vmess
+    port: 443
+    uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /petalvws
+      headers:
+        Host: click.zoom.us
+  - name: '90 🇭🇰 Global Int CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -67,95 +99,7 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '99 🇭🇰 Netsec Lim SNI 👾 漁師'
-    server: 182.16.1.194
-    type: vmess
-    port: 443
-    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /opt/video/images
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '135 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: hk1vdf-node.aiqiche123.com
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '147 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: 206.119.112.6
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '162 🇭🇰 Global Int CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '167 🇭🇰 Global Int CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '178 🇭🇰 G-Core Lab SNI 👾 漁師'
-    server: 185.14.47.240
-    type: vmess
-    port: 2086
-    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: safebrowsing.google.com
-  - name: '182 🇭🇰 Tele Asia  SNI 👾 漁師'
+  - name: '114 🇭🇰 Tele Asia  SNI 👾 漁師'
     server: HK-43-188.shoptunnel.live
     type: vmess
     port: 31990

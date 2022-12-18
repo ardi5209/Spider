@@ -1,5 +1,21 @@
 proxies:
-  - name: '149 🇮🇩 Media Anta SNI 👾 漁師'
+  - name: '64 🇮🇩 PT Linkgo  CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: id-v.sshmax.xyz
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: id-v.sshmax.xyz
+  - name: '50 🇮🇩 Media Anta SNI 👾 漁師'
     server: 38.9.140.66
     type: trojan
     port: 443
@@ -8,12 +24,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '189 🇮🇩 PT Industr SNI 👾 漁師'
-    server: 103.167.34.206
-    type: trojan
-    port: 443
-    password: 60d47bb6-47d1-45b1-b67b-4d236a4a5957
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us

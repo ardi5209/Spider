@@ -80,6 +80,46 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "id-v.sshmax.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "id-v.sshmax.xyz"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-64 🇮🇩 PT Linkgo  CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -102,36 +142,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-149 🇮🇩 Media Anta SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "103.167.34.206",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "60d47bb6-47d1-45b1-b67b-4d236a4a5957",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-189 🇮🇩 PT Industr SNI 👾 漁師"
+      "tag": "proxy-50 🇮🇩 Media Anta SNI 👾 漁師"
     }
   ],
   "dns": {
