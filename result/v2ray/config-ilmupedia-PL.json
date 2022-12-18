@@ -113,7 +113,47 @@
           "path": "/"
         }
       },
-      "tag": "proxy-215 🇵🇱 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-100 🇵🇱 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.151.141.12",
+            "port": 32010,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "69587313-f6d0-44f0-cc26-b48164771749",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-159 🇵🇱 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

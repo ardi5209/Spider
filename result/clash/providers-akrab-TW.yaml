@@ -1,17 +1,21 @@
 proxies:
-  - name: '104 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw3.czs1000.com
+  - name: '69 🇹🇼 Data Commu SNI 👾 漁師'
+    server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
     type: vmess
-    port: 1001
-    uuid: 724596ba-5f2d-4747-99ee-76c0ac69a03f
+    port: 443
+    uuid: fc459533-f8d9-4107-8ab5-d86d62b97064
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '110 🇹🇼 Data Commu SNI 👾 漁師'
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+  - name: '97 🇹🇼 Data Commu SNI 👾 漁師'
     server: 1.171.191.234
     type: vmess
     port: 224
@@ -23,108 +27,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '112 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw3.594888.xyz
-    type: vmess
-    port: 25551
-    uuid: 2f1b3193-2b30-36c5-ba29-4199a148aac3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: safebrowsing.google.com
-  - name: '154 🇹🇼 Data Commu CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 2f1b3193-2b30-36c5-ba29-4199a148aac3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hinet.nbsd.win
-    ws-opts: 
-      path: /videos/stream
-      headers:
-        Host: hinet.nbsd.win
-  - name: '191 🇹🇼 Data Commu SNI 👾 漁師'
-    server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
-    type: vmess
-    port: 443
-    uuid: fc459533-f8d9-4107-8ab5-d86d62b97064
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '239 🇹🇼 Data Commu SNI 👾 漁師'
-    server: f1f3227.v8.glados-config.net
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: click.zoom.us
-  - name: '349 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw2.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 724596ba-5f2d-4747-99ee-76c0ac69a03f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '376 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw4.594888.xyz
-    type: vmess
-    port: 11463
-    uuid: 2f1b3193-2b30-36c5-ba29-4199a148aac3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '45 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 211.72.35.154
-    type: trojan
-    port: 3306
-    password: 4bacb8f1a089763b
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /gateway/connect
-      headers:
-        Host: safebrowsing.google.com
