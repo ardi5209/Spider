@@ -1,6 +1,22 @@
 proxies:
-  - name: '128 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: 141.193.213.10
+  - name: '98 🇯🇵 Linode LL CDN 👾 漁師'
+    server: 104.17.70.206
+    type: vmess
+    port: 443
+    uuid: 0c715bce-b12f-42c6-84c8-eeb10311378c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: v2.583181.xyz
+    ws-opts: 
+      path: /
+      headers:
+        Host: v2.583181.xyz
+  - name: '148 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: 104.18.25.139
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
