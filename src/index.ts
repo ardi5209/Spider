@@ -8,6 +8,5 @@ import { writer } from "./modules/writer.mjs";
 
   if (accounts) {
     writer.write(accounts);
-    await bot.sendToChannel(accounts[Math.floor(Math.random() * accounts?.length)], accounts?.length);
   }
 })();
