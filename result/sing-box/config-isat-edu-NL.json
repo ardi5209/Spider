@@ -45,15 +45,40 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "1 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "26 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "33 🇳🇱 DIGITALOCE CDN 👾 漁師",
-        "63 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+        "22 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "24 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "28 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "47 🇳🇱 DIGITALOCE CDN 👾 漁師",
+        "99 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "102 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "158 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "197 🇳🇱 DIGITALOCE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "1 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "tag": "22 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "104.18.25.139",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "24 🇳🇱 CLOUDFLARE CDN 👾 漁師",
       "server": "141.193.213.10",
       "server_port": 2086,
       "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
@@ -74,8 +99,8 @@
     },
     {
       "type": "vmess",
-      "tag": "26 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "104.17.70.206",
+      "tag": "28 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "104.18.25.139",
       "server_port": 2086,
       "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
       "security": "auto",
@@ -95,7 +120,7 @@
     },
     {
       "type": "vmess",
-      "tag": "33 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "tag": "47 🇳🇱 DIGITALOCE CDN 👾 漁師",
       "server": "141.193.213.10",
       "server_port": 443,
       "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
@@ -116,8 +141,8 @@
     },
     {
       "type": "vmess",
-      "tag": "63 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "141.193.213.20",
+      "tag": "99 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "104.18.25.139",
       "server_port": 2086,
       "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
       "security": "auto",
@@ -132,6 +157,69 @@
         "path": "/aries",
         "headers": {
           "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "104.16.51.111",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "158 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "162.159.128.7",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "197 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "server": "162.159.128.7",
+      "server_port": 443,
+      "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "amshare.jingledev.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pkhhvws",
+        "headers": {
+          "Host": "amshare.jingledev.me"
         }
       }
     }

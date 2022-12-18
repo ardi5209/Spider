@@ -80,16 +80,56 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "v12.583181.xyz",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0c715bce-b12f-42c6-84c8-eeb10311378c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-161 🇮🇳 Linode LL SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
           {
-            "address": "152.67.190.183",
+            "address": "152.67.162.166",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "006baa3f-4bc3-4915-b60d-c8c5dae11a11",
+            "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
             "port": 443
           }
         ]
@@ -102,7 +142,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-79 🇮🇳 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-69 🇮🇳 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -113,7 +153,7 @@
       "settings": {
         "servers": [
           {
-            "address": "jgwhdlb2.gaox.ml",
+            "address": "152.67.160.174",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -131,7 +171,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-107 🇮🇳 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-172 🇮🇳 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {
