@@ -1,21 +1,5 @@
 proxies:
-  - name: '70 🇩🇪 CLOUDFLARE CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2053
-    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: haxeu2.zikkcc.ga
-    ws-opts: 
-      path: /
-      headers:
-        Host: haxeu2.zikkcc.ga
-  - name: '71 🇩🇪 Linode LL SNI 👾 漁師'
+  - name: '2 🇩🇪 Linode LL SNI 👾 漁師'
     server: 172.105.74.134
     type: vmess
     port: 37867
@@ -31,11 +15,11 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '160 🇩🇪 Linode LL SNI 👾 漁師'
-    server: de1.czs1000.com
+  - name: '32 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
     type: vmess
-    port: 11217
-    uuid: a7b68ca9-de3f-4358-84d2-e5a0b4554b24
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
     alterId: 0
     cipher: auto
     tls: true
@@ -44,6 +28,63 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: /vmess
       headers:
         Host: image-upload4.spotify.com
+  - name: '33 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
+  - name: '110 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 168.119.178.182
+    type: vmess
+    port: 16014
+    uuid: 5740f1b8-3dee-4bba-9a80-ad57f0ce0380
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '148 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: haxeu2.zikkcc.ga
+    ws-opts: 
+      path: /
+      headers:
+        Host: haxeu2.zikkcc.ga
+  - name: '90 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
