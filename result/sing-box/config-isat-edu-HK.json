@@ -45,15 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "7 🇭🇰 Global Int CDN 👾 漁師",
-        "11 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "193 🇭🇰 Alibaba US CDN 👾 漁師"
+        "23 🇭🇰 Global Int CDN 👾 漁師",
+        "116 🇭🇰 Global Int CDN 👾 漁師",
+        "161 🇭🇰 Global Int CDN 👾 漁師",
+        "176 🇭🇰 G-Core Lab CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "7 🇭🇰 Global Int CDN 👾 漁師",
-      "server": "104.16.51.111",
+      "tag": "23 🇭🇰 Global Int CDN 👾 漁師",
+      "server": "104.18.25.139",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
@@ -73,8 +74,50 @@
     },
     {
       "type": "vmess",
-      "tag": "11 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "141.193.213.10",
+      "tag": "116 🇭🇰 Global Int CDN 👾 漁師",
+      "server": "141.193.213.20",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "161 🇭🇰 Global Int CDN 👾 漁師",
+      "server": "104.16.66.85",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "176 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "162.159.135.42",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
       "security": "auto",
@@ -89,27 +132,6 @@
         "path": "/aries",
         "headers": {
           "Host": "gcorehk.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "193 🇭🇰 Alibaba US CDN 👾 漁師",
-      "server": "141.193.213.20",
-      "server_port": 443,
-      "uuid": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "vfly6.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/myblog",
-        "headers": {
-          "Host": "vfly6.xyz"
         }
       }
     }
