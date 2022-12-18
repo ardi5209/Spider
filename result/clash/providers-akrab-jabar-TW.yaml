@@ -1,17 +1,13 @@
 proxies:
-  - name: '20 🇹🇼 Data Commu CDN 👾 漁師'
-    server: 172.67.199.34
+  - name: '134 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: tw2.czs1000.com
     type: vmess
-    port: 443
-    uuid: 27995755-50ca-3206-9cb0-9b525981ba1f
+    port: 1001
+    uuid: a7b68ca9-de3f-4358-84d2-e5a0b4554b24
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: hinet.nbsd.win
-    ws-opts: 
-      path: /videos/stream
-      headers:
-        Host: hinet.nbsd.win
+    network: tcp
+    servername: api.midtrans.com

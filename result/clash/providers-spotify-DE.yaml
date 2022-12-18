@@ -1,17 +1,49 @@
 proxies:
-  - name: '159 🇩🇪 OVH SAS CDN 👾 漁師'
+  - name: '70 🇩🇪 CLOUDFLARE CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
-    port: 443
-    uuid: 9bd493b0-f91e-4059-ef7c-9e2b3da5f26d
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: de100.tehvp.xyz
+    servername: haxeu2.zikkcc.ga
     ws-opts: 
       path: /
       headers:
-        Host: de100.tehvp.xyz
+        Host: haxeu2.zikkcc.ga
+  - name: '71 🇩🇪 Linode LL SNI 👾 漁師'
+    server: 172.105.74.134
+    type: vmess
+    port: 37867
+    uuid: 4623f949-e0e4-4d40-d177-049ca6fd7518
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '160 🇩🇪 Linode LL SNI 👾 漁師'
+    server: de1.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: a7b68ca9-de3f-4358-84d2-e5a0b4554b24
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: image-upload4.spotify.com
