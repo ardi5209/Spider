@@ -1,21 +1,5 @@
 proxies:
-  - name: '65 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 206.81.31.184
-    type: vmess
-    port: 6245
-    uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '116 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '41 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 168.119.178.182
     type: vmess
     port: 16014
@@ -31,12 +15,51 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '152 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider28.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
+  - name: '175 🇩🇪 Linode LL SNI 👾 漁師'
+    server: 172.105.74.134
+    type: vmess
+    port: 37867
+    uuid: 4623f949-e0e4-4d40-d177-049ca6fd7518
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '214 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: 206.81.31.184
+    type: vmess
+    port: 6245
+    uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '232 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.132.112
+    type: vmess
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /p3573l6m92h1ham3q23t
+      headers:
+        Host: news.microsoft.com

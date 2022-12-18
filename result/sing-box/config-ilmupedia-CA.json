@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "112 🇨🇦 OVH SAS SNI 👾 漁師"
+        "268 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "237 🇨🇦 OVH SAS SNI 👾 漁師"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "268 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "server": "35.182.165.120",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "112 🇨🇦 OVH SAS SNI 👾 漁師",
+      "tag": "237 🇨🇦 OVH SAS SNI 👾 漁師",
       "server": "149.56.141.11",
       "server_port": 443,
       "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
