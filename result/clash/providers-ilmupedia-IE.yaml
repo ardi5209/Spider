@@ -1,27 +1,25 @@
 proxies:
-  - name: '50 🇮🇪 OVH SAS SNI 👾 漁師'
-    server: content-provider12.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
+  - name: '203 🇮🇪 AMAZON-02 SNI 👾 漁師'
+    server: 52.214.4.7
+    type: vmess
+    port: 40311
+    uuid: f6ee7492-6623-4fd9-e908-1880eeb26f22
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '95 🇮🇪 OVH SAS SNI 👾 漁師'
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '93 🇮🇪 OVH SAS SNI 👾 漁師'
     server: 51.77.71.134
     type: trojan
     port: 443
     password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '124 🇮🇪 OVH SAS SNI 👾 漁師'
-    server: content-provider5.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp
