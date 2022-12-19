@@ -1,9 +1,41 @@
 proxies:
-  - name: '64 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 117.164.185.222
+  - name: '88 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw2.594888.xyz
     type: vmess
-    port: 16130
-    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    port: 25551
+    uuid: dfa0f738-f146-3316-89a9-660492d4fcca
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '210 🇹🇼 Data Commu CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: dfa0f738-f146-3316-89a9-660492d4fcca
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hinet.nbsd.win
+    ws-opts: 
+      path: /videos/stream
+      headers:
+        Host: hinet.nbsd.win
+  - name: '211 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 1.171.191.234
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     alterId: 0
     cipher: auto
     tls: true
@@ -11,3 +43,64 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
+  - name: '315 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw3.594888.xyz
+    type: vmess
+    port: 25551
+    uuid: dfa0f738-f146-3316-89a9-660492d4fcca
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '350 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw4.594888.xyz
+    type: vmess
+    port: 11463
+    uuid: dfa0f738-f146-3316-89a9-660492d4fcca
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '475 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 111.6.86.74
+    type: vmess
+    port: 9094
+    uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /game
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '420 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com
