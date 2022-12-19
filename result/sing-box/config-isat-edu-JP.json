@@ -45,14 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "57 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "93 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+        "14 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "45 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "91 🇯🇵 ORACLE-BMC CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "57 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "104.17.70.206",
+      "tag": "14 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "162.159.135.42",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
@@ -72,8 +73,29 @@
     },
     {
       "type": "vmess",
-      "tag": "93 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "162.159.128.7",
+      "tag": "45 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "141.193.213.20",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opc-jp.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "opc-jp.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "91 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "141.193.213.20",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
