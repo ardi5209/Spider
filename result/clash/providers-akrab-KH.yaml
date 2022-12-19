@@ -1,5 +1,21 @@
 proxies:
-  - name: '119 🇰🇭 Kaopu Clou SNI 👾 漁師'
+  - name: '55 🇰🇭 Kaopu Clou SNI 👾 漁師'
+    server: 38.54.93.130
+    type: vmess
+    port: 443
+    uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: config.teams.microsoft.com
+  - name: '243 🇰🇭 Kaopu Clou SNI 👾 漁師'
     server: kh1.v2rayserv.com
     type: vmess
     port: 443
@@ -10,12 +26,12 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /sshocean
       headers:
-        Host: safebrowsing.google.com
-  - name: '120 🇰🇭 Kaopu Clou CDN 👾 漁師'
+        Host: click.zoom.us
+  - name: '244 🇰🇭 Kaopu Clou CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -31,19 +47,3 @@ proxies:
       path: /sshocean
       headers:
         Host: kh1.v2rayserv.com
-  - name: '177 🇰🇭 Kaopu Clou SNI 👾 漁師'
-    server: 38.54.93.130
-    type: vmess
-    port: 443
-    uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: safebrowsing.google.com
