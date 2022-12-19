@@ -113,7 +113,7 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-14 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-101 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -153,7 +153,7 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-45 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-112 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -193,7 +193,47 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-91 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-126 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-227 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     }
   ],
   "dns": {

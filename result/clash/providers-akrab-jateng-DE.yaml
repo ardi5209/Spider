@@ -1,33 +1,33 @@
 proxies:
-  - name: '95 🇩🇪 OVH SAS CDN 👾 漁師'
+  - name: '290 🇩🇪 OVH SAS CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
-    uuid: 9bd493b0-f91e-4059-ef7c-9e2b3da5f26d
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: de100.tehvp.xyz
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
+  - name: '362 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: haxeu2.zikkcc.ga
     ws-opts: 
       path: /
       headers:
-        Host: de100.tehvp.xyz
-  - name: '169 🇩🇪 Hetzner On CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: c51a545c-5d26-e3d2-c718-2293f392ffb5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: goodfamily15.site
-    ws-opts: 
-      path: /xgwtvws
-      headers:
-        Host: goodfamily15.site
+        Host: haxeu2.zikkcc.ga

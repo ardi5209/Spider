@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip",
-            "port": 443,
+            "address": "tw3.czs1000.com",
+            "port": 1001,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d",
+                "id": "d0ea0b79-3707-40ef-8b7e-898b6138a69b",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,20 +100,48 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/"
         }
       },
-      "tag": "proxy-35 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-105 🇹🇼 Scloud Pte SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tw2.czs1000.com",
+            "port": 1001,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "d0ea0b79-3707-40ef-8b7e-898b6138a69b",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-267 🇹🇼 Scloud Pte SNI 👾 漁師"
     },
     {
       "mux": {
@@ -148,7 +176,7 @@
           "path": "/gateway/connect"
         }
       },
-      "tag": "proxy-172 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-311 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {
