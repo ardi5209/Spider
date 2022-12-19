@@ -1,17 +1,26 @@
 proxies:
-  - name: '102 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 206.81.31.184
+  - name: '90 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 6245
-    uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: image-upload4.spotify.com
+    servername: haxeu2.zikkcc.ga
     ws-opts: 
       path: /
       headers:
-        Host: image-upload4.spotify.com
+        Host: haxeu2.zikkcc.ga
+  - name: '163 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
