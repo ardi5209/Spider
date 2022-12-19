@@ -45,14 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "184 🇱🇺 PONYNET CDN 👾 漁師",
-        "243 🇱🇺 PONYNET CDN 👾 漁師",
-        "260 🇱🇺 PONYNET CDN 👾 漁師"
+        "81 🇱🇺 PONYNET SNI 👾 漁師",
+        "144 🇱🇺 PONYNET CDN 👾 漁師",
+        "150 🇱🇺 PONYNET CDN 👾 漁師",
+        "307 🇱🇺 PONYNET SNI 👾 漁師",
+        "310 🇱🇺 PONYNET SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "184 🇱🇺 PONYNET CDN 👾 漁師",
+      "tag": "81 🇱🇺 PONYNET SNI 👾 漁師",
+      "server": "104.244.73.218",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "144 🇱🇺 PONYNET CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 2086,
       "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
@@ -73,7 +96,7 @@
     },
     {
       "type": "vmess",
-      "tag": "243 🇱🇺 PONYNET CDN 👾 漁師",
+      "tag": "150 🇱🇺 PONYNET CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 2086,
       "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
@@ -94,8 +117,8 @@
     },
     {
       "type": "vmess",
-      "tag": "260 🇱🇺 PONYNET CDN 👾 漁師",
-      "server": "investors.spotify.com",
+      "tag": "307 🇱🇺 PONYNET SNI 👾 漁師",
+      "server": "107.189.28.253",
       "server_port": 2086,
       "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
       "security": "auto",
@@ -103,13 +126,34 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "BuyVM.CLOUDFLARE.QUEST"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
         "path": "/aries",
         "headers": {
-          "Host": "BuyVM.CLOUDFLARE.QUEST"
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "310 🇱🇺 PONYNET SNI 👾 漁師",
+      "server": "buyvm.oppo.quest",
+      "server_port": 2086,
+      "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
         }
       }
     }
