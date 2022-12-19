@@ -107,7 +107,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-3 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-4 🇯🇵 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,54 +118,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "investors.spotify.com",
-            "port": 443,
+            "address": "138.2.44.211",
+            "port": 20081,
             "users": [
               {
-                "alterId": 0,
+                "alterId": 64,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "opc-jp.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "opc-jp.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-24 🇯🇵 ORACLE-BMC CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "168.138.207.66",
-            "port": 21365,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245",
+                "id": "593b8525-0c48-4b0f-d9af-2d73a9148973",
                 "level": 8,
                 "security": "auto"
               }
@@ -192,14 +152,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpm5.1yuanfly.live",
-            "port": 443,
+            "address": "152.69.197.60",
+            "port": 1069,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8ddb31f1-6b0f-3abb-994e-d6316d755310",
+                "id": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
                 "level": 8,
                 "security": "auto"
               }
@@ -208,20 +168,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "image-upload4.spotify.com"
-          },
-          "path": "/videos"
         }
       },
-      "tag": "proxy-46 🇯🇵 Linode LL SNI 👾 漁師"
+      "tag": "proxy-66 🇯🇵 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -261,7 +215,87 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-126 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-81 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-107 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp02.170203.xyz",
+            "port": 23245,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7ec021cb-3c12-4f4c-8e5f-5cbbe0986780",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": ""
+        }
+      },
+      "tag": "proxy-218 🇯🇵 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -301,7 +335,7 @@
           "path": "/"
         }
       },
-      "tag": "proxy-153 🇯🇵 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-219 🇯🇵 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -312,7 +346,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpm4.1yuanfly.live",
+            "address": "jpm1.1yuanfly.live",
             "port": 443,
             "users": [
               {
@@ -341,7 +375,355 @@
           "path": "/videos"
         }
       },
-      "tag": "proxy-164 🇯🇵 Linode LL SNI 👾 漁師"
+      "tag": "proxy-241 🇯🇵 Linode LL SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-245 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "140.83.57.80",
+            "port": 49840,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "2969ad1b-9787-4927-94e6-22f597618de0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-301 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp04.170203.xyz",
+            "port": 23245,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7ec021cb-3c12-4f4c-8e5f-5cbbe0986780",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": ""
+        }
+      },
+      "tag": "proxy-317 🇯🇵 AMAZON-02 SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-326 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-355 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.147.181.219",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0b873cff-11ab-4716-c41a-04f886135091",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/roewesu"
+        }
+      },
+      "tag": "proxy-391 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.69.197.60",
+            "port": 1069,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-399 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ri.mooooobai.top",
+            "port": 14141,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7000f68f-cbcb-31e1-9cb4-897803f2edc3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/usr"
+        }
+      },
+      "tag": "proxy-413 🇯🇵 AMAZON-02 SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-434 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -352,7 +734,7 @@
       "settings": {
         "servers": [
           {
-            "address": "teradacyou.mike22.net",
+            "address": "tk5.cats22.net",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -370,7 +752,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-20 🇯🇵 SAKURA Int SNI 👾 漁師"
+      "tag": "proxy-12 🇯🇵 SAKURA Int SNI 👾 漁師"
     },
     {
       "mux": {
@@ -381,7 +763,7 @@
       "settings": {
         "servers": [
           {
-            "address": "os1.cats22.net",
+            "address": "os-tr-2.cats22.net",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -399,7 +781,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-26 🇯🇵 SAKURA Int SNI 👾 漁師"
+      "tag": "proxy-14 🇯🇵 SAKURA Int SNI 👾 漁師"
     },
     {
       "mux": {
@@ -410,7 +792,7 @@
       "settings": {
         "servers": [
           {
-            "address": "os4.cats22.net",
+            "address": "os13.cats22.net",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -428,36 +810,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-128 🇯🇵 SAKURA Int SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "os6.cats22.net",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "18844@zxcvbn",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-166 🇯🇵 SAKURA Int SNI 👾 漁師"
+      "tag": "proxy-29 🇯🇵 SAKURA Int SNI 👾 漁師"
     },
     {
       "mux": {
@@ -486,7 +839,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-169 🇯🇵 AS-CHOOPA SNI 👾 漁師"
+      "tag": "proxy-53 🇯🇵 AS-CHOOPA SNI 👾 漁師"
     },
     {
       "mux": {
@@ -497,7 +850,239 @@
       "settings": {
         "servers": [
           {
-            "address": "jgwdb4.gaox.ml",
+            "address": "zzjp01.fuqiangren.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "0beb48de-9c18-47cd-9143-d2309ec93ec4",
+            "port": 20220
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-132 🇯🇵 MIKU NETWO SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "150.230.96.103",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "da777aae-defb-41d0-a183-2c27da2b4677",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-167 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "tk3.cats22.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "18844@zxcvbn",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-193 🇯🇵 SAKURA Int SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "os6.cats22.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "18844@zxcvbn",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-214 🇯🇵 SAKURA Int SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jgwdb3.gaox.ml",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8d2d5953-d649-4034-94f2-72f2df2623da",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-235 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "teradacyou.mike22.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "18844@zxcvbn",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-262 🇯🇵 SAKURA Int SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "138.2.45.243",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "c19d1432-8b3e-4818-8837-3d160cf65908",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-344 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "zzjp01.fuqiangren.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4ee3087e-6aa5-45fa-8a3d-78e7e6881928",
+            "port": 20220
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-403 🇯🇵 MIKU NETWO SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "168.138.43.89",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -515,8 +1100,96 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-171 🇯🇵 ORACLE-BMC SNI 👾 漁師"
-    }
+      "tag": "proxy-407 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jgwdb2.gaox.ml",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "c19d1432-8b3e-4818-8837-3d160cf65908",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-415 🇯🇵 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "zzjp01.fuqiangren.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4ee3087e-6aa5-45fa-8a3d-78e7e6881928",
+            "port": 20221
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-431 🇯🇵 MIKU NETWO SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "os4.cats22.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "18844@zxcvbn",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-442 🇯🇵 SAKURA Int SNI 👾 漁師"
+    },
+    ""
   ],
   "dns": {
     "hosts": {

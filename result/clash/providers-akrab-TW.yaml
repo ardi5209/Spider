@@ -1,29 +1,30 @@
 proxies:
-  - name: '69 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '131 🇹🇼 Data Commu SNI 👾 漁師'
     server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
     type: vmess
     port: 443
-    uuid: fc459533-f8d9-4107-8ab5-d86d62b97064
+    uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
-  - name: '97 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 1.171.191.234
-    type: vmess
-    port: 224
-    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    alterId: 0
-    cipher: auto
-    tls: true
+        Host: config.teams.microsoft.com
+  - name: '304 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: config.teams.microsoft.com
