@@ -1,5 +1,21 @@
 proxies:
-  - name: '25 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '45 🇦🇺 Linode LL SNI 👾 漁師'
+    server: au1.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '203 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 139.99.135.182
     type: vmess
     port: 443
@@ -15,7 +31,7 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '96 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '378 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 51.161.130.141
     type: vmess
     port: 443
@@ -31,3 +47,30 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: image-upload4.spotify.com
+  - name: '77 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.171.83
+    type: trojan
+    port: 443
+    password: 2a3bde53-4685-4c95-8b53-1d57a940a4a8
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '147 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.171.83
+    type: trojan
+    port: 443
+    password: 3025f9a2-86a6-4fc6-84e5-70aaa85246ef
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '340 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.171.83
+    type: trojan
+    port: 443
+    password: b4239864-3b20-44b2-97d9-3619993ae5b6
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
