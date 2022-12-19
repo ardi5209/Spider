@@ -1,21 +1,5 @@
 proxies:
-  - name: '15 🇱🇺 PONYNET SNI 👾 漁師'
-    server: buyvm.oppo.quest
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '23 🇱🇺 PONYNET CDN 👾 漁師'
+  - name: '20 🇱🇺 PONYNET CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 2086
@@ -31,11 +15,11 @@ proxies:
       path: /aries
       headers:
         Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '36 🇱🇺 PONYNET SNI 👾 漁師'
-    server: 107.189.28.253
+  - name: '42 🇱🇺 PONYNET SNI 👾 漁師'
+    server: 104.244.73.218
     type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
     alterId: 0
     cipher: auto
     tls: true
@@ -44,10 +28,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /aries
+      path: /v2ray
       headers:
         Host: image-upload4.spotify.com
-  - name: '54 🇱🇺 Unknown CDN 👾 漁師'
+  - name: '55 🇱🇺 Unknown CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -63,7 +47,7 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '92 🇱🇺 Unknown CDN 👾 漁師'
+  - name: '78 🇱🇺 Unknown CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -79,7 +63,23 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '117 🇱🇺 PONYNET CDN 👾 漁師'
+  - name: '93 🇱🇺 Unknown CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hk.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: '127 🇱🇺 PONYNET CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 2086
@@ -95,139 +95,11 @@ proxies:
       path: /aries
       headers:
         Host: buyvm.cloudflare.quest
-  - name: '162 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '175 🇱🇺 PONYNET SNI 👾 漁師'
+    server: buyvm.oppo.quest
     type: vmess
     port: 2086
     uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '209 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: buyvm.imkcp.eu.org
-    ws-opts: 
-      path: /imkcpyyds
-      headers:
-        Host: buyvm.imkcp.eu.org
-  - name: '336 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '341 🇱🇺 Unknown CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '384 🇱🇺 Unknown CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '393 🇱🇺 Unknown CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '477 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '522 🇱🇺 PONYNET CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '549 🇱🇺 PONYNET SNI 👾 漁師'
-    server: 104.244.73.218
-    type: vmess
-    port: 443
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
     alterId: 0
     cipher: auto
     tls: true
@@ -236,6 +108,6 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /v2ray
+      path: /aries
       headers:
         Host: image-upload4.spotify.com
