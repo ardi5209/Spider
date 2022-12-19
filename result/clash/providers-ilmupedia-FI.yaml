@@ -1,5 +1,5 @@
 proxies:
-  - name: '162 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '160 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
     port: 12951
@@ -15,51 +15,3 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '334 🇫🇮 CLOUDFLARE SNI 👾 漁師'
-    server: 65.109.129.15
-    type: vmess
-    port: 25459
-    uuid: ead3843c-d06a-4224-88db-8946e448de6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '351 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 95.216.74.117
-    type: vmess
-    port: 443
-    uuid: 9f3dbc00-4c66-40d7-adb5-510da93b028f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /rzgivws
-      headers:
-        Host: news.microsoft.com
-  - name: '352 🇫🇮 Hetzner On CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 9f3dbc00-4c66-40d7-adb5-510da93b028f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sadday5.online
-    ws-opts: 
-      path: /rzgivws
-      headers:
-        Host: sadday5.online

@@ -45,14 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "184 🇨🇦 OVH SAS SNI 👾 漁師",
-        "257 🇨🇦 OVH SAS SNI 👾 漁師"
+        "123 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "41 🇨🇦 OVH SAS SNI 👾 漁師",
+        "63 🇨🇦 OVH SAS SNI 👾 漁師"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "123 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "server": "35.182.165.120",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "184 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "cat1.sshocean.net",
+      "tag": "41 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "149.56.141.11",
       "server_port": 443,
       "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
       "tls": {
@@ -63,10 +85,10 @@
     },
     {
       "type": "trojan",
-      "tag": "257 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "149.56.132.41",
+      "tag": "63 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "cat1.sshocean.net",
       "server_port": 443,
-      "password": "fafb4232-9659-4867-886d-e47f4bda283e",
+      "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
       "tls": {
         "enabled": true,
         "insecure": true,
