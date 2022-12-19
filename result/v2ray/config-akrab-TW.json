@@ -84,14 +84,48 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw2.594888.xyz",
+            "address": "tw2.czs1000.com",
+            "port": 4011,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "97e87d5e-c1d2-4a4d-9119-3d05645acadc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-33 🇹🇼 Scloud Pte SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tw3.594888.xyz",
             "port": 25551,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "dfa0f738-f146-3316-89a9-660492d4fcca",
+                "id": "11db6a85-e042-3e1b-81c8-acd290211b65",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +138,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/v2ray"
         }
       },
-      "tag": "proxy-88 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-48 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -131,7 +165,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "dfa0f738-f146-3316-89a9-660492d4fcca",
+                "id": "11db6a85-e042-3e1b-81c8-acd290211b65",
                 "level": 8,
                 "security": "auto"
               }
@@ -153,7 +187,87 @@
           "path": "/videos/stream"
         }
       },
-      "tag": "proxy-210 🇹🇼 Data Commu CDN 👾 漁師"
+      "tag": "proxy-166 🇹🇼 Data Commu CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tw2.594888.xyz",
+            "port": 25551,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "11db6a85-e042-3e1b-81c8-acd290211b65",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/v2ray"
+        }
+      },
+      "tag": "proxy-194 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "111.6.86.74",
+            "port": 9094,
+            "users": [
+              {
+                "alterId": 2,
+                "encryption": "",
+                "flow": "",
+                "id": "cb4489c7-a966-320c-9120-f17a7dfb4999",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/game"
+        }
+      },
+      "tag": "proxy-199 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -187,47 +301,7 @@
           "serverName": "safebrowsing.google.com"
         }
       },
-      "tag": "proxy-211 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tw3.594888.xyz",
-            "port": 25551,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "dfa0f738-f146-3316-89a9-660492d4fcca",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "config.teams.microsoft.com"
-          },
-          "path": "/v2ray"
-        }
-      },
-      "tag": "proxy-315 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-204 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -245,7 +319,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "dfa0f738-f146-3316-89a9-660492d4fcca",
+                "id": "11db6a85-e042-3e1b-81c8-acd290211b65",
                 "level": 8,
                 "security": "auto"
               }
@@ -258,16 +332,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "safebrowsing.google.com"
           },
           "path": "/v2ray"
         }
       },
-      "tag": "proxy-350 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-286 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -278,14 +352,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "111.6.86.74",
-            "port": 9094,
+            "address": "tw2.czs1000.com",
+            "port": 1001,
             "users": [
               {
-                "alterId": 2,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "cb4489c7-a966-320c-9120-f17a7dfb4999",
+                "id": "97e87d5e-c1d2-4a4d-9119-3d05645acadc",
                 "level": 8,
                 "security": "auto"
               }
@@ -294,55 +368,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "config.teams.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "config.teams.microsoft.com"
-          },
-          "path": "/game"
         }
       },
-      "tag": "proxy-475 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "211.72.35.154",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "4bacb8f1a089763b",
-            "port": 3306
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "config.teams.microsoft.com"
-          },
-          "path": "/gateway/connect"
-        }
-      },
-      "tag": "proxy-420 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-362 🇹🇼 Scloud Pte SNI 👾 漁師"
     }
   ],
   "dns": {

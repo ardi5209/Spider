@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.186.198.63",
+            "address": "39.103.165.178",
             "port": 50002,
             "users": [
               {
@@ -107,7 +107,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-46 🇨🇳 Shenzhen T SNI 👾 漁師"
+      "tag": "proxy-174 🇨🇳 Hangzhou A SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,8 +118,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.0.135.66",
-            "port": 443,
+            "address": "47.104.237.32",
+            "port": 50002,
             "users": [
               {
                 "alterId": 64,
@@ -134,20 +134,48 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-86 🇨🇳 PEGTECHINC SNI 👾 漁師"
+      "tag": "proxy-233 🇨🇳 Hangzhou A SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "39.103.165.178",
+            "port": 50002,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-235 🇨🇳 Hangzhou A SNI 👾 漁師"
     },
     {
       "mux": {
@@ -187,41 +215,7 @@
           "path": "/"
         }
       },
-      "tag": "proxy-140 🇨🇳 Beijing Ba SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "112.132.215.189",
-            "port": 50002,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-170 🇨🇳 CHINA UNIC SNI 👾 漁師"
+      "tag": "proxy-275 🇨🇳 Beijing Ba SNI 👾 漁師"
     },
     {
       "mux": {
@@ -255,7 +249,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-194 🇨🇳 Hangzhou A SNI 👾 漁師"
+      "tag": "proxy-358 🇨🇳 Hangzhou A SNI 👾 漁師"
     },
     {
       "mux": {
@@ -266,7 +260,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "39.103.165.178",
+            "address": "139.186.198.63",
             "port": 50002,
             "users": [
               {
@@ -289,75 +283,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-267 🇨🇳 Hangzhou A SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "39.103.165.178",
-            "port": 50002,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-287 🇨🇳 Hangzhou A SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "47.104.237.32",
-            "port": 50002,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "undefined",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-449 🇨🇳 Hangzhou A SNI 👾 漁師"
+      "tag": "proxy-364 🇨🇳 Shenzhen T SNI 👾 漁師"
     }
   ],
   "dns": {
