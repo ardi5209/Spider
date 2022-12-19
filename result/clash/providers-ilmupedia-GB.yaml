@@ -1,45 +1,9 @@
 proxies:
-  - name: '102 🇬🇧 Scloud Pte SNI 👾 漁師'
-    server: kr4.czs1000.com
+  - name: '16 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 198.244.232.39
     type: vmess
-    port: 6687
-    uuid: 97e87d5e-c1d2-4a4d-9119-3d05645acadc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '123 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '181 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '195 🇬🇧 Linode LL SNI 👾 漁師'
-    server: gb1.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 97e87d5e-c1d2-4a4d-9119-3d05645acadc
+    port: 2096
+    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
     alterId: 0
     cipher: auto
     tls: true
@@ -48,10 +12,54 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: 
       headers:
         Host: news.microsoft.com
-  - name: '334 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '20 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: uk1.v2-ray.us
+    type: vmess
+    port: 443
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '21 🇬🇧 OVH SAS CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: uk1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: uk1.v2-ray.us
+  - name: '128 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '178 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 198.244.232.39
     type: vmess
     port: 2096
@@ -67,43 +75,81 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '57 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider21.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
+  - name: '204 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '94 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider20.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
+  - name: '292 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '214 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: t1.teslacdn1.live
-    type: trojan
-    port: 443
-    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
+  - name: '368 🇬🇧 OVH SAS CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
+    servername: uk.jiedian01.cf
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk.jiedian01.cf
+  - name: '464 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
+    type: vmess
+    port: 443
+    uuid: 2ed33a1b-5c47-4c4e-8473-eea30c2d337f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
     servername: news.microsoft.com
-  - name: '218 🇬🇧 OVH SAS SNI 👾 漁師'
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '31 🇬🇧 OVH SAS SNI 👾 漁師'
     server: uk1.trojanvh.xyz
     type: trojan
     port: 443
-    password: b640d791-ff83-4300-b509-c2a02f97f167
+    password: b44579e1-f803-4981-86bc-aa8c783daa04
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '238 🇬🇧 Hydra Comm SNI 👾 漁師'
+  - name: '90 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.212
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '105 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: 185.16.206.209
     type: trojan
     port: 443
@@ -112,7 +158,43 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '300 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+  - name: '133 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: ukt1.sshocean.net
+    type: trojan
+    port: 443
+    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '138 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider20.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '286 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: t1.teslacdn1.live
+    type: trojan
+    port: 443
+    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '387 🇬🇧 Iomart Clo SNI 👾 漁師'
+    server: content-provider4.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '395 🇬🇧 ORACLE-BMC SNI 👾 漁師'
     server: jgwld1.gaox.ml
     type: trojan
     port: 443
@@ -121,11 +203,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '351 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: ukt1.sshocean.net
+  - name: '490 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.211
     type: trojan
     port: 443
-    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
