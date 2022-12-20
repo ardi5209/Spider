@@ -1,17 +1,21 @@
 proxies:
-  - name: '10 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.202
+  - name: '22 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 38740
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '20 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '42 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -27,7 +31,19 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '68 🇳🇱 AEZA GROUP SNI 👾 漁師'
+  - name: '46 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.207.88
+    type: vmess
+    port: 38740
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '74 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.207.202
     type: vmess
     port: 38740
@@ -39,39 +55,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '69 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '95 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '99 🇳🇱 DIGITALOCE CDN 👾 漁師'
+  - name: '98 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -87,7 +71,7 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '120 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+  - name: '116 🇳🇱 CLOUDFLARE CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 2086
@@ -103,8 +87,56 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '39 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.75
+  - name: '122 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '134 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '199 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: amshare.jingledev.me
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+  - name: '81 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider13.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: Sp3eDVp
@@ -112,38 +144,20 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '59 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
+  - name: '95 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider2.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: TestingServer@@
+    password: TestingServer@@2
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '73 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '182 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider1.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: TestingServer@@
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '87 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.66
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '107 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.74
-    type: trojan
-    port: 443
-    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp

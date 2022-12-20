@@ -45,14 +45,38 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "24 🇱🇺 PONYNET CDN 👾 漁師",
-        "50 🇱🇺 Unknown CDN 👾 漁師",
-        "88 🇱🇺 PONYNET SNI 👾 漁師"
+        "14 🇱🇺 PONYNET CDN 👾 漁師",
+        "21 🇱🇺 PONYNET CDN 👾 漁師",
+        "76 🇱🇺 Unknown CDN 👾 漁師",
+        "94 🇱🇺 PONYNET SNI 👾 漁師",
+        "109 🇱🇺 PONYNET CDN 👾 漁師",
+        "155 🇱🇺 Unknown CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "24 🇱🇺 PONYNET CDN 👾 漁師",
+      "tag": "14 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "6fb9a750-55b8-4e6e-857b-242b795399dc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "buyvm.imkcp.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/imkcpyyds",
+        "headers": {
+          "Host": "buyvm.imkcp.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "21 🇱🇺 PONYNET CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 2086,
       "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
@@ -73,7 +97,7 @@
     },
     {
       "type": "vmess",
-      "tag": "50 🇱🇺 Unknown CDN 👾 漁師",
+      "tag": "76 🇱🇺 Unknown CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -94,8 +118,8 @@
     },
     {
       "type": "vmess",
-      "tag": "88 🇱🇺 PONYNET SNI 👾 漁師",
-      "server": "107.189.28.253",
+      "tag": "94 🇱🇺 PONYNET SNI 👾 漁師",
+      "server": "buyvm.oppo.quest",
       "server_port": 2086,
       "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
       "security": "auto",
@@ -110,6 +134,48 @@
         "path": "/aries",
         "headers": {
           "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "109 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 2086,
+      "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "BuyVM.CLOUDFLARE.QUEST"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "BuyVM.CLOUDFLARE.QUEST"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "155 🇱🇺 Unknown CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
         }
       }
     }

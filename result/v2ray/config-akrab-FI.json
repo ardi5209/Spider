@@ -104,16 +104,45 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "config.teams.microsoft.com"
+            "Host": "safebrowsing.google.com"
           },
           "path": "/"
         }
       },
-      "tag": "proxy-5 🇫🇮 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-154 🇫🇮 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "wdock.aslibekhar.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "t5wt9NwaB9",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        }
+      },
+      "tag": "proxy-165 🇫🇮 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {
