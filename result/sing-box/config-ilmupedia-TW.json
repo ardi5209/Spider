@@ -45,21 +45,26 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "85 🇹🇼 Scloud Pte SNI 👾 漁師"
+        "106 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
-      "type": "vmess",
-      "tag": "85 🇹🇼 Scloud Pte SNI 👾 漁師",
-      "server": "tw7.czs1000.com",
-      "server_port": 1001,
-      "uuid": "775fb728-ef64-406c-b0ed-a4efcb6f870e",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "106 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],

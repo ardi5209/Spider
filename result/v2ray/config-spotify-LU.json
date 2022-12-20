@@ -85,6 +85,46 @@
         "vnext": [
           {
             "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6fb9a750-55b8-4e6e-857b-242b795399dc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "buyvm.imkcp.eu.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "buyvm.imkcp.eu.org"
+          },
+          "path": "/imkcpyyds"
+        }
+      },
+      "tag": "proxy-27 🇱🇺 PONYNET CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
             "port": 2086,
             "users": [
               {
@@ -104,16 +144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "BuyVM.CLOUDFLARE.QUEST"
+          "serverName": "buyvm.cloudflare.quest"
         },
         "wsSettings": {
           "headers": {
-            "Host": "BuyVM.CLOUDFLARE.QUEST"
+            "Host": "buyvm.cloudflare.quest"
           },
           "path": "/aries"
         }
       },
-      "tag": "proxy-25 🇱🇺 PONYNET CDN 👾 漁師"
+      "tag": "proxy-140 🇱🇺 PONYNET CDN 👾 漁師"
     }
   ],
   "dns": {

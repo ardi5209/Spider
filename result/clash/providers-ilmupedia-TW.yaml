@@ -1,13 +1,14 @@
 proxies:
-  - name: '85 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw7.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 775fb728-ef64-406c-b0ed-a4efcb6f870e
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '106 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: news.microsoft.com
