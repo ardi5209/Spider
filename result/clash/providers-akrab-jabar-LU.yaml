@@ -1,5 +1,21 @@
 proxies:
-  - name: '176 🇱🇺 PONYNET SNI 👾 漁師'
+  - name: '5 🇱🇺 PONYNET CDN 👾 漁師'
+    server: 104.18.21.226
+    type: vmess
+    port: 2086
+    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: BuyVM.CLOUDFLARE.QUEST
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: BuyVM.CLOUDFLARE.QUEST
+  - name: '108 🇱🇺 PONYNET SNI 👾 漁師'
     server: buyvm.oppo.quest
     type: vmess
     port: 2086
@@ -15,39 +31,23 @@ proxies:
       path: /aries
       headers:
         Host: api.midtrans.com
-  - name: '202 🇱🇺 PONYNET CDN 👾 漁師'
-    server: 172.67.199.34
+  - name: '162 🇱🇺 Unknown CDN 👾 漁師'
+    server: 104.18.10.39
     type: vmess
     port: 443
-    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: buyvm.imkcp.eu.org
+    servername: hk.sharecentre.online
     ws-opts: 
-      path: /imkcpyyds
+      path: /shirker
       headers:
-        Host: buyvm.imkcp.eu.org
-  - name: '229 🇱🇺 PONYNET CDN 👾 漁師'
-    server: 172.67.199.34
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
-  - name: '283 🇱🇺 Unknown CDN 👾 漁師'
+        Host: hk.sharecentre.online
+  - name: '204 🇱🇺 Unknown CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
     port: 443
@@ -63,35 +63,3 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
-  - name: '304 🇱🇺 PONYNET SNI 👾 漁師'
-    server: 107.189.28.253
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: api.midtrans.com
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: api.midtrans.com
-  - name: '312 🇱🇺 PONYNET CDN 👾 漁師'
-    server: 104.18.10.39
-    type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: BuyVM.CLOUDFLARE.QUEST

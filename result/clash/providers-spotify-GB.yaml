@@ -1,5 +1,33 @@
 proxies:
-  - name: '105 🇬🇧 OVH SAS CDN 👾 漁師'
+  - name: '16 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '116 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.195.180.123
+    type: vmess
+    port: 21360
+    uuid: 15cdc143-5fc6-4c8a-9880-44140c7c21f1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: 
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '147 🇬🇧 OVH SAS CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 8080
@@ -15,47 +43,11 @@ proxies:
       path: /
       headers:
         Host: uk.jiedian01.cf
-  - name: '116 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 29210
-    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '139 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 29210
-    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '216 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '306 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.75.160.126
+  - name: '165 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.38.82.132
     type: vmess
     port: 443
-    uuid: 677d7852-bd73-4da5-98a4-f984e89fee65
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
     alterId: 0
     cipher: auto
     tls: true
@@ -67,26 +59,35 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '41 🇬🇧 Iomart Clo SNI 👾 漁師'
-    server: 88.150.137.177
+  - name: '15 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+    server: jgwld1.gaox.ml
     type: trojan
     port: 443
-    password: shefelnak
+    password: 02e653c9-7c93-46a9-999d-11834bd0c577
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '82 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.212
+  - name: '26 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: t1.teslacdn1.live
     type: trojan
     port: 443
-    password: shefelnak
+    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '98 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: ukt1.sshocean.net
+  - name: '30 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: uk1.trojanvh.xyz
+    type: trojan
+    port: 443
+    password: b640d791-ff83-4300-b509-c2a02f97f167
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '94 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.195.219.173
     type: trojan
     port: 443
     password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
@@ -94,8 +95,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '207 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider20.cdn-delivery.akamaicd.com
+  - name: '97 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider21.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: shefelnak
@@ -103,29 +104,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '228 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.209
+  - name: '131 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.212
     type: trojan
     port: 443
     password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '291 🇬🇧 Stark Indu SNI 👾 漁師'
-    server: 146.19.230.241
-    type: trojan
-    port: 443
-    password: xxoo
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '299 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: uk1.trojanvh.xyz
-    type: trojan
-    port: 443
-    password: b640d791-ff83-4300-b509-c2a02f97f167
     udp: true
     skip-cert-verify: true
     network: tcp

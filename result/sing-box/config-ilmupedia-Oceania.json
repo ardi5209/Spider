@@ -45,20 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "302 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-        "303 🇦🇺 ORACLE-BMC CDN 👾 漁師",
-        "168 🇦🇺 OVH SAS SNI 👾 漁師",
-        "170 🇦🇺 OVH SAS SNI 👾 漁師",
-        "241 🇦🇺 OVH SAS SNI 👾 漁師",
-        "297 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+        "77 🇦🇺 OVH SAS SNI 👾 漁師",
+        "105 🇦🇺 OVH SAS SNI 👾 漁師",
+        "164 🇦🇺 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "302 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-      "server": "aus01.paopaocloud.cyou",
+      "tag": "77 🇦🇺 OVH SAS SNI 👾 漁師",
+      "server": "139.99.135.182",
       "server_port": 443,
-      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "uuid": "4b4faeaf-f2ac-46b9-aa66-1896fb6068f0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -68,39 +65,18 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/v2ray",
+        "path": "/vmess",
         "headers": {
           "Host": "news.microsoft.com"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "303 🇦🇺 ORACLE-BMC CDN 👾 漁師",
-      "server": "cacerts.digicert.com",
-      "server_port": 443,
-      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "aus01.paopaocloud.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v2ray",
-        "headers": {
-          "Host": "aus01.paopaocloud.cyou"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "168 🇦🇺 OVH SAS SNI 👾 漁師",
+      "tag": "105 🇦🇺 OVH SAS SNI 👾 漁師",
       "server": "139.99.171.83",
       "server_port": 443,
-      "password": "dd770f68-b324-4a8b-aa04-e72fa717e127",
+      "password": "3025f9a2-86a6-4fc6-84e5-70aaa85246ef",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -109,34 +85,10 @@
     },
     {
       "type": "trojan",
-      "tag": "170 🇦🇺 OVH SAS SNI 👾 漁師",
+      "tag": "164 🇦🇺 OVH SAS SNI 👾 漁師",
       "server": "139.99.171.83",
       "server_port": 443,
-      "password": "704d320e-6e4d-4074-b069-49781194cd45",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "241 🇦🇺 OVH SAS SNI 👾 漁師",
-      "server": "aut1.sshocean.net",
-      "server_port": 443,
-      "password": "fe100e71-1dcf-48d7-90ea-5809db9ce6cf",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "297 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-      "server": "140.238.205.173",
-      "server_port": 443,
-      "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
+      "password": "2a3bde53-4685-4c95-8b53-1d57a940a4a8",
       "tls": {
         "enabled": true,
         "insecure": true,
