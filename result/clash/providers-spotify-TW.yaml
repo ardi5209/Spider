@@ -1,9 +1,41 @@
 proxies:
-  - name: '33 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw3.czs1000.com
+  - name: '89 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw1.fun513.ga
     type: vmess
-    port: 1001
-    uuid: 5016937d-039c-4267-85d9-5bede13f6137
+    port: 46567
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /tw01
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '194 🇹🇼 Data Commu SNI 👾 漁師'
+    server: f1f3227.v8.glados-config.net
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '238 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     alterId: 0
     cipher: auto
     tls: true
@@ -11,27 +43,32 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '179 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw2.czs1000.com
+  - name: '305 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw1.sanfen001.pics
     type: vmess
-    port: 1001
-    uuid: 5016937d-039c-4267-85d9-5bede13f6137
+    port: 443
+    uuid: 2788644f-d8e2-470c-8a5d-d1a646ae8dc1
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '186 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw5.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 5016937d-039c-4267-85d9-5bede13f6137
-    alterId: 0
-    cipher: auto
-    tls: true
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '324 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com
