@@ -1,5 +1,5 @@
 proxies:
-  - name: '37 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '449 🇹🇼 Data Commu SNI 👾 漁師'
     server: 111.6.86.74
     type: vmess
     port: 9094
@@ -10,17 +10,21 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /game
       headers:
-        Host: config.teams.microsoft.com
-  - name: '76 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tt01.yuncyo.xyz
+        Host: click.zoom.us
+  - name: '119 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
     type: trojan
-    port: 443
-    password: 876ce30a-8944-32e3-9bce-865c939808e2
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: config.teams.microsoft.com

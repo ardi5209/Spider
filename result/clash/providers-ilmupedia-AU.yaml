@@ -1,9 +1,77 @@
 proxies:
-  - name: '19 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '340 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.135.182
+    type: vmess
+    port: 443
+    uuid: 4b4faeaf-f2ac-46b9-aa66-1896fb6068f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '521 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 51.161.130.141
+    type: vmess
+    port: 443
+    uuid: 3811468b-3336-4bcb-ae84-86351b901159
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /JAGOANSSH/
+      headers:
+        Host: news.microsoft.com
+  - name: '177 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: aut1.sshocean.net
+    type: trojan
+    port: 443
+    password: 73fc31e2-f372-441a-ac47-8e516b909738
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '251 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn4.gaox.ml
+    type: trojan
+    port: 443
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '302 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 139.99.171.83
     type: trojan
     port: 443
-    password: 2a3bde53-4685-4c95-8b53-1d57a940a4a8
+    password: 955e8f98-bbb2-4681-b6b4-b7b1f3af0a52
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '319 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 140.238.205.173
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '446 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
     udp: true
     skip-cert-verify: true
     network: tcp
