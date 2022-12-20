@@ -1,25 +1,9 @@
 proxies:
-  - name: '49 🇮🇩 PT Linkgo  CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 781adf87-0afa-420c-875f-879162a2bce1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: id-v.sshmax.xyz
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: id-v.sshmax.xyz
-  - name: '50 🇮🇩 PT Linkgo  SNI 👾 漁師'
+  - name: '156 🇮🇩 PT Linkgo  SNI 👾 漁師'
     server: id-v.sshmax.xyz
     type: vmess
     port: 443
-    uuid: 781adf87-0afa-420c-875f-879162a2bce1
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
     alterId: 0
     cipher: auto
     tls: true
@@ -31,3 +15,19 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
+  - name: '157 🇮🇩 PT Linkgo  CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: id-v.sshmax.xyz
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: id-v.sshmax.xyz

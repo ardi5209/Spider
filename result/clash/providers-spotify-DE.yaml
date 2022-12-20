@@ -1,9 +1,9 @@
 proxies:
-  - name: '63 🇩🇪 Linode LL SNI 👾 漁師'
-    server: gddx.fosi.hk
+  - name: '23 🇩🇪 G-Core Lab SNI 👾 漁師'
+    server: de1.fun513.ga
     type: vmess
-    port: 49062
-    uuid: 16d6fbb0-b1b3-42b7-a352-57d24d021b6e
+    port: 58998
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
     alterId: 0
     cipher: auto
     tls: true
@@ -12,58 +12,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /fly
+      path: /de01
       headers:
         Host: image-upload4.spotify.com
-  - name: '103 🇩🇪 Linode LL SNI 👾 漁師'
-    server: gddx.fosi.hk
-    type: vmess
-    port: 49062
-    uuid: b675e5f3-9374-4ac3-89b3-dfe404d600b7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /fly
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '129 🇩🇪 Linode LL SNI 👾 漁師'
-    server: gddx.fosi.hk
-    type: vmess
-    port: 49062
-    uuid: bf199f79-1ea1-4ef0-a860-e76bd940dacc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /fly
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '190 🇩🇪 Linode LL SNI 👾 漁師'
-    server: gddx.fosi.hk
-    type: vmess
-    port: 49062
-    uuid: 27723e41-3490-4672-85cc-cadbdbe3a7e1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /fly
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '202 🇩🇪 OVH SAS SNI 👾 漁師'
+  - name: '83 🇩🇪 OVH SAS SNI 👾 漁師'
     server: de1.v2-ray.us
     type: vmess
     port: 443
@@ -79,7 +31,7 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '202 🇩🇪 OVH SAS CDN 👾 漁師'
+  - name: '84 🇩🇪 OVH SAS CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -95,11 +47,27 @@ proxies:
       path: /vmess
       headers:
         Host: de1.v2-ray.us
-  - name: '90 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: t2.teslacdn1.live
+  - name: '173 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 162.55.174.135
+    type: vmess
+    port: 443
+    uuid: 4d9aa6db-705a-4bfa-b05b-8f442c839557
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '42 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
     port: 443
-    password: 4331812b-92ff-47b5-9f32-78b5150e625f
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp

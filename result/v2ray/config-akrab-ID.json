@@ -84,6 +84,46 @@
       "settings": {
         "vnext": [
           {
+            "address": "id-v.sshmax.xyz",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-156 🇮🇩 PT Linkgo  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "hohm.microsoft.com",
             "port": 443,
             "users": [
@@ -91,7 +131,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "781adf87-0afa-420c-875f-879162a2bce1",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
                 "level": 8,
                 "security": "auto"
               }
@@ -113,47 +153,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-49 🇮🇩 PT Linkgo  CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "id-v.sshmax.xyz",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "781adf87-0afa-420c-875f-879162a2bce1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-50 🇮🇩 PT Linkgo  SNI 👾 漁師"
+      "tag": "proxy-157 🇮🇩 PT Linkgo  CDN 👾 漁師"
     }
   ],
   "dns": {
