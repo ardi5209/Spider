@@ -45,13 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "78 🇩🇪 OVH SAS CDN 👾 漁師",
-        "134 🇩🇪 Hetzner On CDN 👾 漁師"
+        "75 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+        "234 🇩🇪 OVH SAS CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "78 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "75 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "4ad662ac-aeb5-4f48-d99f-4c0bd425c7ba",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "nasa.supercloud.ml"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2wty-zz6fse-jmg54",
+        "headers": {
+          "Host": "nasa.supercloud.ml"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "234 🇩🇪 OVH SAS CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
@@ -67,27 +88,6 @@
         "path": "/vmess",
         "headers": {
           "Host": "de1.v2-ray.us"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇩🇪 Hetzner On CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sun.prxpro.cc"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/g7970d1b58m1ixn3i16i",
-        "headers": {
-          "Host": "sun.prxpro.cc"
         }
       }
     }

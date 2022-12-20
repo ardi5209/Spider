@@ -45,16 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "161 🇦🇺 OVH SAS SNI 👾 漁師",
-        "38 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-        "43 🇦🇺 OVH SAS SNI 👾 漁師",
-        "159 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-        "194 🇦🇺 OVH SAS SNI 👾 漁師"
+        "112 🇦🇺 Linode LL SNI 👾 漁師",
+        "262 🇦🇺 OVH SAS SNI 👾 漁師",
+        "133 🇦🇺 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "161 🇦🇺 OVH SAS SNI 👾 漁師",
+      "tag": "112 🇦🇺 Linode LL SNI 👾 漁師",
+      "server": "au1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "13a57f4b-51bb-4249-9981-b85cff441a94",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "262 🇦🇺 OVH SAS SNI 👾 漁師",
       "server": "139.99.135.182",
       "server_port": 443,
       "uuid": "4b4faeaf-f2ac-46b9-aa66-1896fb6068f0",
@@ -75,46 +94,10 @@
     },
     {
       "type": "trojan",
-      "tag": "38 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-      "server": "jgwxn4.gaox.ml",
-      "server_port": 443,
-      "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "43 🇦🇺 OVH SAS SNI 👾 漁師",
+      "tag": "133 🇦🇺 OVH SAS SNI 👾 漁師",
       "server": "139.99.171.83",
       "server_port": 443,
-      "password": "704d320e-6e4d-4074-b069-49781194cd45",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "159 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-      "server": "152.67.98.30",
-      "server_port": 443,
-      "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "194 🇦🇺 OVH SAS SNI 👾 漁師",
-      "server": "139.99.171.83",
-      "server_port": 443,
-      "password": "3025f9a2-86a6-4fc6-84e5-70aaa85246ef",
+      "password": "b4239864-3b20-44b2-97d9-3619993ae5b6",
       "tls": {
         "enabled": true,
         "insecure": true,

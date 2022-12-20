@@ -1,10 +1,17 @@
 proxies:
-  - name: '58 🇵🇱 OVH SAS SNI 👾 漁師'
-    server: 51.83.186.142
-    type: trojan
+  - name: '243 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 147.135.208.210
+    type: vmess
     port: 443
-    password: 2959e4f7-7589-4a40-9b96-1be750ac7845
+    uuid: b7601267-ba4f-4042-b2df-080a42173f43
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com
