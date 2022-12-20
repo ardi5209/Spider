@@ -45,28 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "400 🇨🇭 Datasource SNI 👾 漁師"
+        "251 🇨🇭 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
-      "type": "vmess",
-      "tag": "400 🇨🇭 Datasource SNI 👾 漁師",
-      "server": "5.182.36.199",
-      "server_port": 6616,
-      "uuid": "2068154b-fbd8-425d-8bab-340a789fe21a",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "251 🇨🇭 ORACLE-BMC SNI 👾 漁師",
+      "server": "ch12.yukiss.eu.org",
+      "server_port": 18818,
+      "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
       }
     }
   ],

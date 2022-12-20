@@ -1,17 +1,10 @@
 proxies:
-  - name: '400 🇨🇭 Datasource SNI 👾 漁師'
-    server: 5.182.36.199
-    type: vmess
-    port: 6616
-    uuid: 2068154b-fbd8-425d-8bab-340a789fe21a
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '251 🇨🇭 ORACLE-BMC SNI 👾 漁師'
+    server: ch12.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com

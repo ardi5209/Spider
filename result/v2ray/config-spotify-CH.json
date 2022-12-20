@@ -80,40 +80,29 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "5.182.36.199",
-            "port": 6616,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "2068154b-fbd8-425d-8bab-340a789fe21a",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "ch12.yukiss.eu.org",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+            "port": 18818
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "image-upload4.spotify.com"
-          },
-          "path": "/"
         }
       },
-      "tag": "proxy-400 🇨🇭 Datasource SNI 👾 漁師"
+      "tag": "proxy-251 🇨🇭 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {
