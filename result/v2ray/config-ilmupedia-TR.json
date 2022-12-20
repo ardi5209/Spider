@@ -80,6 +80,46 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tr1.fun513.ga",
+            "port": 51102,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "da05afe6-3241-4941-bab7-ce3dc19c3d0c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/tr01"
+        }
+      },
+      "tag": "proxy-93 🇹🇷 G-Core Lab SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -102,7 +142,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-129 🇹🇷 Comnet Bil SNI 👾 漁師"
+      "tag": "proxy-18 🇹🇷 Comnet Bil SNI 👾 漁師"
     }
   ],
   "dns": {
