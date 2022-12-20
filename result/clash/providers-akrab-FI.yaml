@@ -1,17 +1,33 @@
 proxies:
-  - name: '49 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '11 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
-    port: 12951
-    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    port: 34303
+    uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
+  - name: '249 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 95.216.45.33
+    type: vmess
+    port: 443
+    uuid: 90a828a4-0417-97fe-c834-77e0905ea762
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /ykiuvws
+      headers:
+        Host: config.teams.microsoft.com
