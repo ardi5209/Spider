@@ -1,10 +1,10 @@
 proxies:
-  - name: '12 🇩🇪 myLoc mana SNI 👾 漁師'
-    server: 213.202.233.147
+  - name: '51 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 3.70.144.63
     type: vmess
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    port: 58026
+    uuid: 41b06022-8205-453a-f2c5-12765339c3c5
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
@@ -12,10 +12,26 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /path/243535322906
+      path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '23 🇩🇪 OVH SAS SNI 👾 漁師'
+  - name: '193 🇩🇪 Hetzner On CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 9bd493b0-f91e-4059-ef7c-9e2b3da5f26d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de100.tehvp.xyz
+    ws-opts: 
+      path: /
+      headers:
+        Host: de100.tehvp.xyz
+  - name: '216 🇩🇪 OVH SAS SNI 👾 漁師'
     server: de1.v2-ray.us
     type: vmess
     port: 443
@@ -31,7 +47,7 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '24 🇩🇪 OVH SAS CDN 👾 漁師'
+  - name: '217 🇩🇪 OVH SAS CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -47,23 +63,7 @@ proxies:
       path: /vmess
       headers:
         Host: de1.v2-ray.us
-  - name: '62 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 94.130.184.57
-    type: vmess
-    port: 443
-    uuid: c5e523e7-da73-40af-a4a9-c638720c30e1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /graphql
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '110 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '103 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
@@ -72,20 +72,20 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '131 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: bdvasxmahl.injafarvpnwebelieve.gq
+  - name: '199 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
     port: 443
-    password: TvBypqQJ9b
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '133 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.152.12
+  - name: '221 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp

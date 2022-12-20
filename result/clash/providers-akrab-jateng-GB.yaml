@@ -1,5 +1,21 @@
 proxies:
-  - name: '356 🇬🇧 OVH SAS CDN 👾 漁師'
+  - name: '72 🇬🇧 OVH SAS CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: uk1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: uk1.v2-ray.us
+  - name: '240 🇬🇧 OVH SAS CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 8080
