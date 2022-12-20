@@ -1,73 +1,17 @@
 proxies:
-  - name: '19 🇹🇼 Data Commu SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
+  - name: '118 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw1.sanfen001.pics
     type: vmess
-    port: 19022
-    uuid: 853f0409-f6c4-3198-aa04-21536b1ae383
+    port: 443
+    uuid: 09de52a4-b1d3-4716-a589-c9cc7d91317d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '74 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw6.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 13a57f4b-51bb-4249-9981-b85cff441a94
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '102 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw5.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 13a57f4b-51bb-4249-9981-b85cff441a94
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '110 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw2.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 13a57f4b-51bb-4249-9981-b85cff441a94
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '142 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw2.czs1000.com
-    type: vmess
-    port: 4011
-    uuid: 13a57f4b-51bb-4249-9981-b85cff441a94
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '218 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw3.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 13a57f4b-51bb-4249-9981-b85cff441a94
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: image-upload4.spotify.com
