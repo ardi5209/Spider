@@ -45,19 +45,50 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "112 🇷🇺 LLC Baxet SNI 👾 漁師"
+        "61 🇷🇺 LLC Baxet SNI 👾 漁師",
+        "63 🇷🇺 CLOUDFLARE CDN 👾 漁師"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "112 🇷🇺 LLC Baxet SNI 👾 漁師",
-      "server": "195.133.10.202",
-      "server_port": 44976,
-      "password": "tiUobCwrVb",
+      "type": "vmess",
+      "tag": "61 🇷🇺 LLC Baxet SNI 👾 漁師",
+      "server": "v10a.toddns.tk",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ZPKLSPJjLBEy",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "63 🇷🇺 CLOUDFLARE CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v10a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ZPKLSPJjLBEy",
+        "headers": {
+          "Host": "v10a.toddns.tk"
+        }
       }
     }
   ],

@@ -45,47 +45,109 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "65 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "87 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "40 🇬🇧 ORACLE-BMC SNI 👾 漁師",
-        "55 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "60 🇬🇧 Iomart Clo SNI 👾 漁師"
+        "31 🇬🇧 OVH SAS CDN 👾 漁師",
+        "32 🇬🇧 OVH SAS SNI 👾 漁師",
+        "60 🇬🇧 Linode LL SNI 👾 漁師",
+        "204 🇬🇧 G-Core Lab SNI 👾 漁師",
+        "13 🇬🇧 OVH SAS SNI 👾 漁師",
+        "34 🇬🇧 Iomart Clo SNI 👾 漁師",
+        "64 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "101 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "183 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "196 🇬🇧 OVH SAS SNI 👾 漁師",
+        "213 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "65 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "tag": "31 🇬🇧 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "uk1.v2-ray.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "uk1.v2-ray.us"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "87 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "tag": "32 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "uk1.v2-ray.us",
+      "server_port": 443,
+      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "60 🇬🇧 Linode LL SNI 👾 漁師",
+      "server": "gb1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "775fb728-ef64-406c-b0ed-a4efcb6f870e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "204 🇬🇧 G-Core Lab SNI 👾 漁師",
+      "server": "uk1.fun513.ga",
+      "server_port": 59788,
+      "uuid": "da05afe6-3241-4941-bab7-ce3dc19c3d0c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/uk01",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "40 🇬🇧 ORACLE-BMC SNI 👾 漁師",
-      "server": "london11.yukiss.eu.org",
-      "server_port": 18818,
-      "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+      "tag": "13 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "ukt1.sshocean.net",
+      "server_port": 443,
+      "password": "beccf31b-5e7e-4b44-a0a1-b80ba6f9306f",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -94,8 +156,8 @@
     },
     {
       "type": "trojan",
-      "tag": "55 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "185.16.206.209",
+      "tag": "34 🇬🇧 Iomart Clo SNI 👾 漁師",
+      "server": "content-provider4.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
@@ -106,8 +168,56 @@
     },
     {
       "type": "trojan",
-      "tag": "60 🇬🇧 Iomart Clo SNI 👾 漁師",
-      "server": "88.150.137.177",
+      "tag": "64 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider22.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "101 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.212",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "183 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider20.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "196 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "uk1.trojanvh.xyz",
+      "server_port": 443,
+      "password": "b640d791-ff83-4300-b509-c2a02f97f167",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "213 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.209",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {

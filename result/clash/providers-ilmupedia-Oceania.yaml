@@ -1,9 +1,9 @@
 proxies:
-  - name: '110 🇦🇺 DIGITALOCE SNI 👾 漁師'
-    server: au1.fun513.ga
+  - name: '55 🇦🇺 Linode LL SNI 👾 漁師'
+    server: au1.czs1000.com
     type: vmess
-    port: 54564
-    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    port: 11217
+    uuid: 775fb728-ef64-406c-b0ed-a4efcb6f870e
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,47 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /au01
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
         Host: news.microsoft.com
+  - name: '82 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.135.182
+    type: vmess
+    port: 443
+    uuid: 4b4faeaf-f2ac-46b9-aa66-1896fb6068f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '113 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: aus01.paopaocloud.cyou
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '70 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: syd14.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
