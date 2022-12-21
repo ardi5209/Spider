@@ -1,5 +1,33 @@
 proxies:
-  - name: '80 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '13 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: v2sg1.741741.xyz
+    type: vmess
+    port: 443
+    uuid: 26c5fdc7-b3be-3482-9a45-d97b958a889a
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '20 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '109 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw1.fun513.ga
     type: vmess
     port: 46567
@@ -13,21 +41,5 @@ proxies:
     servername: news.microsoft.com
     ws-opts: 
       path: /tw01
-      headers:
-        Host: news.microsoft.com
-  - name: '95 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 111.6.86.74
-    type: vmess
-    port: 9094
-    uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
-    alterId: 2
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /game
       headers:
         Host: news.microsoft.com
