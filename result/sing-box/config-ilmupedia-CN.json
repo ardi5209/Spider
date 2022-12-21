@@ -45,27 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "10 🇨🇳 CHINA UNIC SNI 👾 漁師",
-        "48 🇨🇳 PEGTECHINC SNI 👾 漁師"
+        "17 🇨🇳 Ningxia We SNI 👾 漁師",
+        "57 🇨🇳 PEGTECHINC SNI 👾 漁師",
+        "65 🇨🇳 PEGTECHINC SNI 👾 漁師",
+        "171 🇨🇳 Hangzhou A SNI 👾 漁師",
+        "174 🇨🇳 Shenzhen T SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "10 🇨🇳 CHINA UNIC SNI 👾 漁師",
-      "server": "112.132.215.189",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "tag": "17 🇨🇳 Ningxia We SNI 👾 漁師",
+      "server": "68.79.45.146",
+      "server_port": 3358,
+      "uuid": "a387f7e2-b915-4bc3-ae1c-9852a55b1332",
       "security": "auto",
-      "alter_id": 64,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "48 🇨🇳 PEGTECHINC SNI 👾 漁師",
+      "tag": "57 🇨🇳 PEGTECHINC SNI 👾 漁師",
       "server": "142.0.135.66",
       "server_port": 443,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
@@ -82,6 +92,55 @@
         "headers": {
           "Host": "news.microsoft.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "65 🇨🇳 PEGTECHINC SNI 👾 漁師",
+      "server": "137.175.28.5",
+      "server_port": 17805,
+      "uuid": "30297ab2-ceef-48ae-838f-9ca4bf625da8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "171 🇨🇳 Hangzhou A SNI 👾 漁師",
+      "server": "39.103.165.178",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "174 🇨🇳 Shenzhen T SNI 👾 漁師",
+      "server": "106.55.234.95",
+      "server_port": 31372,
+      "uuid": "374d3519-455c-45b8-e3b1-0e2e9fcf4411",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
       }
     }
   ],

@@ -1,17 +1,33 @@
 proxies:
-  - name: '19 🇱🇺 PONYNET CDN 👾 漁師'
+  - name: '38 🇱🇺 PONYNET CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
-    port: 2086
-    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: BuyVM.CLOUDFLARE.QUEST
+    servername: lu1.gogogoo.cyou
     ws-opts: 
-      path: /aries
+      path: /go
       headers:
-        Host: BuyVM.CLOUDFLARE.QUEST
+        Host: lu1.gogogoo.cyou
+  - name: '97 🇱🇺 PONYNET SNI 👾 漁師'
+    server: 104.244.73.218
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com

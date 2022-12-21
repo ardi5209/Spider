@@ -45,17 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "31 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "45 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "128 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "138 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "49 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "118 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "122 🇭🇰 Layerstack CDN 👾 漁師",
+        "158 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "183 🇭🇰 G-Core Lab CDN 👾 漁師",
         "186 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "188 🇭🇰 G-Core Lab CDN 👾 漁師"
+        "190 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "197 🇭🇰 G-Core Lab CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "31 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "49 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "104.18.25.139",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
@@ -76,7 +78,7 @@
     },
     {
       "type": "vmess",
-      "tag": "45 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "118 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "104.16.51.111",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
@@ -97,8 +99,29 @@
     },
     {
       "type": "vmess",
-      "tag": "128 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "104.18.25.139",
+      "tag": "122 🇭🇰 Layerstack CDN 👾 漁師",
+      "server": "104.16.66.85",
+      "server_port": 443,
+      "uuid": "965dec2a-c9d2-4e8b-bef0-8da13816e2dd",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "db.cfyxdb.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2",
+        "headers": {
+          "Host": "db.cfyxdb.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "158 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "141.193.213.10",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
       "security": "auto",
@@ -118,29 +141,29 @@
     },
     {
       "type": "vmess",
-      "tag": "138 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "104.16.66.85",
-      "server_port": 2086,
-      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
+      "tag": "183 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "141.193.213.20",
+      "server_port": 2052,
+      "uuid": "b3158ddc-048a-371f-b7ec-ac140be3fcb7",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcorehk.cloudflare.quest"
+        "server_name": "dubawtgfnewi.marisalnc.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/aries",
+        "path": "/miao",
         "headers": {
-          "Host": "gcorehk.cloudflare.quest"
+          "Host": "dubawtgfnewi.marisalnc.com"
         }
       }
     },
     {
       "type": "vmess",
       "tag": "186 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "104.16.51.111",
+      "server": "162.159.128.7",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
       "security": "auto",
@@ -160,8 +183,29 @@
     },
     {
       "type": "vmess",
-      "tag": "188 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "162.159.135.42",
+      "tag": "190 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "141.193.213.20",
+      "server_port": 2086,
+      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorehk.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "gcorehk.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "197 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "104.16.66.85",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
       "security": "auto",
