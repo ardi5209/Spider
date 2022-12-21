@@ -1,9 +1,25 @@
 proxies:
-  - name: '193 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 08.kccic2pa.xyz
+  - name: '46 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 111.6.86.74
     type: vmess
-    port: 50008
-    uuid: 535d8088-72f5-472e-a552-23112c26b558
+    port: 9094
+    uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /game
+      headers:
+        Host: news.microsoft.com
+  - name: '85 🇹🇼 Data Commu SNI 👾 漁師'
+    server: yzdx.relay01.fast001.buzz
+    type: vmess
+    port: 19022
+    uuid: 4b7c2bd5-534a-3a02-b62f-0babc889fe47
     alterId: 0
     cipher: auto
     tls: true
@@ -11,12 +27,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '133 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: t-wn03.beef1917.com
+  - name: '69 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
     type: trojan
-    port: 53056
-    password: 97856218-c1c1-4965-ab1a-f1411d601651
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: news.microsoft.com

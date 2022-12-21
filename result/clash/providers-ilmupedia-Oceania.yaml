@@ -1,38 +1,15 @@
 proxies:
-  - name: '166 🇦🇺 OVH SAS SNI 👾 漁師'
-    server: 51.161.130.141
-    type: vmess
+  - name: '144 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.98.30
+    type: trojan
     port: 443
-    uuid: 3811468b-3336-4bcb-ae84-86351b901159
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /JAGOANSSH/
-      headers:
-        Host: news.microsoft.com
-  - name: '199 🇦🇺 OVH SAS SNI 👾 漁師'
-    server: 139.99.135.182
-    type: vmess
-    port: 443
-    uuid: 4b4faeaf-f2ac-46b9-aa66-1896fb6068f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '86 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: syd14.yukiss.eu.org
+  - name: '170 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: mel12.yukiss.eu.org
     type: trojan
     port: 18818
     password: 8a03bc28-2a33-42c4-be59-30464dbb9954
