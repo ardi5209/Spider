@@ -1,9 +1,25 @@
 proxies:
-  - name: '168 🇧🇷 ORACLE-BMC CDN 👾 漁師'
-    server: news.microsoft.com
+  - name: '5 🇧🇷 ORACLE-BMC CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
     port: 2052
     uuid: b3158ddc-048a-371f-b7ec-ac140be3fcb7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: frarmbc.marisalnc.com
+    ws-opts: 
+      path: /miao
+      headers:
+        Host: frarmbc.marisalnc.com
+  - name: '129 🇧🇷 ORACLE-BMC CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 2052
+    uuid: c7917c5b-c14f-36a2-8277-fcc42d6b8462
     alterId: 0
     cipher: auto
     tls: true
