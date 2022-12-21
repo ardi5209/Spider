@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.104.237.32",
+            "address": "112.132.215.189",
             "port": 50002,
             "users": [
               {
@@ -107,7 +107,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-36 🇨🇳 Hangzhou A SNI 👾 漁師"
+      "tag": "proxy-54 🇨🇳 CHINA UNIC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,8 +118,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.186.198.63",
-            "port": 50002,
+            "address": "142.0.135.66",
+            "port": 443,
             "users": [
               {
                 "alterId": 64,
@@ -134,14 +134,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-80 🇨🇳 Shenzhen T SNI 👾 漁師"
+      "tag": "proxy-152 🇨🇳 PEGTECHINC SNI 👾 漁師"
     }
   ],
   "dns": {

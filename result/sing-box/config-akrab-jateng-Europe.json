@@ -45,29 +45,138 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "2 🇫🇷 Online S.a CDN 👾 漁師",
-        "24 🇳🇱 DIGITALOCE CDN 👾 漁師",
-        "30 🇫🇷 CLOUDFLARE CDN 👾 漁師",
-        "32 🇬🇧 OVH SAS CDN 👾 漁師",
-        "42 🇫🇷 Online S.a CDN 👾 漁師",
-        "59 🇫🇷 Online S.a CDN 👾 漁師",
-        "77 🇫🇷 Online S.a CDN 👾 漁師",
-        "84 🇫🇷 Online S.a CDN 👾 漁師",
-        "90 🇳🇱 The Infras CDN 👾 漁師",
-        "96 🇳🇱 The Infras CDN 👾 漁師",
-        "98 🇳🇱 DIGITALOCE CDN 👾 漁師",
-        "99 🇫🇷 Online S.a CDN 👾 漁師",
-        "105 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "119 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "122 🇱🇺 PONYNET CDN 👾 漁師",
-        "123 🇫🇷 Online S.a CDN 👾 漁師",
-        "127 🇩🇪 OVH SAS CDN 👾 漁師",
-        "159 🇫🇷 Online S.a CDN 👾 漁師"
+        "2 🇬🇧 OVH SAS CDN 👾 漁師",
+        "8 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "9 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "30 🇱🇺 PONYNET CDN 👾 漁師",
+        "36 🇫🇷 Online S.a CDN 👾 漁師",
+        "38 🇫🇷 Online S.a CDN 👾 漁師",
+        "45 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "64 🇫🇷 Online S.a CDN 👾 漁師",
+        "68 🇫🇷 Online S.a CDN 👾 漁師",
+        "69 🇳🇱 The Infras CDN 👾 漁師",
+        "93 🇩🇪 myLoc mana CDN 👾 漁師",
+        "100 🇫🇷 Online S.a CDN 👾 漁師",
+        "102 🇳🇱 DIGITALOCE CDN 👾 漁師",
+        "107 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "113 🇫🇷 Online S.a CDN 👾 漁師",
+        "142 🇫🇷 Online S.a CDN 👾 漁師",
+        "143 🇫🇷 CLOUDFLARE CDN 👾 漁師",
+        "144 🇫🇷 Online S.a CDN 👾 漁師",
+        "145 🇫🇷 Online S.a CDN 👾 漁師",
+        "191 🇫🇷 Online S.a CDN 👾 漁師",
+        "192 🇫🇷 Online S.a CDN 👾 漁師",
+        "204 🇳🇱 DIGITALOCE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "2 🇫🇷 Online S.a CDN 👾 漁師",
+      "tag": "2 🇬🇧 OVH SAS CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk.jiedian01.cf"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uk.jiedian01.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "8 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "9 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "30 🇱🇺 PONYNET CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "buyvm.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "buyvm.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "36 🇫🇷 Online S.a CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v10.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fr-unlimitxxx",
+        "headers": {
+          "Host": "v10.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "38 🇫🇷 Online S.a CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -88,7 +197,133 @@
     },
     {
       "type": "vmess",
-      "tag": "24 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "tag": "45 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "64 🇫🇷 Online S.a CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opfr1.v2rayfree1.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/IYKLD53M",
+        "headers": {
+          "Host": "opfr1.v2rayfree1.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "68 🇫🇷 Online S.a CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opfr1.v2rayfree1.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/IYKLD53M",
+        "headers": {
+          "Host": "opfr1.v2rayfree1.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "69 🇳🇱 The Infras CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "3f421e27-5bf8-40c9-86cb-7b8c41dddea2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hl1.cachexy.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lXvA0Vse/",
+        "headers": {
+          "Host": "hl1.cachexy.ga"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93 🇩🇪 myLoc mana CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v143.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/de143-dxddxxj",
+        "headers": {
+          "Host": "v143.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "100 🇫🇷 Online S.a CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lg10.cfcdn1.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "lg10.cfcdn1.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102 🇳🇱 DIGITALOCE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
@@ -109,7 +344,70 @@
     },
     {
       "type": "vmess",
-      "tag": "30 🇫🇷 CLOUDFLARE CDN 👾 漁師",
+      "tag": "107 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "113 🇫🇷 Online S.a CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "9379fea0-006d-4fd3-8e35-d45a5af72aa2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v2ray1.zhujicn2.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/UMW36262",
+        "headers": {
+          "Host": "v2ray1.zhujicn2.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "142 🇫🇷 Online S.a CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "fr1.cachexy.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/p9Dq67Nx/",
+        "headers": {
+          "Host": "fr1.cachexy.ga"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇫🇷 CLOUDFLARE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 2082,
       "uuid": "36fa45db-2d4a-4295-a1fe-223836989878",
@@ -130,49 +428,28 @@
     },
     {
       "type": "vmess",
-      "tag": "32 🇬🇧 OVH SAS CDN 👾 漁師",
+      "tag": "144 🇫🇷 Online S.a CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "uk1.v2-ray.us"
+        "server_name": "lg10.cfcdn1.xyz"
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/A2DJOPFT",
         "headers": {
-          "Host": "uk1.v2-ray.us"
+          "Host": "lg10.cfcdn1.xyz"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "42 🇫🇷 Online S.a CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "opfr1.v2rayfree1.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/IYKLD53M",
-        "headers": {
-          "Host": "opfr1.v2rayfree1.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "59 🇫🇷 Online S.a CDN 👾 漁師",
+      "tag": "145 🇫🇷 Online S.a CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -193,7 +470,7 @@
     },
     {
       "type": "vmess",
-      "tag": "77 🇫🇷 Online S.a CDN 👾 漁師",
+      "tag": "191 🇫🇷 Online S.a CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -214,70 +491,28 @@
     },
     {
       "type": "vmess",
-      "tag": "84 🇫🇷 Online S.a CDN 👾 漁師",
+      "tag": "192 🇫🇷 Online S.a CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "opfr1.v2rayfree1.xyz"
+        "server_name": "lg10.cfcdn1.xyz"
       },
       "transport": {
         "type": "ws",
-        "path": "/IYKLD53M",
+        "path": "/A2DJOPFT",
         "headers": {
-          "Host": "opfr1.v2rayfree1.xyz"
+          "Host": "lg10.cfcdn1.xyz"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "90 🇳🇱 The Infras CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "3f421e27-5bf8-40c9-86cb-7b8c41dddea2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "hl1.cachexy.ga"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lXvA0Vse/",
-        "headers": {
-          "Host": "hl1.cachexy.ga"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "96 🇳🇱 The Infras CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "3f421e27-5bf8-40c9-86cb-7b8c41dddea2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "hl1.cachexy.ga"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lXvA0Vse/",
-        "headers": {
-          "Host": "hl1.cachexy.ga"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "98 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "tag": "204 🇳🇱 DIGITALOCE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
@@ -293,153 +528,6 @@
         "path": "/pkhhvws",
         "headers": {
           "Host": "amshare.jingledev.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "99 🇫🇷 Online S.a CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "lg10.cfcdn1.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/A2DJOPFT",
-        "headers": {
-          "Host": "lg10.cfcdn1.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "105 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "119 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "122 🇱🇺 PONYNET CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "lu1.gogogoo.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/go",
-        "headers": {
-          "Host": "lu1.gogogoo.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "123 🇫🇷 Online S.a CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "lg10.cfcdn1.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/A2DJOPFT",
-        "headers": {
-          "Host": "lg10.cfcdn1.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "127 🇩🇪 OVH SAS CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "de1.v2-ray.us"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "de1.v2-ray.us"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "159 🇫🇷 Online S.a CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "lg10.cfcdn1.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/A2DJOPFT",
-        "headers": {
-          "Host": "lg10.cfcdn1.xyz"
         }
       }
     }

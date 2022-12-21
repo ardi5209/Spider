@@ -45,20 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "88 🇩🇪 Hetzner On SNI 👾 漁師",
-        "91 🇩🇪 Linode LL SNI 👾 漁師",
-        "94 🇩🇪 Hetzner On SNI 👾 漁師",
-        "126 🇩🇪 OVH SAS SNI 👾 漁師",
-        "127 🇩🇪 OVH SAS CDN 👾 漁師",
-        "65 🇩🇪 OVH SAS SNI 👾 漁師"
+        "10 🇩🇪 Hetzner On SNI 👾 漁師",
+        "79 🇩🇪 Hetzner On SNI 👾 漁師",
+        "93 🇩🇪 myLoc mana CDN 👾 漁師",
+        "193 🇩🇪 AMAZON-02 SNI 👾 漁師",
+        "121 🇩🇪 ORACLE-BMC SNI 👾 漁師",
+        "150 🇩🇪 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "88 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "168.119.254.234",
+      "tag": "10 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "94.130.184.57",
       "server_port": 443,
-      "uuid": "41990bdc-da75-496d-bad3-ae822ad8be5f",
+      "uuid": "c5e523e7-da73-40af-a4a9-c638720c30e1",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -76,38 +76,10 @@
     },
     {
       "type": "vmess",
-      "tag": "91 🇩🇪 Linode LL SNI 👾 漁師",
-      "server": "hndx.relay01.fast001.buzz",
-      "server_port": 19046,
-      "uuid": "4b7c2bd5-534a-3a02-b62f-0babc889fe47",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "94 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "78.46.244.34",
-      "server_port": 33655,
-      "uuid": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
-      "security": "auto",
-      "alter_id": 64,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "126 🇩🇪 OVH SAS SNI 👾 漁師",
-      "server": "de1.v2-ray.us",
-      "server_port": 443,
-      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "tag": "79 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "5.75.250.163",
+      "server_port": 2096,
+      "uuid": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -117,7 +89,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -125,31 +97,64 @@
     },
     {
       "type": "vmess",
-      "tag": "127 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "93 🇩🇪 myLoc mana CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
-      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "de1.v2-ray.us"
+        "server_name": "v143.toddns.tk"
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/de143-dxddxxj",
         "headers": {
-          "Host": "de1.v2-ray.us"
+          "Host": "v143.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "193 🇩🇪 AMAZON-02 SNI 👾 漁師",
+      "server": "3.70.144.63",
+      "server_port": 58026,
+      "uuid": "41b06022-8205-453a-f2c5-12765339c3c5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "65 🇩🇪 OVH SAS SNI 👾 漁師",
-      "server": "t2.teslacdn1.live",
+      "tag": "121 🇩🇪 ORACLE-BMC SNI 👾 漁師",
+      "server": "fra13.yukiss.eu.org",
+      "server_port": 18818,
+      "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "150 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "content-provider28.cdn-delivery.akamaicd.com",
       "server_port": 443,
-      "password": "4331812b-92ff-47b5-9f32-78b5150e625f",
+      "password": "origin",
       "tls": {
         "enabled": true,
         "insecure": true,
