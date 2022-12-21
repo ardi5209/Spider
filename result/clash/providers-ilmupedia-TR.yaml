@@ -1,5 +1,21 @@
 proxies:
-  - name: '98 🇹🇷 Hostigger  SNI 👾 漁師'
+  - name: '33 🇹🇷 Teknet Yaz SNI 👾 漁師'
+    server: 185.242.161.206
+    type: vmess
+    port: 25212
+    uuid: 43a988d1-8c8c-4303-9e03-8d651de6f376
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '96 🇹🇷 Hostigger  SNI 👾 漁師'
     server: 36.kccic2pa.xyz
     type: vmess
     port: 50036
@@ -7,47 +23,6 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '142 🇹🇷 Comnet Bil SNI 👾 漁師'
-    server: ir2.archnet.cyou
-    type: vmess
-    port: 4647
-    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: 
-      headers:
-        Host: news.microsoft.com
-  - name: '204 🇹🇷 G-Core Lab SNI 👾 漁師'
-    server: tr1.fun513.ga
-    type: vmess
-    port: 51102
-    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /tr01
-      headers:
-        Host: news.microsoft.com
-  - name: '155 🇹🇷 Comnet Bil SNI 👾 漁師'
-    server: ir2.archnet.cyou
-    type: trojan
-    port: 4646
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
     udp: true
     skip-cert-verify: true
     network: tcp

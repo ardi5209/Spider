@@ -45,19 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "46 🇮🇩 Media Anta SNI 👾 漁師"
+        "157 🇮🇩 PT Linkgo  SNI 👾 漁師"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "46 🇮🇩 Media Anta SNI 👾 漁師",
-      "server": "38.9.140.66",
+      "type": "vmess",
+      "tag": "157 🇮🇩 PT Linkgo  SNI 👾 漁師",
+      "server": "103.157.27.148",
       "server_port": 443,
-      "password": "vvip-periantara",
+      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],
