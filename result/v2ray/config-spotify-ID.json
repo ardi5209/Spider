@@ -91,6 +91,46 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
+                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-209 🇮🇩 PT Linkgo  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "id-v.sshmax.xyz",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
                 "id": "781adf87-0afa-420c-875f-879162a2bce1",
                 "level": 8,
                 "security": "auto"
@@ -113,7 +153,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-208 🇮🇩 PT Linkgo  SNI 👾 漁師"
+      "tag": "proxy-408 🇮🇩 PT Linkgo  SNI 👾 漁師"
     },
     {
       "mux": {
@@ -153,7 +193,65 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-209 🇮🇩 PT Linkgo  CDN 👾 漁師"
+      "tag": "proxy-414 🇮🇩 PT Linkgo  CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "id3tr.jagoan.vip",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "vvip-periantara",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-103 🇮🇩 Media Anta SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "idt3.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "9124bb53-00a8-4bee-b313-32cd40bd8d0b",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-411 🇮🇩 PT Industr SNI 👾 漁師"
     }
   ],
   "dns": {

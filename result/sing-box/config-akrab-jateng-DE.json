@@ -45,27 +45,71 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "9 🇩🇪 OVH SAS CDN 👾 漁師"
+        "27 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+        "486 🇩🇪 myLoc mana CDN 👾 漁師",
+        "506 🇩🇪 myLoc mana CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "9 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "27 🇩🇪 CLOUDFLARE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "server_port": 2053,
+      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "de1.v2-ray.us"
+        "server_name": "haxeu2.zikkcc.ga"
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/",
         "headers": {
-          "Host": "de1.v2-ray.us"
+          "Host": "haxeu2.zikkcc.ga"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "486 🇩🇪 myLoc mana CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v143.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/de143-dxddxxj",
+        "headers": {
+          "Host": "v143.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "506 🇩🇪 myLoc mana CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v143a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/de143-dxddxxj",
+        "headers": {
+          "Host": "v143a.toddns.tk"
         }
       }
     }

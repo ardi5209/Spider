@@ -45,13 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "11 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "117 🇭🇰 G-Core Lab CDN 👾 漁師"
+        "5 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "39 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "98 🇭🇰 Layerstack CDN 👾 漁師",
+        "249 🇭🇰 Layerstack CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "11 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "5 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
@@ -72,22 +74,64 @@
     },
     {
       "type": "vmess",
-      "tag": "117 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "39 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 2052,
-      "uuid": "c7917c5b-c14f-36a2-8277-fcc42d6b8462",
+      "server_port": 2086,
+      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "dubawtgfnewi.marisalnc.com"
+        "server_name": "gcorehk.cloudflare.quest"
       },
       "transport": {
         "type": "ws",
-        "path": "/miao",
+        "path": "/aries",
         "headers": {
-          "Host": "dubawtgfnewi.marisalnc.com"
+          "Host": "gcorehk.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "98 🇭🇰 Layerstack CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "97856218-c1c1-4965-ab1a-f1411d601651",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "db.cfyxdb.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2",
+        "headers": {
+          "Host": "db.cfyxdb.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "249 🇭🇰 Layerstack CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "965dec2a-c9d2-4e8b-bef0-8da13816e2dd",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "db.cfyxdb.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2",
+        "headers": {
+          "Host": "db.cfyxdb.xyz"
         }
       }
     }
