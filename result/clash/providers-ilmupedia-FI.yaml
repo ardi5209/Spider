@@ -1,9 +1,9 @@
 proxies:
-  - name: '70 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 65.109.161.166
+  - name: '133 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
     type: vmess
-    port: 443
-    uuid: 7fd87ddb-ff61-4aca-a40c-73f5cd4d2178
+    port: 12951
+    uuid: 18827895-b647-4570-81e2-de3bd795fa04
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,30 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /graphql
+      path: /
       headers:
         Host: news.microsoft.com
+  - name: '154 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: ppy-moblev2.gatknqh.cn
+    type: vmess
+    port: 26136
+    uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '479 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: ppy-moblev2.gatknqh.cn
+    type: vmess
+    port: 26136
+    uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com

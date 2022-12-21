@@ -45,13 +45,38 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "125 🇨🇦 AMAZON-02 SNI 👾 漁師",
-        "109 🇨🇦 OVH SAS SNI 👾 漁師"
+        "139 🇨🇦 Linode LL SNI 👾 漁師",
+        "392 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "63 🇨🇦 OVH SAS SNI 👾 漁師",
+        "432 🇨🇦 OVH SAS SNI 👾 漁師",
+        "520 🇨🇦 OVH SAS SNI 👾 漁師",
+        "558 🇨🇦 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "125 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "tag": "139 🇨🇦 Linode LL SNI 👾 漁師",
+      "server": "ca1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "270c07a1-1d84-4076-925f-4783d657f5ec",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "392 🇨🇦 AMAZON-02 SNI 👾 漁師",
       "server": "35.182.165.120",
       "server_port": 443,
       "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
@@ -72,7 +97,43 @@
     },
     {
       "type": "trojan",
-      "tag": "109 🇨🇦 OVH SAS SNI 👾 漁師",
+      "tag": "63 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "149.56.141.11",
+      "server_port": 443,
+      "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "432 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "cat1.sshocean.net",
+      "server_port": 443,
+      "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "520 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "149.56.132.41",
+      "server_port": 443,
+      "password": "89d81c5f-3d75-42f7-8a23-1be9ac89f3fb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "558 🇨🇦 OVH SAS SNI 👾 漁師",
       "server": "149.56.132.41",
       "server_port": 443,
       "password": "fafb4232-9659-4867-886d-e47f4bda283e",
