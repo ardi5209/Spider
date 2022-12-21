@@ -1,21 +1,5 @@
 proxies:
-  - name: '76 🇩🇪 Linode LL SNI 👾 漁師'
-    server: de1.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: da79f255-18df-4328-9f51-2cd6d0d3191b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '180 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '66 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 78.46.244.34
     type: vmess
     port: 33655
@@ -27,20 +11,52 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '19 🇩🇪 ORACLE-BMC SNI 👾 漁師'
-    server: fra13.yukiss.eu.org
-    type: trojan
-    port: 18818
-    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  - name: '93 🇩🇪 myLoc mana CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '80 🇩🇪 Hetzner On SNI 👾 漁師'
+    network: ws
+    servername: v143.toddns.tk
+    ws-opts: 
+      path: /de143-dxddxxj
+      headers:
+        Host: v143.toddns.tk
+  - name: '160 🇩🇪 Hetzner On CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sun.prxpro.cc
+    ws-opts: 
+      path: /p3573l6m92h1ham3q23t
+      headers:
+        Host: sun.prxpro.cc
+  - name: '75 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
     port: 443
     password: d76294c5-a31f-408d-ba0b-89880107cab5
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '99 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: t2.teslacdn1.live
+    type: trojan
+    port: 443
+    password: 4331812b-92ff-47b5-9f32-78b5150e625f
     udp: true
     skip-cert-verify: true
     network: tcp
