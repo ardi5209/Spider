@@ -113,7 +113,47 @@
           "path": "/v2ray"
         }
       },
-      "tag": "proxy-52 🇨🇦 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-44 🇨🇦 AMAZON-02 SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ca1.czs1000.com",
+            "port": 11217,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "28f0df15-7204-4cde-9ea5-739d77be75ed",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
+        }
+      },
+      "tag": "proxy-84 🇨🇦 Linode LL SNI 👾 漁師"
     },
     {
       "mux": {
@@ -124,12 +164,12 @@
       "settings": {
         "servers": [
           {
-            "address": "cat1.sshocean.net",
+            "address": "149.56.132.41",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+            "password": "fafb4232-9659-4867-886d-e47f4bda283e",
             "port": 443
           }
         ]
@@ -142,7 +182,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-13 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-27 🇨🇦 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
