@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "jgwxn4.gaox.ml",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
-            "port": 443
+            "address": "51.161.130.141",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "3811468b-3336-4bcb-ae84-86351b901159",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/JAGOANSSH/"
         }
       },
-      "tag": "proxy-38 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-171 🇦🇺 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -113,7 +124,7 @@
       "settings": {
         "servers": [
           {
-            "address": "syd14.yukiss.eu.org",
+            "address": "mel12.yukiss.eu.org",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -131,7 +142,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-91 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-108 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -160,7 +171,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-132 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-113 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {

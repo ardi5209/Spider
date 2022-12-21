@@ -45,17 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "23 🇹🇼 Data Commu SNI 👾 漁師"
+        "173 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
-      "type": "vmess",
-      "tag": "23 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "111.6.86.74",
-      "server_port": 9094,
-      "uuid": "cb4489c7-a966-320c-9120-f17a7dfb4999",
-      "security": "auto",
-      "alter_id": 2,
+      "type": "trojan",
+      "tag": "173 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -63,7 +61,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/game",
+        "path": "/gateway/connect",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }

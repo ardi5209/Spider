@@ -1,17 +1,14 @@
 proxies:
-  - name: '23 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 111.6.86.74
-    type: vmess
-    port: 9094
-    uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
-    alterId: 2
-    cipher: auto
-    tls: true
+  - name: '173 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /game
+      path: /gateway/connect
       headers:
         Host: news.microsoft.com
