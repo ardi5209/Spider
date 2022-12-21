@@ -1,5 +1,21 @@
 proxies:
-  - name: '109 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '128 🇦🇺 DIGITALOCE SNI 👾 漁師'
+    server: au1.fun513.ga
+    type: vmess
+    port: 54564
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /au01
+      headers:
+        Host: news.microsoft.com
+  - name: '272 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 139.99.135.182
     type: vmess
     port: 443
@@ -15,7 +31,7 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '161 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '388 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 51.161.130.141
     type: vmess
     port: 443
@@ -31,8 +47,17 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: news.microsoft.com
-  - name: '7 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: syd14.yukiss.eu.org
+  - name: '11 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '19 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: mel12.yukiss.eu.org
     type: trojan
     port: 18818
     password: 8a03bc28-2a33-42c4-be59-30464dbb9954
@@ -40,7 +65,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '50 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+  - name: '84 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 140.238.205.173
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '353 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn4.gaox.ml
+    type: trojan
+    port: 443
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '438 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: 152.67.98.30
     type: trojan
     port: 443

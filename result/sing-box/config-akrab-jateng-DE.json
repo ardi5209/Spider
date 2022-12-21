@@ -45,13 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "11 🇩🇪 OVH SAS CDN 👾 漁師",
-        "56 🇩🇪 CLOUDFLARE CDN 👾 漁師"
+        "23 🇩🇪 OVH SAS CDN 👾 漁師",
+        "113 🇩🇪 myLoc mana CDN 👾 漁師",
+        "239 🇩🇪 myLoc mana CDN 👾 漁師",
+        "394 🇩🇪 CLOUDFLARE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "11 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "23 🇩🇪 OVH SAS CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
@@ -72,7 +74,49 @@
     },
     {
       "type": "vmess",
-      "tag": "56 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "tag": "113 🇩🇪 myLoc mana CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v143a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/de143-dxddxxj",
+        "headers": {
+          "Host": "v143a.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "239 🇩🇪 myLoc mana CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v143.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/de143-dxddxxj",
+        "headers": {
+          "Host": "v143.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "394 🇩🇪 CLOUDFLARE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 2053,
       "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
