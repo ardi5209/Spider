@@ -1,9 +1,21 @@
 proxies:
-  - name: '125 🇹🇷 Kaopu Clou SNI 👾 漁師'
-    server: tr2.czs1000.com
+  - name: '98 🇹🇷 Hostigger  SNI 👾 漁師'
+    server: 36.kccic2pa.xyz
     type: vmess
-    port: 11217
-    uuid: 28f0df15-7204-4cde-9ea5-739d77be75ed
+    port: 50036
+    uuid: 535d8088-72f5-472e-a552-23112c26b558
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '142 🇹🇷 Comnet Bil SNI 👾 漁師'
+    server: ir2.archnet.cyou
+    type: vmess
+    port: 4647
+    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +24,31 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: 
       headers:
         Host: image-upload4.spotify.com
+  - name: '204 🇹🇷 G-Core Lab SNI 👾 漁師'
+    server: tr1.fun513.ga
+    type: vmess
+    port: 51102
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /tr01
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '155 🇹🇷 Comnet Bil SNI 👾 漁師'
+    server: ir2.archnet.cyou
+    type: trojan
+    port: 4646
+    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
