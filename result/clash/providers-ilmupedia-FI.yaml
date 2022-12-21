@@ -1,9 +1,9 @@
 proxies:
-  - name: '88 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 95.216.157.137
+  - name: '191 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 65.109.161.166
     type: vmess
     port: 443
-    uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+    uuid: 7fd87ddb-ff61-4aca-a40c-73f5cd4d2178
     alterId: 0
     cipher: auto
     tls: true
@@ -12,22 +12,6 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /telegram-id-@privatevpns
-      headers:
-        Host: news.microsoft.com
-  - name: '135 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 65.109.166.220
-    type: vmess
-    port: 443
-    uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /telegram-id-@privatevpns
+      path: /graphql
       headers:
         Host: news.microsoft.com
