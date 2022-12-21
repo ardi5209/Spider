@@ -1,5 +1,5 @@
 proxies:
-  - name: '160 🇹🇷 G-Core Lab SNI 👾 漁師'
+  - name: '107 🇹🇷 G-Core Lab SNI 👾 漁師'
     server: tr1.fun513.ga
     type: vmess
     port: 51102
@@ -15,3 +15,44 @@ proxies:
       path: /tr01
       headers:
         Host: news.microsoft.com
+  - name: '193 🇹🇷 Comnet Bil SNI 👾 漁師'
+    server: ir2.archnet.cyou
+    type: vmess
+    port: 4647
+    uuid: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '231 🇹🇷 Teknet Yaz SNI 👾 漁師'
+    server: 185.242.161.206
+    type: vmess
+    port: 25212
+    uuid: 43a988d1-8c8c-4303-9e03-8d651de6f376
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '21 🇹🇷 Comnet Bil SNI 👾 漁師'
+    server: ir2.archnet.cyou
+    type: trojan
+    port: 4646
+    password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com

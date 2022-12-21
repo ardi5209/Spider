@@ -45,72 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "143 🇮🇩 PT Linkgo  SNI 👾 漁師",
-        "144 🇮🇩 PT Linkgo  CDN 👾 漁師",
-        "33 🇮🇩 Media Anta SNI 👾 漁師",
-        "113 🇮🇩 PT Industr SNI 👾 漁師"
+        "158 🇮🇩 PT Industr SNI 👾 漁師",
+        "184 🇮🇩 Media Anta SNI 👾 漁師"
       ]
     },
     {
-      "type": "vmess",
-      "tag": "143 🇮🇩 PT Linkgo  SNI 👾 漁師",
-      "server": "id-v.sshmax.xyz",
-      "server_port": 443,
-      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "144 🇮🇩 PT Linkgo  CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "id-v.sshmax.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "id-v.sshmax.xyz"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "33 🇮🇩 Media Anta SNI 👾 漁師",
-      "server": "id3tr.jagoan.vip",
-      "server_port": 443,
-      "password": "vvip-periantara",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "113 🇮🇩 PT Industr SNI 👾 漁師",
+      "tag": "158 🇮🇩 PT Industr SNI 👾 漁師",
       "server": "idt3.sshocean.net",
       "server_port": 443,
       "password": "9124bb53-00a8-4bee-b313-32cd40bd8d0b",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "184 🇮🇩 Media Anta SNI 👾 漁師",
+      "server": "38.9.140.66",
+      "server_port": 443,
+      "password": "vvip-periantara",
       "tls": {
         "enabled": true,
         "insecure": true,
