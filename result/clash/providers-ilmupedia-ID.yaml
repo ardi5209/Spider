@@ -1,19 +1,33 @@
 proxies:
-  - name: '158 🇮🇩 PT Industr SNI 👾 漁師'
-    server: idt3.sshocean.net
-    type: trojan
+  - name: '51 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: id-v.sshmax.xyz
+    type: vmess
     port: 443
-    password: 9124bb53-00a8-4bee-b313-32cd40bd8d0b
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '184 🇮🇩 Media Anta SNI 👾 漁師'
-    server: 38.9.140.66
-    type: trojan
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '52 🇮🇩 PT Linkgo  CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
     port: 443
-    password: vvip-periantara
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
+    network: ws
+    servername: id-v.sshmax.xyz
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: id-v.sshmax.xyz
