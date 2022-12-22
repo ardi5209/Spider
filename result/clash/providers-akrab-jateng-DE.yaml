@@ -1,5 +1,5 @@
 proxies:
-  - name: '44 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+  - name: '93 🇩🇪 CLOUDFLARE CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 2053
@@ -15,7 +15,7 @@ proxies:
       path: /
       headers:
         Host: haxeu2.zikkcc.ga
-  - name: '63 🇩🇪 myLoc mana CDN 👾 漁師'
+  - name: '179 🇩🇪 myLoc mana CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -26,8 +26,24 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: v143a.toddns.tk
+    servername: v143.toddns.tk
     ws-opts: 
       path: /de143-dxddxxj
       headers:
-        Host: v143a.toddns.tk
+        Host: v143.toddns.tk
+  - name: '219 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
