@@ -45,34 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "79 🇦🇺 Linode LL SNI 👾 漁師",
-        "195 🇦🇺 OVH SAS SNI 👾 漁師"
+        "74 🇦🇺 OVH SAS SNI 👾 漁師",
+        "20 🇦🇺 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "79 🇦🇺 Linode LL SNI 👾 漁師",
-      "server": "au1.czs1000.com",
-      "server_port": 11217,
-      "uuid": "88ac37d8-015a-4b69-8313-be73fc5aa6c3",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "195 🇦🇺 OVH SAS SNI 👾 漁師",
+      "tag": "74 🇦🇺 OVH SAS SNI 👾 漁師",
       "server": "139.99.135.182",
       "server_port": 443,
       "uuid": "4b4faeaf-f2ac-46b9-aa66-1896fb6068f0",
@@ -89,6 +68,18 @@
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "20 🇦🇺 ORACLE-BMC SNI 👾 漁師",
+      "server": "152.67.98.30",
+      "server_port": 443,
+      "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],

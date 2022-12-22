@@ -45,38 +45,74 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "94 🇳🇱 DIGITALOCE CDN 👾 漁師",
-        "97 🇳🇱 AEZA GROUP SNI 👾 漁師",
-        "42 🇳🇱 IP Volume  SNI 👾 漁師",
-        "51 🇳🇱 IP Volume  SNI 👾 漁師",
-        "59 🇳🇱 IP Volume  SNI 👾 漁師",
-        "92 🇳🇱 AS40676 SNI 👾 漁師"
+        "25 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "54 🇳🇱 The Infras SNI 👾 漁師",
+        "116 🇳🇱 Online S.a SNI 👾 漁師",
+        "153 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "73 🇳🇱 AS40676 SNI 👾 漁師",
+        "95 🇳🇱 IP Volume  SNI 👾 漁師",
+        "110 🇳🇱 IP Volume  SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "94 🇳🇱 DIGITALOCE CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+      "tag": "25 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.202.36",
+      "server_port": 39064,
+      "uuid": "B6C76F8A-77ED-F562-654E-59F997F58426",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "amshare.jingledev.me"
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "54 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "nl.archnet.ir",
+      "server_port": 27515,
+      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/pkhhvws",
+        "path": "/",
         "headers": {
-          "Host": "amshare.jingledev.me"
+          "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "97 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "tag": "116 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "163.172.213.74",
+      "server_port": 443,
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "153 🇳🇱 AEZA GROUP SNI 👾 漁師",
       "server": "79.137.202.36",
       "server_port": 39064,
       "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
@@ -90,32 +126,8 @@
     },
     {
       "type": "trojan",
-      "tag": "42 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "content-provider2.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "TestingServer@@2",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "51 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.53.19",
-      "server_port": 443,
-      "password": "TestingServer@@",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "59 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.54.65",
+      "tag": "73 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "185.212.200.74",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {
@@ -126,8 +138,20 @@
     },
     {
       "type": "trojan",
-      "tag": "92 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "content-provider24.cdn-delivery.akamaicd.com",
+      "tag": "95 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "content-provider14.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "origin",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "110 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "content-provider13.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {
