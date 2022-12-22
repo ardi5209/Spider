@@ -45,27 +45,49 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "90 🇩🇪 OVH SAS CDN 👾 漁師"
+        "95 🇩🇪 xTom GmbH CDN 👾 漁師",
+        "355 🇩🇪 CLOUDFLARE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "90 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "95 🇩🇪 xTom GmbH CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "uuid": "95dcc79b-d73d-4a70-9910-a9adafc4e545",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "de1.v2-ray.us"
+        "server_name": "de-01.legeth.tk"
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/",
         "headers": {
-          "Host": "de1.v2-ray.us"
+          "Host": "de-01.legeth.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "355 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2053,
+      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "haxeu2.zikkcc.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "haxeu2.zikkcc.ga"
         }
       }
     }
