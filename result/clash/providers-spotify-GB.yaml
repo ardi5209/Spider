@@ -1,5 +1,17 @@
 proxies:
-  - name: '18 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '27 🇬🇧 Kuroit Lim SNI 👾 漁師'
+    server: 19.kccic2pa.xyz
+    type: vmess
+    port: 50019
+    uuid: 535d8088-72f5-472e-a552-23112c26b558
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '47 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -11,47 +23,32 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '51 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '126 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+    server: 140.238.123.200
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '85 🇬🇧 ORACLE-BMC CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2052
-    uuid: c7917c5b-c14f-36a2-8277-fcc42d6b8462
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '179 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+    server: london11.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: ukarm.marisalnc.com
-    ws-opts: 
-      path: /miao
-      headers:
-        Host: ukarm.marisalnc.com
-  - name: '165 🇬🇧 ORACLE-BMC CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 2052
-    uuid: b3158ddc-048a-371f-b7ec-ac140be3fcb7
-    alterId: 0
-    cipher: auto
-    tls: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '193 🇬🇧 Simply Tra SNI 👾 漁師'
+    server: 94.76.193.218
+    type: ssr
+    port: 2333
+    password: doub.io
+    cipher: aes-128-ctr
+    protocol: auth_sha1_v4
+    protocol-param: 
+    obfs: http_simple
+    obfs-param: obfs=http;obfs-host=image-upload4.spotify.com
     udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: ukarm.marisalnc.com
-    ws-opts: 
-      path: /miao
-      headers:
-        Host: ukarm.marisalnc.com

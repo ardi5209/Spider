@@ -45,27 +45,106 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "21 🇳🇱 DIGITALOCE CDN 👾 漁師",
-        "26 🇳🇱 Online S.a CDN 👾 漁師",
-        "82 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "94 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "134 🇳🇱 The Infras CDN 👾 漁師",
-        "139 🇳🇱 The Infras SNI 👾 漁師",
-        "147 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "160 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-        "171 🇳🇱 Online S.a SNI 👾 漁師",
-        "37 🇳🇱 AS40676 SNI 👾 漁師",
-        "54 🇳🇱 AS40676 SNI 👾 漁師",
-        "88 🇳🇱 ORACLE-BMC SNI 👾 漁師",
-        "108 🇳🇱 AS40676 SNI 👾 漁師",
-        "109 🇳🇱 IP Volume  SNI 👾 漁師",
-        "120 🇳🇱 IP Volume  SNI 👾 漁師",
-        "154 🇳🇱 The Infras SNI 👾 漁師"
+        "28 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "62 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "64 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "71 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "76 🇳🇱 DIGITALOCE CDN 👾 漁師",
+        "110 🇳🇱 Online S.a CDN 👾 漁師",
+        "122 🇳🇱 Online S.a SNI 👾 漁師",
+        "133 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "142 🇳🇱 Online S.a CDN 👾 漁師",
+        "145 🇳🇱 Online S.a SNI 👾 漁師",
+        "177 🇳🇱 DIGITALOCE CDN 👾 漁師",
+        "184 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "199 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+        "209 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "19 🇳🇱 IP Volume  SNI 👾 漁師",
+        "21 🇳🇱 IP Volume  SNI 👾 漁師",
+        "75 🇳🇱 AS40676 SNI 👾 漁師",
+        "86 🇳🇱 AS40676 SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "21 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "tag": "28 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.202.36",
+      "server_port": 39064,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "62 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "64 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "5.45.78.209",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "71 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "76 🇳🇱 DIGITALOCE CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
@@ -86,7 +165,7 @@
     },
     {
       "type": "vmess",
-      "tag": "26 🇳🇱 Online S.a CDN 👾 漁師",
+      "tag": "110 🇳🇱 Online S.a CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 2086,
       "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
@@ -107,133 +186,7 @@
     },
     {
       "type": "vmess",
-      "tag": "82 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "94 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇳🇱 The Infras CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "3f421e27-5bf8-40c9-86cb-7b8c41dddea2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "hl1.cachexy.ga"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lXvA0Vse/",
-        "headers": {
-          "Host": "hl1.cachexy.ga"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "139 🇳🇱 The Infras SNI 👾 漁師",
-      "server": "nl.archnet.ir",
-      "server_port": 27515,
-      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "147 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "160 🇳🇱 CLOUDFLARE CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "171 🇳🇱 Online S.a SNI 👾 漁師",
+      "tag": "122 🇳🇱 Online S.a SNI 👾 漁師",
       "server": "163.172.213.74",
       "server_port": 443,
       "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
@@ -253,11 +206,48 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "37 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "content-provider23.cdn-delivery.akamaicd.com",
+      "type": "vmess",
+      "tag": "133 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.202.36",
+      "server_port": 39064,
+      "uuid": "B6C76F8A-77ED-F562-654E-59F997F58426",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "142 🇳🇱 Online S.a CDN 👾 漁師",
+      "server": "investors.spotify.com",
       "server_port": 443,
-      "password": "Sp3eDVp",
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v12a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nl-unlimitxxx",
+        "headers": {
+          "Host": "v12a.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "145 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "35.kccic2pa.xyz",
+      "server_port": 50035,
+      "uuid": "535d8088-72f5-472e-a552-23112c26b558",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -265,11 +255,76 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "54 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "content-provider24.cdn-delivery.akamaicd.com",
+      "type": "vmess",
+      "tag": "177 🇳🇱 DIGITALOCE CDN 👾 漁師",
+      "server": "investors.spotify.com",
       "server_port": 443,
-      "password": "Sp3eDVp",
+      "uuid": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "amshare.jingledev.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pkhhvws",
+        "headers": {
+          "Host": "amshare.jingledev.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "184 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "199 🇳🇱 CLOUDFLARE CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "209 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.202.36",
+      "server_port": 39064,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -278,31 +333,7 @@
     },
     {
       "type": "trojan",
-      "tag": "88 🇳🇱 ORACLE-BMC SNI 👾 漁師",
-      "server": "x-amsterdam12.900513.xyz",
-      "server_port": 18818,
-      "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "108 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "185.212.200.74",
-      "server_port": 443,
-      "password": "Sp3eDVp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "109 🇳🇱 IP Volume  SNI 👾 漁師",
+      "tag": "19 🇳🇱 IP Volume  SNI 👾 漁師",
       "server": "content-provider1.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "TestingServer@@",
@@ -314,8 +345,8 @@
     },
     {
       "type": "trojan",
-      "tag": "120 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "content-provider14.cdn-delivery.akamaicd.com",
+      "tag": "21 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.54.66",
       "server_port": 443,
       "password": "origin",
       "tls": {
@@ -326,10 +357,22 @@
     },
     {
       "type": "trojan",
-      "tag": "154 🇳🇱 The Infras SNI 👾 漁師",
-      "server": "ir2.archnet.cyou",
-      "server_port": 6393,
-      "password": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "tag": "75 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "content-provider24.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "86 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "content-provider23.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "Sp3eDVp",
       "tls": {
         "enabled": true,
         "insecure": true,

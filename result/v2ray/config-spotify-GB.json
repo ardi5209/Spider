@@ -84,6 +84,40 @@
       "settings": {
         "vnext": [
           {
+            "address": "19.kccic2pa.xyz",
+            "port": 50019,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "535d8088-72f5-472e-a552-23112c26b558",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-27 🇬🇧 Kuroit Lim SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "161.35.47.70",
             "port": 13472,
             "users": [
@@ -107,29 +141,24 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-18 🇬🇧 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-47 🇬🇧 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "161.35.47.70",
-            "port": 13472,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "140.238.123.200",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+            "port": 18818
           }
         ]
       },
@@ -141,88 +170,38 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-51 🇬🇧 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-126 🇬🇧 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "investors.spotify.com",
-            "port": 2052,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c7917c5b-c14f-36a2-8277-fcc42d6b8462",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "london11.yukiss.eu.org",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+            "port": 18818
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "ukarm.marisalnc.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "ukarm.marisalnc.com"
-          },
-          "path": "/miao"
+          "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-85 🇬🇧 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-179 🇬🇧 ORACLE-BMC SNI 👾 漁師"
     },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "investors.spotify.com",
-            "port": 2052,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "b3158ddc-048a-371f-b7ec-ac140be3fcb7",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "ukarm.marisalnc.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "ukarm.marisalnc.com"
-          },
-          "path": "/miao"
-        }
-      },
-      "tag": "proxy-165 🇬🇧 ORACLE-BMC CDN 👾 漁師"
-    }
+    ""
   ],
   "dns": {
     "hosts": {

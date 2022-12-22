@@ -45,14 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
+        "85 🇮🇳 AMAZON-02 SNI 👾 漁師",
+        "99 🇮🇳 ORACLE-BMC SNI 👾 漁師",
         "114 🇮🇳 ORACLE-BMC SNI 👾 漁師",
-        "143 🇮🇳 ORACLE-BMC SNI 👾 漁師"
+        "176 🇮🇳 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "85 🇮🇳 AMAZON-02 SNI 👾 漁師",
+      "server": "in1.czs1000.com",
+      "server_port": 11221,
+      "uuid": "b7d6361b-8318-448f-b73d-a44dfa89eb38",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "114 🇮🇳 ORACLE-BMC SNI 👾 漁師",
-      "server": "jgwhdlb2.gaox.ml",
+      "tag": "99 🇮🇳 ORACLE-BMC SNI 👾 漁師",
+      "server": "152.67.160.174",
       "server_port": 443,
       "password": "54080134-2cba-4535-8599-95650bd9aa54",
       "tls": {
@@ -63,10 +86,22 @@
     },
     {
       "type": "trojan",
-      "tag": "143 🇮🇳 ORACLE-BMC SNI 👾 漁師",
+      "tag": "114 🇮🇳 ORACLE-BMC SNI 👾 漁師",
       "server": "zz.900513.xyz",
       "server_port": 12002,
       "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "176 🇮🇳 ORACLE-BMC SNI 👾 漁師",
+      "server": "jgwhdlb3.gaox.ml",
+      "server_port": 443,
+      "password": "006baa3f-4bc3-4915-b60d-c8c5dae11a11",
       "tls": {
         "enabled": true,
         "insecure": true,

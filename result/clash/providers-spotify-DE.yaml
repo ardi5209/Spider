@@ -1,5 +1,5 @@
 proxies:
-  - name: '2 🇩🇪 myLoc mana CDN 👾 漁師'
+  - name: '8 🇩🇪 myLoc mana CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -10,16 +10,32 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: v143.toddns.tk
+    servername: v143a.toddns.tk
     ws-opts: 
       path: /de143-dxddxxj
       headers:
-        Host: v143.toddns.tk
-  - name: '27 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 18.196.228.65
+        Host: v143a.toddns.tk
+  - name: '9 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
     port: 443
-    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
+  - name: '10 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
     alterId: 0
     cipher: auto
     tls: true
@@ -28,14 +44,26 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /in-vpn-majanist-vws
+      path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '122 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 138.201.229.158
+  - name: '31 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
     type: vmess
-    port: 62345
-    uuid: 32c9b3e7-bb21-4089-da4b-b9ee06b68509
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '100 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.250.163
+    type: vmess
+    port: 2096
+    uuid: e175ba8e-f3e8-4ec5-a350-f058537dca8e
     alterId: 0
     cipher: auto
     tls: true
@@ -47,39 +75,7 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '124 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 94.130.184.57
-    type: vmess
-    port: 443
-    uuid: c5e523e7-da73-40af-a4a9-c638720c30e1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /graphql
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '159 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 162.55.62.193
-    type: vmess
-    port: 443
-    uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /telegram-id-@privatevpns
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '20 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '25 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
     port: 443
@@ -88,7 +84,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '30 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '57 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '83 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider29.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '151 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 188.40.236.127
     type: trojan
     port: 443
@@ -97,14 +111,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '46 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 164.92.246.118
-    type: ssr
-    port: 8445
-    password: whyvpn-mashamirzaga
-    cipher: aes-256-cfb
-    protocol: auth_sha1_v4
-    protocol-param: 
-    obfs: http_simple
-    obfs-param: obfs=http;obfs-host=image-upload4.spotify.com
-    udp: true
