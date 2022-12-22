@@ -45,35 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "93 🇩🇪 CLOUDFLARE CDN 👾 漁師",
-        "179 🇩🇪 myLoc mana CDN 👾 漁師",
-        "219 🇩🇪 OVH SAS CDN 👾 漁師"
+        "61 🇩🇪 OVH SAS CDN 👾 漁師",
+        "219 🇩🇪 myLoc mana CDN 👾 漁師",
+        "441 🇩🇪 CLOUDFLARE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "93 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "tag": "61 🇩🇪 OVH SAS CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 2053,
-      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
+      "server_port": 443,
+      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "haxeu2.zikkcc.ga"
+        "server_name": "de1.v2-ray.us"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/vmess",
         "headers": {
-          "Host": "haxeu2.zikkcc.ga"
+          "Host": "de1.v2-ray.us"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "179 🇩🇪 myLoc mana CDN 👾 漁師",
+      "tag": "219 🇩🇪 myLoc mana CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -94,22 +94,22 @@
     },
     {
       "type": "vmess",
-      "tag": "219 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "441 🇩🇪 CLOUDFLARE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "server_port": 2053,
+      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "de1.v2-ray.us"
+        "server_name": "haxeu2.zikkcc.ga"
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/",
         "headers": {
-          "Host": "de1.v2-ray.us"
+          "Host": "haxeu2.zikkcc.ga"
         }
       }
     }
