@@ -1,5 +1,45 @@
 proxies:
-  - name: '39 🇭🇰 STARCLOUD  SNI 👾 漁師'
+  - name: '74 🇭🇰 Layerstack CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: a43f9663-8650-4ff5-b49b-86bc51d3c128
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: db.cfyxdb.xyz
+    ws-opts: 
+      path: /2
+      headers:
+        Host: db.cfyxdb.xyz
+  - name: '116 🇭🇰 91440300MA SNI 👾 漁師'
+    server: 117.164.185.221
+    type: vmess
+    port: 16111
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '131 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '136 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
     port: 8189
@@ -11,67 +51,38 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '80 🇭🇰 HKT Limite SNI 👾 漁師'
-    server: 203.218.243.113
-    type: vmess
-    port: 8443
-    uuid: e666f40b-c8bd-4bf5-898f-64bb0dd0bcab
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '109 🇭🇰 91440300MA SNI 👾 漁師'
-    server: 117.164.185.221
-    type: vmess
-    port: 16116
-    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '1 🇭🇰 CNSERVERS SNI 👾 漁師'
+    server: vollcloud-1.arklab.ga
+    type: trojan
+    port: 34564
+    password: c41e5ba8-2fe2-405a-8259-1ecb012ffccd
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '123 🇭🇰 Tele Asia  SNI 👾 漁師'
-    server: HK-43-188.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: none
-    servername: image-upload4.spotify.com
-  - name: '136 🇭🇰 ADCDATA.CO SNI 👾 漁師'
-    server: ah.yd01.paopaocloud.cyou
-    type: vmess
-    port: 10002
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '63 🇭🇰 CNSERVERS SNI 👾 漁師'
-    server: vollcloud-2.arklab.ga
+  - name: '35 🇭🇰 ADCDATA.CO SNI 👾 漁師'
+    server: 194.156.99.39
     type: trojan
-    port: 23454
-    password: c41e5ba8-2fe2-405a-8259-1ecb012ffccd
+    port: 443
+    password: xxoo
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '45 🇭🇰 ZEN-ECN SNI 👾 漁師'
+    server: hk2.openssl3.com
+    type: trojan
+    port: 15006
+    password: HKZmLDgP
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '106 🇭🇰 ZEN-ECN SNI 👾 漁師'
+    server: 45.40.59.50
+    type: trojan
+    port: 15006
+    password: HKZmLDgP
     udp: true
     skip-cert-verify: true
     network: tcp

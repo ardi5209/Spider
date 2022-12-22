@@ -84,14 +84,134 @@
       "settings": {
         "vnext": [
           {
-            "address": "161.35.47.70",
-            "port": 29210,
+            "address": "51.75.160.126",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+                "id": "72189368-6b37-4019-bfbb-b697ee386ea5",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-34 🇬🇧 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "uk1.v2-ray.us",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-51 🇬🇧 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "uk1.v2-ray.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "uk1.v2-ray.us"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-52 🇬🇧 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.35.47.70",
+            "port": 13472,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
                 "level": 8,
                 "security": "auto"
               }
@@ -107,7 +227,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-36 🇬🇧 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-75 🇬🇧 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,7 +238,94 @@
       "settings": {
         "servers": [
           {
-            "address": "gb1-1.openssl3.com",
+            "address": "185.16.206.211",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "shefelnak",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-37 🇬🇧 Hydra Comm SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "uk1.trojanvh.xyz",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "b44579e1-f803-4981-86bc-aa8c783daa04",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-61 🇬🇧 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "t1.teslacdn1.live",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-103 🇬🇧 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "138.68.179.78",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -136,8 +343,9 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-51 🇬🇧 DIGITALOCE SNI 👾 漁師"
-    }
+      "tag": "proxy-109 🇬🇧 DIGITALOCE SNI 👾 漁師"
+    },
+    ""
   ],
   "dns": {
     "hosts": {

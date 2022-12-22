@@ -45,16 +45,86 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "36 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "51 🇬🇧 DIGITALOCE SNI 👾 漁師"
+        "34 🇬🇧 OVH SAS SNI 👾 漁師",
+        "51 🇬🇧 OVH SAS SNI 👾 漁師",
+        "52 🇬🇧 OVH SAS CDN 👾 漁師",
+        "75 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "37 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "61 🇬🇧 OVH SAS SNI 👾 漁師",
+        "103 🇬🇧 OVH SAS SNI 👾 漁師",
+        "109 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "148 🇬🇧 Simply Tra SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "36 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "34 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "51.75.160.126",
+      "server_port": 443,
+      "uuid": "72189368-6b37-4019-bfbb-b697ee386ea5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "51 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "uk1.v2-ray.us",
+      "server_port": 443,
+      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "52 🇬🇧 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk1.v2-ray.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "uk1.v2-ray.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "75 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -65,8 +135,44 @@
     },
     {
       "type": "trojan",
-      "tag": "51 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "gb1-1.openssl3.com",
+      "tag": "37 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.211",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "61 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "uk1.trojanvh.xyz",
+      "server_port": 443,
+      "password": "b44579e1-f803-4981-86bc-aa8c783daa04",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "103 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "t1.teslacdn1.live",
+      "server_port": 443,
+      "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "109 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "138.68.179.78",
       "server_port": 60001,
       "password": "tune7jerky7HAYRICK",
       "tls": {
@@ -74,6 +180,18 @@
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
       }
+    },
+    {
+      "type": "shadowsocksr",
+      "tag": "148 🇬🇧 Simply Tra SNI 👾 漁師",
+      "server": "94.76.193.218",
+      "server_port": 2333,
+      "method": "aes-128-ctr",
+      "password": "doub.io",
+      "obfs": "http_simple",
+      "obfs_param": "obfs=http;obfs-host=image-upload4.spotify.com",
+      "protocol": "auth_sha1_v4",
+      "protocol_param": ""
     }
   ],
   "route": {
