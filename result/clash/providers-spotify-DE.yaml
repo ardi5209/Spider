@@ -1,17 +1,21 @@
 proxies:
-  - name: '9 🇩🇪 Linode LL SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
+  - name: '41 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: resonance-vpn.net
     type: vmess
-    port: 19046
-    uuid: 48808ae6-d159-3350-a2e6-2727028affad
+    port: 443
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '154 🇩🇪 OVH SAS SNI 👾 漁師'
+    ws-opts: 
+      path: /in-vpn-majanist-vws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '47 🇩🇪 OVH SAS SNI 👾 漁師'
     server: 51.195.41.134
     type: vmess
     port: 443
@@ -27,44 +31,39 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '155 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
-    type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '156 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+  - name: '53 🇩🇪 Hetzner On CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
-    port: 2053
-    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: haxeu2.zikkcc.ga
+    servername: sun.prxpro.cc
     ws-opts: 
-      path: /
+      path: /g7970d1b58m1ixn3i16i
       headers:
-        Host: haxeu2.zikkcc.ga
-  - name: '118 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider29.cdn-delivery.akamaicd.com
-    type: trojan
+        Host: sun.prxpro.cc
+  - name: '55 🇩🇪 myLoc mana CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: origin
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '168 🇩🇪 Hetzner On SNI 👾 漁師'
+    network: ws
+    servername: v143.toddns.tk
+    ws-opts: 
+      path: /de143-dxddxxj
+      headers:
+        Host: v143.toddns.tk
+  - name: '74 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
     port: 443
