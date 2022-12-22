@@ -45,18 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "184 🇩🇪 AMAZON-02 SNI 👾 漁師",
-        "194 🇩🇪 AMAZON-02 SNI 👾 漁師",
-        "61 🇩🇪 Hetzner On SNI 👾 漁師",
-        "170 🇩🇪 Hetzner On SNI 👾 漁師"
+        "9 🇩🇪 Linode LL SNI 👾 漁師",
+        "154 🇩🇪 OVH SAS SNI 👾 漁師",
+        "155 🇩🇪 Hetzner On SNI 👾 漁師",
+        "156 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+        "118 🇩🇪 Hetzner On SNI 👾 漁師",
+        "168 🇩🇪 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "184 🇩🇪 AMAZON-02 SNI 👾 漁師",
-      "server": "18.196.228.65",
+      "tag": "9 🇩🇪 Linode LL SNI 👾 漁師",
+      "server": "hndx.relay01.fast001.buzz",
+      "server_port": 19046,
+      "uuid": "48808ae6-d159-3350-a2e6-2727028affad",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "154 🇩🇪 OVH SAS SNI 👾 漁師",
+      "server": "51.195.41.134",
       "server_port": 443,
-      "uuid": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
+      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -66,7 +82,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/in-vpn-majanist-vws",
+        "path": "/vmess",
         "headers": {
           "Host": "news.microsoft.com"
         }
@@ -74,31 +90,45 @@
     },
     {
       "type": "vmess",
-      "tag": "194 🇩🇪 AMAZON-02 SNI 👾 漁師",
-      "server": "resonance-vpn.net",
-      "server_port": 443,
-      "uuid": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
+      "tag": "155 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "78.46.244.34",
+      "server_port": 33655,
+      "uuid": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "156 🇩🇪 CLOUDFLARE CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
+      "server_port": 2053,
+      "uuid": "8afc6cdf-4f0a-4725-a44c-5dacdc2b2784",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "news.microsoft.com"
+        "server_name": "haxeu2.zikkcc.ga"
       },
       "transport": {
         "type": "ws",
-        "path": "/in-vpn-majanist-vws",
+        "path": "/",
         "headers": {
-          "Host": "news.microsoft.com"
+          "Host": "haxeu2.zikkcc.ga"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "61 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "content-provider9.cdn-delivery.akamaicd.com",
+      "tag": "118 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "content-provider29.cdn-delivery.akamaicd.com",
       "server_port": 443,
-      "password": "yxGY7A5MczQYg6UqSFx9u78V",
+      "password": "origin",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -107,7 +137,7 @@
     },
     {
       "type": "trojan",
-      "tag": "170 🇩🇪 Hetzner On SNI 👾 漁師",
+      "tag": "168 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "5.75.152.12",
       "server_port": 443,
       "password": "d76294c5-a31f-408d-ba0b-89880107cab5",

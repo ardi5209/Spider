@@ -1,46 +1,70 @@
 proxies:
-  - name: '184 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 18.196.228.65
+  - name: '9 🇩🇪 Linode LL SNI 👾 漁師'
+    server: hndx.relay01.fast001.buzz
     type: vmess
-    port: 443
-    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    port: 19046
+    uuid: 48808ae6-d159-3350-a2e6-2727028affad
     alterId: 0
     cipher: auto
     tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /in-vpn-majanist-vws
-      headers:
-        Host: news.microsoft.com
-  - name: '194 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: resonance-vpn.net
-    type: vmess
-    port: 443
-    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /in-vpn-majanist-vws
-      headers:
-        Host: news.microsoft.com
-  - name: '61 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '170 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '154 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: 51.195.41.134
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '155 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '156 🇩🇪 CLOUDFLARE CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 2053
+    uuid: 8afc6cdf-4f0a-4725-a44c-5dacdc2b2784
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: haxeu2.zikkcc.ga
+    ws-opts: 
+      path: /
+      headers:
+        Host: haxeu2.zikkcc.ga
+  - name: '118 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider29.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '168 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
     port: 443
