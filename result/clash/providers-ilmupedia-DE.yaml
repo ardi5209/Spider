@@ -1,49 +1,5 @@
 proxies:
-  - name: '8 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
-    type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '9 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: 51.195.41.134
-    type: vmess
-    port: 443
-    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '58 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 165.227.175.88
-    type: vmess
-    port: 28164
-    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: 
-      headers:
-        Host: news.microsoft.com
-  - name: '135 🇩🇪 AMAZON-02 SNI 👾 漁師'
+  - name: '184 🇩🇪 AMAZON-02 SNI 👾 漁師'
     server: 18.196.228.65
     type: vmess
     port: 443
@@ -59,8 +15,33 @@ proxies:
       path: /in-vpn-majanist-vws
       headers:
         Host: news.microsoft.com
-  - name: '33 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+  - name: '194 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: resonance-vpn.net
+    type: vmess
+    port: 443
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /in-vpn-majanist-vws
+      headers:
+        Host: news.microsoft.com
+  - name: '61 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider9.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: yxGY7A5MczQYg6UqSFx9u78V
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '170 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.152.12
     type: trojan
     port: 443
     password: d76294c5-a31f-408d-ba0b-89880107cab5
