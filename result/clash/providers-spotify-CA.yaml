@@ -1,10 +1,17 @@
 proxies:
-  - name: '125 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: cat1.sshocean.net
-    type: trojan
+  - name: '119 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: 35.182.165.120
+    type: vmess
     port: 443
-    password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
