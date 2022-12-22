@@ -113,7 +113,87 @@
           "path": "/sshocean"
         }
       },
-      "tag": "proxy-145 🇵🇭 Kaopu Clou SNI 👾 漁師"
+      "tag": "proxy-386 🇵🇭 Kaopu Clou SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a267a68e-4b59-413e-96a4-6388948a401c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ph1.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ph1.v2rayserv.com"
+          },
+          "path": "/sshocean"
+        }
+      },
+      "tag": "proxy-390 🇵🇭 Kaopu Clou CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ph1.v2rayserv.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a267a68e-4b59-413e-96a4-6388948a401c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/sshocean"
+        }
+      },
+      "tag": "proxy-391 🇵🇭 Kaopu Clou SNI 👾 漁師"
     }
   ],
   "dns": {

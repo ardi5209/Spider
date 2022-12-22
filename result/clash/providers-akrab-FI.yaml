@@ -1,5 +1,21 @@
 proxies:
-  - name: '107 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '187 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: api.sira.ml
+    type: vmess
+    port: 443
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /sir2ersvws
+      headers:
+        Host: click.zoom.us
+  - name: '274 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
     port: 12951
@@ -15,7 +31,7 @@ proxies:
       path: /
       headers:
         Host: safebrowsing.google.com
-  - name: '110 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '275 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
     port: 34303
@@ -26,8 +42,24 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
+  - name: '380 🇫🇮 Hetzner On CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.sira.ml
+    ws-opts: 
+      path: /sir2ersvws
+      headers:
+        Host: api.sira.ml
