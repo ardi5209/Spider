@@ -1,53 +1,5 @@
 proxies:
-  - name: '41 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: resonance-vpn.net
-    type: vmess
-    port: 443
-    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /in-vpn-majanist-vws
-      headers:
-        Host: safebrowsing.google.com
-  - name: '47 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: 51.195.41.134
-    type: vmess
-    port: 443
-    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-  - name: '53 🇩🇪 Hetzner On CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sun.prxpro.cc
-    ws-opts: 
-      path: /g7970d1b58m1ixn3i16i
-      headers:
-        Host: sun.prxpro.cc
-  - name: '55 🇩🇪 myLoc mana CDN 👾 漁師'
+  - name: '3 🇩🇪 myLoc mana CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -58,17 +10,70 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: v143.toddns.tk
+    servername: v143a.toddns.tk
     ws-opts: 
       path: /de143-dxddxxj
       headers:
-        Host: v143.toddns.tk
-  - name: '74 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.152.12
+        Host: v143a.toddns.tk
+  - name: '88 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
+  - name: '89 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: config.teams.microsoft.com
+  - name: '120 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '97 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
+  - name: '115 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us

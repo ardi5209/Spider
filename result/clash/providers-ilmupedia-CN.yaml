@@ -1,37 +1,17 @@
 proxies:
-  - name: '18 🇨🇳 Shenzhen T SNI 👾 漁師'
-    server: 139.186.198.63
+  - name: '131 🇨🇳 PEGTECHINC SNI 👾 漁師'
+    server: 137.175.28.5
     type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    port: 17805
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '110 🇨🇳 CHINA UNIC SNI 👾 漁師'
-    server: 112.132.215.189
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '170 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 39.103.165.178
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
