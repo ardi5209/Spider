@@ -45,12 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "181 🇮🇩 PT Industr CDN 👾 漁師"
+        "114 🇮🇩 PT Industr CDN 👾 漁師",
+        "125 🇮🇩 PT Industr CDN 👾 漁師",
+        "393 🇮🇩 PT Bukuku  SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "181 🇮🇩 PT Industr CDN 👾 漁師",
+      "tag": "114 🇮🇩 PT Industr CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "781be00e-1e09-4e27-a464-e14197418c8f",
@@ -67,6 +69,39 @@
         "headers": {
           "Host": "id5.v2rayserv.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "125 🇮🇩 PT Industr CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "781be00e-1e09-4e27-a464-e14197418c8f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id5.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "id5.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "393 🇮🇩 PT Bukuku  SNI 👾 漁師",
+      "server": "idt1.sshocean.net",
+      "server_port": 443,
+      "password": "788ab87c-224d-4e85-8575-470567934d47",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],
