@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "95 🇩🇪 myLoc mana CDN 👾 漁師"
+        "30 🇩🇪 OVH SAS CDN 👾 漁師",
+        "56 🇩🇪 myLoc mana CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "95 🇩🇪 myLoc mana CDN 👾 漁師",
+      "tag": "30 🇩🇪 OVH SAS CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de1.v2-ray.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "de1.v2-ray.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "56 🇩🇪 myLoc mana CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -59,13 +81,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "v143.toddns.tk"
+        "server_name": "v143a.toddns.tk"
       },
       "transport": {
         "type": "ws",
         "path": "/de143-dxddxxj",
         "headers": {
-          "Host": "v143.toddns.tk"
+          "Host": "v143a.toddns.tk"
         }
       }
     }
