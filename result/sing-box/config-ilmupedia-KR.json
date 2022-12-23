@@ -45,17 +45,55 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "106 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-        "125 🇰🇷 ORACLE-BMC CDN 👾 漁師",
-        "4 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-        "180 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-        "200 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-        "207 🇰🇷 ORACLE-BMC SNI 👾 漁師"
+        "8 🇰🇷 MOACK.Co.L SNI 👾 漁師",
+        "40 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+        "78 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+        "159 🇰🇷 AMAZON-02 SNI 👾 漁師",
+        "10 🇰🇷 AMAZON-02 SNI 👾 漁師",
+        "112 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+        "143 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+        "162 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+        "53 🇰🇷 MOACK.Co.L SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "106 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "tag": "8 🇰🇷 MOACK.Co.L SNI 👾 漁師",
+      "server": "161.129.34.102",
+      "server_port": 443,
+      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "40 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "146.56.155.70",
+      "server_port": 33449,
+      "uuid": "e115ada7-9b19-4df9-c58a-cadd4540ec13",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "78 🇰🇷 ORACLE-BMC SNI 👾 漁師",
       "server": "m4.40010010.xyz",
       "server_port": 37121,
       "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
@@ -69,31 +107,31 @@
     },
     {
       "type": "vmess",
-      "tag": "125 🇰🇷 ORACLE-BMC CDN 👾 漁師",
-      "server": "news.microsoft.com",
-      "server_port": 443,
-      "uuid": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+      "tag": "159 🇰🇷 AMAZON-02 SNI 👾 漁師",
+      "server": "kr01.170203.xyz",
+      "server_port": 45453,
+      "uuid": "ab796f1a-9855-454a-adb4-705f9aef0292",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "do3.yyhm9.com"
+        "server_name": "news.microsoft.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/das212",
+        "path": "",
         "headers": {
-          "Host": "do3.yyhm9.com"
+          "Host": "news.microsoft.com"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "4 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "kr1.api-aws.com",
+      "tag": "10 🇰🇷 AMAZON-02 SNI 👾 漁師",
+      "server": "3.34.6.217",
       "server_port": 443,
-      "password": "aa7d24e0-b60c-44bb-bcd1-8b74a297cdbc",
+      "password": "xxoo",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -102,10 +140,10 @@
     },
     {
       "type": "trojan",
-      "tag": "180 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "kr1.api-aws.com",
+      "tag": "112 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "138.2.113.248",
       "server_port": 443,
-      "password": "ed9a202f-7871-4a15-a4c1-f3a47c1f5493",
+      "password": "9c822f05-cfdc-479a-9534-60f3d4127435",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -114,10 +152,10 @@
     },
     {
       "type": "trojan",
-      "tag": "200 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "tag": "143 🇰🇷 ORACLE-BMC SNI 👾 漁師",
       "server": "kr1.api-aws.com",
       "server_port": 443,
-      "password": "1988268c-a841-42f2-acac-7a8c0c7e78e5",
+      "password": "10f81a15-c7c8-473b-a12a-a09f098b6236",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -126,15 +164,27 @@
     },
     {
       "type": "trojan",
-      "tag": "207 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "kr1.api-aws.com",
+      "tag": "162 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "jgw2.gaox.ml",
       "server_port": 443,
-      "password": "205f8ab6-cb17-4480-93a6-aece90b88742",
+      "password": "f2117e99-9b6e-47fd-b0a9-634a0b15b998",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
       }
+    },
+    {
+      "type": "shadowsocksr",
+      "tag": "53 🇰🇷 MOACK.Co.L SNI 👾 漁師",
+      "server": "ssr3.ssrfree7.xyz",
+      "server_port": 11444,
+      "method": "aes-256-cfb",
+      "password": "dongtaiwang.com",
+      "obfs": "tls1.2_ticket_auth",
+      "obfs_param": "obfs=tls;obfs-host=news.microsoft.com",
+      "protocol": "auth_chain_a",
+      "protocol_param": ""
     }
   ],
   "route": {

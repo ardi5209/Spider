@@ -1,5 +1,53 @@
 proxies:
-  - name: '111 🇯🇵 AMAZON-02 CDN 👾 漁師'
+  - name: '15 🇯🇵 Alibaba US CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: vfly6.xyz
+    ws-opts: 
+      path: /myblog
+      headers:
+        Host: vfly6.xyz
+  - name: '122 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: suzhihan.eu.org
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: suzhihan.eu.org
+  - name: '186 🇯🇵 Owl Limite CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8080
+    uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ssrsub.v02.asuka.buzz
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v02.asuka.buzz
+  - name: '188 🇯🇵 AMAZON-02 CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 8443
@@ -15,35 +63,3 @@ proxies:
       path: /Download
       headers:
         Host: awsjp3.jiasub.xyz
-  - name: '117 🇯🇵 M247 Europ CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: e5250de0-1b91-4c00-9561-ccbe977298af
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: jp-01.legeth.tk
-    ws-opts: 
-      path: /
-      headers:
-        Host: jp-01.legeth.tk
-  - name: '190 🇯🇵 AMAZON-02 CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 8443
-    uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: awsjp4.jiasub.xyz
-    ws-opts: 
-      path: /Download
-      headers:
-        Host: awsjp4.jiasub.xyz

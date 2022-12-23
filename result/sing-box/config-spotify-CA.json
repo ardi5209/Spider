@@ -45,14 +45,102 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "18 🇨🇦 OVH SAS SNI 👾 漁師",
-        "128 🇨🇦 OVH SAS SNI 👾 漁師"
+        "14 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "54 🇨🇦 OVH SAS SNI 👾 漁師",
+        "55 🇨🇦 OVH SAS CDN 👾 漁師",
+        "182 🇨🇦 OVH SAS CDN 👾 漁師",
+        "27 🇨🇦 OVH SAS SNI 👾 漁師",
+        "164 🇨🇦 OVH SAS SNI 👾 漁師"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "14 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "server": "35.182.165.120",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "54 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "ca2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "55 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "182 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "18 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "149.56.141.11",
+      "tag": "27 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "cat1.sshocean.net",
       "server_port": 443,
       "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
       "tls": {
@@ -63,10 +151,10 @@
     },
     {
       "type": "trojan",
-      "tag": "128 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "cat1.sshocean.net",
+      "tag": "164 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "149.56.132.41",
       "server_port": 443,
-      "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+      "password": "89d81c5f-3d75-42f7-8a23-1be9ac89f3fb",
       "tls": {
         "enabled": true,
         "insecure": true,
