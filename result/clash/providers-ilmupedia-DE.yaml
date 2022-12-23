@@ -1,17 +1,21 @@
 proxies:
-  - name: '45 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: vpnshop2.hoseeinbsd.ml
+  - name: '27 🇩🇪 MIRholding SNI 👾 漁師'
+    server: de.archnet.cyou
     type: vmess
-    port: 20259
-    uuid: dfe6fa2e-6ca9-4b29-e30a-77c7e30cd5fd
+    port: 2054
+    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '123 🇩🇪 Hetzner On SNI 👾 漁師'
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '57 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.129.202
     type: vmess
     port: 55039
@@ -27,8 +31,8 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '128 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: 51.195.41.134
+  - name: '82 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
     type: vmess
     port: 443
     uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
@@ -43,11 +47,39 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '134 🇩🇪 MIRholding SNI 👾 漁師'
-    server: de.archnet.cyou
+  - name: '83 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
+  - name: '158 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '98 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
-    port: 2053
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    port: 443
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp

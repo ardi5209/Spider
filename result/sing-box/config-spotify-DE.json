@@ -45,29 +45,38 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "45 🇩🇪 Hetzner On SNI 👾 漁師",
-        "123 🇩🇪 Hetzner On SNI 👾 漁師",
-        "128 🇩🇪 OVH SAS SNI 👾 漁師",
-        "134 🇩🇪 MIRholding SNI 👾 漁師"
+        "27 🇩🇪 MIRholding SNI 👾 漁師",
+        "57 🇩🇪 Hetzner On SNI 👾 漁師",
+        "82 🇩🇪 OVH SAS SNI 👾 漁師",
+        "83 🇩🇪 OVH SAS CDN 👾 漁師",
+        "158 🇩🇪 Hetzner On SNI 👾 漁師",
+        "98 🇩🇪 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "45 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "vpnshop2.hoseeinbsd.ml",
-      "server_port": 20259,
-      "uuid": "dfe6fa2e-6ca9-4b29-e30a-77c7e30cd5fd",
+      "tag": "27 🇩🇪 MIRholding SNI 👾 漁師",
+      "server": "de.archnet.cyou",
+      "server_port": 2054,
+      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "123 🇩🇪 Hetzner On SNI 👾 漁師",
+      "tag": "57 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "5.75.129.202",
       "server_port": 55039,
       "uuid": "151e56df-edd0-43ef-ddc8-f0108a05a792",
@@ -88,8 +97,8 @@
     },
     {
       "type": "vmess",
-      "tag": "128 🇩🇪 OVH SAS SNI 👾 漁師",
-      "server": "51.195.41.134",
+      "tag": "82 🇩🇪 OVH SAS SNI 👾 漁師",
+      "server": "de1.v2-ray.us",
       "server_port": 443,
       "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
       "security": "auto",
@@ -108,11 +117,46 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "83 🇩🇪 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de1.v2-ray.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "de1.v2-ray.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "158 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "78.46.244.34",
+      "server_port": 33655,
+      "uuid": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "134 🇩🇪 MIRholding SNI 👾 漁師",
-      "server": "de.archnet.cyou",
-      "server_port": 2053,
-      "password": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "tag": "98 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "188.40.251.19",
+      "server_port": 443,
+      "password": "origin",
       "tls": {
         "enabled": true,
         "insecure": true,
