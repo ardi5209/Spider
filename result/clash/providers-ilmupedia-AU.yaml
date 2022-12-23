@@ -1,10 +1,17 @@
 proxies:
-  - name: '107 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: jgwxn4.gaox.ml
-    type: trojan
-    port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  - name: '175 🇦🇺 Linode LL SNI 👾 漁師'
+    server: au1.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: c59216e8-6b61-4ac4-ba19-ce4225865060
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com

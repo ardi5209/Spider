@@ -1,17 +1,21 @@
 proxies:
-  - name: '15 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 39.103.165.178
+  - name: '76 🇨🇳 Ningxia We SNI 👾 漁師'
+    server: 68.79.45.146
     type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    port: 3358
+    uuid: c59216e8-6b61-4ac4-ba19-ce4225865060
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '19 🇨🇳 Shenzhen T SNI 👾 漁師'
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '115 🇨🇳 Shenzhen T SNI 👾 漁師'
     server: 139.186.198.63
     type: vmess
     port: 50002
@@ -23,19 +27,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '138 🇨🇳 PEGTECHINC SNI 👾 漁師'
-    server: 142.0.135.66
-    type: vmess
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /path/243535322906
-      headers:
-        Host: image-upload4.spotify.com

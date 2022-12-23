@@ -85,13 +85,13 @@
         "vnext": [
           {
             "address": "hohm.microsoft.com",
-            "port": 2086,
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "0805caaf-bd20-45fd-c5f7-ef59756b4b6b",
+                "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,96 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "ro.cloudflare.quest"
+          "serverName": "ca.0112233.xyz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ro.cloudflare.quest"
+            "Host": "ca.0112233.xyz"
           },
-          "path": "/aries"
+          "path": "/"
         }
       },
-      "tag": "proxy-142 🇷🇴 Hostmaze I CDN 👾 漁師"
+      "tag": "proxy-28 🇷🇴 Orange Rom CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 8443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ca.0112233.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ca.0112233.xyz"
+          },
+          "path": "/home"
+        }
+      },
+      "tag": "proxy-81 🇷🇴 Orange Rom CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hohm.microsoft.com",
+            "port": 8443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ca.0112233.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ca.0112233.xyz"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-162 🇷🇴 Orange Rom CDN 👾 漁師"
     }
   ],
   "dns": {
