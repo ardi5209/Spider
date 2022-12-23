@@ -45,36 +45,38 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "50 🇳🇱 The Infras SNI 👾 漁師",
-        "95 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "168 🇳🇱 Online S.a SNI 👾 漁師"
+        "79 🇳🇱 Scalaxy B. CDN 👾 漁師",
+        "80 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "120 🇳🇱 The Infras CDN 👾 漁師",
+        "131 🇳🇱 IP Volume  SNI 👾 漁師",
+        "155 🇳🇱 IP Volume  SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "50 🇳🇱 The Infras SNI 👾 漁師",
-      "server": "nl.archnet.ir",
-      "server_port": 27515,
-      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "tag": "79 🇳🇱 Scalaxy B. CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "nl.gongyiyun.cf"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "image-upload4.spotify.com"
+          "Host": "nl.gongyiyun.cf"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "95 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "5.45.78.209",
+      "tag": "80 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -94,23 +96,47 @@
     },
     {
       "type": "vmess",
-      "tag": "168 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "163.172.213.74",
+      "tag": "120 🇳🇱 The Infras CDN 👾 漁師",
+      "server": "investors.spotify.com",
       "server_port": 443,
-      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
+      "uuid": "3f421e27-5bf8-40c9-86cb-7b8c41dddea2",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "hl1.cachexy.ga"
       },
       "transport": {
         "type": "ws",
-        "path": "/fastssh",
+        "path": "/lXvA0Vse/",
         "headers": {
-          "Host": "image-upload4.spotify.com"
+          "Host": "hl1.cachexy.ga"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "131 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.54.66",
+      "server_port": 443,
+      "password": "origin",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "155 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.54.65",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],
