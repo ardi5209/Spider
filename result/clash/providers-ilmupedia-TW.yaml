@@ -1,6 +1,62 @@
 proxies:
-  - name: '58 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 1.171.199.144
+  - name: '25 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: v28.idcloudhost.de
+    type: vmess
+    port: 443
+    uuid: d7a75318-3581-4f16-936c-671937ddd8ed
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '64 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: tw2.czs1000.com
+    type: vmess
+    port: 4011
+    uuid: a5086030-f6b9-47c5-810c-ca663485e5ad
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '87 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: tw7.czs1000.com
+    type: vmess
+    port: 1001
+    uuid: a5086030-f6b9-47c5-810c-ca663485e5ad
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '123 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw2.594888.xyz
+    type: vmess
+    port: 25551
+    uuid: d0b48cf9-b46b-3483-b044-5a57c7312738
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '166 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
     type: vmess
     port: 224
     uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
@@ -11,3 +67,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
+  - name: '194 🇹🇼 Data Commu SNI 👾 漁師'
+    server: f1f3227.v8.glados-config.net
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com

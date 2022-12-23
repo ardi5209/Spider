@@ -1,5 +1,5 @@
 proxies:
-  - name: '57 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '36 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 139.99.135.182
     type: vmess
     port: 443
@@ -15,7 +15,39 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '20 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+  - name: '52 🇦🇺 UpCloud Lt SNI 👾 漁師'
+    server: v2au1.594888.xyz
+    type: vmess
+    port: 34561
+    uuid: d0b48cf9-b46b-3483-b044-5a57c7312738
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '65 🇦🇺 Linode LL SNI 👾 漁師'
+    server: 45.79.236.124
+    type: vmess
+    port: 11217
+    uuid: 1d2a3fe2-9076-4ad4-b585-2b2fa9be5072
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '149 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: jgwxn3.gaox.ml
     type: trojan
     port: 443

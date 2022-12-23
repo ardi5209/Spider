@@ -1,5 +1,21 @@
 proxies:
-  - name: '141 🇵🇭 Kaopu Clou SNI 👾 漁師'
+  - name: '104 🇵🇭 Kaopu Clou CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: a267a68e-4b59-413e-96a4-6388948a401c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ph1.v2rayserv.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: ph1.v2rayserv.com
+  - name: '105 🇵🇭 Kaopu Clou SNI 👾 漁師'
     server: ph1.v2rayserv.com
     type: vmess
     port: 443
@@ -15,19 +31,3 @@ proxies:
       path: /sshocean
       headers:
         Host: news.microsoft.com
-  - name: '141 🇵🇭 Kaopu Clou CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: a267a68e-4b59-413e-96a4-6388948a401c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: ph1.v2rayserv.com
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: ph1.v2rayserv.com
