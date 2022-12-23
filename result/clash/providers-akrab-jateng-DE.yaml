@@ -1,17 +1,33 @@
 proxies:
-  - name: '5 🇩🇪 Hetzner On CDN 👾 漁師'
+  - name: '46 🇩🇪 xTom GmbH CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
-    uuid: da328110-43f5-502e-8602-0a0bfdd7e0fb
+    uuid: e5250de0-1b91-4c00-9561-ccbe977298af
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: scherehtznur01.sudoer.online
+    servername: de-01.legeth.tk
     ws-opts: 
-      path: /api15
+      path: /
       headers:
-        Host: scherehtznur01.sudoer.online
+        Host: de-01.legeth.tk
+  - name: '97 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us

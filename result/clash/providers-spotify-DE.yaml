@@ -1,46 +1,38 @@
 proxies:
-  - name: '3 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
-    type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '5 🇩🇪 Hetzner On CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '42 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 18.196.228.65
     type: vmess
     port: 443
-    uuid: da328110-43f5-502e-8602-0a0bfdd7e0fb
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: scherehtznur01.sudoer.online
+    servername: image-upload4.spotify.com
     ws-opts: 
-      path: /api15
+      path: /in-vpn-majanist-vws
       headers:
-        Host: scherehtznur01.sudoer.online
-  - name: '93 🇩🇪 Melbikomas SNI 👾 漁師'
-    server: 213.226.71.124
+        Host: image-upload4.spotify.com
+  - name: '46 🇩🇪 xTom GmbH CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 39028
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 443
+    uuid: e5250de0-1b91-4c00-9561-ccbe977298af
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '98 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: 51.195.41.134
+    network: ws
+    servername: de-01.legeth.tk
+    ws-opts: 
+      path: /
+      headers:
+        Host: de-01.legeth.tk
+  - name: '96 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
     type: vmess
     port: 443
     uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
@@ -55,20 +47,86 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '100 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.250.247
-    type: trojan
+  - name: '97 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: origin
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: de1.v2-ray.us
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: de1.v2-ray.us
+  - name: '159 🇩🇪 Melbikomas SNI 👾 漁師'
+    server: 213.226.71.124
+    type: vmess
+    port: 39028
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '153 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.152.12
-    type: trojan
+  - name: '168 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: resonance-vpn.net
+    type: vmess
     port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /in-vpn-majanist-vws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '173 🇩🇪 MIRholding SNI 👾 漁師'
+    server: de.archnet.cyou
+    type: vmess
+    port: 2054
+    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '180 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '181 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: vpnshop2.hoseeinbsd.ml
+    type: vmess
+    port: 20259
+    uuid: dfe6fa2e-6ca9-4b29-e30a-77c7e30cd5fd
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp

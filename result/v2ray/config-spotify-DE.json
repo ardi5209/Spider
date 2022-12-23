@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.46.244.34",
-            "port": 33655,
+            "address": "18.196.228.65",
+            "port": 443,
             "users": [
               {
-                "alterId": 64,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+                "id": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/in-vpn-majanist-vws"
         }
       },
-      "tag": "proxy-3 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-42 🇩🇪 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -125,7 +131,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "da328110-43f5-502e-8602-0a0bfdd7e0fb",
+                "id": "e5250de0-1b91-4c00-9561-ccbe977298af",
                 "level": 8,
                 "security": "auto"
               }
@@ -138,16 +144,96 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "scherehtznur01.sudoer.online"
+          "serverName": "de-01.legeth.tk"
         },
         "wsSettings": {
           "headers": {
-            "Host": "scherehtznur01.sudoer.online"
+            "Host": "de-01.legeth.tk"
           },
-          "path": "/api15"
+          "path": "/"
         }
       },
-      "tag": "proxy-5 🇩🇪 Hetzner On CDN 👾 漁師"
+      "tag": "proxy-46 🇩🇪 xTom GmbH CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de1.v2-ray.us",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-96 🇩🇪 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "de1.v2-ray.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "de1.v2-ray.us"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-97 🇩🇪 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -181,7 +267,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-93 🇩🇪 Melbikomas SNI 👾 漁師"
+      "tag": "proxy-159 🇩🇪 Melbikomas SNI 👾 漁師"
     },
     {
       "mux": {
@@ -192,14 +278,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.195.41.134",
+            "address": "resonance-vpn.net",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+                "id": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
                 "level": 8,
                 "security": "auto"
               }
@@ -218,27 +304,72 @@
           "headers": {
             "Host": "image-upload4.spotify.com"
           },
-          "path": "/vmess"
+          "path": "/in-vpn-majanist-vws"
         }
       },
-      "tag": "proxy-98 🇩🇪 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-168 🇩🇪 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.40.250.247",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
+            "address": "de.archnet.cyou",
+            "port": 2054,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-173 🇩🇪 MIRholding SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "78.46.244.34",
+            "port": 33655,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -250,24 +381,29 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-100 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-180 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "5.75.152.12",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
-            "port": 443
+            "address": "vpnshop2.hoseeinbsd.ml",
+            "port": 20259,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "dfe6fa2e-6ca9-4b29-e30a-77c7e30cd5fd",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -279,7 +415,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-153 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-181 🇩🇪 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {
