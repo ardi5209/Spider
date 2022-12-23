@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /hls/hk4.m3u8
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '17 🇭🇰 MICROSOFT- SNI 👾 漁師'
     server: azhk5.czs1000.com
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '47 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80-2.sanfen001.pics
     type: vmess
@@ -78,125 +78,13 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '55 🇭🇰 Alibaba US SNI 👾 漁師'
     server: 8.218.96.31
-    type: vmess
-    port: 8443
-    uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /Download
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '71 🇭🇰 AMAZON-02 SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
-    type: vmess
-    port: 19226
-    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '76 🇭🇰 91440300MA SNI 👾 漁師'
-    server: 117.164.185.222
-    type: vmess
-    port: 16113
-    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '92 🇭🇰 TERASWITCH SNI 👾 漁師'
-    server: v2hk1.594888.xyz
-    type: vmess
-    port: 35203
-    uuid: d0b48cf9-b46b-3483-b044-5a57c7312738
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /maohk1
-      headers:
-        Host: safebrowsing.google.com
-  - name: '101 🇭🇰 AMAZON-02 SNI 👾 漁師'
-    server: hk11.czs1000.com
-    type: vmess
-    port: 443
-    uuid: a5086030-f6b9-47c5-810c-ca663485e5ad
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '102 🇭🇰 Scloud Pte SNI 👾 漁師'
-    server: hk10.czs1000.com
-    type: vmess
-    port: 8011
-    uuid: a5086030-f6b9-47c5-810c-ca663485e5ad
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '106 🇭🇰 AMAZON-02 SNI 👾 漁師'
-    server: hk.idcloudhost.de
-    type: vmess
-    port: 443
-    uuid: d7a75318-3581-4f16-936c-671937ddd8ed
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '169 🇭🇰 AMAZON-02 SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
-    type: vmess
-    port: 19028
-    uuid: 10c002ed-c0b8-36b7-9229-114c6925bee4
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '204 🇭🇰 Alibaba US SNI 👾 漁師'
-    server: 47.243.90.12
     type: vmess
     port: 8443
     uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
@@ -211,3 +99,115 @@ proxies:
       path: /Download
       headers:
         Host: click.zoom.us
+  - name: '71 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: yzdx.relay01.fast001.buzz
+    type: vmess
+    port: 19226
+    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '76 🇭🇰 91440300MA SNI 👾 漁師'
+    server: 117.164.185.222
+    type: vmess
+    port: 16113
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '92 🇭🇰 TERASWITCH SNI 👾 漁師'
+    server: v2hk1.594888.xyz
+    type: vmess
+    port: 35203
+    uuid: d0b48cf9-b46b-3483-b044-5a57c7312738
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /maohk1
+      headers:
+        Host: click.zoom.us
+  - name: '101 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: hk11.czs1000.com
+    type: vmess
+    port: 443
+    uuid: a5086030-f6b9-47c5-810c-ca663485e5ad
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: click.zoom.us
+  - name: '102 🇭🇰 Scloud Pte SNI 👾 漁師'
+    server: hk10.czs1000.com
+    type: vmess
+    port: 8011
+    uuid: a5086030-f6b9-47c5-810c-ca663485e5ad
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '106 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: hk.idcloudhost.de
+    type: vmess
+    port: 443
+    uuid: d7a75318-3581-4f16-936c-671937ddd8ed
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: safebrowsing.google.com
+  - name: '169 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: hndx.relay01.fast001.buzz
+    type: vmess
+    port: 19028
+    uuid: 10c002ed-c0b8-36b7-9229-114c6925bee4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '204 🇭🇰 Alibaba US SNI 👾 漁師'
+    server: 47.243.90.12
+    type: vmess
+    port: 8443
+    uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /Download
+      headers:
+        Host: config.teams.microsoft.com
