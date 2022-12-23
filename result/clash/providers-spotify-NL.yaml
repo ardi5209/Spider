@@ -1,10 +1,33 @@
 proxies:
-  - name: '54 🇳🇱 The Infras SNI 👾 漁師'
-    server: nl.archnet.cyou
-    type: trojan
-    port: 2086
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+  - name: '62 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: 5.45.78.209
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '115 🇳🇱 Online S.a SNI 👾 漁師'
+    server: nl2.v2rayserv.com
+    type: vmess
+    port: 443
+    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
