@@ -113,7 +113,47 @@
           "path": "/Download"
         }
       },
-      "tag": "proxy-23 🇯🇵 AMAZON-02 CDN 👾 漁師"
+      "tag": "proxy-117 🇯🇵 AMAZON-02 CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 8080,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ssrsub.v02.asuka.buzz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ssrsub.v02.asuka.buzz"
+          },
+          "path": "/api/v3/download.getFile"
+        }
+      },
+      "tag": "proxy-211 🇯🇵 Owl Limite CDN 👾 漁師"
     },
     {
       "mux": {
@@ -144,16 +184,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "awsjp3.jiasub.xyz"
+          "serverName": "awsjp2.jiasub.xyz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "awsjp3.jiasub.xyz"
+            "Host": "awsjp2.jiasub.xyz"
           },
           "path": "/Download"
         }
       },
-      "tag": "proxy-176 🇯🇵 AMAZON-02 CDN 👾 漁師"
+      "tag": "proxy-213 🇯🇵 AMAZON-02 CDN 👾 漁師"
     }
   ],
   "dns": {

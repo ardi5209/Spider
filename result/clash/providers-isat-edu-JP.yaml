@@ -1,6 +1,6 @@
 proxies:
-  - name: '23 🇯🇵 AMAZON-02 CDN 👾 漁師'
-    server: 141.193.213.20
+  - name: '117 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: 162.159.128.7
     type: vmess
     port: 8443
     uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
@@ -15,8 +15,24 @@ proxies:
       path: /Download
       headers:
         Host: awsjp4.jiasub.xyz
-  - name: '176 🇯🇵 AMAZON-02 CDN 👾 漁師'
-    server: 141.193.213.20
+  - name: '211 🇯🇵 Owl Limite CDN 👾 漁師'
+    server: 162.159.128.7
+    type: vmess
+    port: 8080
+    uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ssrsub.v02.asuka.buzz
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v02.asuka.buzz
+  - name: '213 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: 141.193.213.10
     type: vmess
     port: 8443
     uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
@@ -26,8 +42,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: awsjp3.jiasub.xyz
+    servername: awsjp2.jiasub.xyz
     ws-opts: 
       path: /Download
       headers:
-        Host: awsjp3.jiasub.xyz
+        Host: awsjp2.jiasub.xyz
