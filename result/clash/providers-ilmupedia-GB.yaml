@@ -1,21 +1,5 @@
 proxies:
-  - name: '14 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.75.160.126
-    type: vmess
-    port: 443
-    uuid: 33def002-be2d-4c91-89b9-39b92a21f70e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '193 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '49 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -27,8 +11,36 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '104 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider21.cdn-delivery.akamaicd.com
+  - name: '162 🇬🇧 Linode LL SNI 👾 漁師'
+    server: gb1.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: cfa6f06a-a64b-42cb-a88b-c0d4a5884140
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '165 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '86 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.209
     type: trojan
     port: 443
     password: shefelnak
@@ -36,32 +48,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '110 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: t1.teslacdn1.live
-    type: trojan
-    port: 443
-    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '187 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.212
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '120 🇬🇧 Simply Tra SNI 👾 漁師'
-    server: 94.76.193.218
-    type: ssr
-    port: 2333
-    password: doub.io
-    cipher: aes-128-ctr
-    protocol: auth_sha1_v4
-    protocol-param: 
-    obfs: http_simple
-    obfs-param: obfs=http;obfs-host=news.microsoft.com
-    udp: true
