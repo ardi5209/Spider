@@ -1,5 +1,21 @@
 proxies:
-  - name: '155 🇨🇦 AS-CHOOPA SNI 👾 漁師'
+  - name: '8 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: 35.182.165.120
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '76 🇨🇦 AS-CHOOPA SNI 👾 漁師'
     server: CA-177-89.shoptunnel.live
     type: vmess
     port: 31990
@@ -11,27 +27,11 @@ proxies:
     skip-cert-verify: true
     network: none
     servername: image-upload4.spotify.com
-  - name: '189 🇨🇦 DIGITALOCE SNI 👾 漁師'
-    server: download.proxyvip.link
-    type: vmess
-    port: 33015
-    uuid: cc2b6168-9d39-4b83-80f1-578a7b5cb183
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /download
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '170 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: 149.56.132.41
+  - name: '88 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: cat1.sshocean.net
     type: trojan
     port: 443
-    password: fafb4232-9659-4867-886d-e47f4bda283e
+    password: 8b6daf15-8342-482d-b894-1239fd98ce7f
     udp: true
     skip-cert-verify: true
     network: tcp
