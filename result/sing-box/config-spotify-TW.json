@@ -45,13 +45,30 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "40 🇹🇼 Data Commu SNI 👾 漁師",
-        "62 🇹🇼 Data Commu SNI 👾 漁師"
+        "51 🇹🇼 Data Commu SNI 👾 漁師",
+        "68 🇹🇼 Data Commu SNI 👾 漁師",
+        "151 🇹🇼 Data Commu SNI 👾 漁師",
+        "229 🇹🇼 Data Commu SNI 👾 漁師",
+        "61 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "40 🇹🇼 Data Commu SNI 👾 漁師",
+      "tag": "51 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "117.164.185.222",
+      "server_port": 16130,
+      "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "68 🇹🇼 Data Commu SNI 👾 漁師",
       "server": "hinet1261.gfwisbest.xyz",
       "server_port": 224,
       "uuid": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
@@ -65,9 +82,9 @@
     },
     {
       "type": "vmess",
-      "tag": "62 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "hndx.relay01.fast001.buzz",
-      "server_port": 19221,
+      "tag": "151 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19222,
       "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
       "security": "auto",
       "alter_id": 0,
@@ -75,6 +92,46 @@
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "229 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "tw2.594888.xyz",
+      "server_port": 25551,
+      "uuid": "af13edc1-1ea1-3208-9794-915be9e338c0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "61 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],

@@ -45,13 +45,57 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "55 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "99 🇳🇱 AS40676 SNI 👾 漁師"
+        "22 🇳🇱 The Infras SNI 👾 漁師",
+        "55 🇳🇱 Online S.a SNI 👾 漁師",
+        "108 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "225 🇳🇱 Online S.a SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "55 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "tag": "22 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "nl.archnet.ir",
+      "server_port": 27515,
+      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "55 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "163.172.213.74",
+      "server_port": 443,
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fastssh",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "108 🇳🇱 Scalaxy B. SNI 👾 漁師",
       "server": "5.45.78.209",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -71,15 +115,24 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "99 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "185.212.200.74",
+      "type": "vmess",
+      "tag": "225 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "163.172.213.74",
       "server_port": 443,
-      "password": "Sp3eDVp",
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],
