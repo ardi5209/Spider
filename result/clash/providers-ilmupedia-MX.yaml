@@ -1,17 +1,17 @@
 proxies:
-  - name: '256 🇲🇽 Truxgo S.  SNI 👾 漁師'
-    server: mx1.v2rayserv.com
+  - name: '21 🇲🇽 Truxgo S.  SNI 👾 漁師'
+    server: 131.196.253.140
     type: vmess
-    port: 80
-    uuid: 01e1554e-aebf-49e5-ac33-c13155840a5d
+    port: 443
+    uuid: d54226f9-4427-4466-957f-173b0a5b1cbc
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
         Host: news.microsoft.com

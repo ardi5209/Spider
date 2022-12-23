@@ -45,14 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "50 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "171 🇳🇱 Online S.a CDN 👾 漁師"
+        "23 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "24 🇳🇱 Scalaxy B. CDN 👾 漁師",
+        "43 🇳🇱 The Infras SNI 👾 漁師",
+        "74 🇳🇱 The Infras SNI 👾 漁師",
+        "122 🇳🇱 AS40676 SNI 👾 漁師",
+        "152 🇳🇱 AS40676 SNI 👾 漁師",
+        "158 🇳🇱 AS40676 SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "50 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "5.45.78.209",
+      "tag": "23 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -72,23 +77,92 @@
     },
     {
       "type": "vmess",
-      "tag": "171 🇳🇱 Online S.a CDN 👾 漁師",
+      "tag": "24 🇳🇱 Scalaxy B. CDN 👾 漁師",
       "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "v12a.toddns.tk"
+        "server_name": "nl.gongyiyun.cf"
       },
       "transport": {
         "type": "ws",
-        "path": "/nl-unlimitxxx",
+        "path": "/",
         "headers": {
-          "Host": "v12a.toddns.tk"
+          "Host": "nl.gongyiyun.cf"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "43 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "5.255.112.158",
+      "server_port": 19182,
+      "uuid": "8f11ba8c-a72b-47df-a783-2490205ff10f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "74 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "nl.archnet.cyou",
+      "server_port": 2086,
+      "password": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "122 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "content-provider24.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "152 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "185.212.200.74",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "158 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "185.212.200.75",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],
