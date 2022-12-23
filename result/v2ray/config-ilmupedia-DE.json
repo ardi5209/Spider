@@ -84,48 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.46.244.34",
-            "port": 33655,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-3 🇩🇪 Hetzner On SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "165.227.175.88",
-            "port": 28164,
+            "address": "172.105.74.134",
+            "port": 37867,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "eba8ccf5-5ab9-4b6b-de4b-83ab920c1005",
+                "id": "4623f949-e0e4-4d40-d177-049ca6fd7518",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,10 +110,10 @@
           "headers": {
             "Host": "news.microsoft.com"
           },
-          "path": ""
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-39 🇩🇪 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-4 🇩🇪 Linode LL SNI 👾 漁師"
     },
     {
       "mux": {
@@ -158,14 +124,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.46.244.34",
-            "port": 33655,
+            "address": "5.75.250.163",
+            "port": 2096,
             "users": [
               {
-                "alterId": 64,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+                "id": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
                 "level": 8,
                 "security": "auto"
               }
@@ -174,14 +140,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-146 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-20 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
@@ -192,14 +164,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "18.196.228.65",
+            "address": "news.microsoft.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
+                "id": "a25881f3-967f-3265-bc7f-9e66857b016b",
                 "level": 8,
                 "security": "auto"
               }
@@ -212,16 +184,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "news.microsoft.com"
+          "serverName": "v143.toddns.tk"
         },
         "wsSettings": {
           "headers": {
-            "Host": "news.microsoft.com"
+            "Host": "v143.toddns.tk"
           },
-          "path": "/in-vpn-majanist-vws"
+          "path": "/de143-dxddxxj"
         }
       },
-      "tag": "proxy-207 🇩🇪 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-95 🇩🇪 myLoc mana CDN 👾 漁師"
     },
     {
       "mux": {
@@ -250,7 +222,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-139 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-64 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
@@ -261,12 +233,12 @@
       "settings": {
         "servers": [
           {
-            "address": "5.75.152.12",
+            "address": "t2.teslacdn1.live",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
+            "password": "4331812b-92ff-47b5-9f32-78b5150e625f",
             "port": 443
           }
         ]
@@ -279,7 +251,65 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-195 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-81 🇩🇪 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider28.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-115 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.40.250.247",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-153 🇩🇪 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {
