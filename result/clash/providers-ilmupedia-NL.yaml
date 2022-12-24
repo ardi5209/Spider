@@ -1,26 +1,17 @@
 proxies:
-  - name: '89 🇳🇱 The Infras CDN 👾 漁師'
-    server: news.microsoft.com
+  - name: '40 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: 5.45.78.209
     type: vmess
-    port: 443
-    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: hl1.cachexy.ga
-    ws-opts: 
-      path: /lXvA0Vse/
-      headers:
-        Host: hl1.cachexy.ga
-  - name: '189 🇳🇱 The Infras SNI 👾 漁師'
-    server: ir2.archnet.cyou
-    type: trojan
-    port: 6393
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
-    udp: true
-    skip-cert-verify: true
-    network: tcp
     servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
