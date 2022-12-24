@@ -80,29 +80,80 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "170.64.128.161",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "5612c06f-d0c1-4c86-aacf-10e1bfaa4254",
-            "port": 443
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "eb23d569-7dc4-4fbe-a276-17c83305a39c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "au-01.legeth.tk"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "au-01.legeth.tk"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-72 🇦🇺 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "139.99.135.182",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "5fa2bc9f-9958-4578-8587-268211341239",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-21 🇦🇺 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-147 🇦🇺 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

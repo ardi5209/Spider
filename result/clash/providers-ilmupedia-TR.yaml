@@ -1,10 +1,17 @@
 proxies:
-  - name: '87 🇹🇷 Comnet Bil SNI 👾 漁師'
-    server: ir2.archnet.cyou
-    type: trojan
-    port: 4646
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+  - name: '168 🇹🇷 Teknet Yaz SNI 👾 漁師'
+    server: 185.242.161.206
+    type: vmess
+    port: 25212
+    uuid: 43a988d1-8c8c-4303-9e03-8d651de6f376
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com

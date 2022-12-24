@@ -1,10 +1,33 @@
 proxies:
-  - name: '21 🇦🇺 DIGITALOCE SNI 👾 漁師'
-    server: 170.64.128.161
-    type: trojan
+  - name: '72 🇦🇺 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
+    uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
+    servername: au-01.legeth.tk
+    ws-opts: 
+      path: /
+      headers:
+        Host: au-01.legeth.tk
+  - name: '147 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.135.182
+    type: vmess
+    port: 443
+    uuid: 5fa2bc9f-9958-4578-8587-268211341239
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com
