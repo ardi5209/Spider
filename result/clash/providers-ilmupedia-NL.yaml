@@ -1,5 +1,21 @@
 proxies:
-  - name: '91 🇳🇱 Online S.a SNI 👾 漁師'
+  - name: '31 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 163.172.213.74
+    type: vmess
+    port: 443
+    uuid: 5cff0340-7ff4-11ed-b431-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /fastssh
+      headers:
+        Host: news.microsoft.com
+  - name: '35 🇳🇱 Online S.a SNI 👾 漁師'
     server: 163.172.213.74
     type: vmess
     port: 443
@@ -15,24 +31,8 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '97 🇳🇱 The Infras SNI 👾 漁師'
-    server: 5.255.112.158
-    type: vmess
-    port: 19182
-    uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '98 🇳🇱 Online S.a SNI 👾 漁師'
-    server: nl2.v2rayserv.com
+  - name: '181 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 51.15.81.240
     type: vmess
     port: 443
     uuid: 364cf68d-8821-4e57-8189-0d16bac31a58

@@ -1,21 +1,21 @@
 proxies:
-  - name: '156 🇨🇦 OVH SAS CDN 👾 漁師'
-    server: news.microsoft.com
+  - name: '149 🇨🇦 Linode LL SNI 👾 漁師'
+    server: ca1.czs1000.com
     type: vmess
-    port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    port: 11217
+    uuid: 33231de0-de1b-4c75-86be-e17b9d3e6553
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: ca2.v2rayserv.com
+    servername: news.microsoft.com
     ws-opts: 
-      path: /
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: ca2.v2rayserv.com
-  - name: '190 🇨🇦 AMAZON-02 SNI 👾 漁師'
+        Host: news.microsoft.com
+  - name: '198 🇨🇦 AMAZON-02 SNI 👾 漁師'
     server: 35.182.165.120
     type: vmess
     port: 443
@@ -31,12 +31,3 @@ proxies:
       path: /v2ray
       headers:
         Host: news.microsoft.com
-  - name: '51 🇨🇦 DIGITALOCE SNI 👾 漁師'
-    server: 137.184.173.48
-    type: trojan
-    port: 443
-    password: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com

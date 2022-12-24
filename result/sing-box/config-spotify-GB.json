@@ -45,21 +45,43 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "75 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "158 🇬🇧 OVH SAS SNI 👾 漁師",
-        "168 🇬🇧 OVH SAS SNI 👾 漁師",
-        "201 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "82 🇬🇧 OVH SAS SNI 👾 漁師",
-        "123 🇬🇧 Stark Indu SNI 👾 漁師",
-        "170 🇬🇧 Hydra Comm SNI 👾 漁師"
+        "123 🇬🇧 Linode LL SNI 👾 漁師",
+        "152 🇬🇧 AMAZON-02 SNI 👾 漁師",
+        "161 🇬🇧 OVH SAS SNI 👾 漁師",
+        "163 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "211 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "2 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "19 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "69 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "75 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "tag": "123 🇬🇧 Linode LL SNI 👾 漁師",
+      "server": "gb1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "33231de0-de1b-4c75-86be-e17b9d3e6553",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "152 🇬🇧 AMAZON-02 SNI 👾 漁師",
+      "server": "hndx.relay01.fast001.buzz",
+      "server_port": 19047,
+      "uuid": "7856049c-b7c2-3769-8ec2-f8cfb576e2e3",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -70,7 +92,7 @@
     },
     {
       "type": "vmess",
-      "tag": "158 🇬🇧 OVH SAS SNI 👾 漁師",
+      "tag": "161 🇬🇧 OVH SAS SNI 👾 漁師",
       "server": "198.244.232.39",
       "server_port": 2096,
       "uuid": "df46384b-1ad5-40a6-812e-48d60fb80283",
@@ -91,28 +113,7 @@
     },
     {
       "type": "vmess",
-      "tag": "168 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "54.36.162.144",
-      "server_port": 443,
-      "uuid": "d39b9c87-0db4-4c5d-94e6-4ca64f0efd83",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "201 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "163 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -125,11 +126,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "82 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "t1.teslacdn1.live",
-      "server_port": 443,
-      "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+      "type": "vmess",
+      "tag": "211 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -138,10 +141,10 @@
     },
     {
       "type": "trojan",
-      "tag": "123 🇬🇧 Stark Indu SNI 👾 漁師",
-      "server": "146.19.230.241",
+      "tag": "2 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider21.cdn-delivery.akamaicd.com",
       "server_port": 443,
-      "password": "xxoo",
+      "password": "shefelnak",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -150,8 +153,20 @@
     },
     {
       "type": "trojan",
-      "tag": "170 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider22.cdn-delivery.akamaicd.com",
+      "tag": "19 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.212",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "69 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.209",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {

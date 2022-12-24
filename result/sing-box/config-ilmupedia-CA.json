@@ -45,35 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "156 🇨🇦 OVH SAS CDN 👾 漁師",
-        "190 🇨🇦 AMAZON-02 SNI 👾 漁師",
-        "51 🇨🇦 DIGITALOCE SNI 👾 漁師"
+        "149 🇨🇦 Linode LL SNI 👾 漁師",
+        "198 🇨🇦 AMAZON-02 SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "156 🇨🇦 OVH SAS CDN 👾 漁師",
-      "server": "cacerts.digicert.com",
-      "server_port": 443,
-      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "tag": "149 🇨🇦 Linode LL SNI 👾 漁師",
+      "server": "ca1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "33231de0-de1b-4c75-86be-e17b9d3e6553",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "ca2.v2rayserv.com"
+        "server_name": "news.microsoft.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
-          "Host": "ca2.v2rayserv.com"
+          "Host": "news.microsoft.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "190 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "tag": "198 🇨🇦 AMAZON-02 SNI 👾 漁師",
       "server": "35.182.165.120",
       "server_port": 443,
       "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
@@ -90,18 +89,6 @@
         "headers": {
           "Host": "news.microsoft.com"
         }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "51 🇨🇦 DIGITALOCE SNI 👾 漁師",
-      "server": "137.184.173.48",
-      "server_port": 443,
-      "password": "5612c06f-d0c1-4c86-aacf-10e1bfaa4254",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
       }
     }
   ],
