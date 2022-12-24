@@ -45,56 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "26 🇷🇺 RECONN LLC SNI 👾 漁師",
-        "111 🇷🇺 LLC Baxet SNI 👾 漁師",
-        "112 🇷🇺 LLC Baxet CDN 👾 漁師"
+        "165 🇷🇺 LLC Baxet CDN 👾 漁師",
+        "182 🇷🇺 LLC Baxet SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "26 🇷🇺 RECONN LLC SNI 👾 漁師",
-      "server": "91.193.181.192",
-      "server_port": 8090,
-      "uuid": "08bc30e1-be39-4eb4-e887-e6579be15a45",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "111 🇷🇺 LLC Baxet SNI 👾 漁師",
-      "server": "v10a.toddns.tk",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ZPKLSPJjLBEy",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "112 🇷🇺 LLC Baxet CDN 👾 漁師",
+      "tag": "165 🇷🇺 LLC Baxet CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -103,14 +60,26 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "v10a.toddns.tk"
+        "server_name": "v10.toddns.tk"
       },
       "transport": {
         "type": "ws",
         "path": "/ZPKLSPJjLBEy",
         "headers": {
-          "Host": "v10a.toddns.tk"
+          "Host": "v10.toddns.tk"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "182 🇷🇺 LLC Baxet SNI 👾 漁師",
+      "server": "eu-east-ruo.openssl3.com",
+      "server_port": 443,
+      "password": "9KogHwaY7hVD",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],

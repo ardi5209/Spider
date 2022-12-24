@@ -1,21 +1,25 @@
 proxies:
-  - name: '64 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: vpnshop.hoseeinbsd.ml
+  - name: '9 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 65.21.191.18
     type: vmess
-    port: 48769
-    uuid: 61e5c5e6-c634-494f-fd09-b462c642b233
+    port: 443
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '109 🇫🇮 Hetzner On SNI 👾 漁師'
+    ws-opts: 
+      path: /sir2ersvws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '185 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
-    port: 34303
-    uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb
+    port: 25034
+    uuid: e549fc8d-2416-46f7-aadc-8747553091b9
     alterId: 0
     cipher: auto
     tls: true
@@ -27,15 +31,3 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '159 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: vpnshop.hoseeinbsd.ml
-    type: vmess
-    port: 48769
-    uuid: 61e5c5e6-c634-494f-fd09-b462c642b233
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
