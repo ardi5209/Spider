@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "51.83.186.142",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "555034c8-6420-45d0-893c-905c02342150",
-            "port": 443
+            "address": "146.59.92.219",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-79 🇵🇱 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-171 🇵🇱 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,7 +129,7 @@
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "9ca1f2e4-0d7b-440b-a261-109c35270dda",
+            "password": "fa0e4e7a-db70-4aeb-8104-e3120d9259cd",
             "port": 443
           }
         ]
@@ -131,7 +142,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-203 🇵🇱 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-193 🇵🇱 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

@@ -1,21 +1,5 @@
 proxies:
-  - name: '49 🇳🇱 The Infras SNI 👾 漁師'
-    server: 5.255.112.158
-    type: vmess
-    port: 19182
-    uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '101 🇳🇱 The Infras CDN 👾 漁師'
+  - name: '19 🇳🇱 The Infras CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 443
@@ -31,17 +15,17 @@ proxies:
       path: /lXvA0Vse/
       headers:
         Host: hl1.cachexy.ga
-  - name: '47 🇳🇱 The Infras SNI 👾 漁師'
-    server: nl.archnet.cyou
+  - name: '8 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider24.cdn-delivery.akamaicd.com
     type: trojan
-    port: 2086
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    port: 443
+    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '221 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.74
+  - name: '97 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.75
     type: trojan
     port: 443
     password: Sp3eDVp
