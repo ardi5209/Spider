@@ -45,27 +45,71 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "51 🇯🇵 Owl Limite CDN 👾 漁師"
+        "51 🇯🇵 Alibaba US CDN 👾 漁師",
+        "81 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "187 🇯🇵 NTT PC Com CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "51 🇯🇵 Owl Limite CDN 👾 漁師",
+      "tag": "51 🇯🇵 Alibaba US CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 8080,
-      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
+      "server_port": 443,
+      "uuid": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "ssrsub.v02.asuka.buzz"
+        "server_name": "vfly6.xyz"
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v3/download.getFile",
+        "path": "/myblog",
         "headers": {
-          "Host": "ssrsub.v02.asuka.buzz"
+          "Host": "vfly6.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "81 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "suzhihan.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/roewesu",
+        "headers": {
+          "Host": "suzhihan.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "187 🇯🇵 NTT PC Com CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp-ntt.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "jp-ntt.sharecentre.online"
         }
       }
     }

@@ -1,5 +1,69 @@
 proxies:
-  - name: '86 🇩🇪 DIGITALOCE SNI 👾 漁師'
+  - name: '79 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.129.202
+    type: vmess
+    port: 55039
+    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '104 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 18.196.228.65
+    type: vmess
+    port: 443
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /in-vpn-majanist-vws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '108 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 138.201.229.158
+    type: vmess
+    port: 62345
+    uuid: 32c9b3e7-bb21-4089-da4b-b9ee06b68509
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '124 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 8a287e0c-8bcf-4ac6-af2e-f70670448850
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: free.say-her-name.xyz
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: free.say-her-name.xyz
+  - name: '174 🇩🇪 DIGITALOCE SNI 👾 漁師'
     server: 165.227.175.88
     type: vmess
     port: 28164
@@ -12,26 +76,39 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: 
       headers:
         Host: image-upload4.spotify.com
-  - name: '132 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
+  - name: '201 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: 206.189.61.143
     type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
+    port: 443
+    uuid: 8626e5b2-4bcd-49a7-b70d-8f270b5266ea
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '168 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
+    ws-opts: 
+      path: /worryfree/ntls
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '90 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.236.127
     type: trojan
     port: 443
     password: yxGY7A5MczQYg6UqSFx9u78V
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '96 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.152.12
+    type: trojan
+    port: 443
+    password: d76294c5-a31f-408d-ba0b-89880107cab5
     udp: true
     skip-cert-verify: true
     network: tcp
