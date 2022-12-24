@@ -45,15 +45,52 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "28 🇹🇼 Data Commu SNI 👾 漁師",
-        "34 🇹🇼 Data Commu SNI 👾 漁師",
-        "111 🇹🇼 Data Commu SNI 👾 漁師",
-        "168 🇹🇼 Data Commu CDN 👾 漁師"
+        "81 🇹🇼 Data Commu SNI 👾 漁師",
+        "86 🇹🇼 Data Commu SNI 👾 漁師",
+        "88 🇹🇼 Data Commu SNI 👾 漁師",
+        "117 🇹🇼 Data Commu SNI 👾 漁師",
+        "140 🇹🇼 Data Commu SNI 👾 漁師",
+        "189 🇹🇼 Scloud Pte SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "28 🇹🇼 Data Commu SNI 👾 漁師",
+      "tag": "81 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "221.229.0.110",
+      "server_port": 19222,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "86 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "d59q.cdn.node.a.tddns-ounk.com",
+      "server_port": 20438,
+      "uuid": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "88 🇹🇼 Data Commu SNI 👾 漁師",
       "server": "hndx.relay01.fast001.buzz",
       "server_port": 19221,
       "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
@@ -67,10 +104,10 @@
     },
     {
       "type": "vmess",
-      "tag": "34 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "tw2.594888.xyz",
-      "server_port": 25551,
-      "uuid": "64939442-65b1-36e2-a350-878876dd4ac3",
+      "tag": "117 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "d59q.cdn.node.a.tddns-ounk.com",
+      "server_port": 20437,
+      "uuid": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -80,7 +117,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/v2ray",
+        "path": "/197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -88,37 +125,37 @@
     },
     {
       "type": "vmess",
-      "tag": "111 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "yzdx.relay01.fast001.buzz",
-      "server_port": 19222,
-      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "tag": "140 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "d59q.cdn.node.a.tddns-ounk.com",
+      "server_port": 20487,
+      "uuid": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3c675bf1-d618-42de-a358-498396d49cc6.y.live04.m3u8",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "168 🇹🇼 Data Commu CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "64939442-65b1-36e2-a350-878876dd4ac3",
+      "tag": "189 🇹🇼 Scloud Pte SNI 👾 漁師",
+      "server": "tw2.czs1000.com",
+      "server_port": 4011,
+      "uuid": "2925b447-b24e-4df4-b490-88aae3f63ec0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "hinet.nbsd.win"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/videos/stream",
-        "headers": {
-          "Host": "hinet.nbsd.win"
-        }
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],
