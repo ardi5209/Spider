@@ -1,5 +1,21 @@
 proxies:
-  - name: '15 🇯🇵 MICROSOFT- CDN 👾 漁師'
+  - name: '19 🇯🇵 M247 Europ CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: e5250de0-1b91-4c00-9561-ccbe977298af
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: jp-01.legeth.tk
+    ws-opts: 
+      path: /
+      headers:
+        Host: jp-01.legeth.tk
+  - name: '124 🇯🇵 MICROSOFT- CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 8443
@@ -15,51 +31,35 @@ proxies:
       path: /8cda48b3
       headers:
         Host: jp-192-78.shoptunnel.live
-  - name: '88 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: opc-jp.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: opc-jp.sharecentre.online
-  - name: '149 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: opc-jp.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: opc-jp.sharecentre.online
-  - name: '211 🇯🇵 AS-CHOOPA CDN 👾 漁師'
+  - name: '162 🇯🇵 AMAZON-02 CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 8443
-    uuid: 1e74a724-8a33-480e-9337-903c3b9b05bc
+    uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: jp1.caoyyds.top
+    servername: awsjp3.jiasub.xyz
     ws-opts: 
-      path: /cao
+      path: /Download
       headers:
-        Host: jp1.caoyyds.top
+        Host: awsjp3.jiasub.xyz
+  - name: '175 🇯🇵 Owl Limite CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8080
+    uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ssrsub.v02.asuka.buzz
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v02.asuka.buzz

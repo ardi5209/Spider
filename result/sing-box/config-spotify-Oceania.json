@@ -45,15 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "43 🇦🇺 DIGITALOCE SNI 👾 漁師",
+        "60 🇦🇺 DIGITALOCE SNI 👾 漁師",
+        "94 🇦🇺 UpCloud Lt SNI 👾 漁師",
         "152 🇦🇺 OVH SAS SNI 👾 漁師",
-        "1 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-        "174 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+        "177 🇦🇺 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "43 🇦🇺 DIGITALOCE SNI 👾 漁師",
+      "tag": "60 🇦🇺 DIGITALOCE SNI 👾 漁師",
       "server": "170.64.128.161",
       "server_port": 443,
       "uuid": "5612c06f-d0c1-4c86-aacf-10e1bfaa4254",
@@ -67,6 +67,27 @@
       "transport": {
         "type": "ws",
         "path": "/zingfast/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "94 🇦🇺 UpCloud Lt SNI 👾 漁師",
+      "server": "v2au1.594888.xyz",
+      "server_port": 34561,
+      "uuid": "eeb55754-0101-3129-b585-923770b20620",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -95,22 +116,10 @@
     },
     {
       "type": "trojan",
-      "tag": "1 🇦🇺 ORACLE-BMC SNI 👾 漁師",
+      "tag": "177 🇦🇺 ORACLE-BMC SNI 👾 漁師",
       "server": "140.238.205.173",
       "server_port": 443,
       "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "174 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-      "server": "152.67.98.30",
-      "server_port": 443,
-      "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
       "tls": {
         "enabled": true,
         "insecure": true,

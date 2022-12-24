@@ -1,5 +1,21 @@
 proxies:
-  - name: '23 🇳🇱 Online S.a SNI 👾 漁師'
+  - name: '97 🇳🇱 The Infras CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hl1.cachexy.ga
+    ws-opts: 
+      path: /lXvA0Vse/
+      headers:
+        Host: hl1.cachexy.ga
+  - name: '165 🇳🇱 Online S.a SNI 👾 漁師'
     server: 163.172.213.74
     type: vmess
     port: 443
@@ -15,11 +31,11 @@ proxies:
       path: /fastssh
       headers:
         Host: image-upload4.spotify.com
-  - name: '145 🇳🇱 The Infras SNI 👾 漁師'
-    server: nl.archnet.ir
+  - name: '197 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 51.15.81.240
     type: vmess
-    port: 27515
-    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    port: 443
+    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
     alterId: 0
     cipher: auto
     tls: true
@@ -28,38 +44,24 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
         Host: image-upload4.spotify.com
-  - name: '159 🇳🇱 Scalaxy B. CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '90 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider23.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: nl.gongyiyun.cf
-    ws-opts: 
-      path: /
-      headers:
-        Host: nl.gongyiyun.cf
-  - name: '160 🇳🇱 Scalaxy B. SNI 👾 漁師'
-    server: nl.gongyiyun.cf
-    type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
+  - name: '181 🇳🇱 DIGITALOCE SNI 👾 漁師'
+    server: 134.209.195.221
+    type: trojan
+    port: 443
+    password: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
