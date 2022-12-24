@@ -45,23 +45,32 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "34 🇭🇰 AMAZON-02 SNI 👾 漁師",
-        "118 🇭🇰 AMAZON-02 SNI 👾 漁師",
-        "125 🇭🇰 91440300MA SNI 👾 漁師",
-        "134 🇭🇰 AMAZON-02 SNI 👾 漁師",
-        "145 🇭🇰 91440300MA SNI 👾 漁師",
-        "199 🇭🇰 91440300MA SNI 👾 漁師",
-        "214 🇭🇰 91440300MA SNI 👾 漁師"
+        "2 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "5 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "12 🇭🇰 HGC Global SNI 👾 漁師",
+        "22 🇭🇰 Layerstack CDN 👾 漁師",
+        "61 🇭🇰 91440300MA SNI 👾 漁師",
+        "62 🇭🇰 Scloud Pte SNI 👾 漁師",
+        "68 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "120 🇭🇰 Alibaba US SNI 👾 漁師",
+        "136 🇭🇰 91440300MA SNI 👾 漁師",
+        "138 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "146 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "149 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "156 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "167 🇭🇰 Alibaba US SNI 👾 漁師",
+        "183 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "186 🇭🇰 ZEN-ECN SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "34 🇭🇰 AMAZON-02 SNI 👾 漁師",
-      "server": "yzdx.relay01.fast001.buzz",
-      "server_port": 19225,
-      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "tag": "2 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
       "security": "auto",
-      "alter_id": 0,
+      "alter_id": 10,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -70,35 +79,7 @@
     },
     {
       "type": "vmess",
-      "tag": "118 🇭🇰 AMAZON-02 SNI 👾 漁師",
-      "server": "yzdx.relay01.fast001.buzz",
-      "server_port": 19225,
-      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "125 🇭🇰 91440300MA SNI 👾 漁師",
-      "server": "117.164.185.221",
-      "server_port": 16116,
-      "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "tag": "5 🇭🇰 AMAZON-02 SNI 👾 漁師",
       "server": "yzdx.relay01.fast001.buzz",
       "server_port": 19228,
       "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
@@ -112,7 +93,49 @@
     },
     {
       "type": "vmess",
-      "tag": "145 🇭🇰 91440300MA SNI 👾 漁師",
+      "tag": "12 🇭🇰 HGC Global SNI 👾 漁師",
+      "server": "d59q.cdn.node.a.tddns-ounk.com",
+      "server_port": 20373,
+      "uuid": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/acaaaad0-54f5-4e10-94bb-1e6ab04649e1.y.live02.m3u8",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "22 🇭🇰 Layerstack CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 8443,
+      "uuid": "1e74a724-8a33-480e-9337-903c3b9b05bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk4.caoyyds.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cao",
+        "headers": {
+          "Host": "hk4.caoyyds.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "61 🇭🇰 91440300MA SNI 👾 漁師",
       "server": "117.164.185.222",
       "server_port": 16113,
       "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
@@ -126,8 +149,64 @@
     },
     {
       "type": "vmess",
-      "tag": "199 🇭🇰 91440300MA SNI 👾 漁師",
-      "server": "117.164.185.222",
+      "tag": "62 🇭🇰 Scloud Pte SNI 👾 漁師",
+      "server": "v26.idcloudhost.de",
+      "server_port": 443,
+      "uuid": "d7a75318-3581-4f16-936c-671937ddd8ed",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "68 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "120 🇭🇰 Alibaba US SNI 👾 漁師",
+      "server": "47.242.79.167",
+      "server_port": 8443,
+      "uuid": "3fe57c61-6255-37d4-b34b-3695b656a2b1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Download",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "136 🇭🇰 91440300MA SNI 👾 漁師",
+      "server": "117.164.185.221",
       "server_port": 16112,
       "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
       "security": "auto",
@@ -140,12 +219,108 @@
     },
     {
       "type": "vmess",
-      "tag": "214 🇭🇰 91440300MA SNI 👾 漁師",
-      "server": "117.164.185.221",
-      "server_port": 16112,
-      "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+      "tag": "138 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "hk1vdf-node.aiqiche123.com",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "146 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19226,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "149 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk80-2.sanfen001.pics",
+      "server_port": 443,
+      "uuid": "cd1d82d9-253c-44a7-9b2f-94c8d80b49c7",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn/download",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "156 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19225,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "167 🇭🇰 Alibaba US SNI 👾 漁師",
+      "server": "47.243.90.12",
+      "server_port": 8443,
+      "uuid": "3fe57c61-6255-37d4-b34b-3695b656a2b1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Download",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "183 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19227,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "186 🇭🇰 ZEN-ECN SNI 👾 漁師",
+      "server": "hk2.openssl3.com",
+      "server_port": 15006,
+      "password": "HKZmLDgP",
       "tls": {
         "enabled": true,
         "insecure": true,

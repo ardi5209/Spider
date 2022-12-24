@@ -45,24 +45,87 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "14 🇸🇬 HURRICANE CDN 👾 漁師",
-        "25 🇸🇬 HURRICANE CDN 👾 漁師",
-        "33 🇰🇷 ORACLE-BMC CDN 👾 漁師",
-        "93 🇸🇬 OVH SAS CDN 👾 漁師",
-        "99 🇸🇬 G-Core Lab CDN 👾 漁師",
-        "102 🇸🇬 G-Core Lab CDN 👾 漁師",
-        "112 🇯🇵 AMAZON-02 CDN 👾 漁師",
-        "120 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "128 🇸🇬 DIGITALOCE CDN 👾 漁師",
-        "133 🇸🇬 G-Core Lab CDN 👾 漁師",
-        "138 🇸🇬 DIGITALOCE CDN 👾 漁師",
-        "155 🇸🇬 ORACLE-BMC CDN 👾 漁師",
-        "180 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+        "22 🇭🇰 Layerstack CDN 👾 漁師",
+        "50 🇯🇵 AS-CHOOPA CDN 👾 漁師",
+        "53 🇯🇵 Owl Limite CDN 👾 漁師",
+        "71 🇸🇬 HURRICANE CDN 👾 漁師",
+        "81 🇮🇳 AS-CHOOPA CDN 👾 漁師",
+        "83 🇰🇷 AMAZON-02 CDN 👾 漁師",
+        "91 🇸🇬 ORACLE-BMC CDN 👾 漁師",
+        "111 🇸🇬 DIGITALOCE CDN 👾 漁師",
+        "114 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "127 🇸🇬 G-Core Lab CDN 👾 漁師",
+        "137 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "143 🇸🇬 HURRICANE CDN 👾 漁師",
+        "173 🇮🇩 PT Industr CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "14 🇸🇬 HURRICANE CDN 👾 漁師",
+      "tag": "22 🇭🇰 Layerstack CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8443,
+      "uuid": "1e74a724-8a33-480e-9337-903c3b9b05bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk4.caoyyds.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cao",
+        "headers": {
+          "Host": "hk4.caoyyds.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "50 🇯🇵 AS-CHOOPA CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8443,
+      "uuid": "1e74a724-8a33-480e-9337-903c3b9b05bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp1.caoyyds.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cao",
+        "headers": {
+          "Host": "jp1.caoyyds.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "53 🇯🇵 Owl Limite CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8080,
+      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ssrsub.v02.asuka.buzz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v3/download.getFile",
+        "headers": {
+          "Host": "ssrsub.v02.asuka.buzz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "71 🇸🇬 HURRICANE CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
@@ -83,112 +146,28 @@
     },
     {
       "type": "vmess",
-      "tag": "25 🇸🇬 HURRICANE CDN 👾 漁師",
+      "tag": "81 🇮🇳 AS-CHOOPA CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+      "server_port": 8443,
+      "uuid": "1e74a724-8a33-480e-9337-903c3b9b05bc",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "sg1-v2ray.sshkit.org"
+        "server_name": "in1.caoyyds.top"
       },
       "transport": {
         "type": "ws",
-        "path": "/sshkit/1736960111/63859b5b38f53/",
+        "path": "/cao",
         "headers": {
-          "Host": "sg1-v2ray.sshkit.org"
+          "Host": "in1.caoyyds.top"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "33 🇰🇷 ORACLE-BMC CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "surongwei.eu.org"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/reffs7y26g0ua",
-        "headers": {
-          "Host": "surongwei.eu.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "93 🇸🇬 OVH SAS CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sg-lb.vhax.net"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sshkit/Ertusg86/635014638c264/",
-        "headers": {
-          "Host": "sg-lb.vhax.net"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "99 🇸🇬 G-Core Lab CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcssg.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcssgnode",
-        "headers": {
-          "Host": "gcssg.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "102 🇸🇬 G-Core Lab CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sg-gcore-2.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "sg-gcore-2.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "112 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "tag": "83 🇰🇷 AMAZON-02 CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8443,
       "uuid": "3fe57c61-6255-37d4-b34b-3695b656a2b1",
@@ -197,103 +176,19 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "awsjp3.jiasub.xyz"
+        "server_name": "awskr2.jiasub.xyz"
       },
       "transport": {
         "type": "ws",
         "path": "/Download",
         "headers": {
-          "Host": "awsjp3.jiasub.xyz"
+          "Host": "awskr2.jiasub.xyz"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "120 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "opc-jp.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "opc-jp.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "128 🇸🇬 DIGITALOCE CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8880,
-      "uuid": "a5c804aa-8a4d-4fd2-97a1-4f0cc1384953",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sg1021.hkaa0.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/hkaa0",
-        "headers": {
-          "Host": "sg1021.hkaa0.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "133 🇸🇬 G-Core Lab CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcoresg.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoresgnode",
-        "headers": {
-          "Host": "gcoresg.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "138 🇸🇬 DIGITALOCE CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8880,
-      "uuid": "a5c804aa-8a4d-4fd2-97a1-4f0cc1384953",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sg1021.hkaa0.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/hkaa0",
-        "headers": {
-          "Host": "sg1021.hkaa0.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "155 🇸🇬 ORACLE-BMC CDN 👾 漁師",
+      "tag": "91 🇸🇬 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "82d5ea73-8002-4319-cd3c-29d1560bd290",
@@ -314,7 +209,28 @@
     },
     {
       "type": "vmess",
-      "tag": "180 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "tag": "111 🇸🇬 DIGITALOCE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sg-gcore.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "sg-gcore.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "114 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -330,6 +246,90 @@
         "path": "/shirker",
         "headers": {
           "Host": "opc-jp.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "127 🇸🇬 G-Core Lab CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcssg.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcssgnode",
+        "headers": {
+          "Host": "gcssg.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "137 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opc-jp.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "opc-jp.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇸🇬 HURRICANE CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sg1-v2ray.sshkit.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshkit/1736960111/63859b5b38f53/",
+        "headers": {
+          "Host": "sg1-v2ray.sshkit.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "173 🇮🇩 PT Industr CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "781be00e-1e09-4e27-a464-e14197418c8f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id5.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "id5.v2rayserv.com"
         }
       }
     }

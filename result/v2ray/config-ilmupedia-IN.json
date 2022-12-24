@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "152.67.160.174",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "54080134-2cba-4535-8599-95650bd9aa54",
-            "port": 443
+            "address": "news.microsoft.com",
+            "port": 8443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1e74a724-8a33-480e-9337-903c3b9b05bc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "news.microsoft.com"
+          "serverName": "in1.caoyyds.top"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "in1.caoyyds.top"
+          },
+          "path": "/cao"
         }
       },
-      "tag": "proxy-39 🇮🇳 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-81 🇮🇳 AS-CHOOPA CDN 👾 漁師"
     },
     {
       "mux": {
@@ -113,12 +124,12 @@
       "settings": {
         "servers": [
           {
-            "address": "152.67.190.183",
+            "address": "jgwhdlb1.gaox.ml",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "006baa3f-4bc3-4915-b60d-c8c5dae11a11",
+            "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
             "port": 443
           }
         ]
@@ -131,7 +142,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-168 🇮🇳 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-105 🇮🇳 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {
