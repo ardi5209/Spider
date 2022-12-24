@@ -1,5 +1,30 @@
 proxies:
-  - name: '78 🇳🇱 The Infras SNI 👾 漁師'
+  - name: '148 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 163.172.220.71
+    type: vmess
+    port: 6616
+    uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '90 🇳🇱 DIGITALOCE SNI 👾 漁師'
+    server: 134.209.195.221
+    type: trojan
+    port: 443
+    password: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '194 🇳🇱 The Infras SNI 👾 漁師'
     server: nl.archnet.cyou
     type: trojan
     port: 2086
@@ -8,17 +33,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '195 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.75
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '199 🇳🇱 AS40676 SNI 👾 漁師'
-    server: content-provider23.cdn-delivery.akamaicd.com
+  - name: '220 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider24.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: Sp3eDVp
