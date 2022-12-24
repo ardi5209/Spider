@@ -1,19 +1,17 @@
 proxies:
-  - name: '125 🇮🇳 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.190.183
-    type: trojan
-    port: 443
-    password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  - name: '21 🇮🇳 Linode LL SNI 👾 漁師'
+    server: in2.caoyyds.top
+    type: vmess
+    port: 9009
+    uuid: 1e74a724-8a33-480e-9337-903c3b9b05bc
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '182 🇮🇳 ORACLE-BMC SNI 👾 漁師'
-    server: jgwhdlb1.gaox.ml
-    type: trojan
-    port: 443
-    password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /cao
+      headers:
+        Host: image-upload4.spotify.com
