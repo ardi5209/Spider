@@ -91,7 +91,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e5250de0-1b91-4c00-9561-ccbe977298af",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "jp-01.legeth.tk"
+          "serverName": "opc-jp.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "jp-01.legeth.tk"
+            "Host": "opc-jp.sharecentre.online"
           },
-          "path": "/"
+          "path": "/shirker"
         }
       },
-      "tag": "proxy-121 🇯🇵 M247 Europ CDN 👾 漁師"
+      "tag": "proxy-16 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -153,7 +153,47 @@
           "path": "/api/v3/download.getFile"
         }
       },
-      "tag": "proxy-166 🇯🇵 Owl Limite CDN 👾 漁師"
+      "tag": "proxy-130 🇯🇵 Owl Limite CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-164 🇯🇵 ORACLE-BMC CDN 👾 漁師"
     }
   ],
   "dns": {

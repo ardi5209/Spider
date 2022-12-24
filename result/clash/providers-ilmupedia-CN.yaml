@@ -1,5 +1,5 @@
 proxies:
-  - name: '118 🇨🇳 Hangzhou A SNI 👾 漁師'
+  - name: '50 🇨🇳 Hangzhou A SNI 👾 漁師'
     server: 39.103.165.178
     type: vmess
     port: 50002
@@ -11,7 +11,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '126 🇨🇳 PEGTECHINC SNI 👾 漁師'
+  - name: '70 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 139.186.198.63
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '99 🇨🇳 PEGTECHINC SNI 👾 漁師'
     server: 142.0.135.66
     type: vmess
     port: 443
@@ -27,20 +39,8 @@ proxies:
       path: /path/243535322906
       headers:
         Host: news.microsoft.com
-  - name: '156 🇨🇳 Shenzhen T SNI 👾 漁師'
-    server: 106.55.234.95
-    type: vmess
-    port: 31372
-    uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '181 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 47.104.237.32
+  - name: '135 🇨🇳 CHINA UNIC SNI 👾 漁師'
+    server: 112.132.215.189
     type: vmess
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -51,31 +51,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '213 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 47.104.237.32
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '216 🇨🇳 PEGTECHINC SNI 👾 漁師'
-    server: 137.175.28.5
-    type: vmess
-    port: 17805
-    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com

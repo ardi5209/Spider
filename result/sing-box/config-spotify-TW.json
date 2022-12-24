@@ -45,59 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "27 🇹🇼 Data Commu SNI 👾 漁師",
-        "31 🇹🇼 Data Commu SNI 👾 漁師",
-        "83 🇹🇼 Data Commu SNI 👾 漁師",
-        "168 🇹🇼 Data Commu SNI 👾 漁師"
+        "89 🇹🇼 Data Commu CDN 👾 漁師",
+        "121 🇹🇼 Data Commu SNI 👾 漁師",
+        "165 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "27 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "hndx.relay01.fast001.buzz",
-      "server_port": 19221,
-      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "tag": "89 🇹🇼 Data Commu CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 8443,
+      "uuid": "1e74a724-8a33-480e-9337-903c3b9b05bc",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "tw3.caoyyds.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cao",
+        "headers": {
+          "Host": "tw3.caoyyds.top"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "31 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "221.229.0.110",
-      "server_port": 19222,
-      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "83 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "hinet1261.gfwisbest.xyz",
-      "server_port": 224,
-      "uuid": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "168 🇹🇼 Data Commu SNI 👾 漁師",
+      "tag": "121 🇹🇼 Data Commu SNI 👾 漁師",
       "server": "d59q.cdn.node.a.tddns-ounk.com",
-      "server_port": 20437,
+      "server_port": 20487,
       "uuid": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
       "security": "auto",
       "alter_id": 0,
@@ -108,10 +86,24 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8",
+        "path": "/3c675bf1-d618-42de-a358-498396d49cc6.y.live04.m3u8",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "165 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "hndx.relay01.fast001.buzz",
+      "server_port": 19221,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],

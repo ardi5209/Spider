@@ -45,34 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "121 🇯🇵 M247 Europ CDN 👾 漁師",
-        "166 🇯🇵 Owl Limite CDN 👾 漁師"
+        "16 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "130 🇯🇵 Owl Limite CDN 👾 漁師",
+        "164 🇯🇵 ORACLE-BMC CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "121 🇯🇵 M247 Europ CDN 👾 漁師",
+      "tag": "16 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "e5250de0-1b91-4c00-9561-ccbe977298af",
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "jp-01.legeth.tk"
+        "server_name": "opc-jp.sharecentre.online"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/shirker",
         "headers": {
-          "Host": "jp-01.legeth.tk"
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "166 🇯🇵 Owl Limite CDN 👾 漁師",
+      "tag": "130 🇯🇵 Owl Limite CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8080,
       "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
@@ -88,6 +89,27 @@
         "path": "/api/v3/download.getFile",
         "headers": {
           "Host": "ssrsub.v02.asuka.buzz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "164 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opc-jp.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     }
