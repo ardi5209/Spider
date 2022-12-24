@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "d59q.cdn.node.a.tddns-ounk.com",
-            "port": 20437,
+            "address": "tw2.czs1000.com",
+            "port": 1001,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
+                "id": "df395e5e-6433-4f75-aced-343c199e837b",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,20 +100,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "image-upload4.spotify.com"
-          },
-          "path": "/197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8"
         }
       },
-      "tag": "proxy-34 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-60 🇹🇼 Scloud Pte SNI 👾 漁師"
     },
     {
       "mux": {
@@ -124,18 +118,150 @@
       "settings": {
         "vnext": [
           {
-            "address": "d59q.cdn.node.a.tddns-ounk.com",
-            "port": 20438,
+            "address": "tw3.czs1000.com",
+            "port": 1001,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c39c9a44-cea3-3a4a-8142-e6354ec11b8a",
+                "id": "df395e5e-6433-4f75-aced-343c199e837b",
                 "level": 8,
                 "security": "auto"
               }
             ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-76 🇹🇼 Scloud Pte SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tw2.czs1000.com",
+            "port": 4011,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "df395e5e-6433-4f75-aced-343c199e837b",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-103 🇹🇼 Scloud Pte SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 8443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1e74a724-8a33-480e-9337-903c3b9b05bc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tw3.caoyyds.top"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tw3.caoyyds.top"
+          },
+          "path": "/cao"
+        }
+      },
+      "tag": "proxy-118 🇹🇼 Data Commu CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "tw01.henet.top",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "f1963001-20c7-464b-8a66-c15ba6f798d0",
+            "port": 30000
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-119 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "211.72.35.154",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4bacb8f1a089763b",
+            "port": 3306
           }
         ]
       },
@@ -150,10 +276,10 @@
           "headers": {
             "Host": "image-upload4.spotify.com"
           },
-          "path": "/197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8"
+          "path": "/gateway/connect"
         }
       },
-      "tag": "proxy-109 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-200 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

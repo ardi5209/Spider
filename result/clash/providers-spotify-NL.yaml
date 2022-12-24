@@ -1,6 +1,54 @@
 proxies:
-  - name: '40 🇳🇱 Scalaxy B. SNI 👾 漁師'
-    server: 5.45.78.209
+  - name: '23 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 163.172.213.74
+    type: vmess
+    port: 443
+    uuid: 5cff0340-7ff4-11ed-b431-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /fastssh
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '145 🇳🇱 The Infras SNI 👾 漁師'
+    server: nl.archnet.ir
+    type: vmess
+    port: 27515
+    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '159 🇳🇱 Scalaxy B. CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: nl.gongyiyun.cf
+    ws-opts: 
+      path: /
+      headers:
+        Host: nl.gongyiyun.cf
+  - name: '160 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: nl.gongyiyun.cf
     type: vmess
     port: 8080
     uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f

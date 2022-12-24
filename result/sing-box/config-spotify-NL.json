@@ -45,13 +45,79 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "40 🇳🇱 Scalaxy B. SNI 👾 漁師"
+        "23 🇳🇱 Online S.a SNI 👾 漁師",
+        "145 🇳🇱 The Infras SNI 👾 漁師",
+        "159 🇳🇱 Scalaxy B. CDN 👾 漁師",
+        "160 🇳🇱 Scalaxy B. SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "40 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "5.45.78.209",
+      "tag": "23 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "163.172.213.74",
+      "server_port": 443,
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fastssh",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "145 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "nl.archnet.ir",
+      "server_port": 27515,
+      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "159 🇳🇱 Scalaxy B. CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "nl.gongyiyun.cf"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nl.gongyiyun.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "160 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
