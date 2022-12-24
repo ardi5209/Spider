@@ -1,25 +1,9 @@
 proxies:
-  - name: '60 🇩🇪 OVH SAS CDN 👾 漁師'
-    server: news.microsoft.com
+  - name: '40 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.129.202
     type: vmess
-    port: 443
-    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: de1.v2-ray.us
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: de1.v2-ray.us
-  - name: '61 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: de1.v2-ray.us
-    type: vmess
-    port: 443
-    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    port: 55039
+    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
     alterId: 0
     cipher: auto
     tls: true
@@ -28,40 +12,26 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /vmess
+      path: /
       headers:
         Host: news.microsoft.com
-  - name: '120 🇩🇪 Melbikomas SNI 👾 漁師'
-    server: 213.226.71.124
+  - name: '181 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.132.112
     type: vmess
-    port: 22576
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '37 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.250.247
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '126 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '139 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    ws-opts: 
+      path: /p3573l6m92h1ham3q23t
+      headers:
+        Host: news.microsoft.com
+  - name: '134 🇩🇪 DIGITALOCE SNI 👾 漁師'
     server: 104.248.44.207
     type: trojan
     port: 443
