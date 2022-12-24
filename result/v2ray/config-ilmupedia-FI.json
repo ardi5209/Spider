@@ -84,7 +84,87 @@
       "settings": {
         "vnext": [
           {
-            "address": "65.21.191.18",
+            "address": "135.181.29.18",
+            "port": 63456,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ed28b4d7-2810-455b-a4a5-3435026b70f7",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-22 🇫🇮 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "3580321e-0bce-494e-bc71-e797c0a5b125",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "api.sira.ml"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "api.sira.ml"
+          },
+          "path": "/sir2ersvws"
+        }
+      },
+      "tag": "proxy-80 🇫🇮 Hetzner On CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "api.sira.ml",
             "port": 443,
             "users": [
               {
@@ -113,41 +193,7 @@
           "path": "/sir2ersvws"
         }
       },
-      "tag": "proxy-38 🇫🇮 Hetzner On SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "vpnshop.hoseeinbsd.ml",
-            "port": 48769,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "61e5c5e6-c634-494f-fd09-b462c642b233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-72 🇫🇮 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-81 🇫🇮 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {

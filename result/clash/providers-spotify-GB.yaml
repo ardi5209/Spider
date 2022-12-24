@@ -1,17 +1,37 @@
 proxies:
-  - name: '80 🇬🇧 AMAZON-02 SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
+  - name: '20 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 198.244.232.39
     type: vmess
-    port: 19248
-    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
+    port: 2096
+    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '110 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '47 🇬🇧 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: uk.jiedian01.cf
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk.jiedian01.cf
+  - name: '61 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -23,11 +43,27 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '133 🇬🇧 AMAZON-02 SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
+  - name: '96 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 54.36.162.144
     type: vmess
-    port: 19247
-    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
+    port: 443
+    uuid: 59395e73-e2fc-468f-abde-936bd2c3ed17
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '125 🇬🇧 AMAZON-02 SNI 👾 漁師'
+    server: hndx.relay01.fast001.buzz
+    type: vmess
+    port: 19047
+    uuid: da49f36d-0355-3373-a743-af38a10cef17
     alterId: 0
     cipher: auto
     tls: true
@@ -35,8 +71,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '59 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.211
+  - name: '42 🇬🇧 Iomart Clo SNI 👾 漁師'
+    server: content-provider4.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: shefelnak
@@ -44,8 +80,26 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '161 🇬🇧 Iomart Clo SNI 👾 漁師'
-    server: content-provider4.cdn-delivery.akamaicd.com
+  - name: '53 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+    server: jgwld1.gaox.ml
+    type: trojan
+    port: 443
+    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '106 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.212
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '120 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.211
     type: trojan
     port: 443
     password: shefelnak

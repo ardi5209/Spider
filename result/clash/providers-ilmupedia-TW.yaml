@@ -1,29 +1,5 @@
 proxies:
-  - name: '25 🇹🇼 Data Commu SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
-    type: vmess
-    port: 19222
-    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '102 🇹🇼 Data Commu SNI 👾 漁師'
-    server: hinet1261.gfwisbest.xyz
-    type: vmess
-    port: 224
-    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '184 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '28 🇹🇼 Data Commu SNI 👾 漁師'
     server: hndx.relay01.fast001.buzz
     type: vmess
     port: 19221
@@ -35,3 +11,47 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
+  - name: '34 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw2.594888.xyz
+    type: vmess
+    port: 25551
+    uuid: 64939442-65b1-36e2-a350-878876dd4ac3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '111 🇹🇼 Data Commu SNI 👾 漁師'
+    server: yzdx.relay01.fast001.buzz
+    type: vmess
+    port: 19222
+    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '168 🇹🇼 Data Commu CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 64939442-65b1-36e2-a350-878876dd4ac3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hinet.nbsd.win
+    ws-opts: 
+      path: /videos/stream
+      headers:
+        Host: hinet.nbsd.win
