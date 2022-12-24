@@ -1,19 +1,26 @@
 proxies:
-  - name: '149 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tt01.yuncyo.xyz
-    type: trojan
-    port: 443
-    password: 876ce30a-8944-32e3-9bce-865c939808e2
+  - name: '56 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
+    type: vmess
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '170 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw01.henet.top
+  - name: '19 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
     type: trojan
-    port: 30000
-    password: f1963001-20c7-464b-8a66-c15ba6f798d0
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com
