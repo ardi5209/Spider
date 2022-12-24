@@ -1,5 +1,5 @@
 proxies:
-  - name: '84 🇱🇺 PONYNET SNI 👾 漁師'
+  - name: '23 🇱🇺 PONYNET SNI 👾 漁師'
     server: 104.244.73.218
     type: vmess
     port: 443
@@ -10,24 +10,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /v2ray
       headers:
-        Host: click.zoom.us
-  - name: '89 🇱🇺 Unknown CDN 👾 漁師'
-    server: hohm.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
+        Host: config.teams.microsoft.com

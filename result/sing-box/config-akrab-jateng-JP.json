@@ -45,13 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "147 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "169 🇯🇵 Alibaba US CDN 👾 漁師"
+        "112 🇯🇵 AMAZON-02 CDN 👾 漁師",
+        "120 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "180 🇯🇵 ORACLE-BMC CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "147 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "tag": "112 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8443,
+      "uuid": "3fe57c61-6255-37d4-b34b-3695b656a2b1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjp3.jiasub.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Download",
+        "headers": {
+          "Host": "awsjp3.jiasub.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "120 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -72,22 +94,22 @@
     },
     {
       "type": "vmess",
-      "tag": "169 🇯🇵 Alibaba US CDN 👾 漁師",
+      "tag": "180 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "vfly6.xyz"
+        "server_name": "opc-jp.sharecentre.online"
       },
       "transport": {
         "type": "ws",
-        "path": "/myblog",
+        "path": "/shirker",
         "headers": {
-          "Host": "vfly6.xyz"
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     }

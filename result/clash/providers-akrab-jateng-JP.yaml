@@ -1,5 +1,21 @@
 proxies:
-  - name: '147 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+  - name: '112 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8443
+    uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsjp3.jiasub.xyz
+    ws-opts: 
+      path: /Download
+      headers:
+        Host: awsjp3.jiasub.xyz
+  - name: '120 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -15,19 +31,19 @@ proxies:
       path: /shirker
       headers:
         Host: opc-jp.sharecentre.online
-  - name: '169 🇯🇵 Alibaba US CDN 👾 漁師'
+  - name: '180 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
-    uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: vfly6.xyz
+    servername: opc-jp.sharecentre.online
     ws-opts: 
-      path: /myblog
+      path: /shirker
       headers:
-        Host: vfly6.xyz
+        Host: opc-jp.sharecentre.online
