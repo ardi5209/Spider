@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "137.184.173.48",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "5612c06f-d0c1-4c86-aacf-10e1bfaa4254",
-            "port": 443
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e2e537e6-fde2-4851-a938-e373613c55c3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
+          "serverName": "m3.pianyijc.top"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "m3.pianyijc.top"
+          },
+          "path": "/sometimesnaive"
         }
       },
-      "tag": "proxy-161 🇨🇦 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-179 🇨🇦 DIGITALOCE CDN 👾 漁師"
     }
   ],
   "dns": {
