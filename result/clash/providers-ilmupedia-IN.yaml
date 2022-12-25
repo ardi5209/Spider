@@ -1,6 +1,34 @@
 proxies:
-  - name: '1 🇮🇳 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.162.166
+  - name: '148 🇮🇳 CLOUDFLARE SNI 👾 漁師'
+    server: sg-cdn.iqyun.zone
+    type: vmess
+    port: 22277
+    uuid: 3628ca8d-6371-45df-879c-2d3e5d110b51
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '201 🇮🇳 Linode LL SNI 👾 漁師'
+    server: in2.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 014e8ef4-6052-44c1-8674-a8a0baf55955
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: news.microsoft.com
+  - name: '26 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: jgwhdlb1.gaox.ml
     type: trojan
     port: 443
     password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
@@ -8,11 +36,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '106 🇮🇳 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.190.183
+  - name: '127 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.162.166
     type: trojan
     port: 443
-    password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+    password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
     udp: true
     skip-cert-verify: true
     network: tcp

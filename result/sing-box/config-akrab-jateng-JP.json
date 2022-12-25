@@ -45,15 +45,12 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "52 🇯🇵 AMAZON-02 CDN 👾 漁師",
-        "82 🇯🇵 IDC Fronti CDN 👾 漁師",
-        "93 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "186 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+        "202 🇯🇵 AMAZON-02 CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "52 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "tag": "202 🇯🇵 AMAZON-02 CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8443,
       "uuid": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
@@ -62,76 +59,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "awsjp4.jiasub.xyz"
+        "server_name": "awsjp3.jiasub.xyz"
       },
       "transport": {
         "type": "ws",
         "path": "/Download",
         "headers": {
-          "Host": "awsjp4.jiasub.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "82 🇯🇵 IDC Fronti CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "eb23d569-7dc4-4fbe-a276-17c83305a39c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "jp-01.legeth.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "jp-01.legeth.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "93 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "opc-jp.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "opc-jp.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "186 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "suzhihan.eu.org"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/roewesu",
-        "headers": {
-          "Host": "suzhihan.eu.org"
+          "Host": "awsjp3.jiasub.xyz"
         }
       }
     }

@@ -1,21 +1,17 @@
 proxies:
-  - name: '29 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 198.244.232.39
+  - name: '18 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
     type: vmess
-    port: 2096
-    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '86 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '77 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 51.75.160.126
     type: vmess
     port: 443
@@ -31,11 +27,59 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '114 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '78 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 54.36.162.144
+    type: vmess
+    port: 443
+    uuid: d39b9c87-0db4-4c5d-94e6-4ca64f0efd83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '89 🇬🇧 Alibaba US CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 8443
+    uuid: 6b3244a3-44ca-3ef2-b40f-90c1bfae7dac
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: alyg1.jiasub.xyz
+    ws-opts: 
+      path: /Download
+      headers:
+        Host: alyg1.jiasub.xyz
+  - name: '119 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
+    type: vmess
+    port: 443
+    uuid: 72189368-6b37-4019-bfbb-b697ee386ea5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '165 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
     alterId: 0
     cipher: auto
     tls: true
@@ -43,20 +87,32 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '45 🇬🇧 Evoxt Ente SNI 👾 漁師'
-    server: music.iqslocker.com
-    type: trojan
-    port: 443
-    password: 3628ca8d-6371-45df-879c-2d3e5d110b51
+  - name: '189 🇬🇧 AMAZON-02 SNI 👾 漁師'
+    server: yzdx.relay01.fast001.buzz
+    type: vmess
+    port: 19248
+    uuid: bd10b96f-7ea4-3fc1-844d-538e9f68af2b
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '59 🇬🇧 ORACLE-BMC SNI 👾 漁師'
-    server: jgwld1.gaox.ml
+  - name: '38 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.212
     type: trojan
     port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '130 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.209
+    type: trojan
+    port: 443
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
