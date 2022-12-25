@@ -45,17 +45,60 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "23 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "24 🇳🇱 Scalaxy B. CDN 👾 漁師",
-        "170 🇳🇱 OVH SAS SNI 👾 漁師",
-        "221 🇳🇱 The Infras SNI 👾 漁師",
-        "162 🇳🇱 DIGITALOCE SNI 👾 漁師"
+        "6 🇳🇱 Online S.a SNI 👾 漁師",
+        "39 🇳🇱 Online S.a SNI 👾 漁師",
+        "85 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "101 🇳🇱 Online S.a SNI 👾 漁師",
+        "132 🇳🇱 OVH SAS SNI 👾 漁師",
+        "17 🇳🇱 DIGITALOCE SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "23 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "5.45.78.209",
+      "tag": "6 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "51.15.113.164",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Danhuang/Jiang",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "39 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "nl2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "85 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -75,28 +118,28 @@
     },
     {
       "type": "vmess",
-      "tag": "24 🇳🇱 Scalaxy B. CDN 👾 漁師",
-      "server": "news.microsoft.com",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "tag": "101 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "51.15.81.240",
+      "server_port": 443,
+      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "nl.gongyiyun.cf"
+        "server_name": "news.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "nl.gongyiyun.cf"
+          "Host": "news.microsoft.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "170 🇳🇱 OVH SAS SNI 👾 漁師",
+      "tag": "132 🇳🇱 OVH SAS SNI 👾 漁師",
       "server": "fr-9.sourcekade.site",
       "server_port": 8080,
       "uuid": "3f0bc389-0f54-4b6f-f0e4-1f7ea6519b95",
@@ -116,29 +159,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "221 🇳🇱 The Infras SNI 👾 漁師",
-      "server": "5.255.112.158",
-      "server_port": 19182,
-      "uuid": "8f11ba8c-a72b-47df-a783-2490205ff10f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "162 🇳🇱 DIGITALOCE SNI 👾 漁師",
+      "tag": "17 🇳🇱 DIGITALOCE SNI 👾 漁師",
       "server": "ams.iqmtp.live",
       "server_port": 443,
       "password": "3628ca8d-6371-45df-879c-2d3e5d110b51",
