@@ -91,7 +91,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "eb23d569-7dc4-4fbe-a276-17c83305a39c",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "opc-jp.sharecentre.online"
+          "serverName": "jp-01.legeth.tk"
         },
         "wsSettings": {
           "headers": {
-            "Host": "opc-jp.sharecentre.online"
+            "Host": "jp-01.legeth.tk"
           },
-          "path": "/shirker"
+          "path": "/"
         }
       },
-      "tag": "proxy-43 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-86 🇯🇵 IDC Fronti CDN 👾 漁師"
     },
     {
       "mux": {
@@ -125,13 +125,13 @@
         "vnext": [
           {
             "address": "main.millionaireaisle.com",
-            "port": 443,
+            "port": 8080,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,16 +144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "opc-jp.sharecentre.online"
+          "serverName": "ssrsub.v02.asuka.buzz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "opc-jp.sharecentre.online"
+            "Host": "ssrsub.v02.asuka.buzz"
           },
-          "path": "/shirker"
+          "path": "/api/v3/download.getFile"
         }
       },
-      "tag": "proxy-123 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-99 🇯🇵 Owl Limite CDN 👾 漁師"
     },
     {
       "mux": {
@@ -193,7 +193,47 @@
           "path": "/Download"
         }
       },
-      "tag": "proxy-141 🇯🇵 AMAZON-02 CDN 👾 漁師"
+      "tag": "proxy-111 🇯🇵 AMAZON-02 CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 8443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "awsjp4.jiasub.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "awsjp4.jiasub.xyz"
+          },
+          "path": "/Download"
+        }
+      },
+      "tag": "proxy-176 🇯🇵 AMAZON-02 CDN 👾 漁師"
     }
   ],
   "dns": {

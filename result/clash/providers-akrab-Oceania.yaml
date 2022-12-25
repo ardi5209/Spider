@@ -1,17 +1,13 @@
 proxies:
-  - name: '175 🇦🇺 Linode LL SNI 👾 漁師'
-    server: au1.czs1000.com
+  - name: '126 🇦🇺 CLOUDFLARE SNI 👾 漁師'
+    server: ctcs.hffb.xyz
     type: vmess
-    port: 11217
-    uuid: b076cc93-1b48-4807-a19b-4c482a318ebd
+    port: 22696
+    uuid: 3628ca8d-6371-45df-879c-2d3e5d110b51
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: click.zoom.us
+    network: tcp
+    servername: config.teams.microsoft.com
