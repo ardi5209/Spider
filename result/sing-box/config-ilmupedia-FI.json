@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "5 🇫🇮 Hetzner On SNI 👾 漁師"
+        "84 🇫🇮 Oy Crea No SNI 👾 漁師",
+        "170 🇫🇮 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "5 🇫🇮 Hetzner On SNI 👾 漁師",
+      "tag": "84 🇫🇮 Oy Crea No SNI 👾 漁師",
+      "server": "37.143.129.238",
+      "server_port": 6616,
+      "uuid": "459d23f4-dcfd-4fef-9ba3-ef0ad10fc336",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "170 🇫🇮 Hetzner On SNI 👾 漁師",
       "server": "s3.skeptictysonv1.xyz",
       "server_port": 443,
       "uuid": "d070c731-e587-4723-9b1f-526a81241362",

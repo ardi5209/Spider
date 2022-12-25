@@ -1,6 +1,6 @@
 proxies:
-  - name: '98 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: ca2.v2rayserv.com
+  - name: '75 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: 51.222.137.198
     type: vmess
     port: 443
     uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
@@ -15,19 +15,28 @@ proxies:
       path: /sshocean
       headers:
         Host: image-upload4.spotify.com
-  - name: '99 🇨🇦 OVH SAS CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '99 🇨🇦 Linode LL SNI 👾 漁師'
+    server: ca1.czs1000.com
     type: vmess
-    port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    port: 11217
+    uuid: fed6b805-5a41-4ae9-a782-ad66ee6f5a04
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: ca2.v2rayserv.com
+    servername: image-upload4.spotify.com
     ws-opts: 
-      path: /sshocean
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: ca2.v2rayserv.com
+        Host: image-upload4.spotify.com
+  - name: '93 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: ca1.trojanvh.xyz
+    type: trojan
+    port: 443
+    password: 4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com

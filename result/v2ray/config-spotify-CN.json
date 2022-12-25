@@ -84,8 +84,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.104.237.32",
-            "port": 50002,
+            "address": "142.0.135.66",
+            "port": 443,
             "users": [
               {
                 "alterId": 64,
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-8 🇨🇳 Hangzhou A SNI 👾 漁師"
+      "tag": "proxy-107 🇨🇳 PEGTECHINC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -141,41 +147,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-19 🇨🇳 CHINA UNIC SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "139.186.198.63",
-            "port": 50002,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-25 🇨🇳 Shenzhen T SNI 👾 漁師"
+      "tag": "proxy-210 🇨🇳 CHINA UNIC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -209,41 +181,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-83 🇨🇳 Hangzhou A SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "39.103.165.178",
-            "port": 50002,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-85 🇨🇳 Hangzhou A SNI 👾 漁師"
+      "tag": "proxy-212 🇨🇳 Hangzhou A SNI 👾 漁師"
     }
   ],
   "dns": {
