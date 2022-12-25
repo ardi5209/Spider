@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "51.83.186.142",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "fa0e4e7a-db70-4aeb-8104-e3120d9259cd",
-            "port": 443
+            "address": "146.59.92.219",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-115 🇵🇱 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-59 🇵🇱 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

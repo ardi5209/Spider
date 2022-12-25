@@ -45,19 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "115 🇵🇱 OVH SAS SNI 👾 漁師"
+        "59 🇵🇱 OVH SAS SNI 👾 漁師"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "115 🇵🇱 OVH SAS SNI 👾 漁師",
-      "server": "51.83.186.142",
-      "server_port": 443,
-      "password": "fa0e4e7a-db70-4aeb-8104-e3120d9259cd",
+      "type": "vmess",
+      "tag": "59 🇵🇱 OVH SAS SNI 👾 漁師",
+      "server": "146.59.92.219",
+      "server_port": 2096,
+      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],

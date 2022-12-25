@@ -45,36 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "25 🇯🇵 AMAZON-02 CDN 👾 漁師",
-        "47 🇯🇵 NTT PC Com CDN 👾 漁師",
-        "122 🇯🇵 IDC Fronti CDN 👾 漁師",
-        "186 🇯🇵 AMAZON-02 CDN 👾 漁師"
+        "43 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "123 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "141 🇯🇵 AMAZON-02 CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "25 🇯🇵 AMAZON-02 CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8443,
-      "uuid": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "awsjp3.jiasub.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Download",
-        "headers": {
-          "Host": "awsjp3.jiasub.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "47 🇯🇵 NTT PC Com CDN 👾 漁師",
+      "tag": "43 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -83,40 +61,40 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "jp-ntt.sharecentre.online"
+        "server_name": "opc-jp.sharecentre.online"
       },
       "transport": {
         "type": "ws",
         "path": "/shirker",
         "headers": {
-          "Host": "jp-ntt.sharecentre.online"
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "122 🇯🇵 IDC Fronti CDN 👾 漁師",
+      "tag": "123 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "ef51cdb3-2170-4757-82d7-0c2bfd9c97db",
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "jp-01.legeth.tk"
+        "server_name": "opc-jp.sharecentre.online"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/shirker",
         "headers": {
-          "Host": "jp-01.legeth.tk"
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "186 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "tag": "141 🇯🇵 AMAZON-02 CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8443,
       "uuid": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
@@ -125,13 +103,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "awsjp2.jiasub.xyz"
+        "server_name": "awsjp1.jiasub.xyz"
       },
       "transport": {
         "type": "ws",
         "path": "/Download",
         "headers": {
-          "Host": "awsjp2.jiasub.xyz"
+          "Host": "awsjp1.jiasub.xyz"
         }
       }
     }
