@@ -45,18 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "28 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "31 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "82 🇬🇧 OVH SAS SNI 👾 漁師",
-        "134 🇬🇧 OVH SAS SNI 👾 漁師",
-        "115 🇬🇧 ORACLE-BMC SNI 👾 漁師",
-        "174 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "237 🇬🇧 Hydra Comm SNI 👾 漁師"
+        "64 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "83 🇬🇧 Linode LL SNI 👾 漁師",
+        "102 🇬🇧 OVH SAS SNI 👾 漁師",
+        "146 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "135 🇬🇧 Hydra Comm SNI 👾 漁師",
+        "167 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "28 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "64 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
       "server_port": 29210,
       "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
@@ -70,7 +69,49 @@
     },
     {
       "type": "vmess",
-      "tag": "31 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "tag": "83 🇬🇧 Linode LL SNI 👾 漁師",
+      "server": "gb1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "874242fc-6733-4783-b3e7-25efb674ad20",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "51.75.160.126",
+      "server_port": 443,
+      "uuid": "33def002-be2d-4c91-89b9-39b92a21f70e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "146 🇬🇧 DIGITALOCE SNI 👾 漁師",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -83,63 +124,9 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "82 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "54.36.162.144",
-      "server_port": 443,
-      "uuid": "59395e73-e2fc-468f-abde-936bd2c3ed17",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "51.75.160.126",
-      "server_port": 443,
-      "uuid": "72189368-6b37-4019-bfbb-b697ee386ea5",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "115 🇬🇧 ORACLE-BMC SNI 👾 漁師",
-      "server": "132.145.51.172",
-      "server_port": 443,
-      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "174 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider20.cdn-delivery.akamaicd.com",
+      "tag": "135 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.209",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
@@ -150,8 +137,8 @@
     },
     {
       "type": "trojan",
-      "tag": "237 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "185.16.206.209",
+      "tag": "167 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider22.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {

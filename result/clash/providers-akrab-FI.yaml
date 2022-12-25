@@ -1,5 +1,37 @@
 proxies:
-  - name: '21 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '9 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: s3.skeptictysonv1.xyz
+    type: vmess
+    port: 443
+    uuid: d070c731-e587-4723-9b1f-526a81241362
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /2564
+      headers:
+        Host: config.teams.microsoft.com
+  - name: '71 🇫🇮 Oy Crea No SNI 👾 漁師'
+    server: 37.143.129.238
+    type: vmess
+    port: 6616
+    uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: safebrowsing.google.com
+  - name: '136 🇫🇮 Hetzner On SNI 👾 漁師'
     server: vpnshop.hoseeinbsd.ml
     type: vmess
     port: 48769
@@ -11,19 +43,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '222 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: s3.skeptictysonv1.xyz
+  - name: '168 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
     type: vmess
-    port: 443
-    uuid: d070c731-e587-4723-9b1f-526a81241362
+    port: 12951
+    uuid: 18827895-b647-4570-81e2-de3bd795fa04
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
-      path: /2564
+      path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
