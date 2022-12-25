@@ -45,35 +45,75 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "69 🇩🇪 Hetzner On CDN 👾 漁師",
-        "197 🇩🇪 Hetzner On SNI 👾 漁師",
-        "212 🇩🇪 DIGITALOCE SNI 👾 漁師"
+        "86 🇩🇪 AMAZON-02 SNI 👾 漁師",
+        "136 🇩🇪 AMAZON-02 SNI 👾 漁師",
+        "140 🇩🇪 Linode LL SNI 👾 漁師",
+        "146 🇩🇪 Hetzner On SNI 👾 漁師",
+        "182 🇩🇪 Hetzner On SNI 👾 漁師",
+        "194 🇩🇪 Hetzner On SNI 👾 漁師",
+        "103 🇩🇪 Hetzner On SNI 👾 漁師",
+        "155 🇩🇪 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "69 🇩🇪 Hetzner On CDN 👾 漁師",
-      "server": "news.microsoft.com",
+      "tag": "86 🇩🇪 AMAZON-02 SNI 👾 漁師",
+      "server": "resonance-vpn.net",
       "server_port": 443,
-      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+      "uuid": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "sun.prxpro.cc"
+        "server_name": "news.microsoft.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/p3573l6m92h1ham3q23t",
+        "path": "/in-vpn-majanist-vws",
         "headers": {
-          "Host": "sun.prxpro.cc"
+          "Host": "news.microsoft.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "197 🇩🇪 Hetzner On SNI 👾 漁師",
+      "tag": "136 🇩🇪 AMAZON-02 SNI 👾 漁師",
+      "server": "18.196.228.65",
+      "server_port": 443,
+      "uuid": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/in-vpn-majanist-vws",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "140 🇩🇪 Linode LL SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19246,
+      "uuid": "bd10b96f-7ea4-3fc1-844d-538e9f68af2b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "146 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "V208.bgynd.xyz",
       "server_port": 26208,
       "uuid": "a5fe769e-61e1-3653-a356-696215ca85ed",
@@ -87,10 +127,10 @@
     },
     {
       "type": "vmess",
-      "tag": "212 🇩🇪 DIGITALOCE SNI 👾 漁師",
-      "server": "165.227.175.88",
-      "server_port": 28164,
-      "uuid": "eba8ccf5-5ab9-4b6b-de4b-83ab920c1005",
+      "tag": "182 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "5.75.129.202",
+      "server_port": 55039,
+      "uuid": "151e56df-edd0-43ef-ddc8-f0108a05a792",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -104,6 +144,51 @@
         "headers": {
           "Host": "news.microsoft.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "194 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "188.40.132.107",
+      "server_port": 443,
+      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/p3573l6m92h1ham3q23t",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "103 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "188.40.251.19",
+      "server_port": 443,
+      "password": "origin",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "155 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "content-provider29.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "origin",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
       }
     }
   ],

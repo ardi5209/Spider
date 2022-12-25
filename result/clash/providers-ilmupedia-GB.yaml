@@ -1,30 +1,31 @@
 proxies:
-  - name: '192 🇬🇧 AMAZON-02 SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
+  - name: '79 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
     type: vmess
-    port: 19048
-    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
+    port: 443
+    uuid: 33def002-be2d-4c91-89b9-39b92a21f70e
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '211 🇬🇧 AMAZON-02 SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
-    type: vmess
-    port: 19248
-    uuid: bd10b96f-7ea4-3fc1-844d-538e9f68af2b
-    alterId: 0
-    cipher: auto
-    tls: true
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '137 🇬🇧 Stark Indu SNI 👾 漁師'
+    server: 146.19.230.241
+    type: trojan
+    port: 443
+    password: xxoo
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '81 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider22.cdn-delivery.akamaicd.com
+  - name: '151 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider20.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: shefelnak
