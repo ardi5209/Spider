@@ -1,17 +1,49 @@
 proxies:
-  - name: '202 🇯🇵 AMAZON-02 CDN 👾 漁師'
+  - name: '28 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
-    port: 8443
-    uuid: 6b3244a3-44ca-3ef2-b40f-90c1bfae7dac
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: awsjp3.jiasub.xyz
+    servername: opc-jp.sharecentre.online
     ws-opts: 
-      path: /Download
+      path: /shirker
       headers:
-        Host: awsjp3.jiasub.xyz
+        Host: opc-jp.sharecentre.online
+  - name: '48 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: opc-jp.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: '154 🇯🇵 Owl Limite CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8080
+    uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ssrsub.v02.asuka.buzz
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v02.asuka.buzz

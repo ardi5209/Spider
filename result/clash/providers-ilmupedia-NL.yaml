@@ -1,6 +1,6 @@
 proxies:
-  - name: '80 🇳🇱 Scalaxy B. SNI 👾 漁師'
-    server: 5.45.78.209
+  - name: '53 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: nl.gongyiyun.cf
     type: vmess
     port: 8080
     uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
@@ -15,11 +15,11 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '106 🇳🇱 Online S.a SNI 👾 漁師'
-    server: 163.172.220.71
+  - name: '180 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 163.172.213.74
     type: vmess
-    port: 6616
-    uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+    port: 443
+    uuid: 5cff0340-7ff4-11ed-b431-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -28,22 +28,6 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /
+      path: /fastssh
       headers:
         Host: news.microsoft.com
-  - name: '172 🇳🇱 The Infras CDN 👾 漁師'
-    server: cacerts.digicert.com
-    type: vmess
-    port: 443
-    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hl1.cachexy.ga
-    ws-opts: 
-      path: /lXvA0Vse/
-      headers:
-        Host: hl1.cachexy.ga

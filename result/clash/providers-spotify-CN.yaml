@@ -1,6 +1,6 @@
 proxies:
-  - name: '84 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 39.103.165.178
+  - name: '40 🇨🇳 CHINA UNIC SNI 👾 漁師'
+    server: 112.132.215.189
     type: vmess
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -11,8 +11,24 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '143 🇨🇳 CHINA UNIC SNI 👾 漁師'
-    server: 112.132.215.189
+  - name: '129 🇨🇳 CLOUDFLARE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hkbn.pgypgykmoljklj.xyz
+    ws-opts: 
+      path: /OB7jTM5cTTrL
+      headers:
+        Host: hkbn.pgypgykmoljklj.xyz
+  - name: '148 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 139.186.198.63
     type: vmess
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
