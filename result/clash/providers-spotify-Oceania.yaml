@@ -1,18 +1,41 @@
 proxies:
-  - name: '139 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: jgwxn3.gaox.ml
-    type: trojan
+  - name: '115 🇦🇺 Linode LL SNI 👾 漁師'
+    server: vau1.0bad.com
+    type: vmess
     port: 443
-    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '157 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: 140.238.205.173
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '147 🇦🇺 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: au-01.legeth.tk
+    ws-opts: 
+      path: /
+      headers:
+        Host: au-01.legeth.tk
+  - name: '154 🇦🇺 DIGITALOCE SNI 👾 漁師'
+    server: 170.64.128.161
     type: trojan
     port: 443
-    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    password: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
     udp: true
     skip-cert-verify: true
     network: tcp

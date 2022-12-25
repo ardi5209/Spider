@@ -1,6 +1,6 @@
 proxies:
-  - name: '176 🇹🇼 Data Commu CDN 👾 漁師'
-    server: 104.18.21.226
+  - name: '6 🇹🇼 Data Commu CDN 👾 漁師'
+    server: 104.18.10.39
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -15,7 +15,7 @@ proxies:
       path: /zh-cn
       headers:
         Host: tw1.sanfen001.pics
-  - name: '177 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '7 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw1.sanfen001.pics
     type: vmess
     port: 443
@@ -31,7 +31,7 @@ proxies:
       path: /zh-cn
       headers:
         Host: api.midtrans.com
-  - name: '173 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '59 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw01.henet.top
     type: trojan
     port: 30000
@@ -40,3 +40,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: api.midtrans.com
+  - name: '133 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: api.midtrans.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: api.midtrans.com
