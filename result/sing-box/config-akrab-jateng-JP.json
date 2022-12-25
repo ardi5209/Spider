@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "76 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "86 🇯🇵 Alibaba US CDN 👾 漁師"
+        "40 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "140 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "193 🇯🇵 NTT PC Com CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "76 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "tag": "40 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -72,22 +73,43 @@
     },
     {
       "type": "vmess",
-      "tag": "86 🇯🇵 Alibaba US CDN 👾 漁師",
+      "tag": "140 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "vfly6.xyz"
+        "server_name": "suzhihan.eu.org"
       },
       "transport": {
         "type": "ws",
-        "path": "/myblog",
+        "path": "/roewesu",
         "headers": {
-          "Host": "vfly6.xyz"
+          "Host": "suzhihan.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "193 🇯🇵 NTT PC Com CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp-ntt.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "jp-ntt.sharecentre.online"
         }
       }
     }

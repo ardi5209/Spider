@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "203 🇳🇱 ADCDATA.CO CDN 👾 漁師"
+        "85 🇳🇱 ADCDATA.CO CDN 👾 漁師",
+        "114 🇳🇱 The Infras CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "203 🇳🇱 ADCDATA.CO CDN 👾 漁師",
+      "tag": "85 🇳🇱 ADCDATA.CO CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "ef51cdb3-2170-4757-82d7-0c2bfd9c97db",
@@ -66,6 +67,27 @@
         "path": "/",
         "headers": {
           "Host": "hk-01.legeth.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "114 🇳🇱 The Infras CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "3f421e27-5bf8-40c9-86cb-7b8c41dddea2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hl1.cachexy.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lXvA0Vse/",
+        "headers": {
+          "Host": "hl1.cachexy.ga"
         }
       }
     }
