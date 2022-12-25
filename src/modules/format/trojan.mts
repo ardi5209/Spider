@@ -144,7 +144,7 @@ class Trojan {
     let trojan: TrojanInterface = {
       security: account.tls ? "tls" : "",
     } as TrojanInterface;
-    if (account.type) trojan.type = account.type;
+    if (account.type) trojan.type = "ws";
     if (account.path) trojan.path = account.path;
     if (account.host) trojan.host = account.host;
     if (account.tls) {
