@@ -1,13 +1,33 @@
 proxies:
-  - name: '126 🇦🇺 CLOUDFLARE SNI 👾 漁師'
-    server: ctcs.hffb.xyz
+  - name: '31 🇦🇺 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 22696
-    uuid: 3628ca8d-6371-45df-879c-2d3e5d110b51
+    port: 443
+    uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
+    servername: au-01.legeth.tk
+    ws-opts: 
+      path: /
+      headers:
+        Host: au-01.legeth.tk
+  - name: '61 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.135.182
+    type: vmess
+    port: 443
+    uuid: 5fa2bc9f-9958-4578-8587-268211341239
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com

@@ -1,52 +1,44 @@
 proxies:
-  - name: '110 🇩🇪 Linode LL SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
-    type: vmess
-    port: 19046
-    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '26 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+    type: trojan
+    port: 443
+    password: d76294c5-a31f-408d-ba0b-89880107cab5
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '115 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.129.202
-    type: vmess
-    port: 55039
-    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '120 🇩🇪 OVH SAS CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 8a287e0c-8bcf-4ac6-af2e-f70670448850
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: free.say-her-name.xyz
-    ws-opts: 
-      path: /graphql
-      headers:
-        Host: free.say-her-name.xyz
-  - name: '166 🇩🇪 23M GmbH SNI 👾 漁師'
-    server: deof.vvvglass.com
+  - name: '32 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: t2.teslacdn1.live
     type: trojan
-    port: 8443
+    port: 443
+    password: 4331812b-92ff-47b5-9f32-78b5150e625f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '101 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '121 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider29.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '174 🇩🇪 23M GmbH SNI 👾 漁師'
+    server: de-aws.uuuglass.co
+    type: trojan
+    port: 52229
     password: 3628ca8d-6371-45df-879c-2d3e5d110b51
     udp: true
     skip-cert-verify: true

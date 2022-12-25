@@ -45,15 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "86 🇯🇵 IDC Fronti CDN 👾 漁師",
-        "99 🇯🇵 Owl Limite CDN 👾 漁師",
-        "111 🇯🇵 AMAZON-02 CDN 👾 漁師",
-        "176 🇯🇵 AMAZON-02 CDN 👾 漁師"
+        "52 🇯🇵 AMAZON-02 CDN 👾 漁師",
+        "82 🇯🇵 IDC Fronti CDN 👾 漁師",
+        "93 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "186 🇯🇵 ORACLE-BMC CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "86 🇯🇵 IDC Fronti CDN 👾 漁師",
+      "tag": "52 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8443,
+      "uuid": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjp4.jiasub.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Download",
+        "headers": {
+          "Host": "awsjp4.jiasub.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "82 🇯🇵 IDC Fronti CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "eb23d569-7dc4-4fbe-a276-17c83305a39c",
@@ -74,64 +95,43 @@
     },
     {
       "type": "vmess",
-      "tag": "99 🇯🇵 Owl Limite CDN 👾 漁師",
+      "tag": "93 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 8080,
-      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "ssrsub.v02.asuka.buzz"
+        "server_name": "opc-jp.sharecentre.online"
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v3/download.getFile",
+        "path": "/shirker",
         "headers": {
-          "Host": "ssrsub.v02.asuka.buzz"
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "111 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "tag": "186 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
-      "server_port": 8443,
-      "uuid": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
+      "server_port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "awsjp1.jiasub.xyz"
+        "server_name": "suzhihan.eu.org"
       },
       "transport": {
         "type": "ws",
-        "path": "/Download",
+        "path": "/roewesu",
         "headers": {
-          "Host": "awsjp1.jiasub.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "176 🇯🇵 AMAZON-02 CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8443,
-      "uuid": "6b3244a3-44ca-3ef2-b40f-90c1bfae7dac",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "awsjp4.jiasub.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Download",
-        "headers": {
-          "Host": "awsjp4.jiasub.xyz"
+          "Host": "suzhihan.eu.org"
         }
       }
     }
