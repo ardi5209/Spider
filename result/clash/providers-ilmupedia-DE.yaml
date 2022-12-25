@@ -1,5 +1,5 @@
 proxies:
-  - name: '86 🇩🇪 AMAZON-02 SNI 👾 漁師'
+  - name: '56 🇩🇪 AMAZON-02 SNI 👾 漁師'
     server: resonance-vpn.net
     type: vmess
     port: 443
@@ -15,27 +15,11 @@ proxies:
       path: /in-vpn-majanist-vws
       headers:
         Host: news.microsoft.com
-  - name: '136 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 18.196.228.65
+  - name: '81 🇩🇪 Melbikomas SNI 👾 漁師'
+    server: 213.226.71.124
     type: vmess
-    port: 443
-    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /in-vpn-majanist-vws
-      headers:
-        Host: news.microsoft.com
-  - name: '140 🇩🇪 Linode LL SNI 👾 漁師'
-    server: yzdx.relay01.fast001.buzz
-    type: vmess
-    port: 19246
-    uuid: bd10b96f-7ea4-3fc1-844d-538e9f68af2b
+    port: 21136
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
@@ -43,64 +27,39 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '146 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: V208.bgynd.xyz
+  - name: '178 🇩🇪 Linode LL SNI 👾 漁師'
+    server: 172.105.74.134
     type: vmess
-    port: 26208
-    uuid: a5fe769e-61e1-3653-a356-696215ca85ed
+    port: 37867
+    uuid: 4623f949-e0e4-4d40-d177-049ca6fd7518
     alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '195 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '182 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.129.202
-    type: vmess
-    port: 55039
-    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '194 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.132.107
-    type: vmess
-    port: 443
-    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /p3573l6m92h1ham3q23t
-      headers:
-        Host: news.microsoft.com
-  - name: '103 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
+  - name: '2 🇩🇪 23M GmbH SNI 👾 漁師'
+    server: de-aws.uuuglass.co
     type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '155 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider29.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
+    port: 52229
+    password: 3628ca8d-6371-45df-879c-2d3e5d110b51
     udp: true
     skip-cert-verify: true
     network: tcp
