@@ -1,5 +1,69 @@
 proxies:
-  - name: '188 🇫🇮 Hetzner On CDN 👾 漁師'
+  - name: '17 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 95.216.22.102
+    type: vmess
+    port: 443
+    uuid: a8071625-453d-3446-2fe5-3b9c319cc960
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /scdevws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '40 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
+    type: vmess
+    port: 25034
+    uuid: e549fc8d-2416-46f7-aadc-8747553091b9
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '45 🇫🇮 Oy Crea No SNI 👾 漁師'
+    server: 37.143.129.238
+    type: vmess
+    port: 6616
+    uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '54 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: api.sira.ml
+    type: vmess
+    port: 443
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /sir2ersvws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '55 🇫🇮 Hetzner On CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -15,11 +79,11 @@ proxies:
       path: /sir2ersvws
       headers:
         Host: api.sira.ml
-  - name: '189 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: api.sira.ml
+  - name: '218 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.29.18
     type: vmess
-    port: 443
-    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
+    port: 63456
+    uuid: ed28b4d7-2810-455b-a4a5-3435026b70f7
     alterId: 0
     cipher: auto
     tls: true
@@ -28,6 +92,6 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /sir2ersvws
+      path: /
       headers:
         Host: image-upload4.spotify.com

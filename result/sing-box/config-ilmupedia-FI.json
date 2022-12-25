@@ -45,13 +45,101 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "188 🇫🇮 Hetzner On CDN 👾 漁師",
-        "189 🇫🇮 Hetzner On SNI 👾 漁師"
+        "17 🇫🇮 Hetzner On SNI 👾 漁師",
+        "40 🇫🇮 Hetzner On SNI 👾 漁師",
+        "45 🇫🇮 Oy Crea No SNI 👾 漁師",
+        "54 🇫🇮 Hetzner On SNI 👾 漁師",
+        "55 🇫🇮 Hetzner On CDN 👾 漁師",
+        "218 🇫🇮 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "188 🇫🇮 Hetzner On CDN 👾 漁師",
+      "tag": "17 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "95.216.22.102",
+      "server_port": 443,
+      "uuid": "a8071625-453d-3446-2fe5-3b9c319cc960",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/scdevws",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "40 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "135.181.235.21",
+      "server_port": 25034,
+      "uuid": "e549fc8d-2416-46f7-aadc-8747553091b9",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "45 🇫🇮 Oy Crea No SNI 👾 漁師",
+      "server": "37.143.129.238",
+      "server_port": 6616,
+      "uuid": "459d23f4-dcfd-4fef-9ba3-ef0ad10fc336",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "54 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "api.sira.ml",
+      "server_port": 443,
+      "uuid": "3580321e-0bce-494e-bc71-e797c0a5b125",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sir2ersvws",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "55 🇫🇮 Hetzner On CDN 👾 漁師",
       "server": "cacerts.digicert.com",
       "server_port": 443,
       "uuid": "3580321e-0bce-494e-bc71-e797c0a5b125",
@@ -72,10 +160,10 @@
     },
     {
       "type": "vmess",
-      "tag": "189 🇫🇮 Hetzner On SNI 👾 漁師",
-      "server": "api.sira.ml",
-      "server_port": 443,
-      "uuid": "3580321e-0bce-494e-bc71-e797c0a5b125",
+      "tag": "218 🇫🇮 Hetzner On SNI 👾 漁師",
+      "server": "135.181.29.18",
+      "server_port": 63456,
+      "uuid": "ed28b4d7-2810-455b-a4a5-3435026b70f7",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -85,7 +173,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sir2ersvws",
+        "path": "/",
         "headers": {
           "Host": "news.microsoft.com"
         }
