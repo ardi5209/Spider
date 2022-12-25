@@ -45,24 +45,62 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "49 🇩🇪 Linode LL SNI 👾 漁師",
-        "69 🇩🇪 MIRholding SNI 👾 漁師",
-        "81 🇩🇪 Melbikomas SNI 👾 漁師",
-        "151 🇩🇪 Hetzner On SNI 👾 漁師",
-        "184 🇩🇪 Hetzner On SNI 👾 漁師",
-        "18 🇩🇪 Hetzner On SNI 👾 漁師",
-        "23 🇩🇪 Hetzner On SNI 👾 漁師",
-        "42 🇩🇪 Hetzner On SNI 👾 漁師",
-        "56 🇩🇪 Hetzner On SNI 👾 漁師",
-        "98 🇩🇪 Hetzner On SNI 👾 漁師"
+        "10 🇩🇪 myLoc mana SNI 👾 漁師",
+        "75 🇩🇪 Hetzner On CDN 👾 漁師",
+        "210 🇩🇪 AMAZON-02 SNI 👾 漁師",
+        "215 🇩🇪 Hetzner On SNI 👾 漁師",
+        "130 🇩🇪 Hetzner On SNI 👾 漁師",
+        "188 🇩🇪 Hetzner On SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "49 🇩🇪 Linode LL SNI 👾 漁師",
-      "server": "de1.czs1000.com",
-      "server_port": 11217,
-      "uuid": "874242fc-6733-4783-b3e7-25efb674ad20",
+      "tag": "10 🇩🇪 myLoc mana SNI 👾 漁師",
+      "server": "213.202.233.147",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/243535322906",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "75 🇩🇪 Hetzner On CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sun.prxpro.cc"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/p3573l6m92h1ham3q23t",
+        "headers": {
+          "Host": "sun.prxpro.cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "210 🇩🇪 AMAZON-02 SNI 👾 漁師",
+      "server": "18.196.228.65",
+      "server_port": 443,
+      "uuid": "3bfc99c0-a816-4286-813c-6731a1ba8c78",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -72,7 +110,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "path": "/in-vpn-majanist-vws",
         "headers": {
           "Host": "news.microsoft.com"
         }
@@ -80,63 +118,7 @@
     },
     {
       "type": "vmess",
-      "tag": "69 🇩🇪 MIRholding SNI 👾 漁師",
-      "server": "de.archnet.cyou",
-      "server_port": 2054,
-      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "81 🇩🇪 Melbikomas SNI 👾 漁師",
-      "server": "213.226.71.124",
-      "server_port": 21856,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "151 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "5.75.129.202",
-      "server_port": 55039,
-      "uuid": "151e56df-edd0-43ef-ddc8-f0108a05a792",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "184 🇩🇪 Hetzner On SNI 👾 漁師",
+      "tag": "215 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "78.46.244.34",
       "server_port": 33655,
       "uuid": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
@@ -150,19 +132,7 @@
     },
     {
       "type": "trojan",
-      "tag": "18 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "aleph-tj015.thatfreeservicewhicheveryoneuse.uk",
-      "server_port": 443,
-      "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "23 🇩🇪 Hetzner On SNI 👾 漁師",
+      "tag": "130 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "content-provider28.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "origin",
@@ -174,34 +144,10 @@
     },
     {
       "type": "trojan",
-      "tag": "42 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "content-provider29.cdn-delivery.akamaicd.com",
+      "tag": "188 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "188.40.251.19",
       "server_port": 443,
       "password": "origin",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "56 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "content-provider9.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "yxGY7A5MczQYg6UqSFx9u78V",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "98 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "188.40.236.127",
-      "server_port": 443,
-      "password": "yxGY7A5MczQYg6UqSFx9u78V",
       "tls": {
         "enabled": true,
         "insecure": true,

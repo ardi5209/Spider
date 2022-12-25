@@ -1,5 +1,5 @@
 proxies:
-  - name: '60 🇯🇵 MICROSOFT- CDN 👾 漁師'
+  - name: '104 🇯🇵 MICROSOFT- CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 8443
@@ -15,7 +15,39 @@ proxies:
       path: /8cda48b3
       headers:
         Host: jp-192-78.shoptunnel.live
-  - name: '179 🇯🇵 AMAZON-02 CDN 👾 漁師'
+  - name: '111 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: opc-jp.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: '122 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: suzhihan.eu.org
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: suzhihan.eu.org
+  - name: '131 🇯🇵 AMAZON-02 CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 8443
@@ -26,8 +58,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: awsjp3.jiasub.xyz
+    servername: awsjp4.jiasub.xyz
     ws-opts: 
       path: /Download
       headers:
-        Host: awsjp3.jiasub.xyz
+        Host: awsjp4.jiasub.xyz
