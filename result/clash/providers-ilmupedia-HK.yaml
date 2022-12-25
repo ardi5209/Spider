@@ -1,18 +1,6 @@
 proxies:
-  - name: '21 🇭🇰 AMAZON-02 SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
-    type: vmess
-    port: 19025
-    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '29 🇭🇰 HKT Limite SNI 👾 漁師'
-    server: 203.218.243.113
+  - name: '12 🇭🇰 HKT Limite SNI 👾 漁師'
+    server: hkt.kidcc.xyz
     type: vmess
     port: 8443
     uuid: e666f40b-c8bd-4bf5-898f-64bb0dd0bcab
@@ -27,7 +15,47 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '177 🇭🇰 91440300MA SNI 👾 漁師'
+  - name: '63 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: hndx.relay01.fast001.buzz
+    type: vmess
+    port: 19025
+    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '85 🇭🇰 Tencent Bu SNI 👾 漁師'
+    server: hk5.netflix6.com
+    type: vmess
+    port: 443
+    uuid: fc045f9f-13c2-3386-861b-30a6181d168f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /hls/hk5.m3u8
+      headers:
+        Host: news.microsoft.com
+  - name: '104 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '112 🇭🇰 91440300MA SNI 👾 漁師'
     server: 117.164.185.222
     type: vmess
     port: 16116
@@ -39,8 +67,80 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '126 🇭🇰 ZEN-ECN SNI 👾 漁師'
-    server: hk2.openssl3.com
+  - name: '127 🇭🇰 HKT Limite SNI 👾 漁師'
+    server: hkmax04.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: 009c0e22-5396-4c69-b9b3-9769bb2615fe
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: 
+      headers:
+        Host: news.microsoft.com
+  - name: '139 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '169 🇭🇰 2012 Limit SNI 👾 漁師'
+    server: hk6.netflix6.com
+    type: vmess
+    port: 443
+    uuid: fc045f9f-13c2-3386-861b-30a6181d168f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /hls/hk6.m3u8
+      headers:
+        Host: news.microsoft.com
+  - name: '199 🇭🇰 91440300MA SNI 👾 漁師'
+    server: 117.164.185.222
+    type: vmess
+    port: 16113
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '261 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: yhyhkbgp.yinhecdn.online
+    type: vmess
+    port: 26346
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '103 🇭🇰 ZEN-ECN SNI 👾 漁師'
+    server: 45.40.59.50
     type: trojan
     port: 15006
     password: HKZmLDgP

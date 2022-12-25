@@ -1,25 +1,21 @@
 proxies:
-  - name: '6 🇹🇼 Data Commu CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '234 🇹🇼 Data Commu SNI 👾 漁師'
+    server: hinet1261.gfwisbest.xyz
     type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    port: 224
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: tw1.sanfen001.pics
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: tw1.sanfen001.pics
-  - name: '7 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw1.sanfen001.pics
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '259 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw3.594888.xyz
     type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    port: 25551
+    uuid: fc045f9f-13c2-3386-861b-30a6181d168f
     alterId: 0
     cipher: auto
     tls: true
@@ -28,10 +24,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /zh-cn
+      path: /v2ray
       headers:
         Host: image-upload4.spotify.com
-  - name: '59 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '109 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw01.henet.top
     type: trojan
     port: 30000
@@ -40,16 +36,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '133 🇹🇼 Data Commu SNI 👾 漁師'
-    server: 211.72.35.154
-    type: trojan
-    port: 3306
-    password: 4bacb8f1a089763b
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /gateway/connect
-      headers:
-        Host: image-upload4.spotify.com
