@@ -45,38 +45,61 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "31 🇭🇰 MICROSOFT- CDN 👾 漁師",
-        "47 🇭🇰 STARCLOUD  SNI 👾 漁師",
-        "64 🇭🇰 MICROSOFT- SNI 👾 漁師",
-        "147 🇭🇰 ASNET SNI 👾 漁師",
-        "171 🇭🇰 Netsec Lim SNI 👾 漁師"
+        "2 🇭🇰 MICROSOFT- SNI 👾 漁師",
+        "7 🇭🇰 MICROSOFT- SNI 👾 漁師",
+        "54 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "110 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "119 🇭🇰 MICROSOFT- SNI 👾 漁師",
+        "171 🇭🇰 HGC Global SNI 👾 漁師",
+        "195 🇭🇰 STARCLOUD  SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "31 🇭🇰 MICROSOFT- CDN 👾 漁師",
-      "server": "investors.spotify.com",
+      "tag": "2 🇭🇰 MICROSOFT- SNI 👾 漁師",
+      "server": "hk3.sanfen001.pics",
       "server_port": 443,
-      "uuid": "82ece5db-34f5-4b86-a469-01df94d15bbb",
+      "uuid": "90662c7b-37f1-467e-be00-98757a53b95a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "hk1.sanfen001.pics"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
         "path": "/zh-cn",
         "headers": {
-          "Host": "hk1.sanfen001.pics"
+          "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "47 🇭🇰 STARCLOUD  SNI 👾 漁師",
-      "server": "206.119.112.6",
+      "tag": "7 🇭🇰 MICROSOFT- SNI 👾 漁師",
+      "server": "hk4.sanfen001.pics",
+      "server_port": 443,
+      "uuid": "90662c7b-37f1-467e-be00-98757a53b95a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "54 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "hk1vdf-node.aiqiche123.com",
       "server_port": 8189,
       "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
       "security": "auto",
@@ -89,7 +112,28 @@
     },
     {
       "type": "vmess",
-      "tag": "64 🇭🇰 MICROSOFT- SNI 👾 漁師",
+      "tag": "110 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk80.sanfen001.pics",
+      "server_port": 443,
+      "uuid": "90662c7b-37f1-467e-be00-98757a53b95a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn/download",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "119 🇭🇰 MICROSOFT- SNI 👾 漁師",
       "server": "hk1.sanfen001.pics",
       "server_port": 443,
       "uuid": "90662c7b-37f1-467e-be00-98757a53b95a",
@@ -110,10 +154,10 @@
     },
     {
       "type": "vmess",
-      "tag": "147 🇭🇰 ASNET SNI 👾 漁師",
-      "server": "ah.yd01.paopaocloud.cyou",
-      "server_port": 10003,
-      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "tag": "171 🇭🇰 HGC Global SNI 👾 漁師",
+      "server": "223.111.202.148",
+      "server_port": 38080,
+      "uuid": "d2727ecc-87bd-4bd0-b321-eb037b5d4cca",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -123,7 +167,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/meizhiyuan/hkhgc",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -131,23 +175,16 @@
     },
     {
       "type": "vmess",
-      "tag": "171 🇭🇰 Netsec Lim SNI 👾 漁師",
-      "server": "hrgdvpn.flycdnedc55.vip",
-      "server_port": 443,
-      "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
+      "tag": "195 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
       "security": "auto",
-      "alter_id": 32,
+      "alter_id": 10,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/opt/video/images",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
       }
     }
   ],
