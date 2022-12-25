@@ -84,8 +84,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "yzdx.relay01.fast001.buzz",
-            "port": 19022,
+            "address": "hndx.relay01.fast001.buzz",
+            "port": 19021,
             "users": [
               {
                 "alterId": 0,
@@ -107,7 +107,47 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-9 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-47 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "223.111.202.148",
+            "port": 38080,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "d2727ecc-87bd-4bd0-b321-eb037b5d4cca",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/meizhiyuan/hinet"
+        }
+      },
+      "tag": "proxy-150 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

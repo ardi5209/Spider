@@ -1,21 +1,5 @@
 proxies:
-  - name: '63 🇨🇦 OVH SAS CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: 🇨🇦CA-51.222.137.198-13408 | 22.756MB
-    ws-opts: 
-      path: /
-      headers:
-        Host: ca2.v2rayserv.com
-  - name: '64 🇨🇦 OVH SAS SNI 👾 漁師'
+  - name: '98 🇨🇦 OVH SAS SNI 👾 漁師'
     server: ca2.v2rayserv.com
     type: vmess
     port: 443
@@ -28,11 +12,11 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
         Host: image-upload4.spotify.com
-  - name: '124 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: 51.222.137.198
+  - name: '99 🇨🇦 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
     port: 443
     uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
@@ -42,8 +26,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: image-upload4.spotify.com
+    servername: ca2.v2rayserv.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
-        Host: image-upload4.spotify.com
+        Host: ca2.v2rayserv.com

@@ -1,12 +1,21 @@
 proxies:
-  - name: '221 🇷🇺 RECONN LLC SNI 👾 漁師'
-    server: 37.252.1.197
+  - name: '106 🇷🇺 AEZA GROUP SNI 👾 漁師'
+    server: 185.112.83.213
     type: vmess
-    port: 3000
-    uuid: 6f7ae49c-f5e2-4ec2-ac5e-38f057d51fee
+    port: 21856
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '53 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: eu-east-ruo.openssl3.com
+    type: trojan
+    port: 443
+    password: 9KogHwaY7hVD
     udp: true
     skip-cert-verify: true
     network: tcp

@@ -45,14 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "9 🇹🇼 Data Commu SNI 👾 漁師"
+        "47 🇹🇼 Data Commu SNI 👾 漁師",
+        "150 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "9 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "yzdx.relay01.fast001.buzz",
-      "server_port": 19022,
+      "tag": "47 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "hndx.relay01.fast001.buzz",
+      "server_port": 19021,
       "uuid": "7856049c-b7c2-3769-8ec2-f8cfb576e2e3",
       "security": "auto",
       "alter_id": 0,
@@ -60,6 +61,27 @@
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "150 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "223.111.202.148",
+      "server_port": 38080,
+      "uuid": "d2727ecc-87bd-4bd0-b321-eb037b5d4cca",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/meizhiyuan/hinet",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],
