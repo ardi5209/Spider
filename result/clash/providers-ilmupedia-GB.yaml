@@ -1,5 +1,5 @@
 proxies:
-  - name: '44 🇬🇧 AMAZON-02 SNI 👾 漁師'
+  - name: '34 🇬🇧 AMAZON-02 SNI 👾 漁師'
     server: hndx.relay01.fast001.buzz
     type: vmess
     port: 19047
@@ -11,8 +11,68 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '89 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.209
+  - name: '73 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
+    type: vmess
+    port: 443
+    uuid: 33def002-be2d-4c91-89b9-39b92a21f70e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '118 🇬🇧 AMAZON-02 SNI 👾 漁師'
+    server: hndx.relay01.fast001.buzz
+    type: vmess
+    port: 19048
+    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '148 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
+    type: vmess
+    port: 443
+    uuid: 72189368-6b37-4019-bfbb-b697ee386ea5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '156 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 54.36.162.144
+    type: vmess
+    port: 443
+    uuid: 59395e73-e2fc-468f-abde-936bd2c3ed17
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '68 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider22.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: shefelnak
@@ -20,8 +80,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '115 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.212
+  - name: '193 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider21.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: shefelnak

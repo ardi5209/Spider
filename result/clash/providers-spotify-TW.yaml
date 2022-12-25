@@ -1,13 +1,17 @@
 proxies:
-  - name: '59 🇹🇼 Data Commu SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
+  - name: '137 🇹🇼 Scloud Pte SNI 👾 漁師'
+    server: 165.154.237.8
     type: vmess
-    port: 19021
-    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
+    port: 443
+    uuid: d7a75318-3581-4f16-936c-671937ddd8ed
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com

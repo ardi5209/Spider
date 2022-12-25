@@ -45,38 +45,126 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "34 🇨🇦 DIGITALOCE CDN 👾 漁師",
-        "106 🇨🇦 OVH SAS SNI 👾 漁師",
-        "136 🇨🇦 OVH SAS SNI 👾 漁師"
+        "22 🇨🇦 OVH SAS SNI 👾 漁師",
+        "43 🇨🇦 OVH SAS CDN 👾 漁師",
+        "63 🇨🇦 OVH SAS CDN 👾 漁師",
+        "64 🇨🇦 OVH SAS SNI 👾 漁師",
+        "95 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "52 🇨🇦 OVH SAS SNI 👾 漁師",
+        "77 🇨🇦 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "34 🇨🇦 DIGITALOCE CDN 👾 漁師",
-      "server": "investors.spotify.com",
+      "tag": "22 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "51.222.137.198",
       "server_port": 443,
-      "uuid": "e2e537e6-fde2-4851-a938-e373613c55c3",
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "m3.pianyijc.top"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/sometimesnaive",
+        "path": "/",
         "headers": {
-          "Host": "m3.pianyijc.top"
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "43 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "63 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "64 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "ca2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "95 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "server": "35.182.165.120",
+      "server_port": 443,
+      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v2ray",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "106 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "149.56.132.41",
+      "tag": "52 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "ca1.trojanvh.xyz",
       "server_port": 443,
-      "password": "fafb4232-9659-4867-886d-e47f4bda283e",
+      "password": "4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -85,10 +173,10 @@
     },
     {
       "type": "trojan",
-      "tag": "136 🇨🇦 OVH SAS SNI 👾 漁師",
+      "tag": "77 🇨🇦 OVH SAS SNI 👾 漁師",
       "server": "149.56.132.41",
       "server_port": 443,
-      "password": "89d81c5f-3d75-42f7-8a23-1be9ac89f3fb",
+      "password": "fafb4232-9659-4867-886d-e47f4bda283e",
       "tls": {
         "enabled": true,
         "insecure": true,

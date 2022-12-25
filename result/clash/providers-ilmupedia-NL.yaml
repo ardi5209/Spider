@@ -1,25 +1,9 @@
 proxies:
-  - name: '211 🇳🇱 Scalaxy B. SNI 👾 漁師'
-    server: 5.45.78.209
+  - name: '157 🇳🇱 The Infras SNI 👾 漁師'
+    server: 5.255.112.158
     type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: 
-      headers:
-        Host: news.microsoft.com
-  - name: '213 🇳🇱 Online S.a SNI 👾 漁師'
-    server: nl2.v2rayserv.com
-    type: vmess
-    port: 443
-    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
+    port: 19182
+    uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f
     alterId: 0
     cipher: auto
     tls: true
@@ -31,3 +15,12 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
+  - name: '65 🇳🇱 The Infras SNI 👾 漁師'
+    server: ir2.archnet.cyou
+    type: trojan
+    port: 6393
+    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com

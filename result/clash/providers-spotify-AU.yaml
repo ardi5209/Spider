@@ -1,21 +1,5 @@
 proxies:
-  - name: '152 🇦🇺 OVH SAS CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: au-01.legeth.tk
-    ws-opts: 
-      path: /
-      headers:
-        Host: au-01.legeth.tk
-  - name: '163 🇦🇺 OVH SAS SNI 👾 漁師'
+  - name: '51 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 139.99.135.182
     type: vmess
     port: 443
@@ -31,12 +15,19 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '192 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.98.30
-    type: trojan
+  - name: '195 🇦🇺 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+    network: ws
+    servername: au-01.legeth.tk
+    ws-opts: 
+      path: /
+      headers:
+        Host: au-01.legeth.tk

@@ -1,34 +1,98 @@
 proxies:
-  - name: '34 🇨🇦 DIGITALOCE CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '22 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: 51.222.137.198
     type: vmess
     port: 443
-    uuid: e2e537e6-fde2-4851-a938-e373613c55c3
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: m3.pianyijc.top
+    servername: image-upload4.spotify.com
     ws-opts: 
-      path: /sometimesnaive
+      path: /
       headers:
-        Host: m3.pianyijc.top
-  - name: '106 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: 149.56.132.41
+        Host: image-upload4.spotify.com
+  - name: '43 🇨🇦 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ca2.v2rayserv.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: ca2.v2rayserv.com
+  - name: '63 🇨🇦 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ca2.v2rayserv.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: ca2.v2rayserv.com
+  - name: '64 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: ca2.v2rayserv.com
+    type: vmess
+    port: 443
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '95 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: 35.182.165.120
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '52 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: ca1.trojanvh.xyz
     type: trojan
     port: 443
-    password: fafb4232-9659-4867-886d-e47f4bda283e
+    password: 4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '136 🇨🇦 OVH SAS SNI 👾 漁師'
+  - name: '77 🇨🇦 OVH SAS SNI 👾 漁師'
     server: 149.56.132.41
     type: trojan
     port: 443
-    password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb
+    password: fafb4232-9659-4867-886d-e47f4bda283e
     udp: true
     skip-cert-verify: true
     network: tcp

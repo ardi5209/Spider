@@ -45,21 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "59 🇹🇼 Data Commu SNI 👾 漁師"
+        "137 🇹🇼 Scloud Pte SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "59 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "hndx.relay01.fast001.buzz",
-      "server_port": 19021,
-      "uuid": "7856049c-b7c2-3769-8ec2-f8cfb576e2e3",
+      "tag": "137 🇹🇼 Scloud Pte SNI 👾 漁師",
+      "server": "165.154.237.8",
+      "server_port": 443,
+      "uuid": "d7a75318-3581-4f16-936c-671937ddd8ed",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],
