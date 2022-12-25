@@ -1,25 +1,9 @@
 proxies:
-  - name: '80 🇬🇧 Alibaba US CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '8 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 198.244.232.39
     type: vmess
-    port: 8443
-    uuid: 6b3244a3-44ca-3ef2-b40f-90c1bfae7dac
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: alyg1.jiasub.xyz
-    ws-opts: 
-      path: /Download
-      headers:
-        Host: alyg1.jiasub.xyz
-  - name: '144 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.75.160.126
-    type: vmess
-    port: 443
-    uuid: 72189368-6b37-4019-bfbb-b697ee386ea5
+    port: 2096
+    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
     alterId: 0
     cipher: auto
     tls: true
@@ -28,14 +12,14 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /vmess
+      path: 
       headers:
         Host: image-upload4.spotify.com
-  - name: '176 🇬🇧 AMAZON-02 SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
+  - name: '127 🇬🇧 AMAZON-02 SNI 👾 漁師'
+    server: yzdx.relay01.fast001.buzz
     type: vmess
-    port: 19048
-    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
+    port: 19247
+    uuid: bd10b96f-7ea4-3fc1-844d-538e9f68af2b
     alterId: 0
     cipher: auto
     tls: true
@@ -43,14 +27,35 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '194 🇬🇧 AMAZON-02 SNI 👾 漁師'
-    server: hndx.relay01.fast001.buzz
+  - name: '141 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
     type: vmess
-    port: 19047
-    uuid: 7856049c-b7c2-3769-8ec2-f8cfb576e2e3
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '200 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '32 🇬🇧 Stark Indu SNI 👾 漁師'
+    server: 146.19.230.241
+    type: trojan
+    port: 443
+    password: xxoo
     udp: true
     skip-cert-verify: true
     network: tcp
