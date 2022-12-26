@@ -1,61 +1,5 @@
 proxies:
-  - name: '42 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.44.211
-    type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '57 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.49.230
-    type: vmess
-    port: 10021
-    uuid: a12e496e-f89a-434a-8011-108846f0e412
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '65 🇯🇵 Linode LL SNI 👾 漁師'
-    server: 139.162.114.36
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: news.microsoft.com
-  - name: '76 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 140.83.57.80
-    type: vmess
-    port: 49840
-    uuid: 2969ad1b-9787-4927-94e6-22f597618de0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '121 🇯🇵 AMAZON-02 SNI 👾 漁師'
+  - name: '7 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: v-aws-tk-2.heima-bot.tech
     type: vmess
     port: 7772
@@ -71,7 +15,75 @@ proxies:
       path: /m2
       headers:
         Host: news.microsoft.com
-  - name: '21 🇯🇵 Linode LL SNI 👾 漁師'
+  - name: '36 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.207.66
+    type: vmess
+    port: 21365
+    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '78 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.44.211
+    type: vmess
+    port: 20081
+    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '84 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-1.heima-bot.tech
+    type: vmess
+    port: 7771
+    uuid: 41fcac4f-948d-42da-bdf9-9f1bd77f5b1c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /m1
+      headers:
+        Host: news.microsoft.com
+  - name: '90 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-1.heima-bot.tech
+    type: vmess
+    port: 7771
+    uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /m1
+      headers:
+        Host: news.microsoft.com
+  - name: '108 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 152.69.197.60
+    type: vmess
+    port: 1069
+    uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '25 🇯🇵 Linode LL SNI 👾 漁師'
     server: ap-northeast-1.openssl3.com
     type: trojan
     port: 443
@@ -80,17 +92,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '26 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: university.lele233.com
-    type: trojan
-    port: 443
-    password: 3628ca8d-6371-45df-879c-2d3e5d110b51
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '32 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: tennouji.mike22.net
+  - name: '26 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: tk3.cats22.net
     type: trojan
     port: 443
     password: 18844@zxcvbn
@@ -98,8 +101,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '45 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: os-tr-3.cats22.net
+  - name: '27 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 133.167.85.62
     type: trojan
     port: 443
     password: 18844@zxcvbn
@@ -107,16 +110,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '50 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 150.230.96.103
-    type: trojan
-    port: 443
-    password: da777aae-defb-41d0-a183-2c27da2b4677
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '75 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+  - name: '34 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: jgwdb2.gaox.ml
     type: trojan
     port: 443
@@ -125,7 +119,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '111 🇯🇵 MIKU NETWO SNI 👾 漁師'
+  - name: '48 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 49.212.193.129
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '69 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 7f6822fd-dd84-4a8c-98c3-1e0274331a77
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '79 🇯🇵 MIKU NETWO SNI 👾 漁師'
     server: zzjp01.fuqiangren.com
     type: trojan
     port: 20221
@@ -134,8 +146,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '115 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: 49.212.178.155
+  - name: '87 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 133.167.118.246
     type: trojan
     port: 443
     password: 18844@zxcvbn
@@ -143,16 +155,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '132 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: jp-tk-32.fuckjdieng.uk
+  - name: '93 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp-tk-31.fuckjdieng.uk
     type: trojan
-    port: 50342
-    password: 14291005-87b6-4c5d-bc15-12d5c205c435
+    port: 50310
+    password: b1f911c9-d8e0-478f-add2-79aab59d9664
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '167 🇯🇵 SAKURA Int SNI 👾 漁師'
+  - name: '94 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.43.89
+    type: trojan
+    port: 443
+    password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '97 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: 160.16.207.174
     type: trojan
     port: 443
@@ -161,11 +182,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '180 🇯🇵 MIKU NETWO SNI 👾 漁師'
-    server: zzjp01.fuqiangren.com
+  - name: '150 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 160.16.152.235
     type: trojan
-    port: 20221
-    password: 7f6822fd-dd84-4a8c-98c3-1e0274331a77
+    port: 443
+    password: 18844@zxcvbn
     udp: true
     skip-cert-verify: true
     network: tcp
