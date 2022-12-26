@@ -1,6 +1,6 @@
 proxies:
-  - name: '23 🇵🇱 G-Core Lab SNI 👾 漁師'
-    server: gcspl.sylu.cyou
+  - name: '29 🇵🇱 G-Core Lab SNI 👾 漁師'
+    server: gcorepl.sylu.cyou
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -12,10 +12,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /Falling42gcsplnode
+      path: /Falling42gcoreplnode
       headers:
         Host: image-upload4.spotify.com
-  - name: '24 🇵🇱 G-Core Lab CDN 👾 漁師'
+  - name: '30 🇵🇱 G-Core Lab CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -26,12 +26,12 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcspl.sylu.cyou
+    servername: gcorepl.sylu.cyou
     ws-opts: 
-      path: /Falling42gcsplnode
+      path: /Falling42gcoreplnode
       headers:
-        Host: gcspl.sylu.cyou
-  - name: '50 🇵🇱 OVH SAS CDN 👾 漁師'
+        Host: gcorepl.sylu.cyou
+  - name: '35 🇵🇱 OVH SAS CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -47,7 +47,7 @@ proxies:
       path: /
       headers:
         Host: pl1.v2rayserv.com
-  - name: '51 🇵🇱 OVH SAS SNI 👾 漁師'
+  - name: '36 🇵🇱 OVH SAS SNI 👾 漁師'
     server: pl1.v2rayserv.com
     type: vmess
     port: 443
@@ -63,11 +63,23 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '68 🇵🇱 OVH SAS SNI 👾 漁師'
+  - name: '101 🇵🇱 Green Floi SNI 👾 漁師'
+    server: ppy-moblev2.gatknqh.cn
+    type: vmess
+    port: 26096
+    uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '119 🇵🇱 OVH SAS SNI 👾 漁師'
     server: 147.135.208.210
     type: vmess
     port: 443
-    uuid: e3b42964-e7b6-4f56-8b91-4aaa88b6edd5
+    uuid: cdccd46a-adb0-4905-9c4c-941762e40388
     alterId: 0
     cipher: auto
     tls: true
@@ -79,11 +91,29 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '178 🇵🇱 OVH SAS SNI 👾 漁師'
+  - name: '135 🇵🇱 OVH SAS SNI 👾 漁師'
     server: 51.83.186.142
     type: trojan
     port: 443
-    password: 9ca1f2e4-0d7b-440b-a261-109c35270dda
+    password: fa0e4e7a-db70-4aeb-8104-e3120d9259cd
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '147 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 51.83.186.142
+    type: trojan
+    port: 443
+    password: 0100b239-7400-440f-bf9f-3d631f46e15a
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '154 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 51.83.186.142
+    type: trojan
+    port: 443
+    password: 1d096053-5f92-4b0d-80f5-ebaaef97544f
     udp: true
     skip-cert-verify: true
     network: tcp
