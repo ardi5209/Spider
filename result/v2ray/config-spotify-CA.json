@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "investors.spotify.com",
-            "port": 443,
+            "address": "jp-cdn.iqyun.zone",
+            "port": 27019,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "id": "3628ca8d-6371-45df-879c-2d3e5d110b51",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,20 +100,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "ca2.v2rayserv.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "ca2.v2rayserv.com"
-          },
-          "path": "/sshocean"
+          "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-37 🇨🇦 OVH SAS CDN 👾 漁師"
+      "tag": "proxy-21 🇨🇦 CLOUDFLARE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -124,7 +118,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca2.v2rayserv.com",
+            "address": "jp-cdn.iqyun.zone",
+            "port": 27019,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-74 🇨🇦 CLOUDFLARE SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.222.137.198",
             "port": 443,
             "users": [
               {
@@ -153,7 +181,7 @@
           "path": "/sshocean"
         }
       },
-      "tag": "proxy-38 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-151 🇨🇦 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
