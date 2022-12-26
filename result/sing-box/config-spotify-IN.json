@@ -45,15 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "63 🇮🇳 DIGITALOCE SNI 👾 漁師"
+        "156 🇮🇳 Linode LL SNI 👾 漁師",
+        "56 🇮🇳 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "63 🇮🇳 DIGITALOCE SNI 👾 漁師",
-      "server": "68.183.83.94",
-      "server_port": 59477,
-      "uuid": "b8f6a71c-6925-4e84-fb93-6e54f8d98b25",
+      "tag": "156 🇮🇳 Linode LL SNI 👾 漁師",
+      "server": "in2.czs1000.com",
+      "server_port": 11217,
+      "uuid": "ff028280-4819-4967-954d-73a4b25ce65d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -63,10 +64,22 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "56 🇮🇳 ORACLE-BMC SNI 👾 漁師",
+      "server": "jgwhdlb1.gaox.ml",
+      "server_port": 443,
+      "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],

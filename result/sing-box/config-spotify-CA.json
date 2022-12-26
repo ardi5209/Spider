@@ -45,21 +45,22 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "30 🇨🇦 OVH SAS SNI 👾 漁師",
-        "31 🇨🇦 OVH SAS CDN 👾 漁師",
-        "72 🇨🇦 OVH SAS CDN 👾 漁師",
-        "73 🇨🇦 OVH SAS SNI 👾 漁師",
-        "152 🇨🇦 CLOUDFLARE SNI 👾 漁師",
-        "156 🇨🇦 OVH SAS SNI 👾 漁師",
-        "168 🇨🇦 AMAZON-02 SNI 👾 漁師"
+        "87 🇨🇦 Linode LL SNI 👾 漁師",
+        "147 🇨🇦 OVH SAS CDN 👾 漁師",
+        "148 🇨🇦 OVH SAS SNI 👾 漁師",
+        "155 🇨🇦 OVH SAS CDN 👾 漁師",
+        "166 🇨🇦 AMAZON-02 SNI 👾 漁師",
+        "167 🇨🇦 AMAZON-02 CDN 👾 漁師",
+        "170 🇨🇦 CLOUDFLARE SNI 👾 漁師",
+        "207 🇨🇦 OVH SAS CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "30 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "ca2.v2rayserv.com",
-      "server_port": 443,
-      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "tag": "87 🇨🇦 Linode LL SNI 👾 漁師",
+      "server": "ca1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "ff028280-4819-4967-954d-73a4b25ce65d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -69,7 +70,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sshocean",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -77,7 +78,7 @@
     },
     {
       "type": "vmess",
-      "tag": "31 🇨🇦 OVH SAS CDN 👾 漁師",
+      "tag": "147 🇨🇦 OVH SAS CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
@@ -98,7 +99,28 @@
     },
     {
       "type": "vmess",
-      "tag": "72 🇨🇦 OVH SAS CDN 👾 漁師",
+      "tag": "148 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "ca2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "155 🇨🇦 OVH SAS CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
@@ -119,10 +141,10 @@
     },
     {
       "type": "vmess",
-      "tag": "73 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "ca2.v2rayserv.com",
+      "tag": "166 🇨🇦 AMAZON-02 SNI 👾 漁師",
+      "server": "awsypca.sylu.cyou",
       "server_port": 443,
-      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -132,7 +154,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/Falling42awsypcanode",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -140,7 +162,28 @@
     },
     {
       "type": "vmess",
-      "tag": "152 🇨🇦 CLOUDFLARE SNI 👾 漁師",
+      "tag": "167 🇨🇦 AMAZON-02 CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsypca.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsypcanode",
+        "headers": {
+          "Host": "awsypca.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "170 🇨🇦 CLOUDFLARE SNI 👾 漁師",
       "server": "jp-cdn.iqyun.zone",
       "server_port": 27019,
       "uuid": "3628ca8d-6371-45df-879c-2d3e5d110b51",
@@ -154,8 +197,8 @@
     },
     {
       "type": "vmess",
-      "tag": "156 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "51.222.137.198",
+      "tag": "207 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
       "security": "auto",
@@ -163,34 +206,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "ca2.v2rayserv.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "168 🇨🇦 AMAZON-02 SNI 👾 漁師",
-      "server": "35.182.165.120",
-      "server_port": 443,
-      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v2ray",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
+          "Host": "ca2.v2rayserv.com"
         }
       }
     }

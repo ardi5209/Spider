@@ -1,33 +1,5 @@
 proxies:
-  - name: '2 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 29210
-    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '71 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.75.160.126
-    type: vmess
-    port: 443
-    uuid: 72189368-6b37-4019-bfbb-b697ee386ea5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '89 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '33 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -39,16 +11,35 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '8 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider21.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: shefelnak
+  - name: '69 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '123 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+  - name: '214 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
+    type: vmess
+    port: 443
+    uuid: 33def002-be2d-4c91-89b9-39b92a21f70e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '45 🇬🇧 ORACLE-BMC SNI 👾 漁師'
     server: jgwld1.gaox.ml
     type: trojan
     port: 443
@@ -57,7 +48,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '148 🇬🇧 OVH SAS SNI 👾 漁師'
+  - name: '154 🇬🇧 OVH SAS SNI 👾 漁師'
     server: t1.teslacdn1.live
     type: trojan
     port: 443
