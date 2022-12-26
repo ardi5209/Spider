@@ -45,63 +45,18 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "11 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "12 🇳🇱 Scalaxy B. CDN 👾 漁師",
         "39 🇳🇱 Online S.a SNI 👾 漁師",
-        "61 🇳🇱 Online S.a SNI 👾 漁師",
-        "125 🇳🇱 OVH SAS SNI 👾 漁師",
-        "44 🇳🇱 AS40676 SNI 👾 漁師",
-        "65 🇳🇱 DIGITALOCE SNI 👾 漁師"
+        "59 🇳🇱 OVH SAS SNI 👾 漁師",
+        "101 🇳🇱 Online S.a CDN 👾 漁師",
+        "160 🇳🇱 Online S.a SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "11 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "nl.gongyiyun.cf",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "12 🇳🇱 Scalaxy B. CDN 👾 漁師",
-      "server": "cacerts.digicert.com",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "nl.gongyiyun.cf"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nl.gongyiyun.cf"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "39 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "nl2.v2rayserv.com",
+      "server": "163.172.213.74",
       "server_port": 443,
-      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -119,29 +74,8 @@
     },
     {
       "type": "vmess",
-      "tag": "61 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "51.15.113.164",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "125 🇳🇱 OVH SAS SNI 👾 漁師",
-      "server": "94.23.146.180",
+      "tag": "59 🇳🇱 OVH SAS SNI 👾 漁師",
+      "server": "fr-9.sourcekade.site",
       "server_port": 8080,
       "uuid": "3f0bc389-0f54-4b6f-f0e4-1f7ea6519b95",
       "security": "auto",
@@ -160,27 +94,45 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "44 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "content-provider23.cdn-delivery.akamaicd.com",
+      "type": "vmess",
+      "tag": "101 🇳🇱 Online S.a CDN 👾 漁師",
+      "server": "news.microsoft.com",
       "server_port": 443,
-      "password": "Sp3eDVp",
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "news.microsoft.com"
+        "server_name": "v12a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nl-unlimitxxx",
+        "headers": {
+          "Host": "v12a.toddns.tk"
+        }
       }
     },
     {
-      "type": "trojan",
-      "tag": "65 🇳🇱 DIGITALOCE SNI 👾 漁師",
-      "server": "ams.iqmtp.live",
+      "type": "vmess",
+      "tag": "160 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "163.172.213.74",
       "server_port": 443,
-      "password": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fastssh",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],

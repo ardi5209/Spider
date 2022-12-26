@@ -1,9 +1,9 @@
 proxies:
-  - name: '50 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: s3.skeptictysonv1.xyz
+  - name: '113 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 65.21.191.18
     type: vmess
     port: 443
-    uuid: d070c731-e587-4723-9b1f-526a81241362
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,22 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /2564
+      path: /sir2ersvws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '119 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
+    type: vmess
+    port: 25034
+    uuid: e549fc8d-2416-46f7-aadc-8747553091b9
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
       headers:
         Host: image-upload4.spotify.com
