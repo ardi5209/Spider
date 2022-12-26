@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "25 🇯🇵 Owl Limite CDN 👾 漁師",
-        "172 🇯🇵 NTT PC Com CDN 👾 漁師"
+        "81 🇯🇵 Owl Limite CDN 👾 漁師",
+        "161 🇯🇵 G-Core Lab CDN 👾 漁師",
+        "165 🇯🇵 AMAZON-02 CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "25 🇯🇵 Owl Limite CDN 👾 漁師",
+      "tag": "81 🇯🇵 Owl Limite CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8080,
       "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
@@ -72,22 +73,43 @@
     },
     {
       "type": "vmess",
-      "tag": "172 🇯🇵 NTT PC Com CDN 👾 漁師",
+      "tag": "161 🇯🇵 G-Core Lab CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "jp-ntt.sharecentre.online"
+        "server_name": "gcssjp.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/shirker",
+        "path": "/Falling42gcssjpnode",
         "headers": {
-          "Host": "jp-ntt.sharecentre.online"
+          "Host": "gcssjp.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "165 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjpyc.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsjpycnode",
+        "headers": {
+          "Host": "awsjpyc.sylu.cyou"
         }
       }
     }

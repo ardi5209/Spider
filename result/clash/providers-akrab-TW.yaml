@@ -1,21 +1,5 @@
 proxies:
-  - name: '20 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw4.594888.xyz
-    type: vmess
-    port: 11463
-    uuid: 7894f801-bc7a-346b-aba6-961cfc553a43
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: click.zoom.us
-  - name: '136 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '52 🇹🇼 Data Commu SNI 👾 漁師'
     server: hinettw.mayiyun.shop
     type: vmess
     port: 443
@@ -26,12 +10,25 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
+        Host: click.zoom.us
+  - name: '122 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
         Host: config.teams.microsoft.com
-  - name: '135 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '164 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw01.henet.top
     type: trojan
     port: 30000
