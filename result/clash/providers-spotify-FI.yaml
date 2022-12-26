@@ -1,10 +1,33 @@
 proxies:
-  - name: '81 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: wdock.aslibekhar.com
-    type: trojan
+  - name: '6 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 65.21.191.18
+    type: vmess
     port: 443
-    password: t5wt9NwaB9
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /sir2ersvws
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '109 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
+    type: vmess
+    port: 12951
+    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
