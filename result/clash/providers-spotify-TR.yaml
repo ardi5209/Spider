@@ -1,5 +1,33 @@
 proxies:
-  - name: '158 🇹🇷 Hostigger  SNI 👾 漁師'
+  - name: '4 🇹🇷 Hostigger  SNI 👾 漁師'
+    server: de-aws.uuuglass.co
+    type: vmess
+    port: 12125
+    uuid: 3628ca8d-6371-45df-879c-2d3e5d110b51
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '54 🇹🇷 Taner Teme SNI 👾 漁師'
+    server: 212.64.193.83
+    type: vmess
+    port: 34162
+    uuid: 7cf5af29-7bc3-44b6-9269-dd67f295def3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '193 🇹🇷 Hostigger  SNI 👾 漁師'
     server: de-aws.uuuglass.co
     type: vmess
     port: 12125

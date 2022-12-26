@@ -45,18 +45,60 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "54 🇨🇦 OVH SAS SNI 👾 漁師",
+        "99 🇨🇦 OVH SAS CDN 👾 漁師",
+        "112 🇨🇦 OVH SAS SNI 👾 漁師",
+        "131 🇨🇦 OVH SAS SNI 👾 漁師",
         "132 🇨🇦 OVH SAS CDN 👾 漁師",
-        "133 🇨🇦 OVH SAS SNI 👾 漁師",
-        "139 🇨🇦 AMAZON-02 SNI 👾 漁師",
-        "140 🇨🇦 CLOUDFLARE SNI 👾 漁師",
-        "145 🇨🇦 OVH SAS SNI 👾 漁師"
+        "191 🇨🇦 CLOUDFLARE SNI 👾 漁師",
+        "192 🇨🇦 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "54 🇨🇦 OVH SAS SNI 👾 漁師",
+      "tag": "99 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "112 🇨🇦 OVH SAS SNI 👾 漁師",
       "server": "51.222.137.198",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "131 🇨🇦 OVH SAS SNI 👾 漁師",
+      "server": "ca2.v2rayserv.com",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
       "security": "auto",
@@ -97,49 +139,7 @@
     },
     {
       "type": "vmess",
-      "tag": "133 🇨🇦 OVH SAS SNI 👾 漁師",
-      "server": "ca2.v2rayserv.com",
-      "server_port": 443,
-      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "139 🇨🇦 AMAZON-02 SNI 👾 漁師",
-      "server": "35.182.165.120",
-      "server_port": 443,
-      "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v2ray",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "140 🇨🇦 CLOUDFLARE SNI 👾 漁師",
+      "tag": "191 🇨🇦 CLOUDFLARE SNI 👾 漁師",
       "server": "jp-cdn.iqyun.zone",
       "server_port": 27019,
       "uuid": "3628ca8d-6371-45df-879c-2d3e5d110b51",
@@ -153,7 +153,7 @@
     },
     {
       "type": "trojan",
-      "tag": "145 🇨🇦 OVH SAS SNI 👾 漁師",
+      "tag": "192 🇨🇦 OVH SAS SNI 👾 漁師",
       "server": "ca1.trojanvh.xyz",
       "server_port": 443,
       "password": "4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0",

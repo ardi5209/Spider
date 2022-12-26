@@ -45,40 +45,21 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "59 🇳🇱 Online S.a CDN 👾 漁師",
-        "84 🇳🇱 Online S.a SNI 👾 漁師",
-        "183 🇳🇱 Online S.a SNI 👾 漁師",
-        "195 🇳🇱 Online S.a SNI 👾 漁師",
-        "209 🇳🇱 OVH SAS SNI 👾 漁師"
+        "11 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "12 🇳🇱 Scalaxy B. CDN 👾 漁師",
+        "39 🇳🇱 Online S.a SNI 👾 漁師",
+        "61 🇳🇱 Online S.a SNI 👾 漁師",
+        "125 🇳🇱 OVH SAS SNI 👾 漁師",
+        "44 🇳🇱 AS40676 SNI 👾 漁師",
+        "65 🇳🇱 DIGITALOCE SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "59 🇳🇱 Online S.a CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "v12a.toddns.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nl-unlimitxxx",
-        "headers": {
-          "Host": "v12a.toddns.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "84 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "163.172.220.71",
-      "server_port": 6616,
-      "uuid": "459d23f4-dcfd-4fef-9ba3-ef0ad10fc336",
+      "tag": "11 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -96,10 +77,31 @@
     },
     {
       "type": "vmess",
-      "tag": "183 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "nl1.v2rayserv.com",
+      "tag": "12 🇳🇱 Scalaxy B. CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "nl.gongyiyun.cf"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nl.gongyiyun.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "39 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "nl2.v2rayserv.com",
       "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -109,7 +111,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/Danhuang/Jiang",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -117,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "195 🇳🇱 Online S.a SNI 👾 漁師",
+      "tag": "61 🇳🇱 Online S.a SNI 👾 漁師",
       "server": "51.15.113.164",
       "server_port": 443,
       "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
@@ -138,7 +140,7 @@
     },
     {
       "type": "vmess",
-      "tag": "209 🇳🇱 OVH SAS SNI 👾 漁師",
+      "tag": "125 🇳🇱 OVH SAS SNI 👾 漁師",
       "server": "94.23.146.180",
       "server_port": 8080,
       "uuid": "3f0bc389-0f54-4b6f-f0e4-1f7ea6519b95",
@@ -155,6 +157,30 @@
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "44 🇳🇱 AS40676 SNI 👾 漁師",
+      "server": "content-provider23.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "65 🇳🇱 DIGITALOCE SNI 👾 漁師",
+      "server": "ams.iqmtp.live",
+      "server_port": 443,
+      "password": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     }
   ],

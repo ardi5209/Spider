@@ -45,39 +45,30 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "41 🇦🇺 OVH SAS SNI 👾 漁師",
-        "168 🇦🇺 CLOUDFLARE SNI 👾 漁師"
+        "151 🇦🇺 CLOUDFLARE SNI 👾 漁師",
+        "115 🇦🇺 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "41 🇦🇺 OVH SAS SNI 👾 漁師",
-      "server": "139.99.135.182",
-      "server_port": 443,
-      "uuid": "5fa2bc9f-9958-4578-8587-268211341239",
+      "tag": "151 🇦🇺 CLOUDFLARE SNI 👾 漁師",
+      "server": "jp-cdn.iqyun.zone",
+      "server_port": 25252,
+      "uuid": "3628ca8d-6371-45df-879c-2d3e5d110b51",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
       }
     },
     {
-      "type": "vmess",
-      "tag": "168 🇦🇺 CLOUDFLARE SNI 👾 漁師",
-      "server": "jp-cdn.iqyun.zone",
-      "server_port": 25252,
-      "uuid": "3628ca8d-6371-45df-879c-2d3e5d110b51",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "115 🇦🇺 ORACLE-BMC SNI 👾 漁師",
+      "server": "140.238.205.173",
+      "server_port": 443,
+      "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
       "tls": {
         "enabled": true,
         "insecure": true,
