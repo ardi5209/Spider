@@ -45,16 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "86 🇦🇺 DIGITALOCE SNI 👾 漁師",
-        "87 🇦🇺 DIGITALOCE CDN 👾 漁師"
+        "46 🇦🇺 OVH SAS SNI 👾 漁師",
+        "79 🇦🇺 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "86 🇦🇺 DIGITALOCE SNI 👾 漁師",
-      "server": "doau1.wyattoffice.ga",
+      "tag": "46 🇦🇺 OVH SAS SNI 👾 漁師",
+      "server": "139.99.135.182",
       "server_port": 443,
-      "uuid": "33b1ba99-ac5a-4723-92dc-1ec6855a32b8",
+      "uuid": "5fa2bc9f-9958-4578-8587-268211341239",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -64,7 +64,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/share",
+        "path": "/vmess",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -72,22 +72,22 @@
     },
     {
       "type": "vmess",
-      "tag": "87 🇦🇺 DIGITALOCE CDN 👾 漁師",
-      "server": "investors.spotify.com",
+      "tag": "79 🇦🇺 OVH SAS SNI 👾 漁師",
+      "server": "139.99.135.182",
       "server_port": 443,
-      "uuid": "33b1ba99-ac5a-4723-92dc-1ec6855a32b8",
+      "uuid": "8be7fd79-5920-4eae-9385-68a8d94bc1ae",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "doau1.wyattoffice.ga"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/share",
+        "path": "/vmess",
         "headers": {
-          "Host": "doau1.wyattoffice.ga"
+          "Host": "image-upload4.spotify.com"
         }
       }
     }

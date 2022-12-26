@@ -1,5 +1,5 @@
 proxies:
-  - name: '107 🇩🇪 G-Core Lab CDN 👾 漁師'
+  - name: '75 🇩🇪 G-Core Lab CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -15,3 +15,35 @@ proxies:
       path: /Falling42gcsdenode
       headers:
         Host: gcsde.sylu.cyou
+  - name: '109 🇩🇪 OVH SAS CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 8a287e0c-8bcf-4ac6-af2e-f70670448850
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: free.say-her-name.xyz
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: free.say-her-name.xyz
+  - name: '167 🇩🇪 SkyLink Da CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hosmatic.sylu.cyou
+    ws-opts: 
+      path: /Falling42hosmaticnode
+      headers:
+        Host: hosmatic.sylu.cyou
