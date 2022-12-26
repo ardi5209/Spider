@@ -1,21 +1,25 @@
 proxies:
-  - name: '24 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
+  - name: '8 🇩🇪 G-Core Lab CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '28 🇩🇪 ORACLE-BMC SNI 👾 漁師'
-    server: ger1.mayiyun.shop
+    network: ws
+    servername: gcsde.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcsdenode
+      headers:
+        Host: gcsde.sylu.cyou
+  - name: '88 🇩🇪 G-Core Lab SNI 👾 漁師'
+    server: gcsde.sylu.cyou
     type: vmess
     port: 443
-    uuid: 630fce0a-3794-4153-87f1-af3f7b59e9de
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
     alterId: 0
     cipher: auto
     tls: true
@@ -24,19 +28,42 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: /Falling42gcsdenode
       headers:
         Host: image-upload4.spotify.com
-  - name: '14 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.250.247
-    type: trojan
+  - name: '89 🇩🇪 G-Core Lab CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: origin
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '83 🇩🇪 Hetzner On SNI 👾 漁師'
+    network: ws
+    servername: gcsde.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcsdenode
+      headers:
+        Host: gcsde.sylu.cyou
+  - name: '176 🇩🇪 SkyLink Da CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hosmatic.sylu.cyou
+    ws-opts: 
+      path: /Falling42hosmaticnode
+      headers:
+        Host: hosmatic.sylu.cyou
+  - name: '13 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider9.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
@@ -45,11 +72,20 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '117 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+  - name: '21 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.236.127
     type: trojan
     port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    password: yxGY7A5MczQYg6UqSFx9u78V
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '82 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
+    type: trojan
+    port: 443
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp

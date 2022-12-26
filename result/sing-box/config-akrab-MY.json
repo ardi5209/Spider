@@ -45,19 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "79 🇲🇾 GB Network SNI 👾 漁師"
+        "150 🇲🇾 GB Network CDN 👾 漁師"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "79 🇲🇾 GB Network SNI 👾 漁師",
-      "server": "sg-cdn.iqyun.zone",
-      "server_port": 12522,
-      "password": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+      "type": "vmess",
+      "tag": "150 🇲🇾 GB Network CDN 👾 漁師",
+      "server": "hohm.microsoft.com",
+      "server_port": 443,
+      "uuid": "630fce0a-3794-4153-87f1-af3f7b59e9de",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "rf.mayiyun.club"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "rf.mayiyun.club"
+        }
       }
     }
   ],
