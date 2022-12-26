@@ -1,13 +1,17 @@
 proxies:
-  - name: '129 🇨🇳 CHINA UNIC SNI 👾 漁師'
-    server: 112.132.215.189
+  - name: '26 🇨🇳 PEGTECHINC SNI 👾 漁師'
+    server: 142.0.135.66
     type: vmess
-    port: 50002
+    port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com

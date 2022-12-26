@@ -84,8 +84,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "112.132.215.189",
-            "port": 50002,
+            "address": "142.0.135.66",
+            "port": 443,
             "users": [
               {
                 "alterId": 64,
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-129 🇨🇳 CHINA UNIC SNI 👾 漁師"
+      "tag": "proxy-26 🇨🇳 PEGTECHINC SNI 👾 漁師"
     }
   ],
   "dns": {

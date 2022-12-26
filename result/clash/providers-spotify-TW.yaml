@@ -1,9 +1,9 @@
 proxies:
-  - name: '19 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw4.czs1000.com
+  - name: '66 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 117.164.185.222
     type: vmess
-    port: 1001
-    uuid: abc6c8b5-4996-42a2-8bf0-ce989610e5ad
+    port: 16130
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
     alterId: 0
     cipher: auto
     tls: true
@@ -11,8 +11,24 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '122 🇹🇼 Data Commu SNI 👾 漁師'
-    server: hinet1261.gfwisbest.xyz
+  - name: '78 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw2.594888.xyz
+    type: vmess
+    port: 25551
+    uuid: 6e10162c-371a-30e2-b21f-2e375a9f047f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '119 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 1.171.200.135
     type: vmess
     port: 224
     uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
@@ -23,3 +39,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
+  - name: '137 🇹🇼 Data Commu CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 6e10162c-371a-30e2-b21f-2e375a9f047f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hinet.nbsd.win
+    ws-opts: 
+      path: /videos/stream
+      headers:
+        Host: hinet.nbsd.win

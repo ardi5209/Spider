@@ -1,5 +1,21 @@
 proxies:
-  - name: '68 🇵🇱 OVH SAS SNI 👾 漁師'
+  - name: '22 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 147.135.208.210
+    type: vmess
+    port: 443
+    uuid: e3b42964-e7b6-4f56-8b91-4aaa88b6edd5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '72 🇵🇱 OVH SAS SNI 👾 漁師'
     server: 147.135.208.210
     type: vmess
     port: 443
@@ -15,12 +31,19 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '81 🇵🇱 OVH SAS SNI 👾 漁師'
-    server: 51.83.186.142
-    type: trojan
-    port: 443
-    password: 1d096053-5f92-4b0d-80f5-ebaaef97544f
+  - name: '122 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 146.59.92.219
+    type: vmess
+    port: 2096
+    uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com

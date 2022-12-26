@@ -1,93 +1,21 @@
 proxies:
-  - name: '41 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.44.211
-    type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '61 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: jp5.mayiyun.shop
+  - name: '69 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
     port: 443
-    uuid: 630fce0a-3794-4153-87f1-af3f7b59e9de
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: image-upload4.spotify.com
+    servername: opc-jp.sharecentre.online
     ws-opts: 
-      path: /
+      path: /shirker
       headers:
-        Host: image-upload4.spotify.com
-  - name: '74 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: v-aws-tk-2.heima-bot.tech
-    type: vmess
-    port: 7772
-    uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /m2
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '92 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.44.211
-    type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '95 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: jp03.170203.xyz
-    type: vmess
-    port: 23245
-    uuid: f1514c3a-92a8-41a2-bc75-c752eaeee4b8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: 
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '98 🇯🇵 Linode LL SNI 👾 漁師'
-    server: vjp1.0bad.com
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '100 🇯🇵 G-Core Lab CDN 👾 漁師'
+        Host: opc-jp.sharecentre.online
+  - name: '88 🇯🇵 G-Core Lab CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -103,11 +31,75 @@ proxies:
       path: /Falling42gcssjpnode
       headers:
         Host: gcssjp.sylu.cyou
-  - name: '119 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: jp03.170203.xyz
+  - name: '98 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-1.heima-bot.tech
+    type: vmess
+    port: 7771
+    uuid: 41fcac4f-948d-42da-bdf9-9f1bd77f5b1c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /m1
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '111 🇯🇵 NTT PC Com CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: jp-ntt.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: jp-ntt.sharecentre.online
+  - name: '129 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: opc-jp.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: '135 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-2.heima-bot.tech
+    type: vmess
+    port: 7772
+    uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /m2
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '140 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp02.170203.xyz
     type: vmess
     port: 23245
-    uuid: 7b53cf4c-5f33-45cf-8480-4642e845028e
+    uuid: 71bd1427-01f8-4f91-9c6d-59ee02364c9e
     alterId: 0
     cipher: auto
     tls: true
@@ -119,11 +111,23 @@ proxies:
       path: 
       headers:
         Host: image-upload4.spotify.com
-  - name: '125 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: jp.mayiyun.shop
+  - name: '142 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.44.211
+    type: vmess
+    port: 20081
+    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '149 🇯🇵 Kaopu Clou SNI 👾 漁師'
+    server: 38.54.89.67
     type: vmess
     port: 443
-    uuid: 630fce0a-3794-4153-87f1-af3f7b59e9de
+    uuid: 317722d3-baf5-4932-bd0d-aaeacb52e0b0
     alterId: 0
     cipher: auto
     tls: true
@@ -132,10 +136,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
         Host: image-upload4.spotify.com
-  - name: '153 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+  - name: '158 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: 168.138.207.66
     type: vmess
     port: 21365
@@ -147,36 +151,51 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '181 🇯🇵 AMAZON-02 CDN 👾 漁師'
+  - name: '162 🇯🇵 Owl Limite CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    port: 8080
+    uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: awsjpyc.sylu.cyou
+    servername: ssrsub.v02.asuka.buzz
     ws-opts: 
-      path: /Falling42awsjpycnode
+      path: /api/v3/download.getFile
       headers:
-        Host: awsjpyc.sylu.cyou
-  - name: '193 🇯🇵 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.44.211
-    type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
-    cipher: auto
-    tls: true
+        Host: ssrsub.v02.asuka.buzz
+  - name: '7 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 2cdaf909-c059-4826-bc93-c55abf95f1df
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '6 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: os-tr-1.cats22.net
+  - name: '19 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20221
+    password: 2cdaf909-c059-4826-bc93-c55abf95f1df
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '27 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20221
+    password: 8d701a84-a505-4c50-a3ec-3eb8ddad375a
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '31 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 160.16.153.50
     type: trojan
     port: 443
     password: 18844@zxcvbn
@@ -184,8 +203,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '28 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: os6.cats22.net
+  - name: '57 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 133.167.124.195
     type: trojan
     port: 443
     password: 18844@zxcvbn
@@ -193,16 +212,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '34 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: 160.16.153.188
+  - name: '64 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp-tk-32.fuckjdieng.uk
     type: trojan
-    port: 443
-    password: 18844@zxcvbn
+    port: 50342
+    password: 14291005-87b6-4c5d-bc15-12d5c205c435
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '45 🇯🇵 AMAZON-02 SNI 👾 漁師'
+  - name: '87 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: jp-tk-32.fuckjdieng.uk
     type: trojan
     port: 50188
@@ -211,17 +230,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '69 🇯🇵 MIKU NETWO SNI 👾 漁師'
-    server: zzjp01.fuqiangren.com
-    type: trojan
-    port: 20221
-    password: 7dd31f53-0541-4156-9a4c-ffb61c62b972
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '73 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: 49.212.153.70
+  - name: '112 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: tk5.cats22.net
     type: trojan
     port: 443
     password: 18844@zxcvbn
@@ -229,44 +239,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '102 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: 133.167.85.62
-    type: trojan
-    port: 443
-    password: 18844@zxcvbn
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '110 🇯🇵 MIKU NETWO SNI 👾 漁師'
-    server: zzjp01.fuqiangren.com
-    type: trojan
-    port: 20221
-    password: 68f38337-2521-46f0-b409-378bc801b974
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '163 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: os4.cats22.net
-    type: trojan
-    port: 443
-    password: 18844@zxcvbn
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '173 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: os14.cats22.net
-    type: trojan
-    port: 443
-    password: 18844@zxcvbn
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '176 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: teradacyou.mike22.net
+  - name: '115 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 160.16.153.188
     type: trojan
     port: 443
     password: 18844@zxcvbn
