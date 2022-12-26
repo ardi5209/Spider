@@ -1,21 +1,17 @@
 proxies:
-  - name: '5 🇨🇳 CLOUDFLARE CDN 👾 漁師'
-    server: news.microsoft.com
+  - name: '31 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 47.104.237.32
     type: vmess
-    port: 443
-    uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7
-    alterId: 0
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: hkbn.pgypgykmoljklj.xyz
-    ws-opts: 
-      path: /OB7jTM5cTTrL
-      headers:
-        Host: hkbn.pgypgykmoljklj.xyz
-  - name: '50 🇨🇳 Hangzhou A SNI 👾 漁師'
+    network: tcp
+    servername: news.microsoft.com
+  - name: '33 🇨🇳 Hangzhou A SNI 👾 漁師'
     server: 39.103.165.178
     type: vmess
     port: 50002
@@ -27,3 +23,55 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
+  - name: '36 🇨🇳 CHINA UNIC SNI 👾 漁師'
+    server: 112.132.215.189
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '75 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 106.55.234.95
+    type: vmess
+    port: 31372
+    uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '87 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 139.186.198.63
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '171 🇨🇳 PEGTECHINC SNI 👾 漁師'
+    server: 142.0.135.66
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com

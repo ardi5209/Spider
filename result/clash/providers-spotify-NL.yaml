@@ -1,6 +1,22 @@
 proxies:
-  - name: '12 🇳🇱 OVH SAS SNI 👾 漁師'
-    server: fr-9.sourcekade.site
+  - name: '43 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 51.15.113.164
+    type: vmess
+    port: 443
+    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '58 🇳🇱 OVH SAS SNI 👾 漁師'
+    server: 94.23.146.180
     type: vmess
     port: 8080
     uuid: 3f0bc389-0f54-4b6f-f0e4-1f7ea6519b95
@@ -15,27 +31,11 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '56 🇳🇱 The Infras CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '131 🇳🇱 OVH SAS SNI 👾 漁師'
+    server: fr-9.sourcekade.site
     type: vmess
-    port: 443
-    uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hl1.cachexy.ga
-    ws-opts: 
-      path: /lXvA0Vse/
-      headers:
-        Host: hl1.cachexy.ga
-  - name: '102 🇳🇱 Online S.a SNI 👾 漁師'
-    server: 51.15.113.164
-    type: vmess
-    port: 443
-    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    port: 8080
+    uuid: 3f0bc389-0f54-4b6f-f0e4-1f7ea6519b95
     alterId: 0
     cipher: auto
     tls: true
@@ -44,22 +44,6 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /Danhuang/Jiang
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '157 🇳🇱 Online S.a SNI 👾 漁師'
-    server: 163.172.213.74
-    type: vmess
-    port: 443
-    uuid: 5cff0340-7ff4-11ed-b431-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /fastssh
+      path: /
       headers:
         Host: image-upload4.spotify.com
