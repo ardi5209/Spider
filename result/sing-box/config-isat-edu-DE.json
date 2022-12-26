@@ -45,13 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "180 🇩🇪 SkyLink Da CDN 👾 漁師"
+        "13 🇩🇪 G-Core Lab CDN 👾 漁師",
+        "69 🇩🇪 SkyLink Da CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "180 🇩🇪 SkyLink Da CDN 👾 漁師",
-      "server": "104.16.51.111",
+      "tag": "13 🇩🇪 G-Core Lab CDN 👾 漁師",
+      "server": "104.17.70.206",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcsde.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsdenode",
+        "headers": {
+          "Host": "gcsde.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "69 🇩🇪 SkyLink Da CDN 👾 漁師",
+      "server": "162.159.135.42",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
