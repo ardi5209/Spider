@@ -1,21 +1,5 @@
 proxies:
-  - name: '32 🇯🇵 NTT PC Com CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: jp-ntt.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: jp-ntt.sharecentre.online
-  - name: '52 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+  - name: '48 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -31,7 +15,23 @@ proxies:
       path: /shirker
       headers:
         Host: opc-jp.sharecentre.online
-  - name: '107 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+  - name: '81 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8443
+    uuid: 6b3244a3-44ca-3ef2-b40f-90c1bfae7dac
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsjp4.jiasub.xyz
+    ws-opts: 
+      path: /Download
+      headers:
+        Host: awsjp4.jiasub.xyz
+  - name: '134 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -47,3 +47,19 @@ proxies:
       path: /shirker
       headers:
         Host: opc-jp.sharecentre.online
+  - name: '154 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8443
+    uuid: 6b3244a3-44ca-3ef2-b40f-90c1bfae7dac
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsjp1.jiasub.xyz
+    ws-opts: 
+      path: /Download
+      headers:
+        Host: awsjp1.jiasub.xyz
