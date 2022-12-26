@@ -1,17 +1,10 @@
 proxies:
-  - name: '166 🇮🇳 AMAZON-02 SNI 👾 漁師'
-    server: in1.czs1000.com
-    type: vmess
-    port: 11221
-    uuid: 7a6be770-85c5-4ce0-85e0-de424f374745
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '161 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.162.166
+    type: trojan
+    port: 443
+    password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: news.microsoft.com

@@ -1,21 +1,5 @@
 proxies:
-  - name: '46 🇯🇵 Alibaba US CDN 👾 漁師'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: vfly6.xyz
-    ws-opts: 
-      path: /myblog
-      headers:
-        Host: vfly6.xyz
-  - name: '185 🇯🇵 G-Core Lab CDN 👾 漁師'
+  - name: '60 🇯🇵 AMAZON-02 CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -26,8 +10,24 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcssjp.sylu.cyou
+    servername: awsjpya.sylu.cyou
     ws-opts: 
-      path: /Falling42gcssjpnode
+      path: /Falling42awsjpyanode
       headers:
-        Host: gcssjp.sylu.cyou
+        Host: awsjpya.sylu.cyou
+  - name: '81 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: opc-jp.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
