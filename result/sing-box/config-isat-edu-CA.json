@@ -45,14 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "8 🇨🇦 OVH SAS CDN 👾 漁師",
-        "48 🇨🇦 OVH SAS CDN 👾 漁師"
+        "16 🇨🇦 OVH SAS CDN 👾 漁師",
+        "31 🇨🇦 OVH SAS CDN 👾 漁師",
+        "44 🇨🇦 OVH SAS CDN 👾 漁師",
+        "94 🇨🇦 OVH SAS CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "8 🇨🇦 OVH SAS CDN 👾 漁師",
-      "server": "141.193.213.20",
+      "tag": "16 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "104.16.66.85",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
       "security": "auto",
@@ -72,8 +74,50 @@
     },
     {
       "type": "vmess",
-      "tag": "48 🇨🇦 OVH SAS CDN 👾 漁師",
-      "server": "141.193.213.20",
+      "tag": "31 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "162.159.128.7",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "44 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "104.16.51.111",
+      "server_port": 443,
+      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ca2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "94 🇨🇦 OVH SAS CDN 👾 漁師",
+      "server": "104.16.51.111",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
       "security": "auto",
