@@ -1,29 +1,21 @@
 proxies:
-  - name: '78 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw6.czs1000.com
+  - name: '20 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw4.594888.xyz
     type: vmess
-    port: 1001
-    uuid: dcf95edf-9bc6-4e32-ada7-236e4b9d3809
+    port: 11463
+    uuid: 7894f801-bc7a-346b-aba6-961cfc553a43
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '108 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw2.czs1000.com
-    type: vmess
-    port: 4011
-    uuid: dcf95edf-9bc6-4e32-ada7-236e4b9d3809
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '154 🇹🇼 Data Commu SNI 👾 漁師'
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '136 🇹🇼 Data Commu SNI 👾 漁師'
     server: hinettw.mayiyun.shop
     type: vmess
     port: 443
@@ -39,7 +31,7 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '197 🇹🇼 Data Commu SNI 👾 漁師'
+  - name: '135 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw01.henet.top
     type: trojan
     port: 30000

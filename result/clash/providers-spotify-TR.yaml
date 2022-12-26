@@ -1,5 +1,5 @@
 proxies:
-  - name: '71 🇹🇷 Taner Teme SNI 👾 漁師'
+  - name: '15 🇹🇷 Taner Teme SNI 👾 漁師'
     server: 212.64.193.83
     type: vmess
     port: 34162
@@ -15,15 +15,19 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '123 🇹🇷 Hostigger  SNI 👾 漁師'
-    server: de-aws.uuuglass.co
+  - name: '27 🇹🇷 Kaopu Clou SNI 👾 漁師'
+    server: tr2.czs1000.com
     type: vmess
-    port: 12125
-    uuid: 3628ca8d-6371-45df-879c-2d3e5d110b51
+    port: 11217
+    uuid: c0fe96a0-8286-48bc-9609-79e54ae2a3d7
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: image-upload4.spotify.com

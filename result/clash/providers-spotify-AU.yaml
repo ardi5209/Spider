@@ -1,9 +1,9 @@
 proxies:
-  - name: '198 🇦🇺 Linode LL SNI 👾 漁師'
-    server: au1.czs1000.com
+  - name: '115 🇦🇺 DIGITALOCE SNI 👾 漁師'
+    server: doau1.wyattoffice.ga
     type: vmess
-    port: 11217
-    uuid: dcf95edf-9bc6-4e32-ada7-236e4b9d3809
+    port: 443
+    uuid: 33b1ba99-ac5a-4723-92dc-1ec6855a32b8
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,22 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: /share
       headers:
         Host: image-upload4.spotify.com
+  - name: '116 🇦🇺 DIGITALOCE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 33b1ba99-ac5a-4723-92dc-1ec6855a32b8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: doau1.wyattoffice.ga
+    ws-opts: 
+      path: /share
+      headers:
+        Host: doau1.wyattoffice.ga

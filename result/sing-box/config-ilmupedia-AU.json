@@ -45,15 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "198 🇦🇺 Linode LL SNI 👾 漁師"
+        "115 🇦🇺 DIGITALOCE SNI 👾 漁師",
+        "116 🇦🇺 DIGITALOCE CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "198 🇦🇺 Linode LL SNI 👾 漁師",
-      "server": "au1.czs1000.com",
-      "server_port": 11217,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
+      "tag": "115 🇦🇺 DIGITALOCE SNI 👾 漁師",
+      "server": "doau1.wyattoffice.ga",
+      "server_port": 443,
+      "uuid": "33b1ba99-ac5a-4723-92dc-1ec6855a32b8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -63,9 +64,30 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "path": "/share",
         "headers": {
           "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "116 🇦🇺 DIGITALOCE CDN 👾 漁師",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "33b1ba99-ac5a-4723-92dc-1ec6855a32b8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "doau1.wyattoffice.ga"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/share",
+        "headers": {
+          "Host": "doau1.wyattoffice.ga"
         }
       }
     }

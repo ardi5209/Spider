@@ -45,52 +45,75 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "6 🇯🇵 Linode LL SNI 👾 漁師",
-        "26 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "52 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "73 🇯🇵 AMAZON-02 SNI 👾 漁師",
-        "89 🇯🇵 AMAZON-02 SNI 👾 漁師",
-        "121 🇯🇵 AMAZON-02 SNI 👾 漁師",
-        "132 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "141 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "143 🇯🇵 Linode LL SNI 👾 漁師",
-        "168 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "188 🇯🇵 Linode LL SNI 👾 漁師",
-        "191 🇯🇵 AMAZON-02 SNI 👾 漁師",
-        "194 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "5 🇯🇵 AMAZON-02 SNI 👾 漁師",
-        "15 🇯🇵 SAKURA Int SNI 👾 漁師",
-        "41 🇯🇵 SAKURA Int SNI 👾 漁師",
-        "76 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "93 🇯🇵 SAKURA Int SNI 👾 漁師",
-        "122 🇯🇵 Owl Limite SNI 👾 漁師",
-        "129 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "135 🇯🇵 Linode LL SNI 👾 漁師",
-        "155 🇯🇵 SAKURA Int SNI 👾 漁師",
-        "162 🇯🇵 MIKU NETWO SNI 👾 漁師",
-        "166 🇯🇵 SAKURA Int SNI 👾 漁師",
-        "169 🇯🇵 MIKU NETWO SNI 👾 漁師",
-        "185 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-        "62 🇯🇵 AMAZON-02 SNI 👾 漁師"
+        "25 🇯🇵 Owl Limite CDN 👾 漁師",
+        "28 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "35 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "71 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "75 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "81 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "124 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "172 🇯🇵 NTT PC Com CDN 👾 漁師",
+        "189 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "5 🇯🇵 MIKU NETWO SNI 👾 漁師",
+        "21 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "36 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "64 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "73 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+        "80 🇯🇵 SAKURA Int SNI 👾 漁師",
+        "123 🇯🇵 MIKU NETWO SNI 👾 漁師",
+        "132 🇯🇵 SAKURA Int SNI 👾 漁師",
+        "134 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "146 🇯🇵 SAKURA Int SNI 👾 漁師",
+        "163 🇯🇵 AMAZON-02 SNI 👾 漁師",
+        "176 🇯🇵 MIKU NETWO SNI 👾 漁師",
+        "179 🇯🇵 MIKU NETWO SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "6 🇯🇵 Linode LL SNI 👾 漁師",
-      "server": "jp18.czs1000.com",
-      "server_port": 4443,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
+      "tag": "25 🇯🇵 Owl Limite CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 8080,
+      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ssrsub.v02.asuka.buzz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v3/download.getFile",
+        "headers": {
+          "Host": "ssrsub.v02.asuka.buzz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "28 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "141.147.181.219",
+      "server_port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/roewesu",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "26 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "tag": "35 🇯🇵 ORACLE-BMC SNI 👾 漁師",
       "server": "152.69.197.60",
       "server_port": 1069,
       "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
@@ -104,73 +127,38 @@
     },
     {
       "type": "vmess",
-      "tag": "52 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "jp.mayiyun.shop",
-      "server_port": 443,
-      "uuid": "630fce0a-3794-4153-87f1-af3f7b59e9de",
+      "tag": "71 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "168.138.207.66",
+      "server_port": 21365,
+      "uuid": "905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "73 🇯🇵 AMAZON-02 SNI 👾 漁師",
-      "server": "jp7.czs1000.com",
-      "server_port": 443,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
+      "tag": "75 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "168.138.207.66",
+      "server_port": 21365,
+      "uuid": "905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "89 🇯🇵 AMAZON-02 SNI 👾 漁師",
-      "server": "jp5.lianpi.xyz",
-      "server_port": 45123,
-      "uuid": "e6fa8efb-9651-4be9-a694-e95b46ef8f4a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lianpiwebsocket",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "121 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "tag": "81 🇯🇵 AMAZON-02 SNI 👾 漁師",
       "server": "jp6.czs1000.com",
       "server_port": 443,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
+      "uuid": "c0fe96a0-8286-48bc-9609-79e54ae2a3d7",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -188,87 +176,45 @@
     },
     {
       "type": "vmess",
-      "tag": "132 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "jp5.mayiyun.shop",
-      "server_port": 443,
-      "uuid": "630fce0a-3794-4153-87f1-af3f7b59e9de",
+      "tag": "124 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "168.138.207.66",
+      "server_port": 21365,
+      "uuid": "905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "172 🇯🇵 NTT PC Com CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp-ntt.sharecentre.online"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/shirker",
         "headers": {
-          "Host": "image-upload4.spotify.com"
+          "Host": "jp-ntt.sharecentre.online"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "141 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "140.83.57.80",
-      "server_port": 49840,
-      "uuid": "2969ad1b-9787-4927-94e6-22f597618de0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "143 🇯🇵 Linode LL SNI 👾 漁師",
-      "server": "jp17.czs1000.com",
-      "server_port": 4443,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "168 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "138.2.44.211",
-      "server_port": 20081,
-      "uuid": "593b8525-0c48-4b0f-d9af-2d73a9148973",
-      "security": "auto",
-      "alter_id": 64,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "188 🇯🇵 Linode LL SNI 👾 漁師",
-      "server": "jp1.czs1000.com",
-      "server_port": 4122,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "191 🇯🇵 AMAZON-02 SNI 👾 漁師",
-      "server": "jp5.czs1000.com",
-      "server_port": 11217,
-      "uuid": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
+      "tag": "189 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp04.170203.xyz",
+      "server_port": 23245,
+      "uuid": "55c07e08-34bc-4ee6-8906-868d16d2b764",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -278,28 +224,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "194 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "jp.fuzzypn.me",
-      "server_port": 443,
-      "uuid": "9dbcdcd4-2bfe-4d92-93ba-f68a773919be",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fuzzypn",
+        "path": "",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -307,7 +232,19 @@
     },
     {
       "type": "trojan",
-      "tag": "5 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "tag": "5 🇯🇵 MIKU NETWO SNI 👾 漁師",
+      "server": "zzjp01.fuqiangren.com",
+      "server_port": 20220,
+      "password": "be3e07c1-f054-4695-abbf-9dc7b6c1fa17",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "21 🇯🇵 AMAZON-02 SNI 👾 漁師",
       "server": "jp-tk-32.fuckjdieng.uk",
       "server_port": 50188,
       "password": "7175732d-dee5-4e38-91e1-886f95c2b470",
@@ -319,10 +256,10 @@
     },
     {
       "type": "trojan",
-      "tag": "15 🇯🇵 SAKURA Int SNI 👾 漁師",
-      "server": "49.212.178.155",
+      "tag": "36 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "jgwdb3.gaox.ml",
       "server_port": 443,
-      "password": "18844@zxcvbn",
+      "password": "8d2d5953-d649-4034-94f2-72f2df2623da",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -331,10 +268,10 @@
     },
     {
       "type": "trojan",
-      "tag": "41 🇯🇵 SAKURA Int SNI 👾 漁師",
-      "server": "133.167.124.195",
+      "tag": "64 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "23.letitbe.ink",
       "server_port": 443,
-      "password": "18844@zxcvbn",
+      "password": "3c266fd3-5f9f-4132-90ac-c33a2a316cb5",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -343,7 +280,7 @@
     },
     {
       "type": "trojan",
-      "tag": "76 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "tag": "73 🇯🇵 ORACLE-BMC SNI 👾 漁師",
       "server": "150.230.96.103",
       "server_port": 443,
       "password": "da777aae-defb-41d0-a183-2c27da2b4677",
@@ -355,8 +292,8 @@
     },
     {
       "type": "trojan",
-      "tag": "93 🇯🇵 SAKURA Int SNI 👾 漁師",
-      "server": "49.212.193.129",
+      "tag": "80 🇯🇵 SAKURA Int SNI 👾 漁師",
+      "server": "49.212.178.155",
       "server_port": 443,
       "password": "18844@zxcvbn",
       "tls": {
@@ -367,10 +304,10 @@
     },
     {
       "type": "trojan",
-      "tag": "122 🇯🇵 Owl Limite SNI 👾 漁師",
-      "server": "jp.swiftfalcon.app",
-      "server_port": 8460,
-      "password": "shenmegui",
+      "tag": "123 🇯🇵 MIKU NETWO SNI 👾 漁師",
+      "server": "zzjp01.fuqiangren.com",
+      "server_port": 20221,
+      "password": "be3e07c1-f054-4695-abbf-9dc7b6c1fa17",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -379,32 +316,8 @@
     },
     {
       "type": "trojan",
-      "tag": "129 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "138.2.45.243",
-      "server_port": 443,
-      "password": "c19d1432-8b3e-4818-8837-3d160cf65908",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "135 🇯🇵 Linode LL SNI 👾 漁師",
-      "server": "jp22.czs1000.com",
-      "server_port": 443,
-      "password": "dcf95edf-9bc6-4e32-ada7-236e4b9d3809",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "155 🇯🇵 SAKURA Int SNI 👾 漁師",
-      "server": "160.16.207.174",
+      "tag": "132 🇯🇵 SAKURA Int SNI 👾 漁師",
+      "server": "os6.cats22.net",
       "server_port": 443,
       "password": "18844@zxcvbn",
       "tls": {
@@ -415,10 +328,46 @@
     },
     {
       "type": "trojan",
-      "tag": "162 🇯🇵 MIKU NETWO SNI 👾 漁師",
+      "tag": "134 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp2.lianpi.xyz",
+      "server_port": 45127,
+      "password": "e6fa8efb-9651-4be9-a694-e95b46ef8f4a",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "146 🇯🇵 SAKURA Int SNI 👾 漁師",
+      "server": "os4.cats22.net",
+      "server_port": 443,
+      "password": "18844@zxcvbn",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "163 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp-tk-31.fuckjdieng.uk",
+      "server_port": 50310,
+      "password": "b1f911c9-d8e0-478f-add2-79aab59d9664",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "176 🇯🇵 MIKU NETWO SNI 👾 漁師",
       "server": "zzjp01.fuqiangren.com",
       "server_port": 20220,
-      "password": "d2124745-dc9c-4502-98ef-74e32d05181a",
+      "password": "a8b22cf6-58e2-4bc3-8d44-906b9d2c9b81",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -427,51 +376,15 @@
     },
     {
       "type": "trojan",
-      "tag": "166 🇯🇵 SAKURA Int SNI 👾 漁師",
-      "server": "os-tr-3.cats22.net",
-      "server_port": 443,
-      "password": "18844@zxcvbn",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "169 🇯🇵 MIKU NETWO SNI 👾 漁師",
+      "tag": "179 🇯🇵 MIKU NETWO SNI 👾 漁師",
       "server": "zzjp01.fuqiangren.com",
-      "server_port": 20220,
-      "password": "547abe0d-dc15-4f49-8d77-cc33accae433",
+      "server_port": 20221,
+      "password": "8d701a84-a505-4c50-a3ec-3eb8ddad375a",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
       }
-    },
-    {
-      "type": "trojan",
-      "tag": "185 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "jgwdb4.gaox.ml",
-      "server_port": 443,
-      "password": "d06a3f01-1ff0-4792-9b8e-a5a604bc74a2",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "shadowsocksr",
-      "tag": "62 🇯🇵 AMAZON-02 SNI 👾 漁師",
-      "server": "jp-am48-6.eqnode.net",
-      "server_port": 8081,
-      "method": "aes-256-cfb",
-      "password": "eAokbaDN6",
-      "obfs": "tls1.2_ticket_auth",
-      "obfs_param": "obfs=tls;obfs-host=image-upload4.spotify.com",
-      "protocol": "origin",
-      "protocol_param": ""
     }
   ],
   "route": {

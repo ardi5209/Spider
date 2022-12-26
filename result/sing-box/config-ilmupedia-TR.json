@@ -45,13 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "71 🇹🇷 Taner Teme SNI 👾 漁師",
-        "123 🇹🇷 Hostigger  SNI 👾 漁師"
+        "15 🇹🇷 Taner Teme SNI 👾 漁師",
+        "27 🇹🇷 Kaopu Clou SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "71 🇹🇷 Taner Teme SNI 👾 漁師",
+      "tag": "15 🇹🇷 Taner Teme SNI 👾 漁師",
       "server": "212.64.193.83",
       "server_port": 34162,
       "uuid": "7cf5af29-7bc3-44b6-9269-dd67f295def3",
@@ -72,16 +72,23 @@
     },
     {
       "type": "vmess",
-      "tag": "123 🇹🇷 Hostigger  SNI 👾 漁師",
-      "server": "de-aws.uuuglass.co",
-      "server_port": 12125,
-      "uuid": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+      "tag": "27 🇹🇷 Kaopu Clou SNI 👾 漁師",
+      "server": "tr2.czs1000.com",
+      "server_port": 11217,
+      "uuid": "c0fe96a0-8286-48bc-9609-79e54ae2a3d7",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],
