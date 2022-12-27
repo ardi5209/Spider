@@ -45,30 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "88 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "122 🇬🇧 OVH SAS SNI 👾 漁師",
-        "28 🇬🇧 ORACLE-BMC SNI 👾 漁師",
-        "147 🇬🇧 Hydra Comm SNI 👾 漁師",
-        "148 🇬🇧 Hydra Comm SNI 👾 漁師"
+        "40 🇬🇧 OVH SAS SNI 👾 漁師",
+        "125 🇬🇧 DIGITALOCE SNI 👾 漁師",
+        "109 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "88 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "122 🇬🇧 OVH SAS SNI 👾 漁師",
+      "tag": "40 🇬🇧 OVH SAS SNI 👾 漁師",
       "server": "54.36.162.144",
       "server_port": 443,
       "uuid": "d39b9c87-0db4-4c5d-94e6-4ca64f0efd83",
@@ -88,11 +72,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "28 🇬🇧 ORACLE-BMC SNI 👾 漁師",
-      "server": "132.145.51.172",
-      "server_port": 443,
-      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
+      "type": "vmess",
+      "tag": "125 🇬🇧 DIGITALOCE SNI 👾 漁師",
+      "server": "161.35.47.70",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -101,20 +87,8 @@
     },
     {
       "type": "trojan",
-      "tag": "147 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider20.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "shefelnak",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "148 🇬🇧 Hydra Comm SNI 👾 漁師",
-      "server": "content-provider22.cdn-delivery.akamaicd.com",
+      "tag": "109 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "content-provider21.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
