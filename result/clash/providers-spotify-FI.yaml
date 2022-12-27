@@ -1,17 +1,10 @@
 proxies:
-  - name: '4 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: s3.skeptictysonv1.xyz
-    type: vmess
+  - name: '3 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: wdock.aslibekhar.com
+    type: trojan
     port: 443
-    uuid: d070c731-e587-4723-9b1f-526a81241362
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: t5wt9NwaB9
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /2564
-      headers:
-        Host: image-upload4.spotify.com

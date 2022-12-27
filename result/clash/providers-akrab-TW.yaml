@@ -1,13 +1,17 @@
 proxies:
-  - name: '100 🇹🇼 Data Commu SNI 👾 漁師'
-    server: hinet1261.gfwisbest.xyz
+  - name: '96 🇹🇼 Data Commu CDN 👾 漁師'
+    server: hohm.microsoft.com
     type: vmess
-    port: 224
-    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    port: 443
+    uuid: 2df80669-700b-30a2-8207-f0054179277d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
+    network: ws
+    servername: hinet.nbsd.win
+    ws-opts: 
+      path: /videos/stream
+      headers:
+        Host: hinet.nbsd.win
