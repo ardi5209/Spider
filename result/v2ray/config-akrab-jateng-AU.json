@@ -80,22 +80,17 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "main.millionaireaisle.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+            "port": 443
           }
         ]
       },
@@ -110,10 +105,10 @@
           "headers": {
             "Host": "build49.scpotato.site"
           },
-          "path": "/vmess"
+          "path": "/trojan"
         }
       },
-      "tag": "proxy-61 🇦🇺 Unknown CDN 👾 漁師"
+      "tag": "proxy-50 🇦🇺 Unknown CDN 👾 漁師"
     }
   ],
   "dns": {

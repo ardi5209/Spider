@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "111250165157.skyjsq.space",
-            "port": 8346,
+            "address": "08.kccic2pa.xyz",
+            "port": 50008,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a141682e-55a3-cd89-3050-21f45d490c2d",
+                "id": "005d290b-7039-48dc-b870-2e51be67aa7a",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,20 +100,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/ray"
         }
       },
-      "tag": "proxy-36 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-66 🇹🇼 Data Commu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -147,7 +141,47 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-141 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-82 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "230.marst1-node.top",
+            "port": 2443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "f4afef9e-e48d-3d28-8ebf-7c61cbfd6850",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/css3"
+        }
+      },
+      "tag": "proxy-109 🇹🇼 Taiwan Dig SNI 👾 漁師"
     }
   ],
   "dns": {

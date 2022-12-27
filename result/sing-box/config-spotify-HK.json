@@ -45,25 +45,60 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "11 🇭🇰 AMAZON-02 SNI 👾 漁師",
-        "20 🇭🇰 STARCLOUD  SNI 👾 漁師",
-        "34 🇭🇰 Netsec Lim SNI 👾 漁師",
-        "46 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "89 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "109 🇭🇰 91440300MA SNI 👾 漁師",
-        "112 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "128 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "132 🇭🇰 Tencent Bu SNI 👾 漁師",
-        "145 🇭🇰 G-Core Lab CDN 👾 漁師",
-        "38 🇭🇰 Tencent Bu SNI 👾 漁師"
+        "6 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "16 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "17 🇭🇰 AMAZON-02 CDN 👾 漁師",
+        "18 🇭🇰 G-Core Lab SNI 👾 漁師",
+        "19 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "20 🇭🇰 HKT Limite SNI 👾 漁師",
+        "26 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "41 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "62 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "65 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "74 🇭🇰 AMAZON-02 CDN 👾 漁師",
+        "76 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "92 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "120 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "136 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "139 🇭🇰 G-Core Lab SNI 👾 漁師",
+        "140 🇭🇰 G-Core Lab CDN 👾 漁師",
+        "146 🇭🇰 STARCLOUD  SNI 👾 漁師",
+        "147 🇭🇰 Netsec Lim SNI 👾 漁師",
+        "167 🇭🇰 M247 Europ SNI 👾 漁師",
+        "171 🇭🇰 HKT Limite SNI 👾 漁師",
+        "200 🇭🇰 AMAZON-02 SNI 👾 漁師",
+        "203 🇭🇰 Scloud Pte SNI 👾 漁師",
+        "137 🇭🇰 Tencent Bu SNI 👾 漁師",
+        "138 🇭🇰 ADCDATA.CO SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "11 🇭🇰 AMAZON-02 SNI 👾 漁師",
-      "server": "hk80-2.sanfen001.pics",
+      "tag": "6 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "investors.spotify.com",
       "server_port": 443,
-      "uuid": "8da78369-cb4e-4c88-8b93-a933d9144b2b",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorehk.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcorehknode",
+        "headers": {
+          "Host": "gcorehk.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "16 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk-3.daoxin.shop",
+      "server_port": 443,
+      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -73,7 +108,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/zh-cn/download",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -81,24 +116,31 @@
     },
     {
       "type": "vmess",
-      "tag": "20 🇭🇰 STARCLOUD  SNI 👾 漁師",
-      "server": "206.119.112.6",
-      "server_port": 8189,
-      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "tag": "17 🇭🇰 AMAZON-02 CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
       "security": "auto",
-      "alter_id": 10,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "hk-3.daoxin.shop"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk-3.daoxin.shop"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "34 🇭🇰 Netsec Lim SNI 👾 漁師",
-      "server": "182.16.1.194",
+      "tag": "18 🇭🇰 G-Core Lab SNI 👾 漁師",
+      "server": "gcorehkk.sylu.cyou",
       "server_port": 443,
-      "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -108,7 +150,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/opt/video/images",
+        "path": "/Falling42gcorehkknode",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -116,7 +158,7 @@
     },
     {
       "type": "vmess",
-      "tag": "46 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "19 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -137,31 +179,10 @@
     },
     {
       "type": "vmess",
-      "tag": "89 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcsshkkk.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsshkkknode",
-        "headers": {
-          "Host": "gcsshkkk.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "109 🇭🇰 91440300MA SNI 👾 漁師",
-      "server": "117.164.185.221",
-      "server_port": 16113,
-      "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+      "tag": "20 🇭🇰 HKT Limite SNI 👾 漁師",
+      "server": "03.kccic2pa.xyz",
+      "server_port": 50003,
+      "uuid": "005d290b-7039-48dc-b870-2e51be67aa7a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -172,7 +193,42 @@
     },
     {
       "type": "vmess",
-      "tag": "112 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "26 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "41 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk11.czs1000.com",
+      "server_port": 443,
+      "uuid": "6ddb1ee8-d9d1-4089-ad8a-ff8f30ba4397",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "62 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -181,19 +237,89 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcsshkk.sylu.cyou"
+        "server_name": "gcorehkk.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcsshkknode",
+        "path": "/Falling42gcorehkknode",
         "headers": {
-          "Host": "gcsshkk.sylu.cyou"
+          "Host": "gcorehkk.sylu.cyou"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "128 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "65 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "hk1vdf-node.aiqiche123.com",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "74 🇭🇰 AMAZON-02 CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "76 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "92 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk4.czs1000.com",
+      "server_port": 11217,
+      "uuid": "6ddb1ee8-d9d1-4089-ad8a-ff8f30ba4397",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "120 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -202,22 +328,141 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcsshkk.sylu.cyou"
+        "server_name": "gcsshk.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcsshkknode",
+        "path": "/Falling42gcsshknode",
         "headers": {
-          "Host": "gcsshkk.sylu.cyou"
+          "Host": "gcsshk.sylu.cyou"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "132 🇭🇰 Tencent Bu SNI 👾 漁師",
-      "server": "43.154.34.49",
-      "server_port": 23183,
-      "uuid": "b402a4af-285a-463e-c3a7-53f91efdec78",
+      "tag": "136 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk5.czs1000.com",
+      "server_port": 11221,
+      "uuid": "6ddb1ee8-d9d1-4089-ad8a-ff8f30ba4397",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "139 🇭🇰 G-Core Lab SNI 👾 漁師",
+      "server": "gcsshk.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsshknode",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "140 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcsshk.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsshknode",
+        "headers": {
+          "Host": "gcsshk.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "146 🇭🇰 STARCLOUD  SNI 👾 漁師",
+      "server": "hk1vdf-node.aiqiche123.com",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "147 🇭🇰 Netsec Lim SNI 👾 漁師",
+      "server": "182.16.1.194",
+      "server_port": 443,
+      "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/opt/video/images",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "167 🇭🇰 M247 Europ SNI 👾 漁師",
+      "server": "188.116.22.171",
+      "server_port": 443,
+      "uuid": "3c6c608d-68c0-4782-86ac-98ea1ada3a25",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "171 🇭🇰 HKT Limite SNI 👾 漁師",
+      "server": "05.kccic2pa.xyz",
+      "server_port": 50005,
+      "uuid": "005d290b-7039-48dc-b870-2e51be67aa7a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -228,31 +473,57 @@
     },
     {
       "type": "vmess",
-      "tag": "145 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "tag": "200 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk3.czs1000.com",
+      "server_port": 11217,
+      "uuid": "6ddb1ee8-d9d1-4089-ad8a-ff8f30ba4397",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcsshkkk.sylu.cyou"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcsshkkknode",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
-          "Host": "gcsshkkk.sylu.cyou"
+          "Host": "image-upload4.spotify.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "203 🇭🇰 Scloud Pte SNI 👾 漁師",
+      "server": "hk10.czs1000.com",
+      "server_port": 8011,
+      "uuid": "6ddb1ee8-d9d1-4089-ad8a-ff8f30ba4397",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
       }
     },
     {
       "type": "trojan",
-      "tag": "38 🇭🇰 Tencent Bu SNI 👾 漁師",
+      "tag": "137 🇭🇰 Tencent Bu SNI 👾 漁師",
       "server": "43.154.172.79",
       "server_port": 10102,
       "password": "0f098bb2-9fad-3cc3-8acf-2a3268c1eb27",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "138 🇭🇰 ADCDATA.CO SNI 👾 漁師",
+      "server": "194.156.99.39",
+      "server_port": 443,
+      "password": "xxoo",
       "tls": {
         "enabled": true,
         "insecure": true,
