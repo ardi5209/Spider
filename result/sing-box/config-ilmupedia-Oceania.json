@@ -45,25 +45,56 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "79 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-        "80 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+        "67 🇦🇺 Linode LL SNI 👾 漁師",
+        "142 🇦🇺 OVH SAS SNI 👾 漁師",
+        "196 🇦🇺 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "79 🇦🇺 ORACLE-BMC SNI 👾 漁師",
-      "server": "152.67.98.30",
-      "server_port": 443,
-      "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+      "type": "vmess",
+      "tag": "67 🇦🇺 Linode LL SNI 👾 漁師",
+      "server": "au1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "37ba4acc-ce75-40f8-8359-8e0f79cec165",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "142 🇦🇺 OVH SAS SNI 👾 漁師",
+      "server": "139.99.133.225",
+      "server_port": 443,
+      "uuid": "625b51df-fc17-47f3-aea4-3bc5f882ed56",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "80 🇦🇺 ORACLE-BMC SNI 👾 漁師",
+      "tag": "196 🇦🇺 ORACLE-BMC SNI 👾 漁師",
       "server": "jgwxn4.gaox.ml",
       "server_port": 443,
       "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",

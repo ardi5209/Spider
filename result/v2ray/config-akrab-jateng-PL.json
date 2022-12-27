@@ -113,7 +113,7 @@
           "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-95 🇵🇱 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-20 🇵🇱 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -144,16 +144,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcorepl.sylu.cyou"
+          "serverName": "gcspl.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcorepl.sylu.cyou"
+            "Host": "gcspl.sylu.cyou"
           },
-          "path": "/Falling42gcoreplnode"
+          "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-169 🇵🇱 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-57 🇵🇱 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "19924be7-db1c-4b32-8dbc-aec68e0bbf3e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "pl1.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "pl1.v2rayserv.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-88 🇵🇱 OVH SAS CDN 👾 漁師"
     }
   ],
   "dns": {

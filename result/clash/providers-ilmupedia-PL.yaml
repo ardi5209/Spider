@@ -1,5 +1,53 @@
 proxies:
-  - name: '95 🇵🇱 G-Core Lab CDN 👾 漁師'
+  - name: '19 🇵🇱 G-Core Lab SNI 👾 漁師'
+    server: gcspl.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: news.microsoft.com
+  - name: '20 🇵🇱 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcspl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: gcspl.sylu.cyou
+  - name: '42 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 147.135.208.210
+    type: vmess
+    port: 443
+    uuid: 7e194a05-a9d8-42fa-a8ad-f867057fba74
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '57 🇵🇱 G-Core Lab CDN 👾 漁師'
     server: news.microsoft.com
     type: vmess
     port: 443
@@ -15,11 +63,11 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: gcspl.sylu.cyou
-  - name: '168 🇵🇱 G-Core Lab SNI 👾 漁師'
-    server: gcorepl.sylu.cyou
+  - name: '87 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: pl1.v2rayserv.com
     type: vmess
     port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    uuid: 19924be7-db1c-4b32-8dbc-aec68e0bbf3e
     alterId: 0
     cipher: auto
     tls: true
@@ -28,22 +76,22 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /Falling42gcoreplnode
+      path: /
       headers:
         Host: news.microsoft.com
-  - name: '169 🇵🇱 G-Core Lab CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '88 🇵🇱 OVH SAS CDN 👾 漁師'
+    server: news.microsoft.com
     type: vmess
     port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    uuid: 19924be7-db1c-4b32-8dbc-aec68e0bbf3e
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcorepl.sylu.cyou
+    servername: pl1.v2rayserv.com
     ws-opts: 
-      path: /Falling42gcoreplnode
+      path: /
       headers:
-        Host: gcorepl.sylu.cyou
+        Host: pl1.v2rayserv.com
