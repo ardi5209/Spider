@@ -1,43 +1,19 @@
 proxies:
-  - name: '21 🇦🇺 OVH SAS SNI 👾 漁師'
-    server: 139.99.133.225
-    type: vmess
-    port: 443
-    uuid: 625b51df-fc17-47f3-aea4-3bc5f882ed56
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '103 🇦🇺 Unknown SNI 👾 漁師'
-    server: build49.scpotato.site
+  - name: '79 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.98.30
     type: trojan
     port: 443
-    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /trojan
-      headers:
-        Host: news.microsoft.com
-  - name: '105 🇦🇺 Unknown CDN 👾 漁師'
-    server: cacerts.digicert.com
+  - name: '80 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn4.gaox.ml
     type: trojan
     port: 443
-    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: build49.scpotato.site
-    ws-opts: 
-      path: /trojan
-      headers:
-        Host: build49.scpotato.site
+    network: tcp
+    servername: news.microsoft.com
