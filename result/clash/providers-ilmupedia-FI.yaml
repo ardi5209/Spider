@@ -1,10 +1,17 @@
 proxies:
-  - name: '160 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: wdock.aslibekhar.com
-    type: trojan
+  - name: '4 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: s3.skeptictysonv1.xyz
+    type: vmess
     port: 443
-    password: t5wt9NwaB9
+    uuid: d070c731-e587-4723-9b1f-526a81241362
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /2564
+      headers:
+        Host: news.microsoft.com

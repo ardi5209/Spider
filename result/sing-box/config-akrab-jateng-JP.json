@@ -45,13 +45,56 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "126 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "147 🇯🇵 NTT PC Com CDN 👾 漁師"
+        "74 🇯🇵 Owl Limite CDN 👾 漁師",
+        "160 🇯🇵 AMAZON-02 CDN 👾 漁師",
+        "194 🇯🇵 ORACLE-BMC CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "126 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "tag": "74 🇯🇵 Owl Limite CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8080,
+      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ssrsub.v02.asuka.buzz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v3/download.getFile",
+        "headers": {
+          "Host": "ssrsub.v02.asuka.buzz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "160 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjpya.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsjpyanode",
+        "headers": {
+          "Host": "awsjpya.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "194 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -67,27 +110,6 @@
         "path": "/shirker",
         "headers": {
           "Host": "opc-jp.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "147 🇯🇵 NTT PC Com CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "jp-ntt.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "jp-ntt.sharecentre.online"
         }
       }
     }
