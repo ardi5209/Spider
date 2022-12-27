@@ -45,64 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "33 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "122 🇬🇧 DIGITALOCE SNI 👾 漁師",
-        "148 🇬🇧 OVH SAS SNI 👾 漁師",
-        "174 🇬🇧 OVH SAS SNI 👾 漁師"
+        "4 🇬🇧 OVH SAS SNI 👾 漁師",
+        "178 🇬🇧 Stark Indu SNI 👾 漁師",
+        "63 🇬🇧 Hydra Comm SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "33 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "122 🇬🇧 DIGITALOCE SNI 👾 漁師",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "148 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "54.36.162.144",
-      "server_port": 443,
-      "uuid": "d39b9c87-0db4-4c5d-94e6-4ca64f0efd83",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "174 🇬🇧 OVH SAS SNI 👾 漁師",
+      "tag": "4 🇬🇧 OVH SAS SNI 👾 漁師",
       "server": "51.75.160.126",
       "server_port": 443,
       "uuid": "72189368-6b37-4019-bfbb-b697ee386ea5",
@@ -119,6 +69,39 @@
         "headers": {
           "Host": "news.microsoft.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "178 🇬🇧 Stark Indu SNI 👾 漁師",
+      "server": "77.91.101.144",
+      "server_port": 43912,
+      "uuid": "f2631279-4688-4a89-c8f7-be5a0eedff6a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "63 🇬🇧 Hydra Comm SNI 👾 漁師",
+      "server": "185.16.206.209",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
       }
     }
   ],

@@ -1,25 +1,49 @@
 proxies:
-  - name: '60 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: hainan.sfjsq001.info
+  - name: '100 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 11445169105.skyjsq.space
     type: vmess
-    port: 33207
-    uuid: 3fef34c0-fd08-3cfe-8d25-dcd183218567
+    port: 8234
+    uuid: 130d84d2-4358-dbc2-122c-efcd17abea97
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '114 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw6.czs1000.com
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: news.microsoft.com
+  - name: '129 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tw2.594888.xyz
     type: vmess
-    port: 1001
-    uuid: 738bc988-a31b-469b-8db0-ff77f070695f
+    port: 25551
+    uuid: acaf6125-f14f-3e2c-a87c-31e73c99b794
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+  - name: '175 🇹🇼 Data Commu CDN 👾 漁師'
+    server: news.microsoft.com
+    type: vmess
+    port: 443
+    uuid: acaf6125-f14f-3e2c-a87c-31e73c99b794
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hinet.nbsd.win
+    ws-opts: 
+      path: /videos/stream
+      headers:
+        Host: hinet.nbsd.win

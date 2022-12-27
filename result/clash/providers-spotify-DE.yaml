@@ -1,69 +1,33 @@
 proxies:
-  - name: '61 🇩🇪 G-Core Lab SNI 👾 漁師'
-    server: gcsde.sylu.cyou
+  - name: '9 🇩🇪 Melbikomas SNI 👾 漁師'
+    server: 213.226.71.124
     type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    port: 20416
+    uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /Falling42gcsdenode
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '62 🇩🇪 G-Core Lab CDN 👾 漁師'
+  - name: '71 🇩🇪 Hetzner On CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    uuid: 73d843a1-17b3-4a7e-a31f-eada9b175b36
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcsde.sylu.cyou
+    servername: gheychi.betterthanunix.ml
     ws-opts: 
-      path: /Falling42gcsdenode
+      path: /ws
       headers:
-        Host: gcsde.sylu.cyou
-  - name: '121 🇩🇪 OVH SAS CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: de.gongyiyun.cf
-    ws-opts: 
-      path: /
-      headers:
-        Host: de.gongyiyun.cf
-  - name: '125 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.129.202
-    type: vmess
-    port: 55039
-    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '127 🇩🇪 OVH SAS CDN 👾 漁師'
+        Host: gheychi.betterthanunix.ml
+  - name: '120 🇩🇪 OVH SAS CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -79,40 +43,24 @@ proxies:
       path: /graphql
       headers:
         Host: free.say-her-name.xyz
-  - name: '129 🇩🇪 G-Core Lab CDN 👾 漁師'
+  - name: '164 🇩🇪 OVH SAS CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcsde.sylu.cyou
+    servername: de.gongyiyun.cf
     ws-opts: 
-      path: /Falling42gcsdenode
+      path: /
       headers:
-        Host: gcsde.sylu.cyou
-  - name: '134 🇩🇪 Linode LL SNI 👾 漁師'
-    server: de1.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 738bc988-a31b-469b-8db0-ff77f070695f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '78 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.250.247
+        Host: de.gongyiyun.cf
+  - name: '103 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
     port: 443
     password: origin
@@ -120,7 +68,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '130 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '169 🇩🇪 Hetzner On SNI 👾 漁師'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
     port: 443
