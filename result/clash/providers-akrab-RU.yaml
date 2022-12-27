@@ -1,17 +1,21 @@
 proxies:
-  - name: '37 🇷🇺 AEZA GROUP SNI 👾 漁師'
-    server: 185.112.83.213
+  - name: '3 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: v10a.toddns.tk
     type: vmess
-    port: 19696
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 443
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '60 🇷🇺 LLC Baxet CDN 👾 漁師'
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /ZPKLSPJjLBEy
+      headers:
+        Host: safebrowsing.google.com
+  - name: '4 🇷🇺 LLC Baxet CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -27,7 +31,7 @@ proxies:
       path: /ZPKLSPJjLBEy
       headers:
         Host: v10a.toddns.tk
-  - name: '81 🇷🇺 RECONN LLC SNI 👾 漁師'
+  - name: '45 🇷🇺 RECONN LLC SNI 👾 漁師'
     server: 91.193.181.192
     type: vmess
     port: 8090
@@ -38,12 +42,12 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
-  - name: '93 🇷🇺 AEZA GROUP SNI 👾 漁師'
+        Host: click.zoom.us
+  - name: '70 🇷🇺 AEZA GROUP SNI 👾 漁師'
     server: 185.112.83.213
     type: vmess
     port: 19696
@@ -54,13 +58,25 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
-  - name: '147 🇷🇺 LLC Baxet SNI 👾 漁師'
-    server: 195.133.10.202
-    type: trojan
-    port: 44976
-    password: tiUobCwrVb
+    servername: config.teams.microsoft.com
+  - name: '140 🇷🇺 RECONN LLC SNI 👾 漁師'
+    server: 37.252.1.197
+    type: vmess
+    port: 3000
+    uuid: 6f7ae49c-f5e2-4ec2-ac5e-38f057d51fee
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
+  - name: '48 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: eu-east-ruo.openssl3.com
+    type: trojan
+    port: 443
+    password: 9KogHwaY7hVD
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us

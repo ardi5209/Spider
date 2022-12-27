@@ -1,9 +1,9 @@
 proxies:
-  - name: '112 🇮🇩 PT Cloud H SNI 👾 漁師'
-    server: yuk.vpsme.my.id
+  - name: '155 🇮🇩 PT Atharva SNI 👾 漁師'
+    server: atha.readyto.rocks
     type: vmess
     port: 443
-    uuid: 20680bff-7631-4845-a164-4698b0d7de8f
+    uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
     alterId: 0
     cipher: auto
     tls: true
@@ -12,15 +12,22 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /sweet
+      path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '86 🇮🇩 PT Cloud H SNI 👾 漁師'
-    server: yuk.vpsme.my.id
-    type: trojan
+  - name: '157 🇮🇩 PT Atharva CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: 20680bff-7631-4845-a164-4698b0d7de8f
+    uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: grpc
-    servername: image-upload4.spotify.com
+    network: ws
+    servername: atha.readyto.rocks
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: atha.readyto.rocks
