@@ -1,5 +1,53 @@
 proxies:
-  - name: '42 🇵🇱 G-Core Lab CDN 👾 漁師'
+  - name: '48 🇵🇱 G-Core Lab SNI 👾 漁師'
+    server: gcspl.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '49 🇵🇱 G-Core Lab CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcspl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: gcspl.sylu.cyou
+  - name: '75 🇵🇱 G-Core Lab CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcspl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: gcspl.sylu.cyou
+  - name: '194 🇵🇱 G-Core Lab CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
