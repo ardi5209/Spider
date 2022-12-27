@@ -45,35 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "105 🇮🇩 PT Atharva SNI 👾 漁師",
-        "158 🇮🇩 PT Cloud H SNI 👾 漁師"
+        "81 🇮🇩 PT Cloud H SNI 👾 漁師"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "105 🇮🇩 PT Atharva SNI 👾 漁師",
-      "server": "vip-id.rayzellvpn.my.id",
-      "server_port": 443,
-      "password": "24424d8d-d6d6-419c-bdc1-e6380d1981ad",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/trojan",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "158 🇮🇩 PT Cloud H SNI 👾 漁師",
+      "type": "vmess",
+      "tag": "81 🇮🇩 PT Cloud H SNI 👾 漁師",
       "server": "yuk.vpsme.my.id",
       "server_port": 443,
-      "password": "20680bff-7631-4845-a164-4698b0d7de8f",
+      "uuid": "20680bff-7631-4845-a164-4698b0d7de8f",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -81,7 +63,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sweetws",
+        "path": "/sweet",
         "headers": {
           "Host": "news.microsoft.com"
         }

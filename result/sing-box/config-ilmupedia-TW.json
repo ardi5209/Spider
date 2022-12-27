@@ -45,21 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "133 🇹🇼 Scloud Pte SNI 👾 漁師"
+        "76 🇹🇼 Taiwan Dig SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "133 🇹🇼 Scloud Pte SNI 👾 漁師",
-      "server": "tw2.czs1000.com",
-      "server_port": 4011,
-      "uuid": "cfc85adc-0415-4a58-9b71-b948fefda67c",
+      "tag": "76 🇹🇼 Taiwan Dig SNI 👾 漁師",
+      "server": "230.marst1-node.top",
+      "server_port": 2443,
+      "uuid": "f4afef9e-e48d-3d28-8ebf-7c61cbfd6850",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/css3",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],

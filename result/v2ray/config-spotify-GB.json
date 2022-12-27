@@ -113,29 +113,24 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-40 🇬🇧 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-100 🇬🇧 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "161.35.47.70",
-            "port": 13472,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "t1.teslacdn1.live",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+            "port": 443
           }
         ]
       },
@@ -147,7 +142,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-125 🇬🇧 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-4 🇬🇧 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -158,7 +153,7 @@
       "settings": {
         "servers": [
           {
-            "address": "content-provider21.cdn-delivery.akamaicd.com",
+            "address": "185.16.206.209",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -176,7 +171,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-109 🇬🇧 Hydra Comm SNI 👾 漁師"
+      "tag": "proxy-30 🇬🇧 Hydra Comm SNI 👾 漁師"
     }
   ],
   "dns": {

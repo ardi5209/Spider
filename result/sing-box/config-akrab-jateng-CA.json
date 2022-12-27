@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "115 🇨🇦 OVH SAS CDN 👾 漁師"
+        "55 🇨🇦 OVH SAS CDN 👾 漁師",
+        "64 🇨🇦 AMAZON-02 CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "115 🇨🇦 OVH SAS CDN 👾 漁師",
+      "tag": "55 🇨🇦 OVH SAS CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
@@ -63,9 +64,30 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sshocean",
+        "path": "/",
         "headers": {
           "Host": "ca2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "64 🇨🇦 AMAZON-02 CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsypca.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsypcanode",
+        "headers": {
+          "Host": "awsypca.sylu.cyou"
         }
       }
     }
