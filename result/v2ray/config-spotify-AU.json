@@ -84,46 +84,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.99.135.182",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "8be7fd79-5920-4eae-9385-68a8d94bc1ae",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "image-upload4.spotify.com"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-136 🇦🇺 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "139.99.133.225",
             "port": 443,
             "users": [
@@ -153,59 +113,29 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-138 🇦🇺 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-56 🇦🇺 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
-          {
-            "address": "build49.scpotato.site",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "image-upload4.spotify.com"
-          },
-          "path": "/trojan"
-        }
-      },
-      "tag": "proxy-24 🇦🇺 Unknown SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
+        "vnext": [
           {
             "address": "investors.spotify.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
-            "port": 443
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -220,39 +150,50 @@
           "headers": {
             "Host": "build49.scpotato.site"
           },
-          "path": "/trojan"
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-25 🇦🇺 Unknown CDN 👾 漁師"
+      "tag": "proxy-61 🇦🇺 Unknown CDN 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "jgwxn4.gaox.ml",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
-            "port": 443
+            "address": "build49.scpotato.site",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-82 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-62 🇦🇺 Unknown SNI 👾 漁師"
     }
   ],
   "dns": {
