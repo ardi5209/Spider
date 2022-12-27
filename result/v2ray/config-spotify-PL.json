@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "gcorepl.sylu.cyou",
+            "address": "gcspl.sylu.cyou",
             "port": 443,
             "users": [
               {
@@ -110,10 +110,10 @@
           "headers": {
             "Host": "image-upload4.spotify.com"
           },
-          "path": "/Falling42gcoreplnode"
+          "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-67 🇵🇱 G-Core Lab SNI 👾 漁師"
+      "tag": "proxy-37 🇵🇱 G-Core Lab SNI 👾 漁師"
     },
     {
       "mux": {
@@ -144,16 +144,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcorepl.sylu.cyou"
+          "serverName": "gcspl.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcorepl.sylu.cyou"
+            "Host": "gcspl.sylu.cyou"
           },
-          "path": "/Falling42gcoreplnode"
+          "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-68 🇵🇱 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-38 🇵🇱 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.59.92.219",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-103 🇵🇱 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

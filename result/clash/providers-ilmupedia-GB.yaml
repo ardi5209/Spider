@@ -1,5 +1,21 @@
 proxies:
-  - name: '69 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '90 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 54.36.162.144
+    type: vmess
+    port: 443
+    uuid: d39b9c87-0db4-4c5d-94e6-4ca64f0efd83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '137 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 29210
@@ -11,29 +27,57 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '36 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: 185.16.206.211
-    type: trojan
+  - name: '148 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 54.36.162.144
+    type: vmess
     port: 443
-    password: shefelnak
+    uuid: 6dc64bae-8821-4c94-a094-68bf5d1d28c8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '156 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '154 🇬🇧 Hydra Comm SNI 👾 漁師'
-    server: content-provider20.cdn-delivery.akamaicd.com
+  - name: '1 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+    server: jgwld1.gaox.ml
     type: trojan
     port: 443
-    password: shefelnak
+    password: 02e653c9-7c93-46a9-999d-11834bd0c577
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '170 🇬🇧 Hydra Comm SNI 👾 漁師'
+  - name: '72 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: 185.16.206.212
     type: trojan
     port: 443
     password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '89 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: t1.teslacdn1.live
+    type: trojan
+    port: 443
+    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
     udp: true
     skip-cert-verify: true
     network: tcp

@@ -1,5 +1,5 @@
 proxies:
-  - name: '33 🇲🇽 Truxgo S.  SNI 👾 漁師'
+  - name: '92 🇲🇽 Truxgo S.  SNI 👾 漁師'
     server: 131.196.253.140
     type: vmess
     port: 443
@@ -13,5 +13,37 @@ proxies:
     servername: image-upload4.spotify.com
     ws-opts: 
       path: /sshocean
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '133 🇲🇽 Truxgo S.  CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 01e1554e-aebf-49e5-ac33-c13155840a5d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: mx1.v2rayserv.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: mx1.v2rayserv.com
+  - name: '134 🇲🇽 Truxgo S.  SNI 👾 漁師'
+    server: mx1.v2rayserv.com
+    type: vmess
+    port: 443
+    uuid: 01e1554e-aebf-49e5-ac33-c13155840a5d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
       headers:
         Host: image-upload4.spotify.com
