@@ -88,10 +88,10 @@
             "port": 443,
             "users": [
               {
-                "alterId": 0,
+                "alterId": 64,
                 "encryption": "",
                 "flow": "",
-                "id": "73d843a1-17b3-4a7e-a31f-eada9b175b36",
+                "id": "8a287e0c-8bcf-4ac6-af2e-f70670448850",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gheychi.betterthanunix.ml"
+          "serverName": "free.say-her-name.xyz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gheychi.betterthanunix.ml"
+            "Host": "free.say-her-name.xyz"
           },
-          "path": "/ws"
+          "path": "/graphql"
         }
       },
-      "tag": "proxy-43 🇩🇪 Hetzner On CDN 👾 漁師"
+      "tag": "proxy-53 🇩🇪 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 8080,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "de.gongyiyun.cf"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "de.gongyiyun.cf"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-67 🇩🇪 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -153,7 +193,7 @@
           "path": "/Falling42gcsdenode"
         }
       },
-      "tag": "proxy-56 🇩🇪 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-123 🇩🇪 G-Core Lab CDN 👾 漁師"
     }
   ],
   "dns": {

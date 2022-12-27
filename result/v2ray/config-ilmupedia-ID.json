@@ -84,6 +84,46 @@
       "settings": {
         "vnext": [
           {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "atha.readyto.rocks"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "atha.readyto.rocks"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-17 🇮🇩 PT Atharva CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "atha.readyto.rocks",
             "port": 443,
             "users": [
@@ -113,47 +153,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-127 🇮🇩 PT Atharva SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cacerts.digicert.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "atha.readyto.rocks"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "atha.readyto.rocks"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-128 🇮🇩 PT Atharva CDN 👾 漁師"
+      "tag": "proxy-18 🇮🇩 PT Atharva SNI 👾 漁師"
     }
   ],
   "dns": {
