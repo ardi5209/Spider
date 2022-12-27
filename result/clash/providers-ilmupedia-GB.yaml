@@ -1,5 +1,5 @@
 proxies:
-  - name: '56 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '33 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -11,7 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '68 🇬🇧 DIGITALOCE SNI 👾 漁師'
+  - name: '122 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 29210
@@ -23,39 +23,35 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '20 🇬🇧 ORACLE-BMC SNI 👾 漁師'
-    server: 132.145.51.172
-    type: trojan
+  - name: '148 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 54.36.162.144
+    type: vmess
     port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    uuid: d39b9c87-0db4-4c5d-94e6-4ca64f0efd83
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '21 🇬🇧 ORACLE-BMC SNI 👾 漁師'
-    server: jgwld1.gaox.ml
-    type: trojan
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '174 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
+    type: vmess
     port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    uuid: 72189368-6b37-4019-bfbb-b697ee386ea5
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '109 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: t1.teslacdn1.live
-    type: trojan
-    port: 443
-    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '173 🇬🇧 Stark Indu SNI 👾 漁師'
-    server: 146.19.230.241
-    type: trojan
-    port: 443
-    password: xxoo
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
