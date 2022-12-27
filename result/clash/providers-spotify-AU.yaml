@@ -1,41 +1,44 @@
 proxies:
-  - name: '67 🇦🇺 Linode LL SNI 👾 漁師'
-    server: au1.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 37ba4acc-ce75-40f8-8359-8e0f79cec165
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '142 🇦🇺 OVH SAS SNI 👾 漁師'
-    server: 139.99.133.225
-    type: vmess
-    port: 443
-    uuid: 625b51df-fc17-47f3-aea4-3bc5f882ed56
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '196 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: jgwxn4.gaox.ml
+  - name: '106 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 140.238.205.173
     type: trojan
     port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '158 🇦🇺 Unknown SNI 👾 漁師'
+    server: build49.scpotato.site
+    type: trojan
+    port: 443
+    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '159 🇦🇺 Unknown CDN 👾 漁師'
+    server: investors.spotify.com
+    type: trojan
+    port: 443
+    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: build49.scpotato.site
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: build49.scpotato.site
+  - name: '190 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
     udp: true
     skip-cert-verify: true
     network: tcp

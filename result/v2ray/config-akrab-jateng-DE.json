@@ -85,13 +85,13 @@
         "vnext": [
           {
             "address": "main.millionaireaisle.com",
-            "port": 443,
+            "port": 8080,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "73d843a1-17b3-4a7e-a31f-eada9b175b36",
+                "id": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gheychi.betterthanunix.ml"
+          "serverName": "de.gongyiyun.cf"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gheychi.betterthanunix.ml"
+            "Host": "de.gongyiyun.cf"
           },
-          "path": "/ws"
+          "path": "/"
         }
       },
-      "tag": "proxy-33 🇩🇪 Hetzner On CDN 👾 漁師"
+      "tag": "proxy-101 🇩🇪 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hosmatic.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hosmatic.sylu.cyou"
+          },
+          "path": "/Falling42hosmaticnode"
+        }
+      },
+      "tag": "proxy-108 🇩🇪 SkyLink Da CDN 👾 漁師"
     }
   ],
   "dns": {

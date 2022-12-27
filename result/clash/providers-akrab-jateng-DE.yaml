@@ -1,17 +1,33 @@
 proxies:
-  - name: '33 🇩🇪 Hetzner On CDN 👾 漁師'
+  - name: '101 🇩🇪 OVH SAS CDN 👾 漁師'
     server: main.millionaireaisle.com
     type: vmess
-    port: 443
-    uuid: 73d843a1-17b3-4a7e-a31f-eada9b175b36
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gheychi.betterthanunix.ml
+    servername: de.gongyiyun.cf
     ws-opts: 
-      path: /ws
+      path: /
       headers:
-        Host: gheychi.betterthanunix.ml
+        Host: de.gongyiyun.cf
+  - name: '108 🇩🇪 SkyLink Da CDN 👾 漁師'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hosmatic.sylu.cyou
+    ws-opts: 
+      path: /Falling42hosmaticnode
+      headers:
+        Host: hosmatic.sylu.cyou
