@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg-cdn.iqyun.zone",
-            "port": 12225,
+            "address": "172.67.199.34",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "api.midtrans.com"
+          "serverName": "atha.readyto.rocks"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "atha.readyto.rocks"
+          },
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-123 🇮🇩 CV Atha Me SNI 👾 漁師"
+      "tag": "proxy-128 🇮🇩 PT Atharva CDN 👾 漁師"
     }
   ],
   "dns": {
