@@ -1,5 +1,37 @@
 proxies:
-  - name: '103 🇨🇦 AS-CHOOPA SNI 👾 漁師'
+  - name: '26 🇨🇦 AMAZON-02 CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsypca.sylu.cyou
+    ws-opts: 
+      path: /Falling42awsypcanode
+      headers:
+        Host: awsypca.sylu.cyou
+  - name: '36 🇨🇦 DIGITALOCE SNI 👾 漁師'
+    server: 159.89.124.219
+    type: vmess
+    port: 45125
+    uuid: 89d8b216-7cb6-459f-80fe-70c41643489a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '180 🇨🇦 AS-CHOOPA SNI 👾 漁師'
     server: 216.128.177.89
     type: vmess
     port: 31990

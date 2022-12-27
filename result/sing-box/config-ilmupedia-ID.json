@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "106 🇮🇩 PT Cloud H SNI 👾 漁師"
+        "11 🇮🇩 PT Cloud H SNI 👾 漁師",
+        "141 🇮🇩 PT Cloud H SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "106 🇮🇩 PT Cloud H SNI 👾 漁師",
+      "tag": "11 🇮🇩 PT Cloud H SNI 👾 漁師",
       "server": "yuk.vpsme.my.id",
       "server_port": 443,
       "uuid": "20680bff-7631-4845-a164-4698b0d7de8f",
@@ -64,6 +65,25 @@
       "transport": {
         "type": "ws",
         "path": "/sweet",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "141 🇮🇩 PT Cloud H SNI 👾 漁師",
+      "server": "yuk.vpsme.my.id",
+      "server_port": 443,
+      "password": "20680bff-7631-4845-a164-4698b0d7de8f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sweetws",
         "headers": {
           "Host": "news.microsoft.com"
         }
