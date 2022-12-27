@@ -1,9 +1,89 @@
 proxies:
-  - name: '23 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: jgwxn4.gaox.ml
+  - name: '50 🇦🇺 DIGITALOCE SNI 👾 漁師'
+    server: doau1.wyattoffice.ga
+    type: vmess
+    port: 443
+    uuid: 33b1ba99-ac5a-4723-92dc-1ec6855a32b8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /share
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '51 🇦🇺 DIGITALOCE CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 33b1ba99-ac5a-4723-92dc-1ec6855a32b8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: doau1.wyattoffice.ga
+    ws-opts: 
+      path: /share
+      headers:
+        Host: doau1.wyattoffice.ga
+  - name: '70 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.135.182
+    type: vmess
+    port: 443
+    uuid: 8be7fd79-5920-4eae-9385-68a8d94bc1ae
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '82 🇦🇺 Unknown CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: build49.scpotato.site
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: build49.scpotato.site
+  - name: '113 🇦🇺 Unknown SNI 👾 漁師'
+    server: build49.scpotato.site
+    type: vmess
+    port: 443
+    uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '169 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 140.238.205.173
     type: trojan
     port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
     udp: true
     skip-cert-verify: true
     network: tcp

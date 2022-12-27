@@ -1,9 +1,9 @@
 proxies:
-  - name: '18 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: m4.40010010.xyz
+  - name: '9 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 146.56.155.70
     type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    port: 33449
+    uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
     alterId: 0
     cipher: auto
     tls: true
@@ -11,11 +11,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '22 🇰🇷 AMAZON-02 SNI 👾 漁師'
-    server: v-aws-sel-1.heima-bot.tech
+  - name: '31 🇰🇷 MOACK.Co.L SNI 👾 漁師'
+    server: 161.129.34.102
     type: vmess
-    port: 7771
-    uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
     alterId: 0
     cipher: auto
     tls: true
@@ -24,10 +24,42 @@ proxies:
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /m1
+      path: undefined
       headers:
         Host: news.microsoft.com
-  - name: '32 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '73 🇰🇷 MOACK.Co.L SNI 👾 漁師'
+    server: 161.129.34.102
+    type: vmess
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '111 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-sel-3.heima-bot.tech
+    type: vmess
+    port: 7771
+    uuid: 41fcac4f-948d-42da-bdf9-9f1bd77f5b1c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /m3
+      headers:
+        Host: news.microsoft.com
+  - name: '112 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: 146.56.133.109
     type: vmess
     port: 37121
@@ -39,11 +71,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '88 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: m4.40010010.xyz
+  - name: '143 🇰🇷 CloudITIDC SNI 👾 漁師'
+    server: 103.138.80.193
     type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    port: 14485
+    uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723
     alterId: 0
     cipher: auto
     tls: true
@@ -51,24 +83,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '119 🇰🇷 AMAZON-02 SNI 👾 漁師'
-    server: v-aws-sel-2.heima-bot.tech
-    type: vmess
-    port: 7772
-    uuid: 41fcac4f-948d-42da-bdf9-9f1bd77f5b1c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /m2
-      headers:
-        Host: news.microsoft.com
-  - name: '125 🇰🇷 AMAZON-02 SNI 👾 漁師'
-    server: 3.38.192.38
+  - name: '147 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-sel-3.heima-bot.tech
     type: vmess
     port: 7771
     uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
@@ -83,8 +99,8 @@ proxies:
       path: /m3
       headers:
         Host: news.microsoft.com
-  - name: '138 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.113.84
+  - name: '88 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: jgwcc3.gaox.ml
     type: trojan
     port: 443
     password: b291d129-ee55-4801-a9b8-b5316e5c37b7
@@ -92,11 +108,20 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '169 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '139 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
     port: 443
-    password: 8c20177e-d245-4ec6-9610-34c20500d10b
+    password: 33073a7c-e6d5-4271-9b19-4416afcc25b5
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '148 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 146.56.189.146
+    type: trojan
+    port: 443
+    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
     udp: true
     skip-cert-verify: true
     network: tcp
