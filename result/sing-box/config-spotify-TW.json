@@ -45,27 +45,60 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "96 🇹🇼 Data Commu CDN 👾 漁師"
+        "60 🇹🇼 Taiwan Dig SNI 👾 漁師",
+        "66 🇹🇼 Data Commu SNI 👾 漁師",
+        "100 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "96 🇹🇼 Data Commu CDN 👾 漁師",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "2df80669-700b-30a2-8207-f0054179277d",
+      "tag": "60 🇹🇼 Taiwan Dig SNI 👾 漁師",
+      "server": "230.marst1-node.top",
+      "server_port": 2443,
+      "uuid": "f4afef9e-e48d-3d28-8ebf-7c61cbfd6850",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "hinet.nbsd.win"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/videos/stream",
+        "path": "/css3",
         "headers": {
-          "Host": "hinet.nbsd.win"
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "66 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "tt01.yuncyo.xyz",
+      "server_port": 443,
+      "password": "876ce30a-8944-32e3-9bce-865c939808e2",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "100 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
         }
       }
     }

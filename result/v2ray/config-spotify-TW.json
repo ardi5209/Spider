@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "investors.spotify.com",
-            "port": 443,
+            "address": "230.marst1-node.top",
+            "port": 2443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "2df80669-700b-30a2-8207-f0054179277d",
+                "id": "f4afef9e-e48d-3d28-8ebf-7c61cbfd6850",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,80 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "hinet.nbsd.win"
+          "serverName": "image-upload4.spotify.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hinet.nbsd.win"
+            "Host": "image-upload4.spotify.com"
           },
-          "path": "/videos/stream"
+          "path": "/css3"
         }
       },
-      "tag": "proxy-96 🇹🇼 Data Commu CDN 👾 漁師"
+      "tag": "proxy-60 🇹🇼 Taiwan Dig SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "tt01.yuncyo.xyz",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "876ce30a-8944-32e3-9bce-865c939808e2",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-66 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "211.72.35.154",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4bacb8f1a089763b",
+            "port": 3306
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/gateway/connect"
+        }
+      },
+      "tag": "proxy-100 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

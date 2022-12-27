@@ -1,13 +1,30 @@
 proxies:
-  - name: '118 🇮🇩 CV Atha Me SNI 👾 漁師'
-    server: sg-cdn.iqyun.zone
+  - name: '113 🇮🇩 PT Cloud H SNI 👾 漁師'
+    server: yuk.vpsme.my.id
     type: vmess
-    port: 12225
-    uuid: 3628ca8d-6371-45df-879c-2d3e5d110b51
+    port: 443
+    uuid: 20680bff-7631-4845-a164-4698b0d7de8f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /sweet
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '9 🇮🇩 PT Atharva SNI 👾 漁師'
+    server: vip-id.rayzellvpn.my.id
+    type: trojan
+    port: 443
+    password: 24424d8d-d6d6-419c-bdc1-e6380d1981ad
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: image-upload4.spotify.com

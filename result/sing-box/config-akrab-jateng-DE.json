@@ -45,12 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "72 🇩🇪 OVH SAS CDN 👾 漁師"
+        "97 🇩🇪 OVH SAS CDN 👾 漁師",
+        "131 🇩🇪 G-Core Lab CDN 👾 漁師",
+        "160 🇩🇪 OVH SAS CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "72 🇩🇪 OVH SAS CDN 👾 漁師",
+      "tag": "97 🇩🇪 OVH SAS CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -66,6 +68,48 @@
         "path": "/",
         "headers": {
           "Host": "de.gongyiyun.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "131 🇩🇪 G-Core Lab CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcsde.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsdenode",
+        "headers": {
+          "Host": "gcsde.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "160 🇩🇪 OVH SAS CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "8a287e0c-8bcf-4ac6-af2e-f70670448850",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "free.say-her-name.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": "free.say-her-name.xyz"
         }
       }
     }

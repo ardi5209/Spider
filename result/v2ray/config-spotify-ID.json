@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg-cdn.iqyun.zone",
-            "port": 12225,
+            "address": "yuk.vpsme.my.id",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+                "id": "20680bff-7631-4845-a164-4698b0d7de8f",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,55 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/sweet"
         }
       },
-      "tag": "proxy-118 🇮🇩 CV Atha Me SNI 👾 漁師"
+      "tag": "proxy-113 🇮🇩 PT Cloud H SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "vip-id.rayzellvpn.my.id",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "24424d8d-d6d6-419c-bdc1-e6380d1981ad",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/trojan"
+        }
+      },
+      "tag": "proxy-9 🇮🇩 PT Atharva SNI 👾 漁師"
     }
   ],
   "dns": {

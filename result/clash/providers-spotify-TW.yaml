@@ -1,17 +1,39 @@
 proxies:
-  - name: '96 🇹🇼 Data Commu CDN 👾 漁師'
-    server: investors.spotify.com
+  - name: '60 🇹🇼 Taiwan Dig SNI 👾 漁師'
+    server: 230.marst1-node.top
     type: vmess
-    port: 443
-    uuid: 2df80669-700b-30a2-8207-f0054179277d
+    port: 2443
+    uuid: f4afef9e-e48d-3d28-8ebf-7c61cbfd6850
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: hinet.nbsd.win
+    servername: image-upload4.spotify.com
     ws-opts: 
-      path: /videos/stream
+      path: /css3
       headers:
-        Host: hinet.nbsd.win
+        Host: image-upload4.spotify.com
+  - name: '66 🇹🇼 Data Commu SNI 👾 漁師'
+    server: tt01.yuncyo.xyz
+    type: trojan
+    port: 443
+    password: 876ce30a-8944-32e3-9bce-865c939808e2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '100 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com

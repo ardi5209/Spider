@@ -45,21 +45,48 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "118 🇮🇩 CV Atha Me SNI 👾 漁師"
+        "113 🇮🇩 PT Cloud H SNI 👾 漁師",
+        "9 🇮🇩 PT Atharva SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "118 🇮🇩 CV Atha Me SNI 👾 漁師",
-      "server": "sg-cdn.iqyun.zone",
-      "server_port": 12225,
-      "uuid": "3628ca8d-6371-45df-879c-2d3e5d110b51",
+      "tag": "113 🇮🇩 PT Cloud H SNI 👾 漁師",
+      "server": "yuk.vpsme.my.id",
+      "server_port": 443,
+      "uuid": "20680bff-7631-4845-a164-4698b0d7de8f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sweet",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "9 🇮🇩 PT Atharva SNI 👾 漁師",
+      "server": "vip-id.rayzellvpn.my.id",
+      "server_port": 443,
+      "password": "24424d8d-d6d6-419c-bdc1-e6380d1981ad",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],
