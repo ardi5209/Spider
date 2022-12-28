@@ -1,5 +1,5 @@
 proxies:
-  - name: '105 🇦🇺 Unknown SNI 👾 漁師'
+  - name: '202 🇦🇺 Unknown SNI 👾 漁師'
     server: build49.scpotato.site
     type: vmess
     port: 443
@@ -15,7 +15,7 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '106 🇦🇺 Unknown CDN 👾 漁師'
+  - name: '203 🇦🇺 Unknown CDN 👾 漁師'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -31,33 +31,19 @@ proxies:
       path: /vmess
       headers:
         Host: build49.scpotato.site
-  - name: '88 🇦🇺 Unknown SNI 👾 漁師'
-    server: build49.scpotato.site
-    type: trojan
-    port: 443
-    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+  - name: '252 🇦🇺 CLOUDFLARE SNI 👾 漁師'
+    server: hz-au.transit.freework.cyou
+    type: vmess
+    port: 40186
+    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /trojan
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '89 🇦🇺 Unknown CDN 👾 漁師'
-    server: investors.spotify.com
-    type: trojan
-    port: 443
-    password: a11f88c5-fa0f-4f33-a373-3502de33f047
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: build49.scpotato.site
-    ws-opts: 
-      path: /trojan
-      headers:
-        Host: build49.scpotato.site
-  - name: '228 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+  - name: '302 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: jgwxn3.gaox.ml
     type: trojan
     port: 443

@@ -1,5 +1,5 @@
 proxies:
-  - name: '207 🇨🇦 AS-CHOOPA SNI 👾 漁師'
+  - name: '36 🇨🇦 AS-CHOOPA SNI 👾 漁師'
     server: CA-177-89.shoptunnel.live
     type: vmess
     port: 31990
@@ -11,11 +11,43 @@ proxies:
     skip-cert-verify: true
     network: none
     servername: image-upload4.spotify.com
-  - name: '266 🇨🇦 DIGITALOCE SNI 👾 漁師'
-    server: 159.203.18.119
+  - name: '224 🇨🇦 AMAZON-02 CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
     port: 443
-    uuid: af3e47fc-f817-4845-822c-1f35ecf90b31
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsypca.sylu.cyou
+    ws-opts: 
+      path: /Falling42awsypcanode
+      headers:
+        Host: awsypca.sylu.cyou
+  - name: '238 🇨🇦 OVH SAS CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ca2.v2rayserv.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: ca2.v2rayserv.com
+  - name: '292 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: awsypca.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
     alterId: 0
     cipher: auto
     tls: true
@@ -24,15 +56,22 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /vmess
+      path: /Falling42awsypcanode
       headers:
         Host: image-upload4.spotify.com
-  - name: '130 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: cat1.sshocean.net
-    type: trojan
+  - name: '293 🇨🇦 AMAZON-02 CDN 👾 漁師'
+    server: investors.spotify.com
+    type: vmess
     port: 443
-    password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+    network: ws
+    servername: awsypca.sylu.cyou
+    ws-opts: 
+      path: /Falling42awsypcanode
+      headers:
+        Host: awsypca.sylu.cyou

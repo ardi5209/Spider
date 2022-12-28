@@ -80,80 +80,29 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "atha.readyto.rocks",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "yuk.vpsme.my.id",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "20680bff-7631-4845-a164-4698b0d7de8f",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "config.teams.microsoft.com"
-          },
-          "path": "/vmess"
+          "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-115 🇮🇩 PT Atharva SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "hohm.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "atha.readyto.rocks"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "atha.readyto.rocks"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-251 🇮🇩 PT Atharva CDN 👾 漁師"
+      "tag": "proxy-46 🇮🇩 PT Cloud H SNI 👾 漁師"
     },
     {
       "mux": {
@@ -179,51 +128,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
-          "path": "/sweetws"
-        }
-      },
-      "tag": "proxy-75 🇮🇩 PT Cloud H SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "vip-id.rayzellvpn.my.id",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "24424d8d-d6d6-419c-bdc1-e6380d1981ad",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
           "serverName": "safebrowsing.google.com"
         },
         "wsSettings": {
           "headers": {
             "Host": "safebrowsing.google.com"
           },
-          "path": "/trojan"
+          "path": "/sweetws"
         }
       },
-      "tag": "proxy-163 🇮🇩 PT Atharva SNI 👾 漁師"
+      "tag": "proxy-76 🇮🇩 PT Cloud H SNI 👾 漁師"
     }
   ],
   "dns": {
