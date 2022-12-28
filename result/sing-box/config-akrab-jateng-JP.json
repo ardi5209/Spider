@@ -45,38 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "20 🇯🇵 NTT PC Com CDN 👾 漁師",
-        "37 🇯🇵 Owl Limite CDN 👾 漁師",
-        "95 🇯🇵 AMAZON-02 CDN 👾 漁師",
-        "145 🇯🇵 Owl Limite CDN 👾 漁師",
-        "155 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-        "187 🇯🇵 Owl Limite CDN 👾 漁師"
+        "5 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+        "113 🇯🇵 Owl Limite CDN 👾 漁師",
+        "153 🇯🇵 G-Core Lab CDN 👾 漁師",
+        "156 🇯🇵 AMAZON-02 CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "20 🇯🇵 NTT PC Com CDN 👾 漁師",
+      "tag": "5 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "jp-ntt.sharecentre.online"
+        "server_name": "suzhihan.eu.org"
       },
       "transport": {
         "type": "ws",
-        "path": "/shirker",
+        "path": "/roewesu",
         "headers": {
-          "Host": "jp-ntt.sharecentre.online"
+          "Host": "suzhihan.eu.org"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "37 🇯🇵 Owl Limite CDN 👾 漁師",
+      "tag": "113 🇯🇵 Owl Limite CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 8080,
       "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
@@ -97,7 +95,28 @@
     },
     {
       "type": "vmess",
-      "tag": "95 🇯🇵 AMAZON-02 CDN 👾 漁師",
+      "tag": "153 🇯🇵 G-Core Lab CDN 👾 漁師",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcssjp.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcssjpnode",
+        "headers": {
+          "Host": "gcssjp.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "156 🇯🇵 AMAZON-02 CDN 👾 漁師",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -113,69 +132,6 @@
         "path": "/Falling42awsjpyanode",
         "headers": {
           "Host": "awsjpya.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "145 🇯🇵 Owl Limite CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8080,
-      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "ssrsub.v02.asuka.buzz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v3/download.getFile",
-        "headers": {
-          "Host": "ssrsub.v02.asuka.buzz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "155 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "opc-jp.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "opc-jp.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "187 🇯🇵 Owl Limite CDN 👾 漁師",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8080,
-      "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "ssrsub.v02.asuka.buzz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v3/download.getFile",
-        "headers": {
-          "Host": "ssrsub.v02.asuka.buzz"
         }
       }
     }

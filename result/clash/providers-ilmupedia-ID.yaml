@@ -1,14 +1,21 @@
 proxies:
-  - name: '46 🇮🇩 PT Cloud H SNI 👾 漁師'
+  - name: '70 🇮🇩 PT Cloud H SNI 👾 漁師'
     server: yuk.vpsme.my.id
-    type: trojan
+    type: vmess
     port: 443
-    password: 20680bff-7631-4845-a164-4698b0d7de8f
+    uuid: 20680bff-7631-4845-a164-4698b0d7de8f
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: grpc
+    network: ws
     servername: news.microsoft.com
-  - name: '76 🇮🇩 PT Cloud H SNI 👾 漁師'
+    ws-opts: 
+      path: /sweet
+      headers:
+        Host: news.microsoft.com
+  - name: '98 🇮🇩 PT Cloud H SNI 👾 漁師'
     server: yuk.vpsme.my.id
     type: trojan
     port: 443

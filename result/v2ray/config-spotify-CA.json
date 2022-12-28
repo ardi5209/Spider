@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "CA-177-89.shoptunnel.live",
-            "port": 31990,
+            "address": "investors.spotify.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a6a37e04-5e81-44c9-be53-baa3ff46eb8b",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,100 @@
         ]
       },
       "streamSettings": {
-        "network": "none",
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ca2.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ca2.v2rayserv.com"
+          },
+          "path": "/sshocean"
+        }
+      },
+      "tag": "proxy-62 🇨🇦 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ca2.v2rayserv.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/sshocean"
         }
       },
-      "tag": "proxy-36 🇨🇦 AS-CHOOPA SNI 👾 漁師"
+      "tag": "proxy-63 🇨🇦 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ca2.v2rayserv.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-84 🇨🇦 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -125,7 +211,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
                 "level": 8,
                 "security": "auto"
               }
@@ -138,16 +224,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "awsypca.sylu.cyou"
+          "serverName": "🇨🇦CA-51.222.137.198-13999 | 26.59MB"
         },
         "wsSettings": {
           "headers": {
-            "Host": "awsypca.sylu.cyou"
+            "Host": "ca2.v2rayserv.com"
           },
-          "path": "/Falling42awsypcanode"
+          "path": "/"
         }
       },
-      "tag": "proxy-224 🇨🇦 AMAZON-02 CDN 👾 漁師"
+      "tag": "proxy-85 🇨🇦 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.222.137.198",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-104 🇨🇦 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -184,10 +310,130 @@
           "headers": {
             "Host": "ca2.v2rayserv.com"
           },
-          "path": "/sshocean"
+          "path": "/"
         }
       },
-      "tag": "proxy-238 🇨🇦 OVH SAS CDN 👾 漁師"
+      "tag": "proxy-144 🇨🇦 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ca2.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ca2.v2rayserv.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-166 🇨🇦 OVH SAS CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e2e537e6-fde2-4851-a938-e373613c55c3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "m3.pianyijc.top"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "m3.pianyijc.top"
+          },
+          "path": "/sometimesnaive"
+        }
+      },
+      "tag": "proxy-226 🇨🇦 DIGITALOCE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ca2.v2rayserv.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ca2.v2rayserv.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-257 🇨🇦 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -227,7 +473,7 @@
           "path": "/Falling42awsypcanode"
         }
       },
-      "tag": "proxy-292 🇨🇦 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-282 🇨🇦 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -267,7 +513,105 @@
           "path": "/Falling42awsypcanode"
         }
       },
-      "tag": "proxy-293 🇨🇦 AMAZON-02 CDN 👾 漁師"
+      "tag": "proxy-283 🇨🇦 AMAZON-02 CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "159.203.18.119",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "af3e47fc-f817-4845-822c-1f35ecf90b31",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-287 🇨🇦 DIGITALOCE SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ca1.trojanvh.xyz",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-32 🇨🇦 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "cat1.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-195 🇨🇦 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
