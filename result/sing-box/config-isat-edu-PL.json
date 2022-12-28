@@ -45,16 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "38 🇵🇱 G-Core Lab CDN 👾 漁師",
-        "183 🇵🇱 G-Core Lab CDN 👾 漁師",
-        "246 🇵🇱 G-Core Lab CDN 👾 漁師",
-        "257 🇵🇱 G-Core Lab CDN 👾 漁師"
+        "142 🇵🇱 G-Core Lab CDN 👾 漁師",
+        "151 🇵🇱 G-Core Lab CDN 👾 漁師",
+        "167 🇵🇱 G-Core Lab CDN 👾 漁師",
+        "224 🇵🇱 G-Core Lab CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "38 🇵🇱 G-Core Lab CDN 👾 漁師",
-      "server": "141.193.213.10",
+      "tag": "142 🇵🇱 G-Core Lab CDN 👾 漁師",
+      "server": "141.193.213.20",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
@@ -74,7 +74,28 @@
     },
     {
       "type": "vmess",
-      "tag": "183 🇵🇱 G-Core Lab CDN 👾 漁師",
+      "tag": "151 🇵🇱 G-Core Lab CDN 👾 漁師",
+      "server": "162.159.128.7",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorepl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "gcorepl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "167 🇵🇱 G-Core Lab CDN 👾 漁師",
       "server": "141.193.213.20",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -95,8 +116,8 @@
     },
     {
       "type": "vmess",
-      "tag": "246 🇵🇱 G-Core Lab CDN 👾 漁師",
-      "server": "104.17.70.206",
+      "tag": "224 🇵🇱 G-Core Lab CDN 👾 漁師",
+      "server": "104.16.51.111",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
@@ -111,27 +132,6 @@
         "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "gcspl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "257 🇵🇱 G-Core Lab CDN 👾 漁師",
-      "server": "104.16.51.111",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "gcorepl.sylu.cyou"
         }
       }
     }
