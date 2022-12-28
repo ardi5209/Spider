@@ -1,41 +1,38 @@
 proxies:
-  - name: '12 🇹🇼 Data Commu SNI 👾 漁師'
-    server: tw2.594888.xyz
+  - name: '107 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 08.kccic2pa.xyz
     type: vmess
-    port: 25551
-    uuid: 89719690-b06e-3259-97e9-fb55d52fcf93
+    port: 50008
+    uuid: 005d290b-7039-48dc-b870-2e51be67aa7a
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '274 🇹🇼 Pittqiao N SNI 👾 漁師'
+    server: 111.45.22.138
+    type: vmess
+    port: 9003
+    uuid: 6f426701-9ff5-3f63-8f83-a8602efe6f30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '83 🇹🇼 Data Commu SNI 👾 漁師'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /v2ray
+      path: /gateway/connect
       headers:
         Host: image-upload4.spotify.com
-  - name: '109 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw2.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 3c6a0f2a-c326-47c3-9968-f6977a4ef084
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '195 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw7.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 3c6a0f2a-c326-47c3-9968-f6977a4ef084
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com

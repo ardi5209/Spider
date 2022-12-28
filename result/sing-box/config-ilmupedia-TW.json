@@ -45,19 +45,45 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "12 🇹🇼 Data Commu SNI 👾 漁師",
-        "109 🇹🇼 Scloud Pte SNI 👾 漁師",
-        "195 🇹🇼 Scloud Pte SNI 👾 漁師"
+        "107 🇹🇼 Data Commu SNI 👾 漁師",
+        "274 🇹🇼 Pittqiao N SNI 👾 漁師",
+        "83 🇹🇼 Data Commu SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "12 🇹🇼 Data Commu SNI 👾 漁師",
-      "server": "tw2.594888.xyz",
-      "server_port": 25551,
-      "uuid": "89719690-b06e-3259-97e9-fb55d52fcf93",
+      "tag": "107 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "08.kccic2pa.xyz",
+      "server_port": 50008,
+      "uuid": "005d290b-7039-48dc-b870-2e51be67aa7a",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "274 🇹🇼 Pittqiao N SNI 👾 漁師",
+      "server": "111.45.22.138",
+      "server_port": 9003,
+      "uuid": "6f426701-9ff5-3f63-8f83-a8602efe6f30",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "83 🇹🇼 Data Commu SNI 👾 漁師",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -65,38 +91,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/v2ray",
+        "path": "/gateway/connect",
         "headers": {
           "Host": "news.microsoft.com"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "109 🇹🇼 Scloud Pte SNI 👾 漁師",
-      "server": "tw2.czs1000.com",
-      "server_port": 1001,
-      "uuid": "3c6a0f2a-c326-47c3-9968-f6977a4ef084",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "195 🇹🇼 Scloud Pte SNI 👾 漁師",
-      "server": "tw7.czs1000.com",
-      "server_port": 1001,
-      "uuid": "3c6a0f2a-c326-47c3-9968-f6977a4ef084",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
       }
     }
   ],

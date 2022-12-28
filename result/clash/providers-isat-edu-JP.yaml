@@ -1,6 +1,6 @@
 proxies:
-  - name: '106 🇯🇵 AMAZON-02 CDN 👾 漁師'
-    server: 141.193.213.20
+  - name: '57 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: 104.18.25.139
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -15,7 +15,39 @@ proxies:
       path: /Falling42awsjpycnode
       headers:
         Host: awsjpyc.sylu.cyou
-  - name: '172 🇯🇵 Owl Limite CDN 👾 漁師'
+  - name: '90 🇯🇵 AMAZON-02 CDN 👾 漁師'
+    server: 162.159.135.42
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsjpya.sylu.cyou
+    ws-opts: 
+      path: /Falling42awsjpyanode
+      headers:
+        Host: awsjpya.sylu.cyou
+  - name: '128 🇯🇵 ORACLE-BMC CDN 👾 漁師'
+    server: 162.159.135.42
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: opc-jp.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: '267 🇯🇵 Owl Limite CDN 👾 漁師'
     server: 104.16.51.111
     type: vmess
     port: 8080
@@ -31,35 +63,3 @@ proxies:
       path: /api/v3/download.getFile
       headers:
         Host: ssrsub.v02.asuka.buzz
-  - name: '179 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: 162.159.128.7
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: opc-jp.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: opc-jp.sharecentre.online
-  - name: '183 🇯🇵 G-Core Lab CDN 👾 漁師'
-    server: 162.159.128.7
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: gcssjp.sylu.cyou
-    ws-opts: 
-      path: /Falling42gcssjpnode
-      headers:
-        Host: gcssjp.sylu.cyou
