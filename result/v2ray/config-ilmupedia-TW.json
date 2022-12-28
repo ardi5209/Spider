@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "230.marst1-node.top",
-            "port": 2443,
+            "address": "hd-tw.transit.freework.cyou",
+            "port": 40180,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "f4afef9e-e48d-3d28-8ebf-7c61cbfd6850",
+                "id": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,20 +100,43 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/css3"
         }
       },
-      "tag": "proxy-49 🇹🇼 Taiwan Dig SNI 👾 漁師"
+      "tag": "proxy-262 🇹🇼 Data Commu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "183.245.7.181",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "b8b8bcd8-fee6-4ade-9b65-30a9e3892e9d",
+            "port": 61012
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-250 🇹🇼 Data Commu SNI 👾 漁師"
     }
   ],
   "dns": {

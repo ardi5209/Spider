@@ -1,17 +1,27 @@
 proxies:
-  - name: '243 🇮🇩 PT Cloud H SNI 👾 漁師'
-    server: yuk.vpsme.my.id
-    type: vmess
+  - name: '42 🇮🇩 PT Atharva SNI 👾 漁師'
+    server: vip-id.rayzellvpn.my.id
+    type: trojan
     port: 443
-    uuid: 20680bff-7631-4845-a164-4698b0d7de8f
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: 24424d8d-d6d6-419c-bdc1-e6380d1981ad
     udp: true
     skip-cert-verify: true
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /sweet
+      path: /trojan
+      headers:
+        Host: news.microsoft.com
+  - name: '242 🇮🇩 PT Cloud H SNI 👾 漁師'
+    server: yuk.vpsme.my.id
+    type: trojan
+    port: 443
+    password: 20680bff-7631-4845-a164-4698b0d7de8f
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /sweetws
       headers:
         Host: news.microsoft.com
