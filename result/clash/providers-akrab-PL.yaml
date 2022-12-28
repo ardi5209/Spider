@@ -1,21 +1,21 @@
 proxies:
-  - name: '189 🇵🇱 G-Core Lab CDN 👾 漁師'
-    server: hohm.microsoft.com
+  - name: '64 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: pl1.v2rayserv.com
     type: vmess
     port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    uuid: 19924be7-db1c-4b32-8dbc-aec68e0bbf3e
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcorepl.sylu.cyou
+    servername: safebrowsing.google.com
     ws-opts: 
-      path: /Falling42gcoreplnode
+      path: /
       headers:
-        Host: gcorepl.sylu.cyou
-  - name: '245 🇵🇱 OVH SAS CDN 👾 漁師'
+        Host: safebrowsing.google.com
+  - name: '65 🇵🇱 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -31,3 +31,51 @@ proxies:
       path: /
       headers:
         Host: pl1.v2rayserv.com
+  - name: '93 🇵🇱 G-Core Lab SNI 👾 漁師'
+    server: gcspl.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: click.zoom.us
+  - name: '120 🇵🇱 G-Core Lab CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcspl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: gcspl.sylu.cyou
+  - name: '143 🇵🇱 G-Core Lab CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorepl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcoreplnode
+      headers:
+        Host: gcorepl.sylu.cyou

@@ -45,34 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "189 🇵🇱 G-Core Lab CDN 👾 漁師",
-        "245 🇵🇱 OVH SAS CDN 👾 漁師"
+        "64 🇵🇱 OVH SAS SNI 👾 漁師",
+        "65 🇵🇱 OVH SAS CDN 👾 漁師",
+        "93 🇵🇱 G-Core Lab SNI 👾 漁師",
+        "120 🇵🇱 G-Core Lab CDN 👾 漁師",
+        "143 🇵🇱 G-Core Lab CDN 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "189 🇵🇱 G-Core Lab CDN 👾 漁師",
-      "server": "investors.spotify.com",
+      "tag": "64 🇵🇱 OVH SAS SNI 👾 漁師",
+      "server": "pl1.v2rayserv.com",
       "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "uuid": "19924be7-db1c-4b32-8dbc-aec68e0bbf3e",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcoreplnode",
+        "path": "/",
         "headers": {
-          "Host": "gcorepl.sylu.cyou"
+          "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "245 🇵🇱 OVH SAS CDN 👾 漁師",
+      "tag": "65 🇵🇱 OVH SAS CDN 👾 漁師",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "19924be7-db1c-4b32-8dbc-aec68e0bbf3e",
@@ -88,6 +91,69 @@
         "path": "/",
         "headers": {
           "Host": "pl1.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93 🇵🇱 G-Core Lab SNI 👾 漁師",
+      "server": "gcspl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "120 🇵🇱 G-Core Lab CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcspl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "gcspl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇵🇱 G-Core Lab CDN 👾 漁師",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorepl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "gcorepl.sylu.cyou"
         }
       }
     }

@@ -1,33 +1,5 @@
 proxies:
-  - name: '34 🇦🇺 CLOUDFLARE SNI 👾 漁師'
-    server: hz-au.transit.freework.cyou
-    type: vmess
-    port: 40186
-    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '149 🇦🇺 Unknown CDN 👾 漁師'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: build49.scpotato.site
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: build49.scpotato.site
-  - name: '150 🇦🇺 Unknown SNI 👾 漁師'
+  - name: '105 🇦🇺 Unknown SNI 👾 漁師'
     server: build49.scpotato.site
     type: vmess
     port: 443
@@ -43,23 +15,53 @@ proxies:
       path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '227 🇦🇺 CLOUDFLARE SNI 👾 漁師'
-    server: hd-au.transit.freework.cyou
+  - name: '106 🇦🇺 Unknown CDN 👾 漁師'
+    server: investors.spotify.com
     type: vmess
-    port: 40186
-    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    port: 443
+    uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '61 🇦🇺 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.98.30
+    network: ws
+    servername: build49.scpotato.site
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: build49.scpotato.site
+  - name: '88 🇦🇺 Unknown SNI 👾 漁師'
+    server: build49.scpotato.site
     type: trojan
     port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '89 🇦🇺 Unknown CDN 👾 漁師'
+    server: investors.spotify.com
+    type: trojan
+    port: 443
+    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: build49.scpotato.site
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: build49.scpotato.site
+  - name: '228 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
     udp: true
     skip-cert-verify: true
     network: tcp
