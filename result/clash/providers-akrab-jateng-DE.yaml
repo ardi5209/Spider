@@ -1,17 +1,33 @@
 proxies:
-  - name: '12 🇩🇪 CLOUDFLARE CDN ☀️ それで ...'
+  - name: '38 🇩🇪 OVH SAS CDN 💜 それで ...'
     server: main.millionaireaisle.com
     type: vmess
-    port: 2053
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    port: 443
+    uuid: 8a287e0c-8bcf-4ac6-af2e-f70670448850
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: free.say-her-name.xyz
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: free.say-her-name.xyz
+  - name: '99 🇩🇪 Hetzner On CDN ❤️ それで ...'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: foxdeovz1.fovi.tk
+    servername: sun.prxpro.cc
     ws-opts: 
-      path: /eisasqa
+      path: /p3573l6m92h1ham3q23t
       headers:
-        Host: foxdeovz1.fovi.tk
+        Host: sun.prxpro.cc
