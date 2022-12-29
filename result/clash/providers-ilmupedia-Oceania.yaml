@@ -1,6 +1,22 @@
 proxies:
-  - name: '136 🇦🇺 CLOUDFLARE SNI 💜 それで ...'
-    server: hn-au.transit.freework.cyou
+  - name: '43 🇦🇺 Linode LL SNI 💓 それで ...'
+    server: vau1.0bad.com
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: news.microsoft.com
+  - name: '107 🇦🇺 CLOUDFLARE SNI 👏 それで ...'
+    server: hz-au.transit.freework.cyou
     type: vmess
     port: 40186
     uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f

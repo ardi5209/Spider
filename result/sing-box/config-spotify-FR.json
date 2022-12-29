@@ -45,19 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "24 🇫🇷 Online S.a CDN ☀️ それで ...",
-        "35 🇫🇷 OVH SAS CDN 💌 それで ...",
-        "46 🇫🇷 Online S.a CDN 🍀 それで ...",
-        "51 🇫🇷 Online S.a CDN 🖖 それで ...",
-        "65 🇫🇷 OVH SAS SNI 👸 それで ...",
-        "66 🇫🇷 OVH SAS CDN 💋 それで ...",
-        "75 🇫🇷 CLOUDFLARE SNI 💋 それで ...",
-        "97 🇫🇷 OVH SAS SNI 😍 それで ..."
+        "26 🇫🇷 Online S.a CDN ❤️ それで ...",
+        "35 🇫🇷 CLOUDFLARE SNI 👏 それで ...",
+        "61 🇫🇷 OVH SAS CDN 💝 それで ...",
+        "69 🇫🇷 Online S.a CDN 🧚‍♀️ それで ...",
+        "86 🇫🇷 Online S.a CDN 💖 それで ...",
+        "93 🇫🇷 OVH SAS SNI 💋 それで ...",
+        "160 🇫🇷 OVH SAS CDN 😁 それで ...",
+        "161 🇫🇷 OVH SAS SNI 😁 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "24 🇫🇷 Online S.a CDN ☀️ それで ...",
+      "tag": "26 🇫🇷 Online S.a CDN ❤️ それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -78,7 +78,21 @@
     },
     {
       "type": "vmess",
-      "tag": "35 🇫🇷 OVH SAS CDN 💌 それで ...",
+      "tag": "35 🇫🇷 CLOUDFLARE SNI 👏 それで ...",
+      "server": "hd-fr.transit.freework.cyou",
+      "server_port": 40190,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "61 🇫🇷 OVH SAS CDN 💝 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
@@ -99,7 +113,7 @@
     },
     {
       "type": "vmess",
-      "tag": "46 🇫🇷 Online S.a CDN 🍀 それで ...",
+      "tag": "69 🇫🇷 Online S.a CDN 🧚‍♀️ それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
@@ -120,7 +134,7 @@
     },
     {
       "type": "vmess",
-      "tag": "51 🇫🇷 Online S.a CDN 🖖 それで ...",
+      "tag": "86 🇫🇷 Online S.a CDN 💖 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
@@ -141,10 +155,10 @@
     },
     {
       "type": "vmess",
-      "tag": "65 🇫🇷 OVH SAS SNI 👸 それで ...",
-      "server": "fr2.v2rayserv.com",
-      "server_port": 443,
-      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
+      "tag": "93 🇫🇷 OVH SAS SNI 💋 それで ...",
+      "server": "51.77.158.169",
+      "server_port": 2096,
+      "uuid": "c92fd902-b5d3-4208-bb48-630b1c7babea",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -154,7 +168,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sshocean",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -162,7 +176,7 @@
     },
     {
       "type": "vmess",
-      "tag": "66 🇫🇷 OVH SAS CDN 💋 それで ...",
+      "tag": "160 🇫🇷 OVH SAS CDN 😁 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
@@ -183,28 +197,23 @@
     },
     {
       "type": "vmess",
-      "tag": "75 🇫🇷 CLOUDFLARE SNI 💋 それで ...",
-      "server": "hn-fr.transit.freework.cyou",
-      "server_port": 40190,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "tag": "161 🇫🇷 OVH SAS SNI 😁 それで ...",
+      "server": "fr2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "97 🇫🇷 OVH SAS SNI 😍 それで ...",
-      "server": "51.77.213.197",
-      "server_port": 443,
-      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],

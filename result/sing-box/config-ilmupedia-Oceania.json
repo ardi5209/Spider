@@ -45,13 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "136 🇦🇺 CLOUDFLARE SNI 💜 それで ..."
+        "43 🇦🇺 Linode LL SNI 💓 それで ...",
+        "107 🇦🇺 CLOUDFLARE SNI 👏 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "136 🇦🇺 CLOUDFLARE SNI 💜 それで ...",
-      "server": "hn-au.transit.freework.cyou",
+      "tag": "43 🇦🇺 Linode LL SNI 💓 それで ...",
+      "server": "vau1.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107 🇦🇺 CLOUDFLARE SNI 👏 それで ...",
+      "server": "hz-au.transit.freework.cyou",
       "server_port": 40186,
       "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
       "security": "auto",
