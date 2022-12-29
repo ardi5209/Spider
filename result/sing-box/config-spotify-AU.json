@@ -45,19 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "129 🇦🇺 CLOUDFLARE SNI 🤴 それで ...",
-        "4 🇦🇺 ORACLE-BMC SNI 🎁 それで ...",
-        "28 🇦🇺 ORACLE-BMC SNI 👏 それで ...",
-        "162 🇦🇺 Unknown SNI 👍 それで ...",
-        "163 🇦🇺 Unknown CDN 💖 それで ..."
+        "107 🇦🇺 OVH SAS SNI 😹 それで ...",
+        "166 🇦🇺 ORACLE-BMC SNI 💎 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "129 🇦🇺 CLOUDFLARE SNI 🤴 それで ...",
-      "server": "hn-au.transit.freework.cyou",
-      "server_port": 40186,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "tag": "107 🇦🇺 OVH SAS SNI 😹 それで ...",
+      "server": "117.164.185.221",
+      "server_port": 16290,
+      "uuid": "4a0d81b8-a04a-382b-a3cb-84d1d4b9d6aa",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -68,19 +65,7 @@
     },
     {
       "type": "trojan",
-      "tag": "4 🇦🇺 ORACLE-BMC SNI 🎁 それで ...",
-      "server": "140.238.205.173",
-      "server_port": 443,
-      "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "28 🇦🇺 ORACLE-BMC SNI 👏 それで ...",
+      "tag": "166 🇦🇺 ORACLE-BMC SNI 💎 それで ...",
       "server": "jgwxn4.gaox.ml",
       "server_port": 443,
       "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
@@ -88,44 +73,6 @@
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "162 🇦🇺 Unknown SNI 👍 それで ...",
-      "server": "build49.scpotato.site",
-      "server_port": 443,
-      "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/trojan",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "163 🇦🇺 Unknown CDN 💖 それで ...",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "build49.scpotato.site"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/trojan",
-        "headers": {
-          "Host": "build49.scpotato.site"
-        }
       }
     }
   ],

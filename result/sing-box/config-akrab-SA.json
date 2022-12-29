@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "112 🇸🇦 OVH SAS CDN 🎁 それで ..."
+        "187 🇸🇦 ORACLE-BMC SNI 💋 それで ...",
+        "217 🇸🇦 OVH SAS CDN 😄 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "112 🇸🇦 OVH SAS CDN 🎁 それで ...",
+      "tag": "187 🇸🇦 ORACLE-BMC SNI 💋 それで ...",
+      "server": "193.122.65.167",
+      "server_port": 443,
+      "uuid": "ed71c245-88af-484e-970c-29ac50637847",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "217 🇸🇦 OVH SAS CDN 😄 それで ...",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
@@ -63,7 +85,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/sshocean",
         "headers": {
           "Host": "uk2.v2rayserv.com"
         }
