@@ -1,25 +1,14 @@
 proxies:
-  - name: '98 🇹🇼 Data Commu SNI 🙃 それで ...'
-    server: hd-tw.transit.freework.cyou
-    type: vmess
-    port: 40180
-    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '140 🇹🇼 Data Commu SNI 👍 それで ...'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '143 🇹🇼 Scloud Pte SNI 🍀 それで ...'
-    server: hainan.sfjsq001.info
-    type: vmess
-    port: 33207
-    uuid: 18d452c7-81ae-3dfd-a764-ae7cef0c887e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com

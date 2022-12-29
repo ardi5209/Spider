@@ -45,15 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "117 🇫🇮 Hetzner On SNI 💘 それで ..."
+        "25 🇫🇮 Hetzner On SNI 🤴 それで ...",
+        "173 🇫🇮 Hetzner On SNI 🤟 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "117 🇫🇮 Hetzner On SNI 💘 それで ...",
+      "tag": "25 🇫🇮 Hetzner On SNI 🤴 それで ...",
       "server": "135.181.235.21",
       "server_port": 34303,
       "uuid": "1ce52047-ad8a-4ef3-cdcd-46ff29b262fb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "173 🇫🇮 Hetzner On SNI 🤟 それで ...",
+      "server": "135.181.235.21",
+      "server_port": 25034,
+      "uuid": "e549fc8d-2416-46f7-aadc-8747553091b9",
       "security": "auto",
       "alter_id": 0,
       "tls": {
