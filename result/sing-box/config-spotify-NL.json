@@ -45,13 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "179 🇳🇱 Online S.a SNI 👼 それで ...",
-        "103 🇳🇱 AS40676 SNI 😄 それで ..."
+        "110 🇳🇱 Online S.a SNI 🌈 それで ...",
+        "190 🇳🇱 Online S.a SNI 👏 それで ...",
+        "113 🇳🇱 AS40676 SNI 💋 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "179 🇳🇱 Online S.a SNI 👼 それで ...",
+      "tag": "110 🇳🇱 Online S.a SNI 🌈 それで ...",
+      "server": "51.15.113.164",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "190 🇳🇱 Online S.a SNI 👏 それで ...",
       "server": "51.15.81.240",
       "server_port": 443,
       "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
@@ -64,7 +86,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sshocean",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -72,8 +94,8 @@
     },
     {
       "type": "trojan",
-      "tag": "103 🇳🇱 AS40676 SNI 😄 それで ...",
-      "server": "content-provider24.cdn-delivery.akamaicd.com",
+      "tag": "113 🇳🇱 AS40676 SNI 💋 それで ...",
+      "server": "185.212.200.74",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {

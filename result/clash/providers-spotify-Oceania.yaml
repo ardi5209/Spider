@@ -1,6 +1,18 @@
 proxies:
-  - name: '47 🇦🇺 ORACLE-BMC SNI 🧚‍♀️ それで ...'
-    server: 140.238.205.173
+  - name: '156 🇦🇺 CLOUDFLARE SNI 😂 それで ...'
+    server: hn-au.transit.freework.cyou
+    type: vmess
+    port: 40186
+    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '124 🇦🇺 ORACLE-BMC SNI 😁 それで ...'
+    server: jgwxn3.gaox.ml
     type: trojan
     port: 443
     password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
@@ -8,29 +20,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '60 🇦🇺 Unknown CDN 🖖 それで ...'
-    server: investors.spotify.com
-    type: trojan
-    port: 443
-    password: a11f88c5-fa0f-4f33-a373-3502de33f047
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: build49.scpotato.site
-    ws-opts: 
-      path: /trojan
-      headers:
-        Host: build49.scpotato.site
-  - name: '61 🇦🇺 Unknown SNI ☀️ それで ...'
-    server: build49.scpotato.site
-    type: trojan
-    port: 443
-    password: a11f88c5-fa0f-4f33-a373-3502de33f047
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /trojan
-      headers:
-        Host: image-upload4.spotify.com

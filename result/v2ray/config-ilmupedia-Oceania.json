@@ -80,11 +80,45 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hn-au.transit.freework.cyou",
+            "port": 40186,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-156 🇦🇺 CLOUDFLARE SNI 😂 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
           {
-            "address": "140.238.205.173",
+            "address": "jgwxn3.gaox.ml",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -102,77 +136,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-47 🇦🇺 ORACLE-BMC SNI 🧚‍♀️ それで ..."
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "cacerts.digicert.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "build49.scpotato.site"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "build49.scpotato.site"
-          },
-          "path": "/trojan"
-        }
-      },
-      "tag": "proxy-60 🇦🇺 Unknown CDN 🖖 それで ..."
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "build49.scpotato.site",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/trojan"
-        }
-      },
-      "tag": "proxy-61 🇦🇺 Unknown SNI ☀️ それで ..."
+      "tag": "proxy-124 🇦🇺 ORACLE-BMC SNI 😁 それで ..."
     }
   ],
   "dns": {
