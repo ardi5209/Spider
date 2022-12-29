@@ -45,18 +45,32 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "68 🇨🇳 PEGTECHINC SNI 😹 それで ...",
-        "133 🇨🇳 Hangzhou A SNI 👏 それで ..."
+        "79 🇨🇳 Shenzhen T SNI 💌 それで ...",
+        "94 🇨🇳 Beijing Ba SNI 😁 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "68 🇨🇳 PEGTECHINC SNI 😹 それで ...",
-      "server": "142.0.135.66",
-      "server_port": 443,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "tag": "79 🇨🇳 Shenzhen T SNI 💌 それで ...",
+      "server": "106.55.234.95",
+      "server_port": 31372,
+      "uuid": "374d3519-455c-45b8-e3b1-0e2e9fcf4411",
       "security": "auto",
-      "alter_id": 64,
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "94 🇨🇳 Beijing Ba SNI 😁 それで ...",
+      "server": "106.12.168.13",
+      "server_port": 13156,
+      "uuid": "9bf4cba4-9e9e-4da4-8e65-f7c487c539df",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -64,24 +78,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/path/243535322906",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "133 🇨🇳 Hangzhou A SNI 👏 それで ...",
-      "server": "39.103.165.178",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": 64,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
       }
     }
   ],

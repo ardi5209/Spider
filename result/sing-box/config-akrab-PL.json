@@ -45,13 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "48 🇵🇱 G-Core Lab CDN 🍀 それで ...",
-        "106 🇵🇱 G-Core Lab CDN 👸 それで ..."
+        "40 🇵🇱 G-Core Lab SNI 😸 それで ...",
+        "41 🇵🇱 G-Core Lab CDN 👌 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "48 🇵🇱 G-Core Lab CDN 🍀 それで ...",
+      "tag": "40 🇵🇱 G-Core Lab SNI 😸 それで ...",
+      "server": "gcorepl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "41 🇵🇱 G-Core Lab CDN 👌 それで ...",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -67,27 +88,6 @@
         "path": "/Falling42gcoreplnode",
         "headers": {
           "Host": "gcorepl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "106 🇵🇱 G-Core Lab CDN 👸 それで ...",
-      "server": "hohm.microsoft.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcspl.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsplnode",
-        "headers": {
-          "Host": "gcspl.sylu.cyou"
         }
       }
     }

@@ -45,28 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "116 🇬🇧 DIGITALOCE SNI 🤩 それで ...",
-        "132 🇬🇧 CLOUDFLARE SNI 😀 それで ...",
-        "128 🇬🇧 Hydra Comm SNI 💜 それで ..."
+        "64 🇬🇧 CLOUDFLARE SNI 👌 それで ...",
+        "83 🇬🇧 DIGITALOCE SNI 👸 それで ...",
+        "63 🇬🇧 OVH SAS SNI 😻 それで ...",
+        "95 🇬🇧 Hydra Comm SNI 🦄 それで ...",
+        "178 🇬🇧 OVH SAS SNI 😍 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "116 🇬🇧 DIGITALOCE SNI 🤩 それで ...",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "132 🇬🇧 CLOUDFLARE SNI 😀 それで ...",
+      "tag": "64 🇬🇧 CLOUDFLARE SNI 👌 それで ...",
       "server": "hn-gb.transit.freework.cyou",
       "server_port": 40189,
       "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
@@ -79,11 +67,49 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "83 🇬🇧 DIGITALOCE SNI 👸 それで ...",
+      "server": "161.35.47.70",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "128 🇬🇧 Hydra Comm SNI 💜 それで ...",
-      "server": "content-provider22.cdn-delivery.akamaicd.com",
+      "tag": "63 🇬🇧 OVH SAS SNI 😻 それで ...",
+      "server": "t1.teslacdn1.live",
+      "server_port": 443,
+      "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "95 🇬🇧 Hydra Comm SNI 🦄 それで ...",
+      "server": "content-provider20.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "178 🇬🇧 OVH SAS SNI 😍 それで ...",
+      "server": "51.195.219.173",
+      "server_port": 443,
+      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
       "tls": {
         "enabled": true,
         "insecure": true,

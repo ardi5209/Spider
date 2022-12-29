@@ -45,32 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "8 🇫🇷 CLOUDFLARE SNI 👌 それで ...",
-        "13 🇫🇷 Online S.a CDN 😁 それで ...",
-        "71 🇫🇷 Online S.a CDN 💋 それで ...",
-        "114 🇫🇷 Online S.a CDN 💗 それで ...",
-        "136 🇫🇷 OVH SAS CDN 👼 それで ...",
-        "119 🇫🇷 OVH SAS SNI 💜 それで ...",
-        "156 🇫🇷 OVH SAS SNI 💜 それで ..."
+        "24 🇫🇷 Online S.a CDN ☀️ それで ...",
+        "35 🇫🇷 OVH SAS CDN 💌 それで ...",
+        "46 🇫🇷 Online S.a CDN 🍀 それで ...",
+        "51 🇫🇷 Online S.a CDN 🖖 それで ...",
+        "65 🇫🇷 OVH SAS SNI 👸 それで ...",
+        "66 🇫🇷 OVH SAS CDN 💋 それで ...",
+        "75 🇫🇷 CLOUDFLARE SNI 💋 それで ...",
+        "97 🇫🇷 OVH SAS SNI 😍 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "8 🇫🇷 CLOUDFLARE SNI 👌 それで ...",
-      "server": "hz-fr.transit.freework.cyou",
-      "server_port": 40190,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "13 🇫🇷 Online S.a CDN 😁 それで ...",
+      "tag": "24 🇫🇷 Online S.a CDN ☀️ それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -91,28 +78,28 @@
     },
     {
       "type": "vmess",
-      "tag": "71 🇫🇷 Online S.a CDN 💋 それで ...",
+      "tag": "35 🇫🇷 OVH SAS CDN 💌 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
-      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "lg10.cfcdn1.xyz"
+        "server_name": "fr2.v2rayserv.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/A2DJOPFT",
+        "path": "/",
         "headers": {
-          "Host": "lg10.cfcdn1.xyz"
+          "Host": "fr2.v2rayserv.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "114 🇫🇷 Online S.a CDN 💗 それで ...",
+      "tag": "46 🇫🇷 Online S.a CDN 🍀 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
@@ -133,7 +120,49 @@
     },
     {
       "type": "vmess",
-      "tag": "136 🇫🇷 OVH SAS CDN 👼 それで ...",
+      "tag": "51 🇫🇷 Online S.a CDN 🖖 それで ...",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lg10.cfcdn1.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "lg10.cfcdn1.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "65 🇫🇷 OVH SAS SNI 👸 それで ...",
+      "server": "fr2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "66 🇫🇷 OVH SAS CDN 💋 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
@@ -153,11 +182,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "119 🇫🇷 OVH SAS SNI 💜 それで ...",
-      "server": "141.94.76.177",
-      "server_port": 443,
-      "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
+      "type": "vmess",
+      "tag": "75 🇫🇷 CLOUDFLARE SNI 💋 それで ...",
+      "server": "hn-fr.transit.freework.cyou",
+      "server_port": 40190,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -166,7 +197,7 @@
     },
     {
       "type": "trojan",
-      "tag": "156 🇫🇷 OVH SAS SNI 💜 それで ...",
+      "tag": "97 🇫🇷 OVH SAS SNI 😍 それで ...",
       "server": "51.77.213.197",
       "server_port": 443,
       "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
