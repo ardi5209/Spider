@@ -1,22 +1,6 @@
 proxies:
-  - name: '43 🇦🇺 Linode LL SNI 💓 それで ...'
-    server: vau1.0bad.com
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: news.microsoft.com
-  - name: '107 🇦🇺 CLOUDFLARE SNI 👏 それで ...'
-    server: hz-au.transit.freework.cyou
+  - name: '129 🇦🇺 CLOUDFLARE SNI 🤴 それで ...'
+    server: hn-au.transit.freework.cyou
     type: vmess
     port: 40186
     uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
@@ -27,3 +11,47 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
+  - name: '4 🇦🇺 ORACLE-BMC SNI 🎁 それで ...'
+    server: 140.238.205.173
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '28 🇦🇺 ORACLE-BMC SNI 👏 それで ...'
+    server: jgwxn4.gaox.ml
+    type: trojan
+    port: 443
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '162 🇦🇺 Unknown SNI 👍 それで ...'
+    server: build49.scpotato.site
+    type: trojan
+    port: 443
+    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: news.microsoft.com
+  - name: '163 🇦🇺 Unknown CDN 💖 それで ...'
+    server: news.microsoft.com
+    type: trojan
+    port: 443
+    password: a11f88c5-fa0f-4f33-a373-3502de33f047
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: build49.scpotato.site
+    ws-opts: 
+      path: /trojan
+      headers:
+        Host: build49.scpotato.site

@@ -45,17 +45,29 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "70 🇮🇳 DIGITALOCE SNI 😄 それで ...",
-        "87 🇮🇳 AMAZON-02 SNI 💖 それで ...",
-        "121 🇮🇳 Linode LL SNI 🙌 それで ...",
-        "134 🇮🇳 CLOUDFLARE SNI 😹 それで ...",
-        "73 🇮🇳 ORACLE-BMC SNI 🌈 それで ...",
-        "82 🇮🇳 ORACLE-BMC SNI 🤩 それで ..."
+        "159 🇮🇳 CLOUDFLARE SNI 🙃 それで ...",
+        "172 🇮🇳 DIGITALOCE SNI 🎊 それで ...",
+        "96 🇮🇳 ORACLE-BMC SNI 💎 それで ...",
+        "144 🇮🇳 ORACLE-BMC SNI ☀️ それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "70 🇮🇳 DIGITALOCE SNI 😄 それで ...",
+      "tag": "159 🇮🇳 CLOUDFLARE SNI 🙃 それで ...",
+      "server": "hn-in.transit.freework.cyou",
+      "server_port": 40192,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "172 🇮🇳 DIGITALOCE SNI 🎊 それで ...",
       "server": "68.183.83.94",
       "server_port": 59477,
       "uuid": "b8f6a71c-6925-4e84-fb93-6e54f8d98b25",
@@ -75,72 +87,23 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "87 🇮🇳 AMAZON-02 SNI 💖 それで ...",
-      "server": "in1.czs1000.com",
-      "server_port": 11221,
-      "uuid": "1fb681b7-ae05-4945-a2f7-889a3b429823",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "121 🇮🇳 Linode LL SNI 🙌 それで ...",
-      "server": "117.164.185.222",
-      "server_port": 16312,
-      "uuid": "4a0d81b8-a04a-382b-a3cb-84d1d4b9d6aa",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇮🇳 CLOUDFLARE SNI 😹 それで ...",
-      "server": "hn-in.transit.freework.cyou",
-      "server_port": 40192,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "73 🇮🇳 ORACLE-BMC SNI 🌈 それで ...",
-      "server": "jgwhdlb3.gaox.ml",
-      "server_port": 443,
-      "password": "006baa3f-4bc3-4915-b60d-c8c5dae11a11",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "82 🇮🇳 ORACLE-BMC SNI 🤩 それで ...",
+      "tag": "96 🇮🇳 ORACLE-BMC SNI 💎 それで ...",
       "server": "152.67.162.166",
       "server_port": 443,
       "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "144 🇮🇳 ORACLE-BMC SNI ☀️ それで ...",
+      "server": "jgwhdlb2.gaox.ml",
+      "server_port": 443,
+      "password": "54080134-2cba-4535-8599-95650bd9aa54",
       "tls": {
         "enabled": true,
         "insecure": true,

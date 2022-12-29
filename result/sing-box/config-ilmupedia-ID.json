@@ -45,13 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "72 🇮🇩 PT Bukuku  SNI ⭐ それで ...",
-        "108 🇮🇩 PT Cloud H SNI 🖖 それで ..."
+        "102 🇮🇩 PT Cloud H SNI 🎃 それで ...",
+        "109 🇮🇩 PT Bukuku  SNI 😹 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "72 🇮🇩 PT Bukuku  SNI ⭐ それで ...",
+      "tag": "102 🇮🇩 PT Cloud H SNI 🎃 それで ...",
+      "server": "yuk.vpsme.my.id",
+      "server_port": 443,
+      "uuid": "20680bff-7631-4845-a164-4698b0d7de8f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sweet",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "109 🇮🇩 PT Bukuku  SNI 😹 それで ...",
       "server": "103.187.106.98",
       "server_port": 443,
       "uuid": "8e645626-90f3-4c70-bae4-3f504a5989d3",
@@ -65,25 +86,6 @@
       "transport": {
         "type": "ws",
         "path": "/vmess",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "108 🇮🇩 PT Cloud H SNI 🖖 それで ...",
-      "server": "yuk.vpsme.my.id",
-      "server_port": 443,
-      "password": "20680bff-7631-4845-a164-4698b0d7de8f",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sweetws",
         "headers": {
           "Host": "news.microsoft.com"
         }

@@ -45,20 +45,60 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "11 🇰🇷 AMAZON-02 SNI ✨ それで ...",
-        "98 🇰🇷 AMAZON-02 SNI 😀 それで ...",
-        "106 🇰🇷 MICROSOFT- SNI 🧚‍♂️ それで ...",
-        "123 🇰🇷 ORACLE-BMC SNI 🤴 それで ...",
-        "154 🇰🇷 CloudITIDC SNI 😄 それで ...",
-        "68 🇰🇷 ORACLE-BMC SNI 🤟 それで ...",
-        "130 🇰🇷 ORACLE-BMC SNI 🎉 それで ...",
-        "168 🇰🇷 ORACLE-BMC SNI ❤️ それで ..."
+        "26 🇰🇷 ORACLE-BMC CDN 🙌 それで ...",
+        "30 🇰🇷 CloudITIDC SNI 🙃 それで ...",
+        "66 🇰🇷 AMAZON-02 SNI 😺 それで ...",
+        "67 🇰🇷 AMAZON-02 SNI 😍 それで ...",
+        "114 🇰🇷 ORACLE-BMC SNI 💋 それで ...",
+        "157 🇰🇷 AMAZON-02 SNI 🤩 それで ...",
+        "177 🇰🇷 ORACLE-BMC SNI 🎊 それで ...",
+        "82 🇰🇷 AMAZON-02 SNI 😁 それで ...",
+        "91 🇰🇷 ORACLE-BMC SNI 🧚‍♀️ それで ...",
+        "139 🇰🇷 ORACLE-BMC SNI 🎁 それで ...",
+        "167 🇰🇷 AMAZON-02 SNI 👸 それで ...",
+        "168 🇰🇷 ORACLE-BMC SNI 💕 それで ...",
+        "196 🇰🇷 ORACLE-BMC SNI 🦄 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "11 🇰🇷 AMAZON-02 SNI ✨ それで ...",
-      "server": "54.180.117.118",
+      "tag": "26 🇰🇷 ORACLE-BMC CDN 🙌 それで ...",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "surongwei.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/reffs7y26g0ua",
+        "headers": {
+          "Host": "surongwei.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "30 🇰🇷 CloudITIDC SNI 🙃 それで ...",
+      "server": "103.138.80.193",
+      "server_port": 14485,
+      "uuid": "b687b974-701b-4a7b-e7a4-c7f8b5102723",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "66 🇰🇷 AMAZON-02 SNI 😺 それで ...",
+      "server": "13.125.24.112",
       "server_port": 42517,
       "uuid": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
       "security": "auto",
@@ -78,24 +118,31 @@
     },
     {
       "type": "vmess",
-      "tag": "98 🇰🇷 AMAZON-02 SNI 😀 それで ...",
-      "server": "hn-kr.transit.freework.cyou",
-      "server_port": 40182,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "tag": "67 🇰🇷 AMAZON-02 SNI 😍 それで ...",
+      "server": "v-aws-sel-4.heima-bot.tech",
+      "server_port": 7772,
+      "uuid": "bdab8aa9-708e-4d34-8de7-8c02368166d4",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/m3",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "106 🇰🇷 MICROSOFT- SNI 🧚‍♂️ それで ...",
-      "server": "997946b4-2642-ea3f-7b88-bda61300c226.cnnic.rip",
+      "tag": "114 🇰🇷 ORACLE-BMC SNI 💋 それで ...",
+      "server": "152.67.218.38",
       "server_port": 443,
-      "uuid": "d761c5e4-8af1-4be8-8b20-af82fff30af2",
+      "uuid": "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -113,31 +160,24 @@
     },
     {
       "type": "vmess",
-      "tag": "123 🇰🇷 ORACLE-BMC SNI 🤴 それで ...",
-      "server": "130.162.141.104",
-      "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "tag": "157 🇰🇷 AMAZON-02 SNI 🤩 それで ...",
+      "server": "hz-kr.transit.freework.cyou",
+      "server_port": 40182,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/reffs7y26g0ua",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "154 🇰🇷 CloudITIDC SNI 😄 それで ...",
-      "server": "103.138.80.193",
-      "server_port": 14485,
-      "uuid": "b687b974-701b-4a7b-e7a4-c7f8b5102723",
+      "tag": "177 🇰🇷 ORACLE-BMC SNI 🎊 それで ...",
+      "server": "144.24.88.101",
+      "server_port": 16833,
+      "uuid": "f5425ccf-3946-4fb4-eb24-5393d78a392f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -148,10 +188,10 @@
     },
     {
       "type": "trojan",
-      "tag": "68 🇰🇷 ORACLE-BMC SNI 🤟 それで ...",
-      "server": "jgwcc1.gaox.ml",
-      "server_port": 443,
-      "password": "7118b5f4-0ea4-4c11-be7f-11471cb91e4a",
+      "tag": "82 🇰🇷 AMAZON-02 SNI 😁 それで ...",
+      "server": "kr-s-2.fuckjdieng.uk",
+      "server_port": 50382,
+      "password": "b73a108c-1070-48aa-a2c4-d50630c47ee7",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -160,8 +200,20 @@
     },
     {
       "type": "trojan",
-      "tag": "130 🇰🇷 ORACLE-BMC SNI 🎉 それで ...",
-      "server": "jgw2.gaox.ml",
+      "tag": "91 🇰🇷 ORACLE-BMC SNI 🧚‍♀️ それで ...",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "ec129ab2-3c89-4e25-8b97-aee479ac06f1",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "139 🇰🇷 ORACLE-BMC SNI 🎁 それで ...",
+      "server": "146.56.189.146",
       "server_port": 443,
       "password": "f2117e99-9b6e-47fd-b0a9-634a0b15b998",
       "tls": {
@@ -172,10 +224,34 @@
     },
     {
       "type": "trojan",
-      "tag": "168 🇰🇷 ORACLE-BMC SNI ❤️ それで ...",
+      "tag": "167 🇰🇷 AMAZON-02 SNI 👸 それで ...",
+      "server": "kr-s-2.fuckjdieng.uk",
+      "server_port": 50334,
+      "password": "38f06c85-4a37-4cad-811f-9fb7f6e9cab6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "168 🇰🇷 ORACLE-BMC SNI 💕 それで ...",
+      "server": "138.2.115.240",
+      "server_port": 443,
+      "password": "3a2c0c6c-9ee5-c05f-c951-fcd73831983e",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "196 🇰🇷 ORACLE-BMC SNI 🦄 それで ...",
       "server": "kr1.api-aws.com",
       "server_port": 443,
-      "password": "5491534e-00b5-42ff-853a-723997aadbdb",
+      "password": "7e92d33f-6917-4c69-8eca-7fe80be58199",
       "tls": {
         "enabled": true,
         "insecure": true,
