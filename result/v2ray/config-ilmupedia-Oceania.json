@@ -84,86 +84,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "build49.scpotato.site",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-202 🇦🇺 Unknown SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1a7c8ce9-ed97-45c1-bbd8-bda980450233",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "build49.scpotato.site"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "build49.scpotato.site"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-203 🇦🇺 Unknown CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "hz-au.transit.freework.cyou",
             "port": 40186,
             "users": [
@@ -187,7 +107,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-252 🇦🇺 CLOUDFLARE SNI 👾 漁師"
+      "tag": "proxy-71 🇦🇺 CLOUDFLARE SNI 😸 それで ..."
     },
     {
       "mux": {
@@ -198,25 +118,66 @@
       "settings": {
         "servers": [
           {
-            "address": "jgwxn3.gaox.ml",
+            "address": "news.microsoft.com",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
+            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
             "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "build49.scpotato.site"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "build49.scpotato.site"
+          },
+          "path": "/trojan"
+        }
+      },
+      "tag": "proxy-144 🇦🇺 Unknown CDN 💝 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "build49.scpotato.site",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/trojan"
         }
       },
-      "tag": "proxy-302 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-145 🇦🇺 Unknown SNI 😃 それで ..."
     }
   ],
   "dns": {
