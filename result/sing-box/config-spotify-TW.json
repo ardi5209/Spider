@@ -45,16 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "105 🇹🇼 Scloud Pte SNI 👌 それで ...",
-        "185 🇹🇼 Data Commu SNI 🦄 それで ..."
+        "100 🇹🇼 Data Commu SNI 🦄 それで ...",
+        "129 🇹🇼 Data Commu SNI 😻 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "105 🇹🇼 Scloud Pte SNI 👌 それで ...",
-      "server": "tw6.czs1000.com",
-      "server_port": 1001,
-      "uuid": "c67a5748-7907-4b6b-8dd3-40103a8bf8d1",
+      "tag": "100 🇹🇼 Data Commu SNI 🦄 それで ...",
+      "server": "hd-tw.transit.freework.cyou",
+      "server_port": 40180,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -64,17 +64,22 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "185 🇹🇼 Data Commu SNI 🦄 それで ...",
-      "server": "hz-tw.transit.freework.cyou",
-      "server_port": 40180,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "129 🇹🇼 Data Commu SNI 😻 それで ...",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],
