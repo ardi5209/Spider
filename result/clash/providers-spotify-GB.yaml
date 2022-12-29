@@ -1,9 +1,21 @@
 proxies:
-  - name: '30 🇬🇧 OVH SAS SNI 🧚‍♂️ それで ...'
-    server: 198.244.232.39
+  - name: '55 🇬🇧 DIGITALOCE SNI 🍀 それで ...'
+    server: 161.35.47.70
     type: vmess
-    port: 2096
-    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '74 🇬🇧 OVH SAS SNI 🎉 それで ...'
+    server: 198.244.148.207
+    type: vmess
+    port: 443
+    uuid: 29aba8d5-abdc-45c7-935c-8a80043c9c6d
     alterId: 0
     cipher: auto
     tls: true
@@ -12,10 +24,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: /vmess
       headers:
         Host: image-upload4.spotify.com
-  - name: '33 🇬🇧 DIGITALOCE SNI 💗 それで ...'
+  - name: '123 🇬🇧 DIGITALOCE SNI 😆 それで ...'
     server: 161.35.47.70
     type: vmess
     port: 29210
@@ -27,11 +39,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '145 🇬🇧 CLOUDFLARE SNI 👸 それで ...'
-    server: hd-gb.transit.freework.cyou
+  - name: '140 🇬🇧 DIGITALOCE SNI 💕 それで ...'
+    server: 161.35.47.70
     type: vmess
-    port: 40189
-    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
     alterId: 0
     cipher: auto
     tls: true
@@ -39,7 +51,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '43 🇬🇧 Hydra Comm SNI 😻 それで ...'
+  - name: '37 🇬🇧 ORACLE-BMC SNI 🦄 それで ...'
+    server: 132.145.51.172
+    type: trojan
+    port: 443
+    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '63 🇬🇧 Hydra Comm SNI ❤️ それで ...'
     server: 185.16.206.212
     type: trojan
     port: 443
@@ -48,20 +69,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '97 🇬🇧 Stark Indu SNI 🎉 それで ...'
-    server: 146.19.230.241
+  - name: '118 🇬🇧 OVH SAS SNI ❤️ それで ...'
+    server: 51.89.22.228
     type: trojan
     port: 443
-    password: xxoo
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '159 🇬🇧 ORACLE-BMC SNI 💖 それで ...'
-    server: jgwld1.gaox.ml
-    type: trojan
-    port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
     udp: true
     skip-cert-verify: true
     network: tcp
