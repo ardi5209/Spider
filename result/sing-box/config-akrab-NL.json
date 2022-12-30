@@ -45,20 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "62 🇳🇱 Online S.a.s. SNI",
-        "74 🇳🇱 Scalaxy B.V. SNI",
-        "83 🇳🇱 Scalaxy B.V. CDN",
-        "152 🇳🇱 Online S.a.s. SNI",
-        "161 🇳🇱 Online S.a.s. CDN",
-        "155 🇳🇱 AS40676 SNI"
+        "46 🇳🇱 Scalaxy B.V. SNI",
+        "47 🇳🇱 Scalaxy B.V. CDN",
+        "62 🇳🇱 Online S.a.s. CDN",
+        "119 🇳🇱 Online S.a.s. SNI",
+        "162 🇳🇱 The Infrastructure Group B.V. SNI",
+        "99 🇳🇱 AS40676 SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "62 🇳🇱 Online S.a.s. SNI",
-      "server": "51.15.113.164",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "tag": "46 🇳🇱 Scalaxy B.V. SNI",
+      "server": "nl.gongyiyun.cf",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -68,7 +68,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/Danhuang/Jiang",
+        "path": "/",
         "headers": {
           "Host": "click.zoom.us"
         }
@@ -76,28 +76,7 @@
     },
     {
       "type": "vmess",
-      "tag": "74 🇳🇱 Scalaxy B.V. SNI",
-      "server": "nl.gongyiyun.cf",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "config.teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "83 🇳🇱 Scalaxy B.V. CDN",
+      "tag": "47 🇳🇱 Scalaxy B.V. CDN",
       "server": "hohm.microsoft.com",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -118,28 +97,7 @@
     },
     {
       "type": "vmess",
-      "tag": "152 🇳🇱 Online S.a.s. SNI",
-      "server": "nl1.v2rayserv.com",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "161 🇳🇱 Online S.a.s. CDN",
+      "tag": "62 🇳🇱 Online S.a.s. CDN",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -159,9 +117,51 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "119 🇳🇱 Online S.a.s. SNI",
+      "server": "nl1.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "162 🇳🇱 The Infrastructure Group B.V. SNI",
+      "server": "5.255.103.209",
+      "server_port": 443,
+      "uuid": "cdca9247-c6c5-4521-a782-d888a4565065",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/26f893e2-076a-46a8-94e2-a3a85a0b219b",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "155 🇳🇱 AS40676 SNI",
-      "server": "185.212.200.75",
+      "tag": "99 🇳🇱 AS40676 SNI",
+      "server": "content-provider23.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {

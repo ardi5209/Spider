@@ -45,13 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "23 🇯🇵 G-Core Labs S.A. CDN",
-        "27 🇯🇵 AMAZON-02 CDN"
+        "29 🇯🇵 AMAZON-02 CDN",
+        "49 🇯🇵 G-Core Labs S.A. CDN",
+        "74 🇯🇵 AMAZON-02 CDN",
+        "145 🇯🇵 G-Core Labs S.A. CDN",
+        "152 🇯🇵 ORACLE-BMC-31898 CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "23 🇯🇵 G-Core Labs S.A. CDN",
+      "tag": "29 🇯🇵 AMAZON-02 CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjpyc.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsjpycnode",
+        "headers": {
+          "Host": "awsjpyc.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "49 🇯🇵 G-Core Labs S.A. CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -72,7 +96,7 @@
     },
     {
       "type": "vmess",
-      "tag": "27 🇯🇵 AMAZON-02 CDN",
+      "tag": "74 🇯🇵 AMAZON-02 CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -81,13 +105,55 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "awsjpyc.sylu.cyou"
+        "server_name": "awsjpya.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42awsjpycnode",
+        "path": "/Falling42awsjpyanode",
         "headers": {
-          "Host": "awsjpyc.sylu.cyou"
+          "Host": "awsjpya.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "145 🇯🇵 G-Core Labs S.A. CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "bac3209d-d7c0-4879-c522-be43430a0b4c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp.gcore.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "jp.gcore.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "152 🇯🇵 ORACLE-BMC-31898 CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opc-jp.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "opc-jp.sharecentre.online"
         }
       }
     }

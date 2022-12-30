@@ -1,5 +1,21 @@
 proxies:
-  - name: '112 🇫🇮 Hetzner Online GmbH SNI'
+  - name: '52 🇫🇮 Hetzner Online GmbH SNI'
+    server: 135.181.235.21
+    type: vmess
+    port: 12951
+    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '109 🇫🇮 Hetzner Online GmbH SNI'
     server: 135.181.235.21
     type: vmess
     port: 25034
@@ -15,11 +31,11 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '150 🇫🇮 Hetzner Online GmbH SNI'
+  - name: '164 🇫🇮 Hetzner Online GmbH SNI'
     server: 135.181.235.21
     type: vmess
-    port: 12951
-    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    port: 34303
+    uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb
     alterId: 0
     cipher: auto
     tls: true
