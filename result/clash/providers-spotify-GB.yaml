@@ -1,18 +1,22 @@
 proxies:
-  - name: '24 🇬🇧 CLOUDFLARE SNI 🎊 それで ...'
-    server: hd-gb.transit.freework.cyou
+  - name: '12 🇬🇧 AMAZON-02 SNI 😸 それで ...'
+    server: 18.133.149.100
     type: vmess
-    port: 40189
-    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    port: 40899
+    uuid: 8026e383-7b25-4976-8221-bc2064c9ed3d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '45 🇬🇧 Hydra Comm SNI 🎉 それで ...'
-    server: content-provider21.cdn-delivery.akamaicd.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '34 🇬🇧 Iomart Clo SNI 😂 それで ...'
+    server: 88.150.137.177
     type: trojan
     port: 443
     password: shefelnak
@@ -20,16 +24,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '68 🇬🇧 ORACLE-BMC SNI 🌈 それで ...'
-    server: 132.145.51.172
-    type: trojan
-    port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '75 🇬🇧 OVH SAS SNI 😍 それで ...'
+  - name: '58 🇬🇧 OVH SAS SNI 🎆 それで ...'
     server: t1.teslacdn1.live
     type: trojan
     port: 443
@@ -38,11 +33,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '127 🇬🇧 OVH SAS SNI ❤️ それで ...'
-    server: 51.195.219.173
+  - name: '200 🇬🇧 ORACLE-BMC SNI 😂 それで ...'
+    server: 132.145.51.172
     type: trojan
     port: 443
-    password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+    password: 02e653c9-7c93-46a9-999d-11834bd0c577
     udp: true
     skip-cert-verify: true
     network: tcp

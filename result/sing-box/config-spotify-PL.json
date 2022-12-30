@@ -45,15 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "28 🇵🇱 G-Core Lab SNI 💋 それで ...",
-        "29 🇵🇱 G-Core Lab CDN 💘 それで ...",
-        "165 🇵🇱 G-Core Lab CDN 🖖 それで ...",
-        "202 🇵🇱 OVH SAS SNI 😃 それで ..."
+        "9 🇵🇱 G-Core Lab SNI 🤟 それで ...",
+        "10 🇵🇱 G-Core Lab CDN 😺 それで ...",
+        "69 🇵🇱 G-Core Lab SNI 💓 それで ...",
+        "70 🇵🇱 G-Core Lab CDN 🍀 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "28 🇵🇱 G-Core Lab SNI 💋 それで ...",
+      "tag": "9 🇵🇱 G-Core Lab SNI 🤟 それで ...",
       "server": "gcspl.sylu.cyou",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -74,7 +74,7 @@
     },
     {
       "type": "vmess",
-      "tag": "29 🇵🇱 G-Core Lab CDN 💘 それで ...",
+      "tag": "10 🇵🇱 G-Core Lab CDN 😺 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -95,7 +95,28 @@
     },
     {
       "type": "vmess",
-      "tag": "165 🇵🇱 G-Core Lab CDN 🖖 それで ...",
+      "tag": "69 🇵🇱 G-Core Lab SNI 💓 それで ...",
+      "server": "gcorepl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "70 🇵🇱 G-Core Lab CDN 🍀 それで ...",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -111,27 +132,6 @@
         "path": "/Falling42gcoreplnode",
         "headers": {
           "Host": "gcorepl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "202 🇵🇱 OVH SAS SNI 😃 それで ...",
-      "server": "147.135.208.210",
-      "server_port": 443,
-      "uuid": "7e194a05-a9d8-42fa-a8ad-f867057fba74",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
         }
       }
     }

@@ -45,31 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "24 🇬🇧 CLOUDFLARE SNI 🎊 それで ...",
-        "45 🇬🇧 Hydra Comm SNI 🎉 それで ...",
-        "68 🇬🇧 ORACLE-BMC SNI 🌈 それで ...",
-        "75 🇬🇧 OVH SAS SNI 😍 それで ...",
-        "127 🇬🇧 OVH SAS SNI ❤️ それで ..."
+        "12 🇬🇧 AMAZON-02 SNI 😸 それで ...",
+        "34 🇬🇧 Iomart Clo SNI 😂 それで ...",
+        "58 🇬🇧 OVH SAS SNI 🎆 それで ...",
+        "200 🇬🇧 ORACLE-BMC SNI 😂 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "24 🇬🇧 CLOUDFLARE SNI 🎊 それで ...",
-      "server": "hd-gb.transit.freework.cyou",
-      "server_port": 40189,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "tag": "12 🇬🇧 AMAZON-02 SNI 😸 それで ...",
+      "server": "18.133.149.100",
+      "server_port": 40899,
+      "uuid": "8026e383-7b25-4976-8221-bc2064c9ed3d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "45 🇬🇧 Hydra Comm SNI 🎉 それで ...",
-      "server": "content-provider21.cdn-delivery.akamaicd.com",
+      "tag": "34 🇬🇧 Iomart Clo SNI 😂 それで ...",
+      "server": "88.150.137.177",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
@@ -80,19 +86,7 @@
     },
     {
       "type": "trojan",
-      "tag": "68 🇬🇧 ORACLE-BMC SNI 🌈 それで ...",
-      "server": "132.145.51.172",
-      "server_port": 443,
-      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "75 🇬🇧 OVH SAS SNI 😍 それで ...",
+      "tag": "58 🇬🇧 OVH SAS SNI 🎆 それで ...",
       "server": "t1.teslacdn1.live",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
@@ -104,10 +98,10 @@
     },
     {
       "type": "trojan",
-      "tag": "127 🇬🇧 OVH SAS SNI ❤️ それで ...",
-      "server": "51.195.219.173",
+      "tag": "200 🇬🇧 ORACLE-BMC SNI 😂 それで ...",
+      "server": "132.145.51.172",
       "server_port": 443,
-      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
       "tls": {
         "enabled": true,
         "insecure": true,
