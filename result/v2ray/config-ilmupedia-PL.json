@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "147.135.208.210",
+            "address": "gcorepl.sylu.cyou",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "7e194a05-a9d8-42fa-a8ad-f867057fba74",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
                 "level": 8,
                 "security": "auto"
               }
@@ -110,10 +110,90 @@
           "headers": {
             "Host": "news.microsoft.com"
           },
-          "path": "/vmess"
+          "path": "/Falling42gcoreplnode"
         }
       },
-      "tag": "proxy-43 🇵🇱 OVH SAS SNI 💓 それで ..."
+      "tag": "proxy-63 🇵🇱 G-Core Lab SNI 🧚‍♀️ それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcorepl.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcorepl.sylu.cyou"
+          },
+          "path": "/Falling42gcoreplnode"
+        }
+      },
+      "tag": "proxy-64 🇵🇱 G-Core Lab CDN ☀️ それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.59.92.219",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-174 🇵🇱 OVH SAS SNI 💘 それで ..."
     }
   ],
   "dns": {

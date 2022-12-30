@@ -45,36 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "47 🇬🇧 CLOUDFLARE SNI 👏 それで ...",
-        "87 🇬🇧 OVH SAS SNI 🧚‍♂️ それで ...",
-        "127 🇬🇧 DIGITALOCE SNI 🦋 それで ...",
-        "128 🇬🇧 DIGITALOCE SNI 😍 それで ...",
-        "7 🇬🇧 Iomart Clo SNI 🎊 それで ...",
-        "10 🇬🇧 OVH SAS SNI 💘 それで ...",
-        "172 🇬🇧 OVH SAS SNI 💋 それで ...",
-        "186 🇬🇧 ORACLE-BMC SNI 😆 それで ..."
+        "42 🇬🇧 AMAZON-02 SNI 😃 それで ...",
+        "43 🇬🇧 Linode LL SNI 🍀 それで ...",
+        "24 🇬🇧 OVH SAS SNI 🦄 それで ...",
+        "38 🇬🇧 Hydra Comm SNI 😂 それで ...",
+        "90 🇬🇧 OVH SAS SNI 💜 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "47 🇬🇧 CLOUDFLARE SNI 👏 それで ...",
-      "server": "hd-gb.transit.freework.cyou",
-      "server_port": 40189,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "87 🇬🇧 OVH SAS SNI 🧚‍♂️ それで ...",
-      "server": "198.244.232.39",
-      "server_port": 2096,
-      "uuid": "df46384b-1ad5-40a6-812e-48d60fb80283",
+      "tag": "42 🇬🇧 AMAZON-02 SNI 😃 それで ...",
+      "server": "18.133.149.100",
+      "server_port": 40899,
+      "uuid": "8026e383-7b25-4976-8221-bc2064c9ed3d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -92,59 +75,28 @@
     },
     {
       "type": "vmess",
-      "tag": "127 🇬🇧 DIGITALOCE SNI 🦋 それで ...",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "tag": "43 🇬🇧 Linode LL SNI 🍀 それで ...",
+      "server": "gb1.czs1000.com",
+      "server_port": 11217,
+      "uuid": "2c4adfa9-7648-464e-8ad4-d0b3dea25f6b",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "128 🇬🇧 DIGITALOCE SNI 😍 それで ...",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "7 🇬🇧 Iomart Clo SNI 🎊 それで ...",
-      "server": "content-provider4.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "shefelnak",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "10 🇬🇧 OVH SAS SNI 💘 それで ...",
-      "server": "51.195.219.173",
-      "server_port": 443,
-      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "172 🇬🇧 OVH SAS SNI 💋 それで ...",
+      "tag": "24 🇬🇧 OVH SAS SNI 🦄 それで ...",
       "server": "t1.teslacdn1.live",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
@@ -156,10 +108,22 @@
     },
     {
       "type": "trojan",
-      "tag": "186 🇬🇧 ORACLE-BMC SNI 😆 それで ...",
-      "server": "132.145.51.172",
+      "tag": "38 🇬🇧 Hydra Comm SNI 😂 それで ...",
+      "server": "185.16.206.211",
       "server_port": 443,
-      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "90 🇬🇧 OVH SAS SNI 💜 それで ...",
+      "server": "51.195.219.173",
+      "server_port": 443,
+      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
       "tls": {
         "enabled": true,
         "insecure": true,

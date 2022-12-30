@@ -45,15 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "43 🇵🇱 OVH SAS SNI 💓 それで ..."
+        "63 🇵🇱 G-Core Lab SNI 🧚‍♀️ それで ...",
+        "64 🇵🇱 G-Core Lab CDN ☀️ それで ...",
+        "174 🇵🇱 OVH SAS SNI 💘 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "43 🇵🇱 OVH SAS SNI 💓 それで ...",
-      "server": "147.135.208.210",
+      "tag": "63 🇵🇱 G-Core Lab SNI 🧚‍♀️ それで ...",
+      "server": "gcorepl.sylu.cyou",
       "server_port": 443,
-      "uuid": "7e194a05-a9d8-42fa-a8ad-f867057fba74",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -63,7 +65,49 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "64 🇵🇱 G-Core Lab CDN ☀️ それで ...",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorepl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "gcorepl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "174 🇵🇱 OVH SAS SNI 💘 それで ...",
+      "server": "146.59.92.219",
+      "server_port": 2096,
+      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
         "headers": {
           "Host": "news.microsoft.com"
         }
