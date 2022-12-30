@@ -1,25 +1,14 @@
 proxies:
-  - name: '8 🇹🇼 Scloud Pte SNI 👸 それで ...'
-    server: tw2.czs1000.com
-    type: vmess
-    port: 4011
-    uuid: 2c4adfa9-7648-464e-8ad4-d0b3dea25f6b
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '44 🇹🇼 Data Commu SNI 🍀 それで ...'
+    server: 211.72.35.154
+    type: trojan
+    port: 3306
+    password: 4bacb8f1a089763b
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '68 🇹🇼 Scloud Pte SNI 👌 それで ...'
-    server: tw4.czs1000.com
-    type: vmess
-    port: 1001
-    uuid: 2c4adfa9-7648-464e-8ad4-d0b3dea25f6b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com

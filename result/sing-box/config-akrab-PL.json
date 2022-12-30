@@ -45,59 +45,39 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "63 🇵🇱 G-Core Lab SNI 🧚‍♀️ それで ...",
-        "64 🇵🇱 G-Core Lab CDN ☀️ それで ...",
-        "174 🇵🇱 OVH SAS SNI 💘 それで ..."
+        "16 🇵🇱 OVH SAS CDN 💎 それで ...",
+        "39 🇵🇱 OVH SAS SNI 🙌 それで ...",
+        "59 🇵🇱 G-Core Lab SNI 😹 それで ...",
+        "60 🇵🇱 G-Core Lab CDN 😘 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "63 🇵🇱 G-Core Lab SNI 🧚‍♀️ それで ...",
-      "server": "gcorepl.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "64 🇵🇱 G-Core Lab CDN ☀️ それで ...",
+      "tag": "16 🇵🇱 OVH SAS CDN 💎 それで ...",
       "server": "hohm.microsoft.com",
       "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "uuid": "19924be7-db1c-4b32-8dbc-aec68e0bbf3e",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
+        "server_name": "pl1.v2rayserv.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcoreplnode",
+        "path": "/",
         "headers": {
-          "Host": "gcorepl.sylu.cyou"
+          "Host": "pl1.v2rayserv.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "174 🇵🇱 OVH SAS SNI 💘 それで ...",
-      "server": "146.59.92.219",
-      "server_port": 2096,
-      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "tag": "39 🇵🇱 OVH SAS SNI 🙌 それで ...",
+      "server": "147.135.208.210",
+      "server_port": 443,
+      "uuid": "7e194a05-a9d8-42fa-a8ad-f867057fba74",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -107,9 +87,51 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/vmess",
         "headers": {
           "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "59 🇵🇱 G-Core Lab SNI 😹 それで ...",
+      "server": "gcspl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "60 🇵🇱 G-Core Lab CDN 😘 それで ...",
+      "server": "hohm.microsoft.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcspl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "gcspl.sylu.cyou"
         }
       }
     }

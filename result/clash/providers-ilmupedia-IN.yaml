@@ -1,15 +1,22 @@
 proxies:
-  - name: '133 🇮🇳 ORACLE-BMC SNI 💌 それで ...'
-    server: 152.67.190.183
-    type: trojan
-    port: 443
-    password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  - name: '78 🇮🇳 DIGITALOCE SNI 👸 それで ...'
+    server: 68.183.83.94
+    type: vmess
+    port: 59477
+    uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '147 🇮🇳 ORACLE-BMC SNI 💝 それで ...'
-    server: 152.67.162.166
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '12 🇮🇳 ORACLE-BMC SNI 💕 それで ...'
+    server: jgwhdlb1.gaox.ml
     type: trojan
     port: 443
     password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
@@ -17,7 +24,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '168 🇮🇳 ORACLE-BMC SNI 🌟 それで ...'
+  - name: '42 🇮🇳 ORACLE-BMC SNI ✨ それで ...'
     server: jgwhdlb2.gaox.ml
     type: trojan
     port: 443

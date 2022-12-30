@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "64 🇵🇱 G-Core Lab CDN ☀️ それで ..."
+        "16 🇵🇱 OVH SAS CDN 💎 それで ...",
+        "60 🇵🇱 G-Core Lab CDN 😘 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "64 🇵🇱 G-Core Lab CDN ☀️ それで ...",
+      "tag": "16 🇵🇱 OVH SAS CDN 💎 それで ...",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "19924be7-db1c-4b32-8dbc-aec68e0bbf3e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "pl1.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pl1.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "60 🇵🇱 G-Core Lab CDN 😘 それで ...",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -59,13 +81,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
+        "server_name": "gcspl.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcoreplnode",
+        "path": "/Falling42gcsplnode",
         "headers": {
-          "Host": "gcorepl.sylu.cyou"
+          "Host": "gcspl.sylu.cyou"
         }
       }
     }

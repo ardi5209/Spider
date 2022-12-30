@@ -45,36 +45,26 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "8 🇹🇼 Scloud Pte SNI 👸 それで ...",
-        "68 🇹🇼 Scloud Pte SNI 👌 それで ..."
+        "44 🇹🇼 Data Commu SNI 🍀 それで ..."
       ]
     },
     {
-      "type": "vmess",
-      "tag": "8 🇹🇼 Scloud Pte SNI 👸 それで ...",
-      "server": "tw2.czs1000.com",
-      "server_port": 4011,
-      "uuid": "2c4adfa9-7648-464e-8ad4-d0b3dea25f6b",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "44 🇹🇼 Data Commu SNI 🍀 それで ...",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "68 🇹🇼 Scloud Pte SNI 👌 それで ...",
-      "server": "tw4.czs1000.com",
-      "server_port": 1001,
-      "uuid": "2c4adfa9-7648-464e-8ad4-d0b3dea25f6b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],
