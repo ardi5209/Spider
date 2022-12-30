@@ -45,13 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "70 🇩🇪 CLOUDFLARE CDN 🤟 それで ...",
-        "134 🇩🇪 Hetzner On CDN 😺 それで ..."
+        "29 🇩🇪 G-Core Labs S.A. CDN",
+        "42 🇩🇪 Hetzner Online GmbH CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "70 🇩🇪 CLOUDFLARE CDN 🤟 それで ...",
+      "tag": "29 🇩🇪 G-Core Labs S.A. CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcsde.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsdenode",
+        "headers": {
+          "Host": "gcsde.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "42 🇩🇪 Hetzner Online GmbH CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 2053,
       "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
@@ -67,27 +88,6 @@
         "path": "/eisasqa",
         "headers": {
           "Host": "foxdeovz1.fovi.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇩🇪 Hetzner On CDN 😺 それで ...",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sun.prxpro.cc"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/g7970d1b58m1ixn3i16i",
-        "headers": {
-          "Host": "sun.prxpro.cc"
         }
       }
     }

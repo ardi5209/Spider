@@ -45,14 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "17 🇯🇵 ORACLE-BMC CDN 🎃 それで ...",
-        "48 🇯🇵 G-Core Lab CDN 😃 それで ...",
-        "133 🇯🇵 AMAZON-02 CDN 🧚‍♀️ それで ..."
+        "5 🇯🇵 ORACLE-BMC-31898 CDN",
+        "12 🇯🇵 G-Core Labs S.A. CDN",
+        "50 🇯🇵 NTT PC Communications  Inc. CDN",
+        "110 🇯🇵 AMAZON-02 CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "17 🇯🇵 ORACLE-BMC CDN 🎃 それで ...",
+      "tag": "5 🇯🇵 ORACLE-BMC-31898 CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
@@ -73,7 +74,7 @@
     },
     {
       "type": "vmess",
-      "tag": "48 🇯🇵 G-Core Lab CDN 😃 それで ...",
+      "tag": "12 🇯🇵 G-Core Labs S.A. CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -94,7 +95,28 @@
     },
     {
       "type": "vmess",
-      "tag": "133 🇯🇵 AMAZON-02 CDN 🧚‍♀️ それで ...",
+      "tag": "50 🇯🇵 NTT PC Communications  Inc. CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp-ntt.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "jp-ntt.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "110 🇯🇵 AMAZON-02 CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",

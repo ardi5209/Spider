@@ -1,5 +1,5 @@
 proxies:
-  - name: '92 🇬🇧 DIGITALOCE SNI 🍀 それで ...'
+  - name: '75 🇬🇧 DIGITALOCEAN-ASN SNI'
     server: 161.35.47.70
     type: vmess
     port: 13472
@@ -11,29 +11,32 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '30 🇬🇧 OVH SAS SNI ✨ それで ...'
-    server: ukt1.sshocean.net
-    type: trojan
-    port: 443
-    password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+  - name: '96 🇬🇧 DIGITALOCEAN-ASN SNI'
+    server: 161.35.47.70
+    type: vmess
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '118 🇬🇧 Hydra Comm SNI 🎊 それで ...'
-    server: 185.16.206.209
-    type: trojan
-    port: 443
-    password: shefelnak
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '132 🇬🇧 OVH SAS SNI 🍀 それで ...'
+  - name: '38 🇬🇧 OVH SAS SNI'
     server: 51.89.22.228
     type: trojan
     port: 443
     password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '155 🇬🇧 Hydra Communications Ltd SNI'
+    server: content-provider22.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp

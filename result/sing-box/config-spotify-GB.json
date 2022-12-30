@@ -45,15 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "92 🇬🇧 DIGITALOCE SNI 🍀 それで ...",
-        "30 🇬🇧 OVH SAS SNI ✨ それで ...",
-        "118 🇬🇧 Hydra Comm SNI 🎊 それで ...",
-        "132 🇬🇧 OVH SAS SNI 🍀 それで ..."
+        "75 🇬🇧 DIGITALOCEAN-ASN SNI",
+        "96 🇬🇧 DIGITALOCEAN-ASN SNI",
+        "38 🇬🇧 OVH SAS SNI",
+        "155 🇬🇧 Hydra Communications Ltd SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "92 🇬🇧 DIGITALOCE SNI 🍀 それで ...",
+      "tag": "75 🇬🇧 DIGITALOCEAN-ASN SNI",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -66,11 +66,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "30 🇬🇧 OVH SAS SNI ✨ それで ...",
-      "server": "ukt1.sshocean.net",
-      "server_port": 443,
-      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+      "type": "vmess",
+      "tag": "96 🇬🇧 DIGITALOCEAN-ASN SNI",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -79,22 +81,22 @@
     },
     {
       "type": "trojan",
-      "tag": "118 🇬🇧 Hydra Comm SNI 🎊 それで ...",
-      "server": "185.16.206.209",
-      "server_port": 443,
-      "password": "shefelnak",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "132 🇬🇧 OVH SAS SNI 🍀 それで ...",
+      "tag": "38 🇬🇧 OVH SAS SNI",
       "server": "51.89.22.228",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "155 🇬🇧 Hydra Communications Ltd SNI",
+      "server": "content-provider22.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "shefelnak",
       "tls": {
         "enabled": true,
         "insecure": true,

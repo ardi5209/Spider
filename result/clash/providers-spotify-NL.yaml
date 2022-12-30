@@ -1,21 +1,5 @@
 proxies:
-  - name: '15 🇳🇱 Scalaxy B. SNI 😀 それで ...'
-    server: 5.45.78.209
-    type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '29 🇳🇱 Scalaxy B. CDN 🧚‍♀️ それで ...'
+  - name: '26 🇳🇱 Scalaxy B.V. CDN'
     server: investors.spotify.com
     type: vmess
     port: 8080
@@ -31,7 +15,23 @@ proxies:
       path: /
       headers:
         Host: nl.gongyiyun.cf
-  - name: '31 🇳🇱 CLOUDFLARE CDN 😂 それで ...'
+  - name: '27 🇳🇱 Scalaxy B.V. SNI'
+    server: nl.gongyiyun.cf
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '43 🇳🇱 Online S.a.s. CDN'
     server: investors.spotify.com
     type: vmess
     port: 2086
@@ -47,28 +47,35 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '179 🇳🇱 Online S.a CDN 😂 それで ...'
-    server: investors.spotify.com
+  - name: '51 🇳🇱 Online S.a.s. SNI'
+    server: 51.15.81.240
     type: vmess
     port: 443
-    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: v12a.toddns.tk
+    servername: image-upload4.spotify.com
     ws-opts: 
-      path: /nl-unlimitxxx
+      path: /sshocean
       headers:
-        Host: v12a.toddns.tk
-  - name: '5 🇳🇱 AS40676 SNI ❤️ それで ...'
-    server: 185.212.200.74
-    type: trojan
+        Host: image-upload4.spotify.com
+  - name: '159 🇳🇱 Online S.a.s. SNI'
+    server: 51.15.113.164
+    type: vmess
     port: 443
-    password: Sp3eDVp
+    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /Danhuang/Jiang
+      headers:
+        Host: image-upload4.spotify.com

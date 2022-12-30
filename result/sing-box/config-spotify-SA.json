@@ -45,17 +45,38 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "9 🇸🇦 OVH SAS SNI 🌟 それで ...",
-        "63 🇸🇦 OVH SAS SNI 😃 それで ...",
-        "120 🇸🇦 OVH SAS CDN ✨ それで ..."
+        "28 🇸🇦 OVH SAS CDN",
+        "67 🇸🇦 ORACLE-BMC-31898 SNI",
+        "145 🇸🇦 OVH SAS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "9 🇸🇦 OVH SAS SNI 🌟 それで ...",
-      "server": "51.195.217.20",
+      "tag": "28 🇸🇦 OVH SAS CDN",
+      "server": "investors.spotify.com",
       "server_port": 443,
-      "uuid": "a6ee3c75-f83e-48a0-9af0-ac963db12112",
+      "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "uk2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "67 🇸🇦 ORACLE-BMC-31898 SNI",
+      "server": "193.122.65.167",
+      "server_port": 443,
+      "uuid": "ed71c245-88af-484e-970c-29ac50637847",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -73,28 +94,7 @@
     },
     {
       "type": "vmess",
-      "tag": "63 🇸🇦 OVH SAS SNI 😃 それで ...",
-      "server": "51.195.217.20",
-      "server_port": 443,
-      "uuid": "a6ee3c75-f83e-48a0-9af0-ac963db12112",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sshocean",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "120 🇸🇦 OVH SAS CDN ✨ それで ...",
+      "tag": "145 🇸🇦 OVH SAS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
@@ -107,7 +107,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/sshocean",
+        "path": "/",
         "headers": {
           "Host": "uk2.v2rayserv.com"
         }
