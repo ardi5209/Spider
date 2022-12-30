@@ -1,9 +1,9 @@
 proxies:
-  - name: '34 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: m4.40010010.xyz
+  - name: '50 🇰🇷 ORACLE-BMC-31898 SNI'
+    server: 144.24.88.101
     type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    port: 16833
+    uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
     alterId: 0
     cipher: auto
     tls: true
@@ -11,67 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '52 🇰🇷 MOACK.Co.LTD SNI'
-    server: lc-kr02-direct01.lc-kr02.lc-node.com
-    type: vmess
-    port: 443
-    uuid: ec736482-173e-3eff-9114-b49df8056e7d
-    alterId: 2
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '116 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: 130.162.141.104
-    type: vmess
-    port: 443
-    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /reffs7y26g0ua
-      headers:
-        Host: news.microsoft.com
-  - name: '124 🇰🇷 BGPNET Global ASN SNI'
-    server: 202.79.171.157
-    type: vmess
-    port: 443
-    uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /path/243535322906
-      headers:
-        Host: news.microsoft.com
-  - name: '152 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: m4.40010010.xyz
-    type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '154 🇰🇷 AMAZON-02 SNI'
+  - name: '62 🇰🇷 AMAZON-02 SNI'
     server: 54.180.150.171
     type: vmess
     port: 42517
@@ -87,28 +27,82 @@ proxies:
       path: /
       headers:
         Host: news.microsoft.com
-  - name: '164 🇰🇷 CloudITIDC Global SNI'
-    server: 103.138.80.193
+  - name: '156 🇰🇷 MOACK.Co.LTD SNI'
+    server: lc-kr02-direct01.lc-kr02.lc-node.com
     type: vmess
-    port: 14485
-    uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '158 🇰🇷 ORACLE-BMC-31898 SNI'
+    server: 152.67.218.38
+    type: vmess
+    port: 443
+    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '19 🇰🇷 ORACLE-BMC-31898 SNI'
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: '182 🇰🇷 BGPNET Global ASN SNI'
+    server: 202.79.171.157
+    type: vmess
+    port: 443
+    uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com
+  - name: '32 🇰🇷 ORACLE-BMC-31898 SNI'
     server: kr1.api-aws.com
     type: trojan
     port: 443
-    password: ec129ab2-3c89-4e25-8b97-aee479ac06f1
+    password: 33073a7c-e6d5-4271-9b19-4416afcc25b5
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '37 🇰🇷 AMAZON-02 SNI'
+  - name: '42 🇰🇷 ORACLE-BMC-31898 SNI'
+    server: jgwcc1.gaox.ml
+    type: trojan
+    port: 443
+    password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '64 🇰🇷 ORACLE-BMC-31898 SNI'
+    server: 138.2.115.240
+    type: trojan
+    port: 3052
+    password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '127 🇰🇷 AMAZON-02 SNI'
     server: kr-s-2.fuckjdieng.uk
     type: trojan
     port: 50334
@@ -117,35 +111,17 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '108 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: 146.56.176.239
-    type: trojan
-    port: 443
-    password: 98a68cfb-42c6-4498-ac6e-7e5c203924a7
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '119 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: 144.24.72.126
-    type: trojan
-    port: 443
-    password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '137 🇰🇷 ORACLE-BMC-31898 SNI'
+  - name: '131 🇰🇷 ORACLE-BMC-31898 SNI'
     server: kr1.api-aws.com
     type: trojan
     port: 443
-    password: 205f8ab6-cb17-4480-93a6-aece90b88742
+    password: ffd553fe-7d14-4ab2-acba-e7307d41e4f4
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '142 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: 138.2.113.84
+  - name: '141 🇰🇷 ORACLE-BMC-31898 SNI'
+    server: jgwcc3.gaox.ml
     type: trojan
     port: 443
     password: b291d129-ee55-4801-a9b8-b5316e5c37b7
@@ -153,38 +129,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '155 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: kr1.api-aws.com
+  - name: '174 🇰🇷 Scloud Pte Ltd SNI'
+    server: 20002.purefast2.com
     type: trojan
-    port: 443
-    password: f2239c58-4684-4747-8985-fbca693f352b
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '162 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: jgw2.gaox.ml
-    type: trojan
-    port: 443
-    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '166 🇰🇷 ORACLE-BMC-31898 SNI'
-    server: kr1.api-aws.com
-    type: trojan
-    port: 443
-    password: 7e92d33f-6917-4c69-8eca-7fe80be58199
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '177 🇰🇷 AMAZON-02 SNI'
-    server: kr-s-2.fuckjdieng.uk
-    type: trojan
-    port: 50382
-    password: b73a108c-1070-48aa-a2c4-d50630c47ee7
+    port: 20002
+    password: 357827e5-a45d-3f09-9b73-ef4431dfb323
     udp: true
     skip-cert-verify: true
     network: tcp

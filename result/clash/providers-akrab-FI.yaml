@@ -1,5 +1,5 @@
 proxies:
-  - name: '83 🇫🇮 Hetzner Online GmbH SNI'
+  - name: '57 🇫🇮 Hetzner Online GmbH SNI'
     server: 135.181.235.21
     type: vmess
     port: 34303
@@ -15,3 +15,19 @@ proxies:
       path: /
       headers:
         Host: config.teams.microsoft.com
+  - name: '66 🇫🇮 Hetzner Online GmbH SNI'
+    server: 135.181.235.21
+    type: vmess
+    port: 25034
+    uuid: e549fc8d-2416-46f7-aadc-8747553091b9
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: safebrowsing.google.com

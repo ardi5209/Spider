@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "168 🇦🇺 ORACLE-BMC-31898 SNI"
+        "171 🇦🇺 Linode  LLC SNI",
+        "77 🇦🇺 ORACLE-BMC-31898 SNI"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "171 🇦🇺 Linode  LLC SNI",
+      "server": "vau1.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "168 🇦🇺 ORACLE-BMC-31898 SNI",
+      "tag": "77 🇦🇺 ORACLE-BMC-31898 SNI",
       "server": "jgwxn4.gaox.ml",
       "server_port": 443,
       "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",

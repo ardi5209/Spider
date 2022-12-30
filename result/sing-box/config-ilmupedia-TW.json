@@ -45,18 +45,60 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "4 🇹🇼 Data Communication Business Group SNI",
-        "70 🇹🇼 Data Communication Business Group SNI",
-        "125 🇹🇼 Data Communication Business Group SNI",
-        "173 🇹🇼 Data Communication Business Group SNI",
-        "176 🇹🇼 Scloud Pte Ltd SNI"
+        "16 🇹🇼 Data Communication Business Group SNI",
+        "18 🇹🇼 Data Communication Business Group SNI",
+        "123 🇹🇼 Data Communication Business Group SNI",
+        "134 🇹🇼 Data Communication Business Group SNI",
+        "7 🇹🇼 Data Communication Business Group SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "4 🇹🇼 Data Communication Business Group SNI",
+      "tag": "16 🇹🇼 Data Communication Business Group SNI",
+      "server": "203.69.187.221",
+      "server_port": 3331,
+      "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/s/f1f3227.fm.apple.com:111548",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "18 🇹🇼 Data Communication Business Group SNI",
       "server": "tw2.kidcc.xyz",
       "server_port": 8443,
+      "uuid": "ff90d31d-6e69-4597-8c20-74a44208c843",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "123 🇹🇼 Data Communication Business Group SNI",
+      "server": "bak-hinet.kidcc.xyz",
+      "server_port": 18443,
       "uuid": "ff90d31d-6e69-4597-8c20-74a44208c843",
       "security": "auto",
       "alter_id": 0,
@@ -75,38 +117,10 @@
     },
     {
       "type": "vmess",
-      "tag": "70 🇹🇼 Data Communication Business Group SNI",
-      "server": "117.164.185.222",
-      "server_port": 16130,
-      "uuid": "4a0d81b8-a04a-382b-a3cb-84d1d4b9d6aa",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "125 🇹🇼 Data Communication Business Group SNI",
-      "server": "twmbm2fwa.b70rw85t.xyz",
-      "server_port": 39998,
-      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "173 🇹🇼 Data Communication Business Group SNI",
-      "server": "1.170.214.184",
-      "server_port": 443,
-      "uuid": "5d8b04c3-2183-44f1-b9c6-9c7b0dc81faf",
+      "tag": "134 🇹🇼 Data Communication Business Group SNI",
+      "server": "hinet.kidcc.xyz",
+      "server_port": 8443,
+      "uuid": "ff90d31d-6e69-4597-8c20-74a44208c843",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -116,24 +130,29 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/jjsU0h2HNvi8",
+        "path": "/",
         "headers": {
           "Host": "news.microsoft.com"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "176 🇹🇼 Scloud Pte Ltd SNI",
-      "server": "hainan.sfjsq001.info",
-      "server_port": 33207,
-      "uuid": "7259955f-09db-3ce1-8325-8814d4784280",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "7 🇹🇼 Data Communication Business Group SNI",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     }
   ],

@@ -45,13 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "21 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
-        "158 🇨🇳 Shenzhen Tencent Computer Systems Company Limited SNI"
+        "37 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
+        "69 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
+        "128 🇨🇳 PEGTECHINC SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "21 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
+      "tag": "37 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
+      "server": "39.103.165.178",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "69 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
       "server": "47.104.237.32",
       "server_port": 50002,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
@@ -65,16 +80,23 @@
     },
     {
       "type": "vmess",
-      "tag": "158 🇨🇳 Shenzhen Tencent Computer Systems Company Limited SNI",
-      "server": "106.55.234.95",
-      "server_port": 31372,
-      "uuid": "374d3519-455c-45b8-e3b1-0e2e9fcf4411",
+      "tag": "128 🇨🇳 PEGTECHINC SNI",
+      "server": "142.0.135.66",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": 0,
+      "alter_id": 64,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/243535322906",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],

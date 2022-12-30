@@ -45,15 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "83 🇫🇮 Hetzner Online GmbH SNI"
+        "57 🇫🇮 Hetzner Online GmbH SNI",
+        "66 🇫🇮 Hetzner Online GmbH SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "83 🇫🇮 Hetzner Online GmbH SNI",
+      "tag": "57 🇫🇮 Hetzner Online GmbH SNI",
       "server": "135.181.235.21",
       "server_port": 34303,
       "uuid": "1ce52047-ad8a-4ef3-cdcd-46ff29b262fb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "66 🇫🇮 Hetzner Online GmbH SNI",
+      "server": "135.181.235.21",
+      "server_port": 25034,
+      "uuid": "e549fc8d-2416-46f7-aadc-8747553091b9",
       "security": "auto",
       "alter_id": 0,
       "tls": {
