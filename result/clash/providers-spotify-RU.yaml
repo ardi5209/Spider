@@ -1,5 +1,21 @@
 proxies:
-  - name: '166 🇷🇺 LLC Baxet SNI'
+  - name: '61 🇷🇺 RECONN LLC SNI'
+    server: 91.193.181.192
+    type: vmess
+    port: 8090
+    uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '144 🇷🇺 LLC Baxet SNI'
     server: RU-153-16.shoptunnel.live
     type: vmess
     port: 31990
@@ -11,11 +27,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '98 🇷🇺 LLC Baxet SNI'
-    server: eu-east-ruo.openssl3.com
+  - name: '71 🇷🇺 LLC Baxet SNI'
+    server: 195.133.10.202
     type: trojan
-    port: 443
-    password: 9KogHwaY7hVD
+    port: 44976
+    password: tiUobCwrVb
     udp: true
     skip-cert-verify: true
     network: tcp
