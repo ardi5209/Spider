@@ -1,22 +1,22 @@
 proxies:
-  - name: '94 🇳🇱 CLOUDFLARENET CDN'
-    server: 141.193.213.20
+  - name: '83 🇳🇱 Scalaxy B.V. CDN'
+    server: 162.159.128.7
     type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: scw.cloudflare.quest
+    servername: nl.gongyiyun.cf
     ws-opts: 
-      path: /aries
+      path: /
       headers:
-        Host: scw.cloudflare.quest
-  - name: '106 🇳🇱 Online S.a.s. CDN'
-    server: 162.159.135.42
+        Host: nl.gongyiyun.cf
+  - name: '161 🇳🇱 Online S.a.s. CDN'
+    server: 104.17.70.206
     type: vmess
     port: 443
     uuid: a25881f3-967f-3265-bc7f-9e66857b016b

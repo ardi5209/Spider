@@ -45,38 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "90 🇬🇧 OVH SAS CDN",
-        "27 🇬🇧 OVH SAS SNI",
-        "41 🇬🇧 Hydra Communications Ltd SNI"
+        "38 🇬🇧 DIGITALOCEAN-ASN SNI",
+        "127 🇬🇧 DIGITALOCEAN-ASN SNI",
+        "46 🇬🇧 OVH SAS SNI",
+        "47 🇬🇧 ORACLE-BMC-31898 SNI",
+        "105 🇬🇧 Iomart Cloud Services Limited SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "90 🇬🇧 OVH SAS CDN",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
+      "tag": "38 🇬🇧 DIGITALOCEAN-ASN SNI",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "UK.CLOUDFLARE.QUEST"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "UK.CLOUDFLARE.QUEST"
-        }
+        "server_name": "image-upload4.spotify.com"
       }
     },
     {
-      "type": "trojan",
-      "tag": "27 🇬🇧 OVH SAS SNI",
-      "server": "51.195.219.173",
-      "server_port": 443,
-      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+      "type": "vmess",
+      "tag": "127 🇬🇧 DIGITALOCEAN-ASN SNI",
+      "server": "161.35.47.70",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -85,8 +82,32 @@
     },
     {
       "type": "trojan",
-      "tag": "41 🇬🇧 Hydra Communications Ltd SNI",
-      "server": "content-provider21.cdn-delivery.akamaicd.com",
+      "tag": "46 🇬🇧 OVH SAS SNI",
+      "server": "51.89.22.228",
+      "server_port": 443,
+      "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "47 🇬🇧 ORACLE-BMC-31898 SNI",
+      "server": "132.145.51.172",
+      "server_port": 443,
+      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "105 🇬🇧 Iomart Cloud Services Limited SNI",
+      "server": "88.150.137.177",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {

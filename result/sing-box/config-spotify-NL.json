@@ -45,80 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "71 🇳🇱 Online S.a.s. SNI",
-        "94 🇳🇱 CLOUDFLARENET CDN",
-        "106 🇳🇱 Online S.a.s. CDN",
-        "155 🇳🇱 Online S.a.s. SNI",
-        "28 🇳🇱 AS40676 SNI",
-        "29 🇳🇱 AEZA GROUP Ltd SNI"
+        "62 🇳🇱 Online S.a.s. SNI",
+        "74 🇳🇱 Scalaxy B.V. SNI",
+        "83 🇳🇱 Scalaxy B.V. CDN",
+        "152 🇳🇱 Online S.a.s. SNI",
+        "161 🇳🇱 Online S.a.s. CDN",
+        "155 🇳🇱 AS40676 SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "71 🇳🇱 Online S.a.s. SNI",
-      "server": "51.15.81.240",
-      "server_port": 443,
-      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sshocean",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "94 🇳🇱 CLOUDFLARENET CDN",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "scw.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "scw.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "106 🇳🇱 Online S.a.s. CDN",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "v12a.toddns.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nl-unlimitxxx",
-        "headers": {
-          "Host": "v12a.toddns.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "155 🇳🇱 Online S.a.s. SNI",
+      "tag": "62 🇳🇱 Online S.a.s. SNI",
       "server": "51.15.113.164",
       "server_port": 443,
       "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
@@ -138,23 +75,95 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "28 🇳🇱 AS40676 SNI",
-      "server": "185.212.200.75",
-      "server_port": 443,
-      "password": "Sp3eDVp",
+      "type": "vmess",
+      "tag": "74 🇳🇱 Scalaxy B.V. SNI",
+      "server": "nl.gongyiyun.cf",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "83 🇳🇱 Scalaxy B.V. CDN",
+      "server": "investors.spotify.com",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "nl.gongyiyun.cf"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nl.gongyiyun.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "152 🇳🇱 Online S.a.s. SNI",
+      "server": "nl1.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "161 🇳🇱 Online S.a.s. CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v12a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nl-unlimitxxx",
+        "headers": {
+          "Host": "v12a.toddns.tk"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "29 🇳🇱 AEZA GROUP Ltd SNI",
-      "server": "89.185.85.162",
-      "server_port": 30086,
-      "password": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "tag": "155 🇳🇱 AS40676 SNI",
+      "server": "185.212.200.75",
+      "server_port": 443,
+      "password": "Sp3eDVp",
       "tls": {
         "enabled": true,
         "insecure": true,

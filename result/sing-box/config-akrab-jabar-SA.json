@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "57 🇸🇦 OVH SAS CDN"
+        "128 🇸🇦 OVH SAS CDN",
+        "158 🇸🇦 OVH SAS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "57 🇸🇦 OVH SAS CDN",
+      "tag": "128 🇸🇦 OVH SAS CDN",
+      "server": "104.17.3.81",
+      "server_port": 443,
+      "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uk2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "158 🇸🇦 OVH SAS CDN",
       "server": "104.17.3.81",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",

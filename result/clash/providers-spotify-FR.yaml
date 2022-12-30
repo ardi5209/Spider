@@ -1,21 +1,5 @@
 proxies:
-  - name: '4 🇫🇷 Online S.a.s. CDN'
-    server: investors.spotify.com
-    type: vmess
-    port: 443
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: lg10.cfcdn1.xyz
-    ws-opts: 
-      path: /A2DJOPFT
-      headers:
-        Host: lg10.cfcdn1.xyz
-  - name: '8 🇫🇷 Online S.a.s. CDN'
+  - name: '15 🇫🇷 Online S.a.s. CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -31,55 +15,23 @@ proxies:
       path: /IYKLD53M
       headers:
         Host: opfr1.v2rayfree1.xyz
-  - name: '20 🇫🇷 OVH SAS CDN'
+  - name: '51 🇫🇷 Online S.a.s. CDN'
     server: investors.spotify.com
     type: vmess
-    port: 443
-    uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+    port: 2086
+    uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: fr2.v2rayserv.com
+    servername: fr.cloudflare.quest
     ws-opts: 
-      path: /sshocean
+      path: /aries
       headers:
-        Host: fr2.v2rayserv.com
-  - name: '20 🇫🇷 OVH SAS SNI'
-    server: fr2.v2rayserv.com
-    type: vmess
-    port: 443
-    uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '119 🇫🇷 OVH SAS SNI'
-    server: 51.77.158.169
-    type: vmess
-    port: 2096
-    uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '126 🇫🇷 Online S.a.s. CDN'
+        Host: fr.cloudflare.quest
+  - name: '56 🇫🇷 Online S.a.s. CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -95,7 +47,7 @@ proxies:
       path: /fr-unlimitxxx
       headers:
         Host: v10a.toddns.tk
-  - name: '127 🇫🇷 Online S.a.s. SNI'
+  - name: '57 🇫🇷 Online S.a.s. SNI'
     server: v10a.toddns.tk
     type: vmess
     port: 443
@@ -111,3 +63,78 @@ proxies:
       path: /fr-unlimitxxx
       headers:
         Host: image-upload4.spotify.com
+  - name: '81 🇫🇷 OVH SAS SNI'
+    server: 51.77.158.169
+    type: vmess
+    port: 2096
+    uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '142 🇫🇷 Online S.a.s. CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: lg10.cfcdn1.xyz
+    ws-opts: 
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: '151 🇫🇷 OVH SAS CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: fr2.v2rayserv.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: fr2.v2rayserv.com
+  - name: '60 🇫🇷 OVH SAS SNI'
+    server: 176.31.83.90
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '78 🇫🇷 OVH SAS SNI'
+    server: 141.94.76.177
+    type: trojan
+    port: 443
+    password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '156 🇫🇷 OVH SAS SNI'
+    server: 5.135.235.160
+    type: trojan
+    port: 443
+    password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com

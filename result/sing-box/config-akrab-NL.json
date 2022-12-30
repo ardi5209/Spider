@@ -45,59 +45,101 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "71 🇳🇱 Online S.a.s. SNI",
-        "94 🇳🇱 CLOUDFLARENET CDN",
-        "106 🇳🇱 Online S.a.s. CDN",
-        "155 🇳🇱 Online S.a.s. SNI",
-        "28 🇳🇱 AS40676 SNI",
-        "29 🇳🇱 AEZA GROUP Ltd SNI"
+        "62 🇳🇱 Online S.a.s. SNI",
+        "74 🇳🇱 Scalaxy B.V. SNI",
+        "83 🇳🇱 Scalaxy B.V. CDN",
+        "152 🇳🇱 Online S.a.s. SNI",
+        "161 🇳🇱 Online S.a.s. CDN",
+        "155 🇳🇱 AS40676 SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "71 🇳🇱 Online S.a.s. SNI",
-      "server": "51.15.81.240",
+      "tag": "62 🇳🇱 Online S.a.s. SNI",
+      "server": "51.15.113.164",
       "server_port": 443,
-      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/sshocean",
+        "path": "/Danhuang/Jiang",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "94 🇳🇱 CLOUDFLARENET CDN",
+      "tag": "74 🇳🇱 Scalaxy B.V. SNI",
+      "server": "nl.gongyiyun.cf",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "83 🇳🇱 Scalaxy B.V. CDN",
       "server": "hohm.microsoft.com",
-      "server_port": 2086,
-      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "scw.cloudflare.quest"
+        "server_name": "nl.gongyiyun.cf"
       },
       "transport": {
         "type": "ws",
-        "path": "/aries",
+        "path": "/",
         "headers": {
-          "Host": "scw.cloudflare.quest"
+          "Host": "nl.gongyiyun.cf"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "106 🇳🇱 Online S.a.s. CDN",
+      "tag": "152 🇳🇱 Online S.a.s. SNI",
+      "server": "nl1.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "161 🇳🇱 Online S.a.s. CDN",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -117,48 +159,15 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "155 🇳🇱 Online S.a.s. SNI",
-      "server": "51.15.113.164",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Danhuang/Jiang",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "28 🇳🇱 AS40676 SNI",
+      "tag": "155 🇳🇱 AS40676 SNI",
       "server": "185.212.200.75",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "29 🇳🇱 AEZA GROUP Ltd SNI",
-      "server": "89.185.85.162",
-      "server_port": 30086,
-      "password": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     }
   ],
