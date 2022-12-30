@@ -45,12 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "130 🇱🇺 PONYNET CDN 😻 それで ..."
+        "131 🇱🇺 Unknown CDN 💌 それで ...",
+        "149 🇱🇺 PONYNET CDN 💖 それで ...",
+        "161 🇱🇺 Unknown SNI 🧚‍♂️ それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "130 🇱🇺 PONYNET CDN 😻 それで ...",
+      "tag": "131 🇱🇺 Unknown CDN 💌 それで ...",
+      "server": "hohm.microsoft.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "149 🇱🇺 PONYNET CDN 💖 それで ...",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
@@ -66,6 +89,27 @@
         "path": "/go",
         "headers": {
           "Host": "lu1.gogogoo.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "161 🇱🇺 Unknown SNI 🧚‍♂️ それで ...",
+      "server": "91.199.84.239",
+      "server_port": 454,
+      "uuid": "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "click.zoom.us"
         }
       }
     }

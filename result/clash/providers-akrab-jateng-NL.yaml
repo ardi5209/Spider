@@ -1,5 +1,37 @@
 proxies:
-  - name: '75 🇳🇱 Online S.a CDN 🤩 それで ...'
+  - name: '29 🇳🇱 Scalaxy B. CDN 🧚‍♀️ それで ...'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: nl.gongyiyun.cf
+    ws-opts: 
+      path: /
+      headers:
+        Host: nl.gongyiyun.cf
+  - name: '31 🇳🇱 CLOUDFLARE CDN 😂 それで ...'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '179 🇳🇱 Online S.a CDN 😂 それで ...'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
