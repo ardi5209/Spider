@@ -45,17 +45,61 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "43 🇹🇼 Scloud Pte SNI ☀️ それで ..."
+        "5 🇹🇼 Data Communication Business Group SNI",
+        "56 🇹🇼 Data Communication Business Group CDN",
+        "73 🇹🇼 Data Communication Business Group SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "43 🇹🇼 Scloud Pte SNI ☀️ それで ...",
-      "server": "4.ppyun1.top",
-      "server_port": 19104,
-      "uuid": "40a0e5d6-9179-3580-8199-48ffa148bc57",
+      "tag": "5 🇹🇼 Data Communication Business Group SNI",
+      "server": "tw1.kidcc.xyz",
+      "server_port": 8443,
+      "uuid": "ff90d31d-6e69-4597-8c20-74a44208c843",
       "security": "auto",
-      "alter_id": 2,
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "56 🇹🇼 Data Communication Business Group CDN",
+      "server": "investors.spotify.com",
+      "server_port": 8443,
+      "uuid": "72ad1ab5-5399-4a39-bd89-39b17c9c52a9",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tw3.caoyyds.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cao",
+        "headers": {
+          "Host": "tw3.caoyyds.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "73 🇹🇼 Data Communication Business Group SNI",
+      "server": "v1-tw.xtspeeder001.xyz",
+      "server_port": 18001,
+      "uuid": "7affa329-5e15-369e-8929-b6452cdf2616",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,

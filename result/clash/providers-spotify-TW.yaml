@@ -1,10 +1,42 @@
 proxies:
-  - name: '43 🇹🇼 Scloud Pte SNI ☀️ それで ...'
-    server: 4.ppyun1.top
+  - name: '5 🇹🇼 Data Communication Business Group SNI'
+    server: tw1.kidcc.xyz
     type: vmess
-    port: 19104
-    uuid: 40a0e5d6-9179-3580-8199-48ffa148bc57
-    alterId: 2
+    port: 8443
+    uuid: ff90d31d-6e69-4597-8c20-74a44208c843
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '56 🇹🇼 Data Communication Business Group CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 8443
+    uuid: 72ad1ab5-5399-4a39-bd89-39b17c9c52a9
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tw3.caoyyds.top
+    ws-opts: 
+      path: /cao
+      headers:
+        Host: tw3.caoyyds.top
+  - name: '73 🇹🇼 Data Communication Business Group SNI'
+    server: v1-tw.xtspeeder001.xyz
+    type: vmess
+    port: 18001
+    uuid: 7affa329-5e15-369e-8929-b6452cdf2616
+    alterId: 0
     cipher: auto
     tls: true
     udp: true

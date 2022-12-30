@@ -1,6 +1,6 @@
 proxies:
-  - name: '31 🇨🇦 OVH SAS CDN'
-    server: news.microsoft.com
+  - name: '9 🇨🇦 OVH SAS CDN'
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
@@ -15,7 +15,7 @@ proxies:
       path: /
       headers:
         Host: ca2.v2rayserv.com
-  - name: '46 🇨🇦 AMAZON-02 CDN'
+  - name: '121 🇨🇦 AMAZON-02 CDN'
     server: news.microsoft.com
     type: vmess
     port: 443
@@ -31,35 +31,12 @@ proxies:
       path: /Falling42awsypcanode
       headers:
         Host: awsypca.sylu.cyou
-  - name: '48 🇨🇦 AMAZON-02 SNI'
-    server: awsypca.sylu.cyou
-    type: vmess
+  - name: '124 🇨🇦 OVH SAS SNI'
+    server: cat1.sshocean.net
+    type: trojan
     port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /Falling42awsypcanode
-      headers:
-        Host: news.microsoft.com
-  - name: '58 🇨🇦 DIGITALOCEAN-ASN SNI'
-    server: 159.203.18.119
-    type: vmess
-    port: 443
-    uuid: af3e47fc-f817-4845-822c-1f35ecf90b31
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com

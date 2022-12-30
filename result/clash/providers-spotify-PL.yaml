@@ -1,5 +1,21 @@
 proxies:
-  - name: '65 🇵🇱 G-Core Labs S.A. CDN'
+  - name: '25 🇵🇱 G-Core Labs S.A. SNI'
+    server: gcspl.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '26 🇵🇱 G-Core Labs S.A. CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -10,40 +26,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcorepl.sylu.cyou
+    servername: gcspl.sylu.cyou
     ws-opts: 
-      path: /Falling42gcoreplnode
+      path: /Falling42gcsplnode
       headers:
-        Host: gcorepl.sylu.cyou
-  - name: '122 🇵🇱 G-Core Labs S.A. SNI'
-    server: gcorepl.sylu.cyou
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /Falling42gcoreplnode
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '154 🇵🇱 OVH SAS SNI'
-    server: 147.135.208.210
-    type: vmess
-    port: 443
-    uuid: 7e194a05-a9d8-42fa-a8ad-f867057fba74
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: image-upload4.spotify.com
+        Host: gcspl.sylu.cyou
