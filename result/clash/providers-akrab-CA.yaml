@@ -1,5 +1,21 @@
 proxies:
-  - name: '66 🇨🇦 AMAZON-02 CDN'
+  - name: '36 🇨🇦 Linode  LLC SNI'
+    server: ca1.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: 98c4f17f-08fc-4ff4-90de-d0035cbcd35b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: click.zoom.us
+  - name: '149 🇨🇦 AMAZON-02 CDN'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -15,44 +31,7 @@ proxies:
       path: /Falling42awsypcanode
       headers:
         Host: awsypca.sylu.cyou
-  - name: '67 🇨🇦 AMAZON-02 SNI'
-    server: awsypca.sylu.cyou
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /Falling42awsypcanode
-      headers:
-        Host: safebrowsing.google.com
-  - name: '73 🇨🇦 AMAZON-02 SNI'
-    server: 23jnd.mealstream.xyz
-    type: vmess
-    port: 15523
-    uuid: 71f98616-2945-4149-b93d-5de936c4e0fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '64 🇨🇦 OVH SAS SNI'
-    server: cat1.sshocean.net
-    type: trojan
-    port: 443
-    password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '72 🇨🇦 OVH SAS SNI'
+  - name: '52 🇨🇦 OVH SAS SNI'
     server: ca1.trojanvh.xyz
     type: trojan
     port: 443
@@ -60,4 +39,13 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
+  - name: '54 🇨🇦 OVH SAS SNI'
+    server: 149.56.141.11
+    type: trojan
+    port: 443
+    password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com

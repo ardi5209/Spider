@@ -1,9 +1,25 @@
 proxies:
-  - name: '79 🇹🇼 Data Communication Business Group SNI'
-    server: twfv6h4zc.b70rw85t.xyz
+  - name: '88 🇹🇼 Taiwan Digital Streaming Co. CDN'
+    server: investors.spotify.com
     type: vmess
-    port: 39999
-    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
+    port: 443
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: 22331.eutopiacloud.ml
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: 22331.eutopiacloud.ml
+  - name: '113 🇹🇼 Scloud Pte Ltd SNI'
+    server: tw6.czs1000.com
+    type: vmess
+    port: 1001
+    uuid: 98c4f17f-08fc-4ff4-90de-d0035cbcd35b
     alterId: 0
     cipher: auto
     tls: true
@@ -11,15 +27,35 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '154 🇹🇼 Data Communication Business Group SNI'
-    server: twmx6l01b.b70rw85t.xyz
+  - name: '117 🇹🇼 Taiwan Digital Streaming Co. SNI'
+    server: 13.229.229.167
     type: vmess
-    port: 39998
-    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
+    port: 2002
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '158 🇹🇼 Taiwan Digital Streaming Co. SNI'
+    server: mc.xn--mes794a17ar33a.xyz
+    type: vmess
+    port: 2008
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: image-upload4.spotify.com

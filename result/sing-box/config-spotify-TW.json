@@ -45,16 +45,39 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "79 🇹🇼 Data Communication Business Group SNI",
-        "154 🇹🇼 Data Communication Business Group SNI"
+        "88 🇹🇼 Taiwan Digital Streaming Co. CDN",
+        "113 🇹🇼 Scloud Pte Ltd SNI",
+        "117 🇹🇼 Taiwan Digital Streaming Co. SNI",
+        "158 🇹🇼 Taiwan Digital Streaming Co. SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "79 🇹🇼 Data Communication Business Group SNI",
-      "server": "twfv6h4zc.b70rw85t.xyz",
-      "server_port": 39999,
-      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
+      "tag": "88 🇹🇼 Taiwan Digital Streaming Co. CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "22331.eutopiacloud.ml"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xyf520",
+        "headers": {
+          "Host": "22331.eutopiacloud.ml"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "113 🇹🇼 Scloud Pte Ltd SNI",
+      "server": "tw6.czs1000.com",
+      "server_port": 1001,
+      "uuid": "98c4f17f-08fc-4ff4-90de-d0035cbcd35b",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -65,16 +88,44 @@
     },
     {
       "type": "vmess",
-      "tag": "154 🇹🇼 Data Communication Business Group SNI",
-      "server": "twmx6l01b.b70rw85t.xyz",
-      "server_port": 39998,
-      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
+      "tag": "117 🇹🇼 Taiwan Digital Streaming Co. SNI",
+      "server": "13.229.229.167",
+      "server_port": 2002,
+      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xyf520",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "158 🇹🇼 Taiwan Digital Streaming Co. SNI",
+      "server": "mc.xn--mes794a17ar33a.xyz",
+      "server_port": 2008,
+      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xyf520",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],

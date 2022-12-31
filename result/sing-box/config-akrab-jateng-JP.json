@@ -45,15 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "82 🇯🇵 G-Core Labs S.A. CDN",
-        "101 🇯🇵 NTT PC Communications  Inc. CDN",
-        "122 🇯🇵 AMAZON-02 CDN",
-        "146 🇯🇵 AMAZON-02 CDN"
+        "80 🇯🇵 ORACLE-BMC-31898 CDN",
+        "99 🇯🇵 G-Core Labs S.A. CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "82 🇯🇵 G-Core Labs S.A. CDN",
+      "tag": "80 🇯🇵 ORACLE-BMC-31898 CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "suzhihan.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/roewesu",
+        "headers": {
+          "Host": "suzhihan.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "99 🇯🇵 G-Core Labs S.A. CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -69,69 +88,6 @@
         "path": "/Falling42gcssjpnode",
         "headers": {
           "Host": "gcssjp.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "101 🇯🇵 NTT PC Communications  Inc. CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "jp-ntt.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "jp-ntt.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "122 🇯🇵 AMAZON-02 CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "awsjpyc.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42awsjpycnode",
-        "headers": {
-          "Host": "awsjpyc.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "146 🇯🇵 AMAZON-02 CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "awsjpya.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42awsjpyanode",
-        "headers": {
-          "Host": "awsjpya.sylu.cyou"
         }
       }
     }
