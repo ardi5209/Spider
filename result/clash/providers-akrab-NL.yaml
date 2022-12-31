@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '133 🇳🇱 Scalaxy B.V. SNI WS'
     server: nl.gongyiyun.cf
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '221 🇳🇱 DIGITALOCEAN-ASN SNI WS'
     server: tray.tawanaclub.tk
     type: vmess
@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /tawanaproxy6
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '228 🇳🇱 AS40676 SNI TCP'
     server: 185.212.200.75
     type: trojan
@@ -83,4 +83,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
