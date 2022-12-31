@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "13 🇸🇦 OVH SAS CDN",
-        "103 🇸🇦 OVH SAS SNI"
+        "54 🇸🇦 OVH SAS CDN",
+        "111 🇸🇦 OVH SAS CDN",
+        "190 🇸🇦 OVH SAS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "13 🇸🇦 OVH SAS CDN",
+      "tag": "54 🇸🇦 OVH SAS CDN",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
@@ -72,7 +73,28 @@
     },
     {
       "type": "vmess",
-      "tag": "103 🇸🇦 OVH SAS SNI",
+      "tag": "111 🇸🇦 OVH SAS CDN",
+      "server": "hohm.microsoft.com",
+      "server_port": 443,
+      "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uk2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "190 🇸🇦 OVH SAS SNI",
       "server": "51.195.217.20",
       "server_port": 443,
       "uuid": "a6ee3c75-f83e-48a0-9af0-ac963db12112",
@@ -85,7 +107,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/sshocean",
         "headers": {
           "Host": "config.teams.microsoft.com"
         }

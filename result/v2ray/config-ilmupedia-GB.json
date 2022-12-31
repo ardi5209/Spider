@@ -84,14 +84,82 @@
       "settings": {
         "vnext": [
           {
-            "address": "18.133.149.100",
-            "port": 40899,
+            "address": "161.35.47.70",
+            "port": 13472,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8026e383-7b25-4976-8221-bc2064c9ed3d",
+                "id": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-77 🇬🇧 DIGITALOCEAN-ASN SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.35.47.70",
+            "port": 13472,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-99 🇬🇧 DIGITALOCEAN-ASN SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +172,50 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "news.microsoft.com"
+          "serverName": "UK.CLOUDFLARE.QUEST"
         },
         "wsSettings": {
           "headers": {
-            "Host": "news.microsoft.com"
+            "Host": "UK.CLOUDFLARE.QUEST"
           },
-          "path": "/"
+          "path": "/aries"
         }
       },
-      "tag": "proxy-93 🇬🇧 AMAZON-02 SNI"
+      "tag": "proxy-185 🇬🇧 OVH SAS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.35.47.70",
+            "port": 29210,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-188 🇬🇧 DIGITALOCEAN-ASN SNI"
     },
     {
       "mux": {
@@ -124,12 +226,12 @@
       "settings": {
         "servers": [
           {
-            "address": "uk1.trojanvh.xyz",
+            "address": "t1.teslacdn1.live",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "211f5876-8c89-4d97-9004-ff16acddd506",
+            "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
             "port": 443
           }
         ]
@@ -142,7 +244,36 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-11 🇬🇧 OVH SAS SNI"
+      "tag": "proxy-6 🇬🇧 OVH SAS SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ukt1.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-50 🇬🇧 OVH SAS SNI"
     },
     {
       "mux": {
@@ -171,7 +302,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-77 🇬🇧 Hydra Communications Ltd SNI"
+      "tag": "proxy-52 🇬🇧 Hydra Communications Ltd SNI"
     },
     {
       "mux": {
@@ -187,7 +318,7 @@
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "b640d791-ff83-4300-b509-c2a02f97f167",
+            "password": "211f5876-8c89-4d97-9004-ff16acddd506",
             "port": 443
           }
         ]
@@ -200,65 +331,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-92 🇬🇧 OVH SAS SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "146.19.230.241",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "xxoo",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-104 🇬🇧 Stark Industries Solutions Ltd SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "jgwld1.gaox.ml",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-125 🇬🇧 ORACLE-BMC-31898 SNI"
+      "tag": "proxy-109 🇬🇧 OVH SAS SNI"
     }
   ],
   "dns": {

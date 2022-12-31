@@ -45,14 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "6 🇩🇪 myLoc managed IT AG CDN",
-        "92 🇩🇪 OVH SAS CDN",
-        "145 🇩🇪 CLOUDFLARENET CDN"
+        "127 🇩🇪 Hetzner Online GmbH CDN",
+        "157 🇩🇪 myLoc managed IT AG CDN",
+        "182 🇩🇪 OVH SAS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "6 🇩🇪 myLoc managed IT AG CDN",
+      "tag": "127 🇩🇪 Hetzner Online GmbH CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2053,
+      "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "foxdeovz1.fovi.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eisasqa",
+        "headers": {
+          "Host": "foxdeovz1.fovi.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "157 🇩🇪 myLoc managed IT AG CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
@@ -73,7 +94,7 @@
     },
     {
       "type": "vmess",
-      "tag": "92 🇩🇪 OVH SAS CDN",
+      "tag": "182 🇩🇪 OVH SAS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -89,27 +110,6 @@
         "path": "/",
         "headers": {
           "Host": "de.gongyiyun.cf"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "145 🇩🇪 CLOUDFLARENET CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 2053,
-      "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "foxdeovz1.fovi.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eisasqa",
-        "headers": {
-          "Host": "foxdeovz1.fovi.tk"
         }
       }
     }
