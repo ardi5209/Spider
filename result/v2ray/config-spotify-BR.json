@@ -80,40 +80,29 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "investors.spotify.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "2b94c981-516a-443f-a9cb-43b11cf7c7ab",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "20012.purefast2.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "ed3ccb1e-7057-3d40-b794-630ef18fb7d2",
+            "port": 20012
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "amdbr1.titams.xyz"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "amdbr1.titams.xyz"
-          },
-          "path": "/sadwd"
+          "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-33 🇧🇷 ORACLE-BMC CDN 🌟 それで ..."
+      "tag": "proxy-111 🇧🇷 G-Core Labs S.A. SNI"
     }
   ],
   "dns": {

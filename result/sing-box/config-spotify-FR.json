@@ -45,18 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "26 🇫🇷 Online S.a.s. CDN",
-        "42 🇫🇷 Online S.a.s. CDN",
-        "44 🇫🇷 OVH SAS SNI",
-        "45 🇫🇷 OVH SAS CDN",
-        "119 🇫🇷 Online S.a.s. CDN",
-        "194 🇫🇷 Online S.a.s. CDN",
-        "77 🇫🇷 OVH SAS SNI"
+        "1 🇫🇷 Online S.a.s. CDN",
+        "4 🇫🇷 Online S.a.s. CDN",
+        "7 🇫🇷 OVH SAS SNI",
+        "8 🇫🇷 OVH SAS CDN",
+        "16 🇫🇷 Online S.a.s. CDN",
+        "116 🇫🇷 Online S.a.s. SNI",
+        "156 🇫🇷 Online S.a.s. CDN",
+        "137 🇫🇷 OVH SAS SNI",
+        "149 🇫🇷 OVH SAS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "26 🇫🇷 Online S.a.s. CDN",
+      "tag": "1 🇫🇷 Online S.a.s. CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
@@ -77,7 +79,7 @@
     },
     {
       "type": "vmess",
-      "tag": "42 🇫🇷 Online S.a.s. CDN",
+      "tag": "4 🇫🇷 Online S.a.s. CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
@@ -98,7 +100,7 @@
     },
     {
       "type": "vmess",
-      "tag": "44 🇫🇷 OVH SAS SNI",
+      "tag": "7 🇫🇷 OVH SAS SNI",
       "server": "fr2.v2rayserv.com",
       "server_port": 443,
       "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
@@ -119,7 +121,7 @@
     },
     {
       "type": "vmess",
-      "tag": "45 🇫🇷 OVH SAS CDN",
+      "tag": "8 🇫🇷 OVH SAS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
@@ -140,7 +142,7 @@
     },
     {
       "type": "vmess",
-      "tag": "119 🇫🇷 Online S.a.s. CDN",
+      "tag": "16 🇫🇷 Online S.a.s. CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -161,31 +163,64 @@
     },
     {
       "type": "vmess",
-      "tag": "194 🇫🇷 Online S.a.s. CDN",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
+      "tag": "116 🇫🇷 Online S.a.s. SNI",
+      "server": "45.136.244.181",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "fr.cloudflare.quest"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/aries",
+        "path": "/fr-unlimitxxx",
         "headers": {
-          "Host": "fr.cloudflare.quest"
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "156 🇫🇷 Online S.a.s. CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v10a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fr-unlimitxxx",
+        "headers": {
+          "Host": "v10a.toddns.tk"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "77 🇫🇷 OVH SAS SNI",
-      "server": "176.31.83.90",
+      "tag": "137 🇫🇷 OVH SAS SNI",
+      "server": "141.94.76.177",
       "server_port": 443,
-      "password": "origin",
+      "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "149 🇫🇷 OVH SAS SNI",
+      "server": "5.135.235.160",
+      "server_port": 443,
+      "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
       "tls": {
         "enabled": true,
         "insecure": true,

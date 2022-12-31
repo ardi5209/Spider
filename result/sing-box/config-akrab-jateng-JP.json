@@ -45,12 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "43 🇯🇵 ORACLE-BMC-31898 CDN"
+        "76 🇯🇵 ORACLE-BMC-31898 CDN",
+        "102 🇯🇵 AMAZON-02 CDN",
+        "108 🇯🇵 AMAZON-02 CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "43 🇯🇵 ORACLE-BMC-31898 CDN",
+      "tag": "76 🇯🇵 ORACLE-BMC-31898 CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "595b4629-116d-4fe1-dcab-d2a6b112b81a",
@@ -66,6 +68,48 @@
         "path": "/hfhqqweqwxxx",
         "headers": {
           "Host": "jp1.mayaa.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102 🇯🇵 AMAZON-02 CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjpyc.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsjpycnode",
+        "headers": {
+          "Host": "awsjpyc.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "108 🇯🇵 AMAZON-02 CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "awsjpya.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42awsjpyanode",
+        "headers": {
+          "Host": "awsjpya.sylu.cyou"
         }
       }
     }

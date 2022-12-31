@@ -1,6 +1,6 @@
 proxies:
-  - name: '112 🇳🇱 Scalaxy B.V. SNI'
-    server: 5.45.78.209
+  - name: '42 🇳🇱 Scalaxy B.V. SNI'
+    server: nl.gongyiyun.cf
     type: vmess
     port: 8080
     uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
@@ -15,35 +15,19 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '135 🇳🇱 Online S.a.s. CDN'
+  - name: '43 🇳🇱 Scalaxy B.V. CDN'
     server: investors.spotify.com
     type: vmess
-    port: 443
-    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: v12a.toddns.tk
-    ws-opts: 
-      path: /nl-unlimitxxx
-      headers:
-        Host: v12a.toddns.tk
-  - name: '195 🇳🇱 Online S.a.s. SNI'
-    server: nl1.v2rayserv.com
-    type: vmess
-    port: 443
-    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
+    servername: nl.gongyiyun.cf
     ws-opts: 
       path: /
       headers:
-        Host: image-upload4.spotify.com
+        Host: nl.gongyiyun.cf
