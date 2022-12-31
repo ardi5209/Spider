@@ -45,24 +45,174 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "50 🇰🇷 ORACLE-BMC-31898 CDN",
-        "61 🇰🇷 AMAZON-02 SNI",
-        "71 🇰🇷 MOACK.Co.LTD SNI",
-        "95 🇰🇷 ORACLE-BMC-31898 SNI",
-        "112 🇰🇷 Scloud Pte Ltd SNI",
-        "170 🇰🇷 AMAZON-02 SNI",
-        "53 🇰🇷 ORACLE-BMC-31898 SNI",
-        "116 🇰🇷 ORACLE-BMC-31898 SNI",
-        "137 🇰🇷 AMAZON-02 SNI",
-        "138 🇰🇷 ORACLE-BMC-31898 SNI",
-        "152 🇰🇷 ORACLE-BMC-31898 SNI",
-        "163 🇰🇷 ORACLE-BMC-31898 SNI",
-        "178 🇰🇷 ORACLE-BMC-31898 SNI"
+        "38 🇰🇷 MICROSOFT-CORP-MSN-AS-BLOCK SNI",
+        "39 🇰🇷 MICROSOFT-CORP-MSN-AS-BLOCK CDN",
+        "56 🇰🇷 MOACK.Co.LTD SNI",
+        "76 🇰🇷 MOACK.Co.LTD SNI",
+        "99 🇰🇷 ORACLE-BMC-31898 SNI",
+        "102 🇰🇷 ORACLE-BMC-31898 SNI",
+        "103 🇰🇷 ORACLE-BMC-31898 CDN",
+        "163 🇰🇷 ORACLE-BMC-31898 CDN",
+        "171 🇰🇷 ORACLE-BMC-31898 SNI",
+        "14 🇰🇷 ORACLE-BMC-31898 SNI",
+        "73 🇰🇷 AMAZON-02 SNI",
+        "89 🇰🇷 ORACLE-BMC-31898 SNI",
+        "106 🇰🇷 ORACLE-BMC-31898 SNI",
+        "123 🇰🇷 ORACLE-BMC-31898 SNI",
+        "140 🇰🇷 ORACLE-BMC-31898 SNI",
+        "173 🇰🇷 ORACLE-BMC-31898 SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "50 🇰🇷 ORACLE-BMC-31898 CDN",
+      "tag": "38 🇰🇷 MICROSOFT-CORP-MSN-AS-BLOCK SNI",
+      "server": "kr1.sanfen001.pics",
+      "server_port": 443,
+      "uuid": "dc8a0a4d-379a-40c8-86ea-964fc3f68771",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "39 🇰🇷 MICROSOFT-CORP-MSN-AS-BLOCK CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "dc8a0a4d-379a-40c8-86ea-964fc3f68771",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "kr1.sanfen001.pics"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn",
+        "headers": {
+          "Host": "kr1.sanfen001.pics"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "56 🇰🇷 MOACK.Co.LTD SNI",
+      "server": "161.129.34.102",
+      "server_port": 443,
+      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "undefined",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "76 🇰🇷 MOACK.Co.LTD SNI",
+      "server": "161.129.34.102",
+      "server_port": 443,
+      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "99 🇰🇷 ORACLE-BMC-31898 SNI",
+      "server": "152.67.218.38",
+      "server_port": 443,
+      "uuid": "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102 🇰🇷 ORACLE-BMC-31898 SNI",
+      "server": "surongwei.eu.org",
+      "server_port": 443,
+      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/reffs7y26g0ua",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "103 🇰🇷 ORACLE-BMC-31898 CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "surongwei.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/reffs7y26g0ua",
+        "headers": {
+          "Host": "surongwei.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "163 🇰🇷 ORACLE-BMC-31898 CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "d5d8c6c4-d39c-4a0d-909e-bde51e8145ab",
@@ -83,87 +233,10 @@
     },
     {
       "type": "vmess",
-      "tag": "61 🇰🇷 AMAZON-02 SNI",
-      "server": "kr01.170203.xyz",
-      "server_port": 45453,
-      "uuid": "52a4133b-88df-439c-8b44-589cea71327d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "71 🇰🇷 MOACK.Co.LTD SNI",
-      "server": "lc-kr02-direct01.lc-kr02.lc-node.com",
+      "tag": "171 🇰🇷 ORACLE-BMC-31898 SNI",
+      "server": "152.69.230.170",
       "server_port": 443,
-      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
-      "security": "auto",
-      "alter_id": 2,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "95 🇰🇷 ORACLE-BMC-31898 SNI",
-      "server": "130.162.141.104",
-      "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/reffs7y26g0ua",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "112 🇰🇷 Scloud Pte Ltd SNI",
-      "server": "kr4.czs1000.com",
-      "server_port": 6687,
-      "uuid": "98c4f17f-08fc-4ff4-90de-d0035cbcd35b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "170 🇰🇷 AMAZON-02 SNI",
-      "server": "54.180.117.118",
-      "server_port": 42517,
-      "uuid": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
+      "uuid": "6aa24ded-5f15-48c7-8cba-3e2a159d6b77",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -181,43 +254,7 @@
     },
     {
       "type": "trojan",
-      "tag": "53 🇰🇷 ORACLE-BMC-31898 SNI",
-      "server": "kr1.api-aws.com",
-      "server_port": 443,
-      "password": "33073a7c-e6d5-4271-9b19-4416afcc25b5",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "116 🇰🇷 ORACLE-BMC-31898 SNI",
-      "server": "138.2.113.84",
-      "server_port": 443,
-      "password": "b291d129-ee55-4801-a9b8-b5316e5c37b7",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "137 🇰🇷 AMAZON-02 SNI",
-      "server": "3.36.139.18",
-      "server_port": 50334,
-      "password": "38f06c85-4a37-4cad-811f-9fb7f6e9cab6",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "138 🇰🇷 ORACLE-BMC-31898 SNI",
+      "tag": "14 🇰🇷 ORACLE-BMC-31898 SNI",
       "server": "kr1.api-aws.com",
       "server_port": 443,
       "password": "ec129ab2-3c89-4e25-8b97-aee479ac06f1",
@@ -229,7 +266,43 @@
     },
     {
       "type": "trojan",
-      "tag": "152 🇰🇷 ORACLE-BMC-31898 SNI",
+      "tag": "73 🇰🇷 AMAZON-02 SNI",
+      "server": "kr-s-2.fuckjdieng.uk",
+      "server_port": 50382,
+      "password": "b73a108c-1070-48aa-a2c4-d50630c47ee7",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "89 🇰🇷 ORACLE-BMC-31898 SNI",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "205f8ab6-cb17-4480-93a6-aece90b88742",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "106 🇰🇷 ORACLE-BMC-31898 SNI",
+      "server": "jgw2.gaox.ml",
+      "server_port": 443,
+      "password": "f2117e99-9b6e-47fd-b0a9-634a0b15b998",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "123 🇰🇷 ORACLE-BMC-31898 SNI",
       "server": "146.56.176.239",
       "server_port": 443,
       "password": "98a68cfb-42c6-4498-ac6e-7e5c203924a7",
@@ -241,10 +314,10 @@
     },
     {
       "type": "trojan",
-      "tag": "163 🇰🇷 ORACLE-BMC-31898 SNI",
-      "server": "jgwcc1.gaox.ml",
+      "tag": "140 🇰🇷 ORACLE-BMC-31898 SNI",
+      "server": "jgwcc3.gaox.ml",
       "server_port": 443,
-      "password": "7118b5f4-0ea4-4c11-be7f-11471cb91e4a",
+      "password": "b291d129-ee55-4801-a9b8-b5316e5c37b7",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -253,10 +326,10 @@
     },
     {
       "type": "trojan",
-      "tag": "178 🇰🇷 ORACLE-BMC-31898 SNI",
+      "tag": "173 🇰🇷 ORACLE-BMC-31898 SNI",
       "server": "kr1.api-aws.com",
       "server_port": 443,
-      "password": "10f81a15-c7c8-473b-a12a-a09f098b6236",
+      "password": "036ba5aa-fcb7-4e6f-95b5-a857cb354aa8",
       "tls": {
         "enabled": true,
         "insecure": true,

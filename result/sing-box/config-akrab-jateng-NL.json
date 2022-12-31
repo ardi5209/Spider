@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "105 🇳🇱 Online S.a.s. CDN"
+        "9 🇳🇱 CLOUDFLARENET CDN",
+        "101 🇳🇱 Online S.a.s. CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "105 🇳🇱 Online S.a.s. CDN",
+      "tag": "9 🇳🇱 CLOUDFLARENET CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "scw.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "scw.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "101 🇳🇱 Online S.a.s. CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",

@@ -85,6 +85,46 @@
         "vnext": [
           {
             "address": "main.millionaireaisle.com",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-9 🇳🇱 CLOUDFLARENET CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
             "port": 443,
             "users": [
               {
@@ -113,7 +153,7 @@
           "path": "/nl-unlimitxxx"
         }
       },
-      "tag": "proxy-105 🇳🇱 Online S.a.s. CDN"
+      "tag": "proxy-101 🇳🇱 Online S.a.s. CDN"
     }
   ],
   "dns": {

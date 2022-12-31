@@ -45,21 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "124 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI"
+        "83 🇨🇳 Beijing Baidu Netcom Science and Technology Co.  Ltd. SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "124 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI",
-      "server": "47.104.237.32",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "tag": "83 🇨🇳 Beijing Baidu Netcom Science and Technology Co.  Ltd. SNI",
+      "server": "106.12.168.13",
+      "server_port": 13156,
+      "uuid": "9bf4cba4-9e9e-4da4-8e65-f7c487c539df",
       "security": "auto",
-      "alter_id": 64,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     }
   ],

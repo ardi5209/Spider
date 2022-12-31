@@ -45,72 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "36 🇨🇦 Linode  LLC SNI",
-        "149 🇨🇦 AMAZON-02 CDN",
-        "52 🇨🇦 OVH SAS SNI",
-        "54 🇨🇦 OVH SAS SNI"
+        "159 🇨🇦 OVH SAS SNI",
+        "170 🇨🇦 OVH SAS SNI"
       ]
     },
     {
-      "type": "vmess",
-      "tag": "36 🇨🇦 Linode  LLC SNI",
-      "server": "ca1.czs1000.com",
-      "server_port": 11217,
-      "uuid": "98c4f17f-08fc-4ff4-90de-d0035cbcd35b",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "159 🇨🇦 OVH SAS SNI",
+      "server": "cat1.sshocean.net",
+      "server_port": 443,
+      "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "149 🇨🇦 AMAZON-02 CDN",
-      "server": "news.microsoft.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "awsypca.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42awsypcanode",
-        "headers": {
-          "Host": "awsypca.sylu.cyou"
-        }
       }
     },
     {
       "type": "trojan",
-      "tag": "52 🇨🇦 OVH SAS SNI",
+      "tag": "170 🇨🇦 OVH SAS SNI",
       "server": "ca1.trojanvh.xyz",
       "server_port": 443,
       "password": "4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "54 🇨🇦 OVH SAS SNI",
-      "server": "149.56.141.11",
-      "server_port": 443,
-      "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
       "tls": {
         "enabled": true,
         "insecure": true,

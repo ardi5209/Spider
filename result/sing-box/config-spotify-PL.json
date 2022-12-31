@@ -45,17 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "4 🇵🇱 OVH SAS SNI",
-        "37 🇵🇱 G-Core Labs S.A. CDN",
-        "38 🇵🇱 G-Core Labs S.A. SNI"
+        "59 🇵🇱 G-Core Labs S.A. SNI",
+        "60 🇵🇱 G-Core Labs S.A. CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "4 🇵🇱 OVH SAS SNI",
-      "server": "146.59.92.219",
-      "server_port": 2096,
-      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "tag": "59 🇵🇱 G-Core Labs S.A. SNI",
+      "server": "gcspl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -65,7 +64,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -73,7 +72,7 @@
     },
     {
       "type": "vmess",
-      "tag": "37 🇵🇱 G-Core Labs S.A. CDN",
+      "tag": "60 🇵🇱 G-Core Labs S.A. CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -82,34 +81,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
+        "server_name": "gcspl.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcoreplnode",
+        "path": "/Falling42gcsplnode",
         "headers": {
-          "Host": "gcorepl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "38 🇵🇱 G-Core Labs S.A. SNI",
-      "server": "gcorepl.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
+          "Host": "gcspl.sylu.cyou"
         }
       }
     }

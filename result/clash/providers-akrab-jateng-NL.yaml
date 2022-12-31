@@ -1,5 +1,21 @@
 proxies:
-  - name: '105 🇳🇱 Online S.a.s. CDN'
+  - name: '9 🇳🇱 CLOUDFLARENET CDN'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '101 🇳🇱 Online S.a.s. CDN'
     server: main.millionaireaisle.com
     type: vmess
     port: 443

@@ -45,57 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "4 🇵🇱 OVH SAS SNI",
-        "37 🇵🇱 G-Core Labs S.A. CDN",
-        "38 🇵🇱 G-Core Labs S.A. SNI"
+        "59 🇵🇱 G-Core Labs S.A. SNI",
+        "60 🇵🇱 G-Core Labs S.A. CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "4 🇵🇱 OVH SAS SNI",
-      "server": "146.59.92.219",
-      "server_port": 2096,
-      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "37 🇵🇱 G-Core Labs S.A. CDN",
-      "server": "news.microsoft.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "gcorepl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "38 🇵🇱 G-Core Labs S.A. SNI",
-      "server": "gcorepl.sylu.cyou",
+      "tag": "59 🇵🇱 G-Core Labs S.A. SNI",
+      "server": "gcspl.sylu.cyou",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
@@ -107,9 +64,30 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcoreplnode",
+        "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "60 🇵🇱 G-Core Labs S.A. CDN",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcspl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "gcspl.sylu.cyou"
         }
       }
     }

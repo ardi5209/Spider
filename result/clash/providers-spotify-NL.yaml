@@ -1,21 +1,21 @@
 proxies:
-  - name: '60 🇳🇱 Online S.a.s. SNI'
-    server: nl1.v2rayserv.com
+  - name: '9 🇳🇱 CLOUDFLARENET CDN'
+    server: investors.spotify.com
     type: vmess
-    port: 443
-    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: image-upload4.spotify.com
+    servername: scw.cloudflare.quest
     ws-opts: 
-      path: /Danhuang/Jiang
+      path: /aries
       headers:
-        Host: image-upload4.spotify.com
-  - name: '98 🇳🇱 Scalaxy B.V. SNI'
+        Host: scw.cloudflare.quest
+  - name: '61 🇳🇱 Scalaxy B.V. SNI'
     server: 5.45.78.209
     type: vmess
     port: 8080
@@ -31,7 +31,7 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '105 🇳🇱 Online S.a.s. CDN'
+  - name: '101 🇳🇱 Online S.a.s. CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -47,12 +47,19 @@ proxies:
       path: /nl-unlimitxxx
       headers:
         Host: v12a.toddns.tk
-  - name: '11 🇳🇱 AS40676 SNI'
-    server: 185.212.200.74
-    type: trojan
+  - name: '166 🇳🇱 Online S.a.s. SNI'
+    server: nl1.v2rayserv.com
+    type: vmess
     port: 443
-    password: Sp3eDVp
+    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /Danhuang/Jiang
+      headers:
+        Host: image-upload4.spotify.com

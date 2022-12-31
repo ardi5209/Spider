@@ -45,16 +45,61 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "23 🇩🇪 Hetzner Online GmbH SNI",
-        "46 🇩🇪 DIGITALOCEAN-ASN SNI",
-        "130 🇩🇪 Contabo GmbH CDN",
-        "41 🇩🇪 Hetzner Online GmbH SNI",
-        "134 🇩🇪 OVH SAS SNI"
+        "20 🇩🇪 myLoc managed IT AG SNI",
+        "21 🇩🇪 myLoc managed IT AG CDN",
+        "111 🇩🇪 Hetzner Online GmbH SNI",
+        "115 🇩🇪 myLoc managed IT AG SNI",
+        "32 🇩🇪 Hetzner Online GmbH SNI",
+        "55 🇩🇪 OVH SAS SNI",
+        "134 🇩🇪 Hetzner Online GmbH SNI",
+        "168 🇩🇪 OVH SAS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "23 🇩🇪 Hetzner Online GmbH SNI",
+      "tag": "20 🇩🇪 myLoc managed IT AG SNI",
+      "server": "de-v.sshmax.xyz",
+      "server_port": 443,
+      "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "21 🇩🇪 myLoc managed IT AG CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "de-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "111 🇩🇪 Hetzner Online GmbH SNI",
       "server": "5.75.250.163",
       "server_port": 2096,
       "uuid": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
@@ -75,12 +120,12 @@
     },
     {
       "type": "vmess",
-      "tag": "46 🇩🇪 DIGITALOCEAN-ASN SNI",
-      "server": "165.227.175.88",
-      "server_port": 28164,
-      "uuid": "eba8ccf5-5ab9-4b6b-de4b-83ab920c1005",
+      "tag": "115 🇩🇪 myLoc managed IT AG SNI",
+      "server": "213.202.233.147",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
-      "alter_id": 0,
+      "alter_id": 64,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -88,37 +133,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/path/243535322906",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "130 🇩🇪 Contabo GmbH CDN",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "3f52e850-b697-4f61-c82c-6d1ca0e6d1b1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "51vfly1.win"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/myblog",
-        "headers": {
-          "Host": "51vfly1.win"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "41 🇩🇪 Hetzner Online GmbH SNI",
-      "server": "content-provider28.cdn-delivery.akamaicd.com",
+      "tag": "32 🇩🇪 Hetzner Online GmbH SNI",
+      "server": "188.40.251.19",
       "server_port": 443,
       "password": "origin",
       "tls": {
@@ -129,8 +153,32 @@
     },
     {
       "type": "trojan",
-      "tag": "134 🇩🇪 OVH SAS SNI",
-      "server": "51.75.77.146",
+      "tag": "55 🇩🇪 OVH SAS SNI",
+      "server": "141.95.61.209",
+      "server_port": 1145,
+      "password": "414583b6-1d14-49f4-9988-9d6849efb420",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "134 🇩🇪 Hetzner Online GmbH SNI",
+      "server": "aleph-tj015.thatfreeservicewhicheveryoneuse.uk",
+      "server_port": 443,
+      "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "168 🇩🇪 OVH SAS SNI",
+      "server": "t2.teslacdn1.live",
       "server_port": 443,
       "password": "4331812b-92ff-47b5-9f32-78b5150e625f",
       "tls": {
