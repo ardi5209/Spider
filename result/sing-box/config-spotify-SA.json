@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "24 🇸🇦 OVH SAS CDN",
-        "157 🇸🇦 OVH SAS CDN"
+        "158 🇸🇦 OVH SAS CDN WS",
+        "281 🇸🇦 OVH SAS CDN WS",
+        "283 🇸🇦 OVH SAS SNI WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "24 🇸🇦 OVH SAS CDN",
+      "tag": "158 🇸🇦 OVH SAS CDN WS",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
@@ -72,7 +73,7 @@
     },
     {
       "type": "vmess",
-      "tag": "157 🇸🇦 OVH SAS CDN",
+      "tag": "281 🇸🇦 OVH SAS CDN WS",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
@@ -88,6 +89,27 @@
         "path": "/",
         "headers": {
           "Host": "uk2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "283 🇸🇦 OVH SAS SNI WS",
+      "server": "51.195.217.20",
+      "server_port": 443,
+      "uuid": "a6ee3c75-f83e-48a0-9af0-ac963db12112",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
         }
       }
     }

@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "60 🇵🇱 G-Core Labs S.A. CDN"
+        "49 🇵🇱 G-Core Labs S.A. CDN WS",
+        "51 🇵🇱 G-Core Labs S.A. CDN WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "60 🇵🇱 G-Core Labs S.A. CDN",
+      "tag": "49 🇵🇱 G-Core Labs S.A. CDN WS",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorepl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "gcorepl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "51 🇵🇱 G-Core Labs S.A. CDN WS",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",

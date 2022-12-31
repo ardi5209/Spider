@@ -45,13 +45,12 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "91 🇲🇽 Truxgo S. R.L. de C.V. SNI",
-        "92 🇲🇽 Truxgo S. R.L. de C.V. CDN"
+        "356 🇲🇽 Truxgo S. R.L. de C.V. SNI WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "91 🇲🇽 Truxgo S. R.L. de C.V. SNI",
+      "tag": "356 🇲🇽 Truxgo S. R.L. de C.V. SNI WS",
       "server": "mx1.v2rayserv.com",
       "server_port": 443,
       "uuid": "01e1554e-aebf-49e5-ac33-c13155840a5d",
@@ -64,30 +63,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "mx1.v2rayserv.com",
         "headers": {
           "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "92 🇲🇽 Truxgo S. R.L. de C.V. CDN",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "01e1554e-aebf-49e5-ac33-c13155840a5d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "mx1.v2rayserv.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mx1.v2rayserv.com"
         }
       }
     }

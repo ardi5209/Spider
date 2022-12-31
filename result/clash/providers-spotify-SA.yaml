@@ -1,5 +1,5 @@
 proxies:
-  - name: '24 🇸🇦 OVH SAS CDN'
+  - name: '158 🇸🇦 OVH SAS CDN WS'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -15,7 +15,7 @@ proxies:
       path: /sshocean
       headers:
         Host: uk2.v2rayserv.com
-  - name: '157 🇸🇦 OVH SAS CDN'
+  - name: '281 🇸🇦 OVH SAS CDN WS'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -31,3 +31,19 @@ proxies:
       path: /
       headers:
         Host: uk2.v2rayserv.com
+  - name: '283 🇸🇦 OVH SAS SNI WS'
+    server: 51.195.217.20
+    type: vmess
+    port: 443
+    uuid: a6ee3c75-f83e-48a0-9af0-ac963db12112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: image-upload4.spotify.com

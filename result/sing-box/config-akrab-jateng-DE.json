@@ -45,12 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "21 🇩🇪 myLoc managed IT AG CDN"
+        "11 🇩🇪 OVH SAS CDN WS",
+        "288 🇩🇪 myLoc managed IT AG CDN WS",
+        "341 🇩🇪 CLOUDFLARENET CDN WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "21 🇩🇪 myLoc managed IT AG CDN",
+      "tag": "11 🇩🇪 OVH SAS CDN WS",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "8a287e0c-8bcf-4ac6-af2e-f70670448850",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "free.say-her-name.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": "free.say-her-name.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "288 🇩🇪 myLoc managed IT AG CDN WS",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
@@ -66,6 +89,27 @@
         "path": "/vmess",
         "headers": {
           "Host": "de-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "341 🇩🇪 CLOUDFLARENET CDN WS",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2053,
+      "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "foxdeovz1.fovi.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eisasqa",
+        "headers": {
+          "Host": "foxdeovz1.fovi.tk"
         }
       }
     }

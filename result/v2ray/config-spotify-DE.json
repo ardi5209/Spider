@@ -84,14 +84,88 @@
       "settings": {
         "vnext": [
           {
-            "address": "de-v.sshmax.xyz",
+            "address": "investors.spotify.com",
             "port": 443,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "8a287e0c-8bcf-4ac6-af2e-f70670448850",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "free.say-her-name.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "free.say-her-name.xyz"
+          },
+          "path": "/graphql"
+        }
+      },
+      "tag": "proxy-11 🇩🇪 OVH SAS CDN WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "78.46.244.34",
+            "port": 33655,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-31 🇩🇪 Hetzner Online GmbH SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.75.129.202",
+            "port": 55039,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "5668ff97-631f-4602-a13f-b56552c67abe",
+                "id": "151e56df-edd0-43ef-ddc8-f0108a05a792",
                 "level": 8,
                 "security": "auto"
               }
@@ -110,10 +184,130 @@
           "headers": {
             "Host": "image-upload4.spotify.com"
           },
-          "path": "/vmess"
+          "path": "/"
         }
       },
-      "tag": "proxy-20 🇩🇪 myLoc managed IT AG SNI"
+      "tag": "proxy-33 🇩🇪 Hetzner Online GmbH SNI WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.40.132.112",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/p3573l6m92h1ham3q23t"
+        }
+      },
+      "tag": "proxy-45 🇩🇪 Hetzner Online GmbH SNI WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "35.156.177.79",
+            "port": 55164,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8a16ba4f-f20d-49a3-9861-d693915fd08d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-263 🇩🇪 AMAZON-02 SNI WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "3.70.144.63",
+            "port": 19069,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6ccc730d-d892-4e7b-a67d-793a7a08d66b",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-269 🇩🇪 AMAZON-02 SNI WS"
     },
     {
       "mux": {
@@ -153,7 +347,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-21 🇩🇪 myLoc managed IT AG CDN"
+      "tag": "proxy-288 🇩🇪 myLoc managed IT AG CDN WS"
     },
     {
       "mux": {
@@ -164,14 +358,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.75.250.163",
-            "port": 2096,
+            "address": "de-v.sshmax.xyz",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
+                "id": "5668ff97-631f-4602-a13f-b56552c67abe",
                 "level": 8,
                 "security": "auto"
               }
@@ -190,10 +384,10 @@
           "headers": {
             "Host": "image-upload4.spotify.com"
           },
-          "path": "/"
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-111 🇩🇪 Hetzner Online GmbH SNI"
+      "tag": "proxy-288 🇩🇪 myLoc managed IT AG SNI WS"
     },
     {
       "mux": {
@@ -233,24 +427,149 @@
           "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-115 🇩🇪 myLoc managed IT AG SNI"
+      "tag": "proxy-331 🇩🇪 myLoc managed IT AG SNI WS"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.40.251.19",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
+            "address": "investors.spotify.com",
+            "port": 2053,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "foxdeovz1.fovi.tk"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "foxdeovz1.fovi.tk"
+          },
+          "path": "/eisasqa"
+        }
+      },
+      "tag": "proxy-341 🇩🇪 CLOUDFLARENET CDN WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.75.250.163",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "undefined"
+        }
+      },
+      "tag": "proxy-344 🇩🇪 Hetzner Online GmbH SNI WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "20.239.76.193",
+            "port": 61503,
+            "users": [
+              {
+                "alterId": 2,
+                "encryption": "",
+                "flow": "",
+                "id": "a1ecfeb2-2355-335d-bb36-d725a5e306f5",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/zz"
+        }
+      },
+      "tag": "proxy-401 🇩🇪 DIGITALOCEAN-ASN SNI WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "78.46.244.34",
+            "port": 33655,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "b41303b4-e2c8-4771-cb6c-ef62244a7621",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -262,36 +581,47 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-32 🇩🇪 Hetzner Online GmbH SNI"
+      "tag": "proxy-410 🇩🇪 Hetzner Online GmbH SNI TCP"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "141.95.61.209",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "414583b6-1d14-49f4-9988-9d6849efb420",
-            "port": 1145
+            "address": "162.19.224.176",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "fa6e96ae-17f2-41d4-8d2b-e734bdf970ce",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-55 🇩🇪 OVH SAS SNI"
+      "tag": "proxy-411 🇩🇪 OVH SAS SNI WS"
     },
     {
       "mux": {
@@ -320,7 +650,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-134 🇩🇪 Hetzner Online GmbH SNI"
+      "tag": "proxy-32 🇩🇪 Hetzner Online GmbH SNI TCP"
     },
     {
       "mux": {
@@ -331,7 +661,7 @@
       "settings": {
         "servers": [
           {
-            "address": "t2.teslacdn1.live",
+            "address": "51.75.77.146",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -349,7 +679,152 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-168 🇩🇪 OVH SAS SNI"
+      "tag": "proxy-59 🇩🇪 OVH SAS SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "141.95.61.209",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "414583b6-1d14-49f4-9988-9d6849efb420",
+            "port": 1145
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-335 🇩🇪 OVH SAS SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "141.95.61.209",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "55e51cd3-cf98-4cb3-aaab-a72044437df3",
+            "port": 1145
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-337 🇩🇪 OVH SAS SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "141.95.61.209",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "e45b7759-6512-487b-ab20-22da1f46255f",
+            "port": 1145
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-338 🇩🇪 OVH SAS SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "mahsaxrhw.mahsaaminivpn.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "A98SDq3ki5",
+            "port": 33358
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-445 🇩🇪 firstcolo GmbH SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider9.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "yxGY7A5MczQYg6UqSFx9u78V",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-448 🇩🇪 Hetzner Online GmbH SNI TCP"
     }
   ],
   "dns": {

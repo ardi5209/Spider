@@ -45,13 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "27 🇦🇺 Unknown SNI",
-        "30 🇦🇺 ORACLE-BMC-31898 SNI"
+        "168 🇦🇺 Unknown SNI WS",
+        "169 🇦🇺 Unknown SNI WS",
+        "170 🇦🇺 Unknown CDN WS",
+        "239 🇦🇺 ORACLE-BMC-31898 SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "27 🇦🇺 Unknown SNI",
+      "tag": "168 🇦🇺 Unknown SNI WS",
       "server": "build49.yukmldi.studio",
       "server_port": 443,
       "uuid": "1d742742-cee7-4082-9d78-060c060544e6",
@@ -72,8 +74,46 @@
     },
     {
       "type": "trojan",
-      "tag": "30 🇦🇺 ORACLE-BMC-31898 SNI",
-      "server": "140.238.205.173",
+      "tag": "169 🇦🇺 Unknown SNI WS",
+      "server": "build49.scpotato.site",
+      "server_port": 443,
+      "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "170 🇦🇺 Unknown CDN WS",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "build49.scpotato.site"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan",
+        "headers": {
+          "Host": "build49.scpotato.site"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "239 🇦🇺 ORACLE-BMC-31898 SNI TCP",
+      "server": "jgwxn3.gaox.ml",
       "server_port": 443,
       "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
       "tls": {
