@@ -1,17 +1,10 @@
 proxies:
-  - name: '190 🇮🇩 PT Atharva Telematika Persada SNI'
-    server: vip-id.rayzellvpn.my.id
-    type: vmess
-    port: 443
-    uuid: d302a101-e8e0-4fde-9ac2-e2a86724d48d
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '157 🇮🇩 APIK Media Networks SNI TCP'
+    server: xi.kanao.xyz
+    type: trojan
+    port: 58829
+    password: f9bd7760-9fc5-471f-9254-78257a7dbfa1
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com

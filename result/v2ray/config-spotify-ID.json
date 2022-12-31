@@ -80,40 +80,29 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "vip-id.rayzellvpn.my.id",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "d302a101-e8e0-4fde-9ac2-e2a86724d48d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "xi.kanao.xyz",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "f9bd7760-9fc5-471f-9254-78257a7dbfa1",
+            "port": 58829
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "image-upload4.spotify.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "image-upload4.spotify.com"
-          },
-          "path": "/vmess"
         }
       },
-      "tag": "proxy-190 🇮🇩 PT Atharva Telematika Persada SNI"
+      "tag": "proxy-157 🇮🇩 APIK Media Networks SNI TCP"
     }
   ],
   "dns": {

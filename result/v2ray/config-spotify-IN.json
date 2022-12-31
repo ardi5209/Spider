@@ -84,46 +84,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "investors.spotify.com",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "30d3c7db-450c-4b6b-941a-4331e30dd92f",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "Linode.CloudFlare.QUEST"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "Linode.CloudFlare.QUEST"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-181 🇮🇳 Linode  LLC CDN WS"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "68.183.83.94",
             "port": 59477,
             "users": [
@@ -153,7 +113,7 @@
           "path": "/"
         }
       },
-      "tag": "proxy-252 🇮🇳 DIGITALOCEAN-ASN SNI WS"
+      "tag": "proxy-66 🇮🇳 DIGITALOCEAN-ASN SNI WS"
     },
     {
       "mux": {
@@ -187,36 +147,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-388 🇮🇳 CLOUDFLARENET SNI TCP"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "jgwhdlb1.gaox.ml",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "image-upload4.spotify.com"
-        }
-      },
-      "tag": "proxy-248 🇮🇳 ORACLE-BMC-31898 SNI TCP"
+      "tag": "proxy-270 🇮🇳 CLOUDFLARENET SNI TCP"
     },
     {
       "mux": {
@@ -245,7 +176,7 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-249 🇮🇳 ORACLE-BMC-31898 SNI TCP"
+      "tag": "proxy-56 🇮🇳 ORACLE-BMC-31898 SNI TCP"
     },
     {
       "mux": {
@@ -274,7 +205,36 @@
           "serverName": "image-upload4.spotify.com"
         }
       },
-      "tag": "proxy-250 🇮🇳 ORACLE-BMC-31898 SNI TCP"
+      "tag": "proxy-60 🇮🇳 ORACLE-BMC-31898 SNI TCP"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jgwhdlb1.gaox.ml",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-62 🇮🇳 ORACLE-BMC-31898 SNI TCP"
     }
   ],
   "dns": {
