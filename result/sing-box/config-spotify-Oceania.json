@@ -45,16 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "171 🇦🇺 Linode  LLC SNI",
-        "77 🇦🇺 ORACLE-BMC-31898 SNI"
+        "115 🇦🇺 Unknown SNI",
+        "24 🇦🇺 ORACLE-BMC-31898 SNI",
+        "32 🇦🇺 Unknown SNI",
+        "33 🇦🇺 Unknown CDN",
+        "37 🇦🇺 ORACLE-BMC-31898 SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "171 🇦🇺 Linode  LLC SNI",
-      "server": "vau1.0bad.com",
+      "tag": "115 🇦🇺 Unknown SNI",
+      "server": "build49.yukmldi.studio",
       "server_port": 443,
-      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "uuid": "1d742742-cee7-4082-9d78-060c060544e6",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -64,7 +67,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/chat",
+        "path": "/worryfree/potatoganteng",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -72,10 +75,60 @@
     },
     {
       "type": "trojan",
-      "tag": "77 🇦🇺 ORACLE-BMC-31898 SNI",
+      "tag": "24 🇦🇺 ORACLE-BMC-31898 SNI",
       "server": "jgwxn4.gaox.ml",
       "server_port": 443,
       "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "32 🇦🇺 Unknown SNI",
+      "server": "build49.scpotato.site",
+      "server_port": 443,
+      "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "33 🇦🇺 Unknown CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "build49.scpotato.site"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan",
+        "headers": {
+          "Host": "build49.scpotato.site"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "37 🇦🇺 ORACLE-BMC-31898 SNI",
+      "server": "jgwxn3.gaox.ml",
+      "server_port": 443,
+      "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
       "tls": {
         "enabled": true,
         "insecure": true,

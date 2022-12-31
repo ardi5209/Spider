@@ -45,30 +45,57 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "55 🇷🇺 RECONN LLC SNI",
-        "118 🇷🇺 LLC Baxet SNI",
-        "139 🇷🇺 RECONN LLC SNI",
-        "146 🇷🇺 LLC Baxet CDN",
-        "183 🇷🇺 LLC Baxet SNI"
+        "10 🇷🇺 LLC Baxet CDN",
+        "11 🇷🇺 LLC Baxet SNI",
+        "25 🇷🇺 LLC Baxet SNI",
+        "12 🇷🇺 LLC Baxet SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "55 🇷🇺 RECONN LLC SNI",
-      "server": "37.252.1.197",
-      "server_port": 3000,
-      "uuid": "6f7ae49c-f5e2-4ec2-ac5e-38f057d51fee",
+      "tag": "10 🇷🇺 LLC Baxet CDN",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v10a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ZPKLSPJjLBEy",
+        "headers": {
+          "Host": "v10a.toddns.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "11 🇷🇺 LLC Baxet SNI",
+      "server": "v10a.toddns.tk",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ZPKLSPJjLBEy",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "118 🇷🇺 LLC Baxet SNI",
+      "tag": "25 🇷🇺 LLC Baxet SNI",
       "server": "RU-153-16.shoptunnel.live",
       "server_port": 31990,
       "uuid": "a6a37e04-5e81-44c9-be53-baa3ff46eb8b",
@@ -81,43 +108,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "139 🇷🇺 RECONN LLC SNI",
-      "server": "37.252.1.197",
-      "server_port": 3000,
-      "uuid": "6f7ae49c-f5e2-4ec2-ac5e-38f057d51fee",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "146 🇷🇺 LLC Baxet CDN",
-      "server": "cacerts.digicert.com",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "v10.toddns.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ZPKLSPJjLBEy",
-        "headers": {
-          "Host": "v10.toddns.tk"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "183 🇷🇺 LLC Baxet SNI",
+      "tag": "12 🇷🇺 LLC Baxet SNI",
       "server": "eu-east-ruo.openssl3.com",
       "server_port": 443,
       "password": "9KogHwaY7hVD",

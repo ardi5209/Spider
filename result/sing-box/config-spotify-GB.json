@@ -45,17 +45,58 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "12 🇬🇧 DIGITALOCEAN-ASN SNI",
-        "34 🇬🇧 DIGITALOCEAN-ASN SNI",
-        "167 🇬🇧 DIGITALOCEAN-ASN SNI",
-        "38 🇬🇧 OVH SAS SNI",
-        "76 🇬🇧 Hydra Communications Ltd SNI",
-        "81 🇬🇧 ORACLE-BMC-31898 SNI"
+        "106 🇬🇧 OVH SAS SNI",
+        "151 🇬🇧 AMAZON-02 SNI",
+        "163 🇬🇧 DIGITALOCEAN-ASN SNI",
+        "19 🇬🇧 OVH SAS SNI",
+        "102 🇬🇧 Hydra Communications Ltd SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "12 🇬🇧 DIGITALOCEAN-ASN SNI",
+      "tag": "106 🇬🇧 OVH SAS SNI",
+      "server": "51.75.171.211",
+      "server_port": 443,
+      "uuid": "989b7bb6-3734-4723-bebe-2c3ff7423e46",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "151 🇬🇧 AMAZON-02 SNI",
+      "server": "18.133.149.100",
+      "server_port": 40899,
+      "uuid": "8026e383-7b25-4976-8221-bc2064c9ed3d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "163 🇬🇧 DIGITALOCEAN-ASN SNI",
       "server": "161.35.47.70",
       "server_port": 29210,
       "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
@@ -68,36 +109,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "34 🇬🇧 DIGITALOCEAN-ASN SNI",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "167 🇬🇧 DIGITALOCEAN-ASN SNI",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "38 🇬🇧 OVH SAS SNI",
+      "tag": "19 🇬🇧 OVH SAS SNI",
       "server": "t1.teslacdn1.live",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
@@ -109,22 +122,10 @@
     },
     {
       "type": "trojan",
-      "tag": "76 🇬🇧 Hydra Communications Ltd SNI",
-      "server": "185.16.206.209",
+      "tag": "102 🇬🇧 Hydra Communications Ltd SNI",
+      "server": "content-provider21.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "shefelnak",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "81 🇬🇧 ORACLE-BMC-31898 SNI",
-      "server": "132.145.51.172",
-      "server_port": 443,
-      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
       "tls": {
         "enabled": true,
         "insecure": true,

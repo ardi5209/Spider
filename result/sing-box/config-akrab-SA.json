@@ -45,12 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "24 🇸🇦 OVH SAS CDN"
+        "16 🇸🇦 OVH SAS SNI",
+        "153 🇸🇦 OVH SAS CDN",
+        "199 🇸🇦 OVH SAS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "24 🇸🇦 OVH SAS CDN",
+      "tag": "16 🇸🇦 OVH SAS SNI",
+      "server": "51.195.217.20",
+      "server_port": 443,
+      "uuid": "a6ee3c75-f83e-48a0-9af0-ac963db12112",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "153 🇸🇦 OVH SAS CDN",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
@@ -64,6 +87,27 @@
       "transport": {
         "type": "ws",
         "path": "/sshocean",
+        "headers": {
+          "Host": "uk2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "199 🇸🇦 OVH SAS CDN",
+      "server": "hohm.microsoft.com",
+      "server_port": 443,
+      "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
         "headers": {
           "Host": "uk2.v2rayserv.com"
         }
