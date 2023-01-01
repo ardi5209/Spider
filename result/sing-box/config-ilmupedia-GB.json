@@ -45,79 +45,102 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "34 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-        "196 🇬🇧 Hydra Communications Ltd SNI TCP",
-        "206 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-        "251 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-        "124 🇬🇧 OVH SAS SNI TCP",
-        "127 🇬🇧 OVH SAS SNI TCP",
-        "181 🇬🇧 ORACLE-BMC-31898 SNI TCP",
-        "188 🇬🇧 Hydra Communications Ltd SNI TCP",
-        "195 🇬🇧 OVH SAS SNI TCP"
+        "116 🇬🇧 OVH SAS SNI WS",
+        "117 🇬🇧 Kuroit Limited SNI TCP",
+        "168 🇬🇧 AMAZON-02 SNI WS",
+        "238 🇬🇧 PoloCloud-Computing SNI WS",
+        "250 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
+        "101 🇬🇧 Iomart Cloud Services Limited SNI TCP",
+        "149 🇬🇧 OVH SAS SNI TCP",
+        "157 🇬🇧 OVH SAS SNI TCP",
+        "191 🇬🇧 ORACLE-BMC-31898 SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "34 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "196 🇬🇧 Hydra Communications Ltd SNI TCP",
-      "server": "sqyd.biubiufly.monster",
-      "server_port": 50033,
-      "uuid": "9ea9fd0c-dd31-37a0-a68a-9530c5e61a66",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "206 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "251 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "124 🇬🇧 OVH SAS SNI TCP",
-      "server": "ukt1.sshocean.net",
+      "tag": "116 🇬🇧 OVH SAS SNI WS",
+      "server": "51.75.171.211",
       "server_port": 443,
-      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+      "uuid": "989b7bb6-3734-4723-bebe-2c3ff7423e46",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "117 🇬🇧 Kuroit Limited SNI TCP",
+      "server": "19.kccic2pa.xyz",
+      "server_port": 50019,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "168 🇬🇧 AMAZON-02 SNI WS",
+      "server": "18.133.149.100",
+      "server_port": 40899,
+      "uuid": "8026e383-7b25-4976-8221-bc2064c9ed3d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "238 🇬🇧 PoloCloud-Computing SNI WS",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/UK03",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "250 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
+      "server": "18.kccic2pa.xyz",
+      "server_port": 50018,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -126,7 +149,19 @@
     },
     {
       "type": "trojan",
-      "tag": "127 🇬🇧 OVH SAS SNI TCP",
+      "tag": "101 🇬🇧 Iomart Cloud Services Limited SNI TCP",
+      "server": "content-provider4.cdn-delivery.akamaicd.com",
+      "server_port": 443,
+      "password": "shefelnak",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "149 🇬🇧 OVH SAS SNI TCP",
       "server": "t1.teslacdn1.live",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
@@ -138,34 +173,22 @@
     },
     {
       "type": "trojan",
-      "tag": "181 🇬🇧 ORACLE-BMC-31898 SNI TCP",
-      "server": "132.145.51.172",
-      "server_port": 443,
-      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "188 🇬🇧 Hydra Communications Ltd SNI TCP",
-      "server": "content-provider20.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "shefelnak",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "195 🇬🇧 OVH SAS SNI TCP",
+      "tag": "157 🇬🇧 OVH SAS SNI TCP",
       "server": "51.195.219.173",
       "server_port": 443,
-      "password": "beccf31b-5e7e-4b44-a0a1-b80ba6f9306f",
+      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "191 🇬🇧 ORACLE-BMC-31898 SNI TCP",
+      "server": "jgwld1.gaox.ml",
+      "server_port": 443,
+      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
       "tls": {
         "enabled": true,
         "insecure": true,

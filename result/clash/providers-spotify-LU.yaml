@@ -1,5 +1,5 @@
 proxies:
-  - name: '99 🇱🇺 PONYNET CDN WS'
+  - name: '140 🇱🇺 PONYNET CDN WS'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -15,3 +15,12 @@ proxies:
       path: /go
       headers:
         Host: lu1.gogogoo.cyou
+  - name: '268 🇱🇺 Unknown SNI TCP'
+    server: 91.199.84.239
+    type: trojan
+    port: 446
+    password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com

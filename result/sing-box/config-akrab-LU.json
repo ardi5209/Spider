@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "99 🇱🇺 PONYNET CDN WS"
+        "140 🇱🇺 PONYNET CDN WS",
+        "268 🇱🇺 Unknown SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "99 🇱🇺 PONYNET CDN WS",
+      "tag": "140 🇱🇺 PONYNET CDN WS",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
@@ -67,6 +68,18 @@
         "headers": {
           "Host": "lu1.gogogoo.cyou"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "268 🇱🇺 Unknown SNI TCP",
+      "server": "91.199.84.239",
+      "server_port": 446,
+      "password": "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
       }
     }
   ],

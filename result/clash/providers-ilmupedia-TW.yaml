@@ -1,29 +1,5 @@
 proxies:
-  - name: '44 🇹🇼 Data Communication Business Group SNI TCP'
-    server: tw99-hinet.mynodes001.one
-    type: vmess
-    port: 554
-    uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '55 🇹🇼 Data Communication Business Group SNI TCP'
-    server: tw99-hinet.mynodes001.one
-    type: vmess
-    port: 5432
-    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '68 🇹🇼 Data Communication Business Group SNI TCP'
+  - name: '96 🇹🇼 Data Communication Business Group SNI TCP'
     server: tw99-hinet.mynodes001.one
     type: vmess
     port: 554
@@ -35,7 +11,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '108 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
+  - name: '104 🇹🇼 Data Communication Business Group SNI TCP'
+    server: 08.kccic2pa.xyz
+    type: vmess
+    port: 50008
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '107 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
     server: mc.xn--mes794a17ar33a.xyz
     type: vmess
     port: 2008
@@ -51,10 +39,10 @@ proxies:
       path: /xyf520
       headers:
         Host: news.microsoft.com
-  - name: '113 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
-    server: mcsc.frpfly.com
+  - name: '132 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
+    server: 13.229.229.167
     type: vmess
-    port: 52124
+    port: 2002
     uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
     alterId: 0
     cipher: auto
@@ -67,10 +55,58 @@ proxies:
       path: /xyf520
       headers:
         Host: news.microsoft.com
-  - name: '210 🇹🇼 Data Communication Business Group SNI TCP'
-    server: twmbm2fwa.b70rw85t.xyz
+  - name: '144 🇹🇼 Taiwan Digital Streaming Co. CDN WS'
+    server: news.microsoft.com
     type: vmess
-    port: 39998
+    port: 443
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: 22331.eutopiacloud.ml
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: 22331.eutopiacloud.ml
+  - name: '218 🇹🇼 Data Communication Business Group SNI WS'
+    server: gz.daxun.cyou
+    type: vmess
+    port: 20631
+    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /hinet04
+      headers:
+        Host: news.microsoft.com
+  - name: '236 🇹🇼 Scloud Pte Ltd SNI WS'
+    server: gz.daxun.cyou
+    type: vmess
+    port: 20631
+    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /scloudhinet06
+      headers:
+        Host: news.microsoft.com
+  - name: '242 🇹🇼 Data Communication Business Group SNI TCP'
+    server: twmvbpp7d.b70rw85t.xyz
+    type: vmess
+    port: 39999
     uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
     alterId: 0
     cipher: auto
@@ -79,28 +115,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '239 🇹🇼 Data Communication Business Group SNI TCP'
-    server: tw99-hinet.mynodes001.one
+  - name: '248 🇹🇼 Scloud Pte Ltd SNI WS'
+    server: gz.daxun.cyou
     type: vmess
-    port: 554
-    uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e
+    port: 20631
+    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '216 🇹🇼 Data Communication Business Group SNI WS'
-    server: 211.72.35.154
-    type: trojan
-    port: 3306
-    password: 4bacb8f1a089763b
-    udp: true
-    skip-cert-verify: true
     network: ws
     servername: news.microsoft.com
     ws-opts: 
-      path: /gateway/connect
+      path: /scloudhinet07
       headers:
         Host: news.microsoft.com

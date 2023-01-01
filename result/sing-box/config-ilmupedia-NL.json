@@ -45,40 +45,18 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "72 🇳🇱 Online S.a.s. CDN WS",
-        "104 🇳🇱 Online S.a.s. SNI WS",
-        "116 🇳🇱 FDCSERVERS SNI TCP",
-        "130 🇳🇱 Scalaxy B.V. SNI WS",
-        "237 🇳🇱 Online S.a.s. SNI WS",
-        "105 🇳🇱 G-Core Labs S.A. SNI TCP",
-        "193 🇳🇱 AS40676 SNI TCP",
-        "255 🇳🇱 DIGITALOCEAN-ASN SNI TCP"
+        "123 🇳🇱 Online S.a.s. SNI WS",
+        "127 🇳🇱 Online S.a.s. CDN WS",
+        "155 🇳🇱 Scalaxy B.V. SNI WS",
+        "156 🇳🇱 Online S.a.s. SNI TCP",
+        "255 🇳🇱 Online S.a.s. SNI WS",
+        "262 🇳🇱 Online S.a.s. SNI TCP",
+        "204 🇳🇱 AS40676 SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "72 🇳🇱 Online S.a.s. CDN WS",
-      "server": "news.microsoft.com",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "v12a.toddns.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nl-unlimitxxx",
-        "headers": {
-          "Host": "v12a.toddns.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "104 🇳🇱 Online S.a.s. SNI WS",
+      "tag": "123 🇳🇱 Online S.a.s. SNI WS",
       "server": "v12a.toddns.tk",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -99,21 +77,28 @@
     },
     {
       "type": "vmess",
-      "tag": "116 🇳🇱 FDCSERVERS SNI TCP",
-      "server": "in06.my1188.org",
-      "server_port": 64089,
-      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
+      "tag": "127 🇳🇱 Online S.a.s. CDN WS",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "news.microsoft.com"
+        "server_name": "v12a.toddns.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nl-unlimitxxx",
+        "headers": {
+          "Host": "v12a.toddns.tk"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "130 🇳🇱 Scalaxy B.V. SNI WS",
+      "tag": "155 🇳🇱 Scalaxy B.V. SNI WS",
       "server": "5.45.78.209",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -134,7 +119,21 @@
     },
     {
       "type": "vmess",
-      "tag": "237 🇳🇱 Online S.a.s. SNI WS",
+      "tag": "156 🇳🇱 Online S.a.s. SNI TCP",
+      "server": "35.kccic2pa.xyz",
+      "server_port": 50035,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "255 🇳🇱 Online S.a.s. SNI WS",
       "server": "163.172.213.74",
       "server_port": 443,
       "uuid": "5c977590-87d2-11ed-b431-205c6d5f5d78",
@@ -154,11 +153,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "105 🇳🇱 G-Core Labs S.A. SNI TCP",
-      "server": "20011.purefast2.com",
-      "server_port": 20011,
-      "password": "ed3ccb1e-7057-3d40-b794-630ef18fb7d2",
+      "type": "vmess",
+      "tag": "262 🇳🇱 Online S.a.s. SNI TCP",
+      "server": "35.kccic2pa.xyz",
+      "server_port": 50035,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -167,22 +168,10 @@
     },
     {
       "type": "trojan",
-      "tag": "193 🇳🇱 AS40676 SNI TCP",
+      "tag": "204 🇳🇱 AS40676 SNI TCP",
       "server": "185.212.200.74",
       "server_port": 443,
       "password": "Sp3eDVp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "255 🇳🇱 DIGITALOCEAN-ASN SNI TCP",
-      "server": "tray.tawanaclub.tk",
-      "server_port": 26355,
-      "password": "ozeugjZpnQ",
       "tls": {
         "enabled": true,
         "insecure": true,

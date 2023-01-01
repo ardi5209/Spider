@@ -45,47 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "44 🇹🇼 Data Communication Business Group SNI TCP",
-        "55 🇹🇼 Data Communication Business Group SNI TCP",
-        "68 🇹🇼 Data Communication Business Group SNI TCP",
-        "108 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-        "113 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-        "210 🇹🇼 Data Communication Business Group SNI TCP",
-        "239 🇹🇼 Data Communication Business Group SNI TCP",
-        "216 🇹🇼 Data Communication Business Group SNI WS"
+        "96 🇹🇼 Data Communication Business Group SNI TCP",
+        "104 🇹🇼 Data Communication Business Group SNI TCP",
+        "107 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
+        "132 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
+        "144 🇹🇼 Taiwan Digital Streaming Co. CDN WS",
+        "218 🇹🇼 Data Communication Business Group SNI WS",
+        "236 🇹🇼 Scloud Pte Ltd SNI WS",
+        "242 🇹🇼 Data Communication Business Group SNI TCP",
+        "248 🇹🇼 Scloud Pte Ltd SNI WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "44 🇹🇼 Data Communication Business Group SNI TCP",
-      "server": "tw99-hinet.mynodes001.one",
-      "server_port": 554,
-      "uuid": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "55 🇹🇼 Data Communication Business Group SNI TCP",
-      "server": "tw99-hinet.mynodes001.one",
-      "server_port": 5432,
-      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "68 🇹🇼 Data Communication Business Group SNI TCP",
+      "tag": "96 🇹🇼 Data Communication Business Group SNI TCP",
       "server": "tw99-hinet.mynodes001.one",
       "server_port": 554,
       "uuid": "45b31da4-8aac-3d51-951b-b984ce15c7f9",
@@ -99,7 +72,21 @@
     },
     {
       "type": "vmess",
-      "tag": "108 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
+      "tag": "104 🇹🇼 Data Communication Business Group SNI TCP",
+      "server": "08.kccic2pa.xyz",
+      "server_port": 50008,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
       "server": "mc.xn--mes794a17ar33a.xyz",
       "server_port": 2008,
       "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
@@ -120,9 +107,9 @@
     },
     {
       "type": "vmess",
-      "tag": "113 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-      "server": "mcsc.frpfly.com",
-      "server_port": 52124,
+      "tag": "132 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
+      "server": "13.229.229.167",
+      "server_port": 2002,
       "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
       "security": "auto",
       "alter_id": 0,
@@ -141,9 +128,72 @@
     },
     {
       "type": "vmess",
-      "tag": "210 🇹🇼 Data Communication Business Group SNI TCP",
-      "server": "twmbm2fwa.b70rw85t.xyz",
-      "server_port": 39998,
+      "tag": "144 🇹🇼 Taiwan Digital Streaming Co. CDN WS",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "22331.eutopiacloud.ml"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xyf520",
+        "headers": {
+          "Host": "22331.eutopiacloud.ml"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "218 🇹🇼 Data Communication Business Group SNI WS",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hinet04",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "236 🇹🇼 Scloud Pte Ltd SNI WS",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/scloudhinet06",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "242 🇹🇼 Data Communication Business Group SNI TCP",
+      "server": "twmvbpp7d.b70rw85t.xyz",
+      "server_port": 39999,
       "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
       "security": "auto",
       "alter_id": 0,
@@ -155,24 +205,12 @@
     },
     {
       "type": "vmess",
-      "tag": "239 🇹🇼 Data Communication Business Group SNI TCP",
-      "server": "tw99-hinet.mynodes001.one",
-      "server_port": 554,
-      "uuid": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
+      "tag": "248 🇹🇼 Scloud Pte Ltd SNI WS",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
       "security": "auto",
       "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "216 🇹🇼 Data Communication Business Group SNI WS",
-      "server": "211.72.35.154",
-      "server_port": 3306,
-      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -180,7 +218,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/gateway/connect",
+        "path": "/scloudhinet07",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }

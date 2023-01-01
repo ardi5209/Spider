@@ -1,6 +1,6 @@
 proxies:
-  - name: '50 🇵🇱 G-Core Labs S.A. CDN WS'
-    server: investors.spotify.com
+  - name: '71 🇵🇱 G-Core Labs S.A. SNI WS'
+    server: gcorepl.sylu.cyou
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -10,24 +10,28 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: gcorepl.sylu.cyou
+    servername: image-upload4.spotify.com
     ws-opts: 
       path: /Falling42gcoreplnode
       headers:
-        Host: gcorepl.sylu.cyou
-  - name: '53 🇵🇱 G-Core Labs S.A. SNI TCP'
-    server: in06.my1188.org
+        Host: image-upload4.spotify.com
+  - name: '73 🇵🇱 G-Core Labs S.A. SNI WS'
+    server: gcspl.sylu.cyou
     type: vmess
-    port: 61077
-    uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '102 🇵🇱 G-Core Labs S.A. CDN WS'
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '74 🇵🇱 G-Core Labs S.A. CDN WS'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -43,7 +47,35 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: gcspl.sylu.cyou
-  - name: '117 🇵🇱 G-Core Labs S.A. SNI TCP'
+  - name: '76 🇵🇱 G-Core Labs S.A. CDN WS'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorepl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcoreplnode
+      headers:
+        Host: gcorepl.sylu.cyou
+  - name: '97 🇵🇱 G-Core Labs S.A. SNI TCP'
+    server: in06.my1188.org
+    type: vmess
+    port: 61077
+    uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '98 🇵🇱 G-Core Labs S.A. SNI TCP'
     server: in06.my1188.org
     type: vmess
     port: 61077
@@ -55,19 +87,3 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '143 🇵🇱 OVH SAS SNI WS'
-    server: 146.59.92.219
-    type: vmess
-    port: 2096
-    uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: image-upload4.spotify.com

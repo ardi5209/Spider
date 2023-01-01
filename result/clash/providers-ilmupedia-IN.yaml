@@ -1,33 +1,5 @@
 proxies:
-  - name: '92 🇮🇳 Linode  LLC CDN WS'
-    server: news.microsoft.com
-    type: vmess
-    port: 2086
-    uuid: 30d3c7db-450c-4b6b-941a-4331e30dd92f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: Linode.CloudFlare.QUEST
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: Linode.CloudFlare.QUEST
-  - name: '97 🇮🇳 ORACLE-BMC-31898 SNI TCP'
-    server: 01.inix.anrun-ix.top
-    type: vmess
-    port: 13021
-    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '112 🇮🇳 ORACLE-BMC-31898 SNI TCP'
+  - name: '141 🇮🇳 ORACLE-BMC-31898 SNI TCP'
     server: 02.inix.anrun-ix.top
     type: vmess
     port: 13022
@@ -39,21 +11,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '191 🇮🇳 ORACLE-BMC-31898 SNI TCP'
-    server: 152.67.160.174
-    type: trojan
-    port: 443
-    password: 54080134-2cba-4535-8599-95650bd9aa54
+  - name: '246 🇮🇳 Linode  LLC SNI WS'
+    server: gz.daxun.cyou
+    type: vmess
+    port: 20631
+    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: news.microsoft.com
-  - name: '201 🇮🇳 ORACLE-BMC-31898 SNI TCP'
-    server: 152.67.190.183
-    type: trojan
-    port: 443
-    password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
+    ws-opts: 
+      path: /yd01
+      headers:
+        Host: news.microsoft.com
