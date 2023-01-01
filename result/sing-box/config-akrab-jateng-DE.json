@@ -45,57 +45,38 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "85 🇩🇪 DIGITALOCEAN-ASN WS CDN",
-        "124 🇩🇪 Hetzner Online GmbH WS CDN",
-        "165 🇩🇪 Hetzner Online GmbH WS CDN",
-        "186 🇩🇪 Hetzner Online GmbH WS CDN"
+        "26 🇩🇪 OVH SAS WS CDN",
+        "96 🇩🇪 Hetzner Online GmbH WS CDN",
+        "208 🇩🇪 Hetzner Online GmbH WS CDN",
+        "213 🇩🇪 Hetzner Online GmbH WS CDN",
+        "229 🇩🇪 myLoc managed IT AG WS CDN",
+        "237 🇩🇪 CLOUDFLARENET WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "85 🇩🇪 DIGITALOCEAN-ASN WS CDN",
+      "tag": "26 🇩🇪 OVH SAS WS CDN",
       "server": "main.millionaireaisle.com",
-      "server_port": 2086,
-      "uuid": "f5251f72-d880-43c1-f1cd-9783d1df3698",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "dedo.cloudflare.quest"
+        "server_name": "de.gongyiyun.cf"
       },
       "transport": {
         "type": "ws",
-        "path": "/aries",
+        "path": "/",
         "headers": {
-          "Host": "dedo.cloudflare.quest"
+          "Host": "de.gongyiyun.cf"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "124 🇩🇪 Hetzner Online GmbH WS CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sun.prxpro.cc"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/g7970d1b58m1ixn3i16i",
-        "headers": {
-          "Host": "sun.prxpro.cc"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "165 🇩🇪 Hetzner Online GmbH WS CDN",
+      "tag": "96 🇩🇪 Hetzner Online GmbH WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "ffffffff-ffff-ffff-ffff-ffffffffffff",
@@ -116,7 +97,28 @@
     },
     {
       "type": "vmess",
-      "tag": "186 🇩🇪 Hetzner Online GmbH WS CDN",
+      "tag": "208 🇩🇪 Hetzner Online GmbH WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sun.prxpro.cc"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/g7970d1b58m1ixn3i16i",
+        "headers": {
+          "Host": "sun.prxpro.cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "213 🇩🇪 Hetzner Online GmbH WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 2053,
       "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
@@ -132,6 +134,48 @@
         "path": "/eisasqa",
         "headers": {
           "Host": "foxdeovz1.fovi.tk"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "229 🇩🇪 myLoc managed IT AG WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "de-v.sshmax.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "237 🇩🇪 CLOUDFLARENET WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "a1f25bd0-22c2-49db-a36f-7f722b40ffca",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v3.gitvpn.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "v3.gitvpn.eu.org"
         }
       }
     }

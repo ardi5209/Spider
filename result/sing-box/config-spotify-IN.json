@@ -45,63 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "87 🇮🇳 Linode  LLC WS CDN",
-        "160 🇮🇳 ORACLE-BMC-31898 TCP SNI",
-        "163 🇮🇳 ORACLE-BMC-31898 TCP SNI",
-        "177 🇮🇳 ORACLE-BMC-31898 TCP SNI"
+        "136 🇮🇳 DIGITALOCEAN-ASN WS SNI",
+        "138 🇮🇳 ORACLE-BMC-31898 TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "87 🇮🇳 Linode  LLC WS CDN",
-      "server": "investors.spotify.com",
-      "server_port": 2086,
-      "uuid": "30d3c7db-450c-4b6b-941a-4331e30dd92f",
+      "tag": "136 🇮🇳 DIGITALOCEAN-ASN WS SNI",
+      "server": "68.183.83.94",
+      "server_port": 59477,
+      "uuid": "b8f6a71c-6925-4e84-fb93-6e54f8d98b25",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "Linode.CloudFlare.QUEST"
+        "server_name": "image-upload4.spotify.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/aries",
+        "path": "/",
         "headers": {
-          "Host": "Linode.CloudFlare.QUEST"
+          "Host": "image-upload4.spotify.com"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "160 🇮🇳 ORACLE-BMC-31898 TCP SNI",
+      "tag": "138 🇮🇳 ORACLE-BMC-31898 TCP SNI",
       "server": "jgwhdlb3.gaox.ml",
       "server_port": 443,
       "password": "006baa3f-4bc3-4915-b60d-c8c5dae11a11",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "163 🇮🇳 ORACLE-BMC-31898 TCP SNI",
-      "server": "jgwhdlb2.gaox.ml",
-      "server_port": 443,
-      "password": "54080134-2cba-4535-8599-95650bd9aa54",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "177 🇮🇳 ORACLE-BMC-31898 TCP SNI",
-      "server": "152.67.162.166",
-      "server_port": 443,
-      "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
       "tls": {
         "enabled": true,
         "insecure": true,

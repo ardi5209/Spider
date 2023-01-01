@@ -45,12 +45,34 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "140 🇱🇺 PONYNET CDN WS"
+        "11 🇱🇺 PONYNET WS CDN",
+        "114 🇱🇺 PONYNET WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "140 🇱🇺 PONYNET CDN WS",
+      "tag": "11 🇱🇺 PONYNET WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "22222.chaoxn.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "22222.chaoxn.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "114 🇱🇺 PONYNET WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",

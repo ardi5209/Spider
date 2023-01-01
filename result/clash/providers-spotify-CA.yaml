@@ -1,5 +1,5 @@
 proxies:
-  - name: '60 🇨🇦 AMAZON-02 WS SNI'
+  - name: '56 🇨🇦 AMAZON-02 WS SNI'
     server: awsypca.sylu.cyou
     type: vmess
     port: 443
@@ -15,7 +15,7 @@ proxies:
       path: /Falling42awsypcanode
       headers:
         Host: image-upload4.spotify.com
-  - name: '61 🇨🇦 AMAZON-02 WS CDN'
+  - name: '57 🇨🇦 AMAZON-02 WS CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -31,7 +31,23 @@ proxies:
       path: /Falling42awsypcanode
       headers:
         Host: awsypca.sylu.cyou
-  - name: '305 🇨🇦 AS-CHOOPA NONE SNI'
+  - name: '225 🇨🇦 DIGITALOCEAN-ASN WS CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 5ce913b2-869f-4b32-9542-68bd77d3b232
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: m3.pianyijc.top
+    ws-opts: 
+      path: /sometimesnaive
+      headers:
+        Host: m3.pianyijc.top
+  - name: '294 🇨🇦 AS-CHOOPA NONE SNI'
     server: CA-177-89.shoptunnel.live
     type: vmess
     port: 31990

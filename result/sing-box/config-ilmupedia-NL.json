@@ -45,80 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "51 🇳🇱 Scalaxy B.V. WS CDN",
-        "52 🇳🇱 Scalaxy B.V. WS SNI",
-        "69 🇳🇱 Online S.a.s. WS CDN",
-        "219 🇳🇱 Online S.a.s. TCP SNI",
-        "243 🇳🇱 Online S.a.s. TCP SNI",
-        "267 🇳🇱 Online S.a.s. WS SNI"
+        "103 🇳🇱 FDCSERVERS TCP SNI",
+        "242 🇳🇱 Online S.a.s. TCP SNI",
+        "201 🇳🇱 AS40676 TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "51 🇳🇱 Scalaxy B.V. WS CDN",
-      "server": "news.microsoft.com",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "nl.gongyiyun.cf"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nl.gongyiyun.cf"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "52 🇳🇱 Scalaxy B.V. WS SNI",
-      "server": "nl.gongyiyun.cf",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "tag": "103 🇳🇱 FDCSERVERS TCP SNI",
+      "server": "in06.my1188.org",
+      "server_port": 64089,
+      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "69 🇳🇱 Online S.a.s. WS CDN",
-      "server": "news.microsoft.com",
-      "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "v12a.toddns.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nl-unlimitxxx",
-        "headers": {
-          "Host": "v12a.toddns.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "219 🇳🇱 Online S.a.s. TCP SNI",
+      "tag": "242 🇳🇱 Online S.a.s. TCP SNI",
       "server": "35.kccic2pa.xyz",
       "server_port": 50035,
       "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
@@ -131,38 +79,15 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "243 🇳🇱 Online S.a.s. TCP SNI",
-      "server": "35.kccic2pa.xyz",
-      "server_port": 50035,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "267 🇳🇱 Online S.a.s. WS SNI",
-      "server": "163.172.213.74",
+      "type": "trojan",
+      "tag": "201 🇳🇱 AS40676 TCP SNI",
+      "server": "content-provider24.cdn-delivery.akamaicd.com",
       "server_port": 443,
-      "uuid": "5c977590-87d2-11ed-b431-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
+      "password": "Sp3eDVp",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "soft98.ir",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
       }
     }
   ],

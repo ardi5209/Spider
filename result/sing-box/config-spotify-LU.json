@@ -45,13 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "140 🇱🇺 PONYNET CDN WS",
-        "268 🇱🇺 Unknown SNI TCP"
+        "11 🇱🇺 PONYNET WS CDN",
+        "114 🇱🇺 PONYNET WS CDN",
+        "188 🇱🇺 Unknown TCP SNI",
+        "279 🇱🇺 Unknown TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "140 🇱🇺 PONYNET CDN WS",
+      "tag": "11 🇱🇺 PONYNET WS CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "22222.chaoxn.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "22222.chaoxn.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "114 🇱🇺 PONYNET WS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
@@ -72,10 +95,22 @@
     },
     {
       "type": "trojan",
-      "tag": "268 🇱🇺 Unknown SNI TCP",
+      "tag": "188 🇱🇺 Unknown TCP SNI",
       "server": "91.199.84.239",
       "server_port": 446,
       "password": "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "279 🇱🇺 Unknown TCP SNI",
+      "server": "91.199.84.239",
+      "server_port": 446,
+      "password": "23a044ef-1f8e-44ec-92be-78395a09f15c",
       "tls": {
         "enabled": true,
         "insecure": true,

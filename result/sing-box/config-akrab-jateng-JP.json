@@ -45,13 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "25 🇯🇵 ORACLE-BMC-31898 WS CDN",
-        "38 🇯🇵 G-Core Labs S.A. WS CDN"
+        "36 🇯🇵 Linode  LLC WS CDN",
+        "45 🇯🇵 ORACLE-BMC-31898 WS CDN",
+        "63 🇯🇵 G-Core Labs S.A. WS CDN",
+        "108 🇯🇵 ORACLE-BMC-31898 WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "25 🇯🇵 ORACLE-BMC-31898 WS CDN",
+      "tag": "36 🇯🇵 Linode  LLC WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "fe0c02e5-89e7-4a46-8f8d-172947ea70bb",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "jp1.sanfen001.pics"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn",
+        "headers": {
+          "Host": "jp1.sanfen001.pics"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "45 🇯🇵 ORACLE-BMC-31898 WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "595b4629-116d-4fe1-dcab-d2a6b112b81a",
@@ -72,7 +95,7 @@
     },
     {
       "type": "vmess",
-      "tag": "38 🇯🇵 G-Core Labs S.A. WS CDN",
+      "tag": "63 🇯🇵 G-Core Labs S.A. WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -88,6 +111,27 @@
         "path": "/Falling42gcssjpnode",
         "headers": {
           "Host": "gcssjp.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "108 🇯🇵 ORACLE-BMC-31898 WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "suzhihan.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/roewesu",
+        "headers": {
+          "Host": "suzhihan.eu.org"
         }
       }
     }
