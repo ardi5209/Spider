@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '23 🇳🇿 RELIABLESITE TCP SNI'
     server: 216.73.158.22
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /worryfree/potatoganteng
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '270 🇳🇿 RELIABLESITE TCP SNI'
     server: 216.73.158.22
     type: vmess
@@ -59,11 +59,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /trojan
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '88 🇦🇺 Unknown WS CDN'
     server: hohm.microsoft.com
     type: trojan
@@ -94,4 +94,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
