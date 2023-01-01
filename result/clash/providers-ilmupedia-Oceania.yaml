@@ -1,5 +1,45 @@
 proxies:
-  - name: '218 🇳🇿 RELIABLESITE SNI TCP'
+  - name: '87 🇦🇺 Unknown SNI WS'
+    server: build49.yukmldi.studio
+    type: vmess
+    port: 443
+    uuid: 1d742742-cee7-4082-9d78-060c060544e6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /worryfree/potatoganteng
+      headers:
+        Host: news.microsoft.com
+  - name: '109 🇦🇺 CLOUDFLARENET SNI TCP'
+    server: 02.sdy.aus.anrun-ix.top
+    type: vmess
+    port: 13026
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '110 🇦🇺 CLOUDFLARENET SNI TCP'
+    server: 01.sdy.aus.anrun-ix.top
+    type: vmess
+    port: 13025
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '211 🇳🇿 RELIABLESITE SNI TCP'
     server: 216.73.158.22
     type: vmess
     port: 30000
@@ -11,20 +51,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: news.microsoft.com
-  - name: '55 🇦🇺 ORACLE-BMC-31898 SNI TCP'
+  - name: '128 🇦🇺 ORACLE-BMC-31898 SNI TCP'
     server: jgwxn3.gaox.ml
     type: trojan
     port: 443
     password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '56 🇦🇺 ORACLE-BMC-31898 SNI TCP'
-    server: jgwxn4.gaox.ml
-    type: trojan
-    port: 443
-    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
     udp: true
     skip-cert-verify: true
     network: tcp

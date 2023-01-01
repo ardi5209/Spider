@@ -45,44 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "125 🇰🇷 AMAZON-02 SNI WS",
-        "144 🇰🇷 ORACLE-BMC-31898 SNI WS",
-        "145 🇰🇷 AMAZON-02 SNI WS",
-        "153 🇰🇷 MOACK.Co.LTD SNI WS",
-        "157 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "31 🇰🇷 ORACLE-BMC-31898 SNI WS",
+        "32 🇰🇷 ORACLE-BMC-31898 SNI WS",
+        "37 🇰🇷 ORACLE-BMC-31898 SNI WS",
+        "45 🇰🇷 ORACLE-BMC-31898 CDN WS",
+        "46 🇰🇷 AMAZON-02 SNI TCP",
+        "153 🇰🇷 AMAZON-02 SNI WS",
+        "163 🇰🇷 CloudITIDC Global SNI TCP",
+        "204 🇰🇷 AMAZON-02 SNI TCP",
+        "213 🇰🇷 CloudITIDC Global SNI TCP",
+        "234 🇰🇷 AMAZON-02 SNI TCP",
+        "152 🇰🇷 AMAZON-02 SNI TCP",
+        "167 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "174 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "178 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "179 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "180 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "181 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "183 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "185 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "187 🇰🇷 ORACLE-BMC-31898 SNI TCP",
         "190 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-        "209 🇰🇷 CloudITIDC Global SNI TCP",
-        "139 🇰🇷 AMAZON-02 SNI TCP",
-        "161 🇰🇷 AS-CHOOPA SNI TCP"
+        "194 🇰🇷 ORACLE-BMC-31898 SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "125 🇰🇷 AMAZON-02 SNI WS",
-      "server": "kr01.170203.xyz",
-      "server_port": 45453,
-      "uuid": "d27a9a00-96bf-42de-a2f0-333bd64b36dd",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "144 🇰🇷 ORACLE-BMC-31898 SNI WS",
-      "server": "130.162.141.104",
+      "tag": "31 🇰🇷 ORACLE-BMC-31898 SNI WS",
+      "server": "152.67.218.38",
       "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "uuid": "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -92,7 +84,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/reffs7y26g0ua",
+        "path": "/",
         "headers": {
           "Host": "news.microsoft.com"
         }
@@ -100,7 +92,84 @@
     },
     {
       "type": "vmess",
-      "tag": "145 🇰🇷 AMAZON-02 SNI WS",
+      "tag": "32 🇰🇷 ORACLE-BMC-31898 SNI WS",
+      "server": "152.70.252.218",
+      "server_port": 10020,
+      "uuid": "fb91e1d7-440e-4470-b0a0-a791e5c32dc8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "37 🇰🇷 ORACLE-BMC-31898 SNI WS",
+      "server": "arm.xlr-ml.ml",
+      "server_port": 10020,
+      "uuid": "d9b4476e-e48f-4a0e-a60f-5d318a12982e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "45 🇰🇷 ORACLE-BMC-31898 CDN WS",
+      "server": "cacerts.digicert.com",
+      "server_port": 443,
+      "uuid": "d5d8c6c4-d39c-4a0d-909e-bde51e8145ab",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sl2.mayaa.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/dsadsa144113s",
+        "headers": {
+          "Host": "sl2.mayaa.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "46 🇰🇷 AMAZON-02 SNI TCP",
+      "server": "kr-direct.node002.xyz",
+      "server_port": 554,
+      "uuid": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "153 🇰🇷 AMAZON-02 SNI WS",
       "server": "54.180.117.118",
       "server_port": 42517,
       "uuid": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
@@ -121,56 +190,7 @@
     },
     {
       "type": "vmess",
-      "tag": "153 🇰🇷 MOACK.Co.LTD SNI WS",
-      "server": "lc-kr02-direct01.lc-kr02.lc-node.com",
-      "server_port": 443,
-      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
-      "security": "auto",
-      "alter_id": 2,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "undefined",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "157 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-      "server": "m4.40010010.xyz",
-      "server_port": 37121,
-      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "190 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-      "server": "m4.40010010.xyz",
-      "server_port": 37121,
-      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "209 🇰🇷 CloudITIDC Global SNI TCP",
+      "tag": "163 🇰🇷 CloudITIDC Global SNI TCP",
       "server": "103.138.80.193",
       "server_port": 14485,
       "uuid": "b687b974-701b-4a7b-e7a4-c7f8b5102723",
@@ -183,11 +203,41 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "139 🇰🇷 AMAZON-02 SNI TCP",
-      "server": "3.36.139.18",
-      "server_port": 50382,
-      "password": "b73a108c-1070-48aa-a2c4-d50630c47ee7",
+      "type": "vmess",
+      "tag": "204 🇰🇷 AMAZON-02 SNI TCP",
+      "server": "kr-direct.node002.xyz",
+      "server_port": 5432,
+      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "213 🇰🇷 CloudITIDC Global SNI TCP",
+      "server": "103.138.80.193",
+      "server_port": 14485,
+      "uuid": "b687b974-701b-4a7b-e7a4-c7f8b5102723",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "234 🇰🇷 AMAZON-02 SNI TCP",
+      "server": "kr-direct.node002.xyz",
+      "server_port": 554,
+      "uuid": "45b31da4-8aac-3d51-951b-b984ce15c7f9",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -196,10 +246,142 @@
     },
     {
       "type": "trojan",
-      "tag": "161 🇰🇷 AS-CHOOPA SNI TCP",
-      "server": "trask1.bnnodeservice.com",
-      "server_port": 32005,
-      "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
+      "tag": "152 🇰🇷 AMAZON-02 SNI TCP",
+      "server": "3.36.139.18",
+      "server_port": 50334,
+      "password": "38f06c85-4a37-4cad-811f-9fb7f6e9cab6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "167 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "jgw2.gaox.ml",
+      "server_port": 443,
+      "password": "f2117e99-9b6e-47fd-b0a9-634a0b15b998",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "174 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "138.2.115.240",
+      "server_port": 443,
+      "password": "3a2c0c6c-9ee5-c05f-c951-fcd73831983e",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "178 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "146.56.176.239",
+      "server_port": 443,
+      "password": "98a68cfb-42c6-4498-ac6e-7e5c203924a7",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "179 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "7e92d33f-6917-4c69-8eca-7fe80be58199",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "180 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "ec129ab2-3c89-4e25-8b97-aee479ac06f1",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "181 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "036ba5aa-fcb7-4e6f-95b5-a857cb354aa8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "183 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "ffd553fe-7d14-4ab2-acba-e7307d41e4f4",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "185 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "f2239c58-4684-4747-8985-fbca693f352b",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "187 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "kr1.api-aws.com",
+      "server_port": 443,
+      "password": "205f8ab6-cb17-4480-93a6-aece90b88742",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "190 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "144.24.72.126",
+      "server_port": 443,
+      "password": "7118b5f4-0ea4-4c11-be7f-11471cb91e4a",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "194 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "138.2.113.84",
+      "server_port": 443,
+      "password": "b291d129-ee55-4801-a9b8-b5316e5c37b7",
       "tls": {
         "enabled": true,
         "insecure": true,

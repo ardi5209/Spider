@@ -45,79 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "45 🇵🇱 G-Core Labs S.A. SNI WS",
-        "46 🇵🇱 G-Core Labs S.A. CDN WS",
-        "85 🇵🇱 G-Core Labs S.A. SNI WS",
-        "86 🇵🇱 G-Core Labs S.A. CDN WS",
-        "131 🇵🇱 OVH SAS SNI WS"
+        "50 🇵🇱 G-Core Labs S.A. CDN WS",
+        "53 🇵🇱 G-Core Labs S.A. SNI TCP",
+        "102 🇵🇱 G-Core Labs S.A. CDN WS",
+        "117 🇵🇱 G-Core Labs S.A. SNI TCP",
+        "143 🇵🇱 OVH SAS SNI WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "45 🇵🇱 G-Core Labs S.A. SNI WS",
-      "server": "gcspl.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsplnode",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "46 🇵🇱 G-Core Labs S.A. CDN WS",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcspl.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsplnode",
-        "headers": {
-          "Host": "gcspl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "85 🇵🇱 G-Core Labs S.A. SNI WS",
-      "server": "gcorepl.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "86 🇵🇱 G-Core Labs S.A. CDN WS",
+      "tag": "50 🇵🇱 G-Core Labs S.A. CDN WS",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -138,7 +75,56 @@
     },
     {
       "type": "vmess",
-      "tag": "131 🇵🇱 OVH SAS SNI WS",
+      "tag": "53 🇵🇱 G-Core Labs S.A. SNI TCP",
+      "server": "in06.my1188.org",
+      "server_port": 61077,
+      "uuid": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102 🇵🇱 G-Core Labs S.A. CDN WS",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcspl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "gcspl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "117 🇵🇱 G-Core Labs S.A. SNI TCP",
+      "server": "in06.my1188.org",
+      "server_port": 61077,
+      "uuid": "45b31da4-8aac-3d51-951b-b984ce15c7f9",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇵🇱 OVH SAS SNI WS",
       "server": "146.59.92.219",
       "server_port": 2096,
       "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",

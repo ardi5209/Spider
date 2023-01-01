@@ -45,15 +45,80 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "232 🇮🇳 DIGITALOCEAN-ASN SNI TCP"
+        "92 🇮🇳 Linode  LLC CDN WS",
+        "97 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+        "112 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+        "191 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+        "201 🇮🇳 ORACLE-BMC-31898 SNI TCP"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "92 🇮🇳 Linode  LLC CDN WS",
+      "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "30d3c7db-450c-4b6b-941a-4331e30dd92f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "Linode.CloudFlare.QUEST"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "Linode.CloudFlare.QUEST"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "97 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+      "server": "01.inix.anrun-ix.top",
+      "server_port": 13021,
+      "uuid": "dd86a105-00c1-41ba-899c-c31aa74f4539",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "112 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+      "server": "02.inix.anrun-ix.top",
+      "server_port": 13022,
+      "uuid": "dd86a105-00c1-41ba-899c-c31aa74f4539",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "232 🇮🇳 DIGITALOCEAN-ASN SNI TCP",
-      "server": "train1.bnnodeservice.com",
-      "server_port": 32017,
-      "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
+      "tag": "191 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+      "server": "152.67.160.174",
+      "server_port": 443,
+      "password": "54080134-2cba-4535-8599-95650bd9aa54",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "201 🇮🇳 ORACLE-BMC-31898 SNI TCP",
+      "server": "152.67.190.183",
+      "server_port": 443,
+      "password": "006baa3f-4bc3-4915-b60d-c8c5dae11a11",
       "tls": {
         "enabled": true,
         "insecure": true,

@@ -1,5 +1,5 @@
 proxies:
-  - name: '110 🇳🇱 Online S.a.s. CDN WS'
+  - name: '72 🇳🇱 Online S.a.s. CDN WS'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -15,7 +15,7 @@ proxies:
       path: /nl-unlimitxxx
       headers:
         Host: v12a.toddns.tk
-  - name: '111 🇳🇱 Online S.a.s. SNI WS'
+  - name: '104 🇳🇱 Online S.a.s. SNI WS'
     server: v12a.toddns.tk
     type: vmess
     port: 443
@@ -31,20 +31,73 @@ proxies:
       path: /nl-unlimitxxx
       headers:
         Host: image-upload4.spotify.com
-  - name: '167 🇳🇱 AEZA GROUP Ltd SNI TCP'
-    server: 89.185.85.136
-    type: trojan
-    port: 39940
-    password: 9E9948FD-90E4-FE29-3D42-CABA01740EC0
+  - name: '116 🇳🇱 FDCSERVERS SNI TCP'
+    server: in06.my1188.org
+    type: vmess
+    port: 64089
+    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '224 🇳🇱 G-Core Labs S.A. SNI TCP'
+  - name: '130 🇳🇱 Scalaxy B.V. SNI WS'
+    server: 5.45.78.209
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '237 🇳🇱 Online S.a.s. SNI WS'
+    server: 163.172.213.74
+    type: vmess
+    port: 443
+    uuid: 5c977590-87d2-11ed-b431-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: soft98.ir
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '105 🇳🇱 G-Core Labs S.A. SNI TCP'
     server: 20011.purefast2.com
     type: trojan
     port: 20011
-    password: 357827e5-a45d-3f09-9b73-ef4431dfb323
+    password: ed3ccb1e-7057-3d40-b794-630ef18fb7d2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '193 🇳🇱 AS40676 SNI TCP'
+    server: 185.212.200.74
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '255 🇳🇱 DIGITALOCEAN-ASN SNI TCP'
+    server: tray.tawanaclub.tk
+    type: trojan
+    port: 26355
+    password: ozeugjZpnQ
     udp: true
     skip-cert-verify: true
     network: tcp

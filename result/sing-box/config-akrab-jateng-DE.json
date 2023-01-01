@@ -45,35 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "23 🇩🇪 OVH SAS CDN WS",
-        "130 🇩🇪 Hetzner Online GmbH CDN WS",
-        "141 🇩🇪 Hetzner Online GmbH CDN WS"
+        "81 🇩🇪 Hetzner Online GmbH CDN WS",
+        "84 🇩🇪 DIGITALOCEAN-ASN CDN WS",
+        "200 🇩🇪 CLOUDFLARENET CDN WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "23 🇩🇪 OVH SAS CDN WS",
-      "server": "main.millionaireaisle.com",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "de.gongyiyun.cf"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "de.gongyiyun.cf"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "130 🇩🇪 Hetzner Online GmbH CDN WS",
+      "tag": "81 🇩🇪 Hetzner Online GmbH CDN WS",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "ffffffff-ffff-ffff-ffff-ffffffffffff",
@@ -94,7 +73,28 @@
     },
     {
       "type": "vmess",
-      "tag": "141 🇩🇪 Hetzner Online GmbH CDN WS",
+      "tag": "84 🇩🇪 DIGITALOCEAN-ASN CDN WS",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "f5251f72-d880-43c1-f1cd-9783d1df3698",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dedo.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "dedo.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "200 🇩🇪 CLOUDFLARENET CDN WS",
       "server": "main.millionaireaisle.com",
       "server_port": 2053,
       "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
