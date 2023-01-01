@@ -45,15 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "111 🇷🇺 LLC Baxet SNI TCP"
+        "171 🇷🇺 LLC Baxet TCP SNI",
+        "246 🇷🇺 EdgeCenter LLC TCP SNI"
       ]
     },
     {
       "type": "trojan",
-      "tag": "111 🇷🇺 LLC Baxet SNI TCP",
-      "server": "195.133.10.202",
-      "server_port": 44976,
-      "password": "tiUobCwrVb",
+      "tag": "171 🇷🇺 LLC Baxet TCP SNI",
+      "server": "eu-east-ruo.openssl3.com",
+      "server_port": 443,
+      "password": "9KogHwaY7hVD",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "246 🇷🇺 EdgeCenter LLC TCP SNI",
+      "server": "traru1.bnnodeservice.com",
+      "server_port": 32008,
+      "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
       "tls": {
         "enabled": true,
         "insecure": true,

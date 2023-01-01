@@ -45,34 +45,18 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "96 🇹🇼 Data Communication Business Group SNI TCP",
-        "104 🇹🇼 Data Communication Business Group SNI TCP",
-        "107 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-        "132 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-        "144 🇹🇼 Taiwan Digital Streaming Co. CDN WS",
-        "218 🇹🇼 Data Communication Business Group SNI WS",
-        "236 🇹🇼 Scloud Pte Ltd SNI WS",
-        "242 🇹🇼 Data Communication Business Group SNI TCP",
-        "248 🇹🇼 Scloud Pte Ltd SNI WS"
+        "101 🇹🇼 Data Communication Business Group TCP SNI",
+        "103 🇹🇼 Taiwan Digital Streaming Co. WS CDN",
+        "106 🇹🇼 Scloud Pte Ltd WS SNI",
+        "109 🇹🇼 Scloud Pte Ltd WS SNI",
+        "120 🇹🇼 Data Communication Business Group WS SNI",
+        "175 🇹🇼 Taiwan Digital Streaming Co. WS SNI",
+        "294 🇹🇼 Data Communication Business Group TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "96 🇹🇼 Data Communication Business Group SNI TCP",
-      "server": "tw99-hinet.mynodes001.one",
-      "server_port": 554,
-      "uuid": "45b31da4-8aac-3d51-951b-b984ce15c7f9",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "104 🇹🇼 Data Communication Business Group SNI TCP",
+      "tag": "101 🇹🇼 Data Communication Business Group TCP SNI",
       "server": "08.kccic2pa.xyz",
       "server_port": 50008,
       "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
@@ -86,49 +70,7 @@
     },
     {
       "type": "vmess",
-      "tag": "107 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-      "server": "mc.xn--mes794a17ar33a.xyz",
-      "server_port": 2008,
-      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/xyf520",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "132 🇹🇼 Taiwan Digital Streaming Co. SNI WS",
-      "server": "13.229.229.167",
-      "server_port": 2002,
-      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/xyf520",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "144 🇹🇼 Taiwan Digital Streaming Co. CDN WS",
+      "tag": "103 🇹🇼 Taiwan Digital Streaming Co. WS CDN",
       "server": "news.microsoft.com",
       "server_port": 443,
       "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
@@ -149,7 +91,7 @@
     },
     {
       "type": "vmess",
-      "tag": "218 🇹🇼 Data Communication Business Group SNI WS",
+      "tag": "106 🇹🇼 Scloud Pte Ltd WS SNI",
       "server": "gz.daxun.cyou",
       "server_port": 20631,
       "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
@@ -162,7 +104,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/hinet04",
+        "path": "/scloudhinet07",
         "headers": {
           "Host": "news.microsoft.com"
         }
@@ -170,7 +112,7 @@
     },
     {
       "type": "vmess",
-      "tag": "236 🇹🇼 Scloud Pte Ltd SNI WS",
+      "tag": "109 🇹🇼 Scloud Pte Ltd WS SNI",
       "server": "gz.daxun.cyou",
       "server_port": 20631,
       "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
@@ -191,21 +133,7 @@
     },
     {
       "type": "vmess",
-      "tag": "242 🇹🇼 Data Communication Business Group SNI TCP",
-      "server": "twmvbpp7d.b70rw85t.xyz",
-      "server_port": 39999,
-      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "248 🇹🇼 Scloud Pte Ltd SNI WS",
+      "tag": "120 🇹🇼 Data Communication Business Group WS SNI",
       "server": "gz.daxun.cyou",
       "server_port": 20631,
       "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
@@ -218,10 +146,45 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/scloudhinet07",
+        "path": "/hinet04",
         "headers": {
           "Host": "news.microsoft.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "175 🇹🇼 Taiwan Digital Streaming Co. WS SNI",
+      "server": "mcsc.frpfly.com",
+      "server_port": 52124,
+      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xyf520",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "294 🇹🇼 Data Communication Business Group TCP SNI",
+      "server": "twmbm2fwa.b70rw85t.xyz",
+      "server_port": 39998,
+      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
       }
     }
   ],

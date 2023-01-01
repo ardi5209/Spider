@@ -1,5 +1,81 @@
 proxies:
-  - name: '13 🇨🇦 ORACLE-BMC-31898 SNI TCP'
+  - name: '18 🇨🇦 ORACLE-BMC-31898 TCP SNI'
+    server: 02.toronto.can.anrun-ix.top
+    type: vmess
+    port: 13028
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '22 🇨🇦 ORACLE-BMC-31898 TCP SNI'
+    server: 01.montreal.can.anrun-ix.top
+    type: vmess
+    port: 13029
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '131 🇨🇦 ORACLE-BMC-31898 TCP SNI'
+    server: 02.toronto.can.anrun-ix.top
+    type: vmess
+    port: 13028
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '136 🇨🇦 Linode  LLC WS SNI'
+    server: gz.daxun.cyou
+    type: vmess
+    port: 20631
+    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /canada1
+      headers:
+        Host: click.zoom.us
+  - name: '151 🇨🇦 ORACLE-BMC-31898 TCP SNI'
+    server: 01.montreal.can.anrun-ix.top
+    type: vmess
+    port: 13029
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '258 🇨🇦 ORACLE-BMC-31898 TCP SNI'
+    server: 01.toronto.can.anrun-ix.top
+    type: vmess
+    port: 13027
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '262 🇨🇦 ORACLE-BMC-31898 TCP SNI'
     server: 02.toronto.can.anrun-ix.top
     type: vmess
     port: 13028
@@ -11,31 +87,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '16 🇨🇦 ORACLE-BMC-31898 SNI TCP'
-    server: 01.toronto.can.anrun-ix.top
-    type: vmess
-    port: 13027
-    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '114 🇨🇦 ORACLE-BMC-31898 SNI TCP'
-    server: 01.toronto.can.anrun-ix.top
-    type: vmess
-    port: 13027
-    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '131 🇨🇦 ORACLE-BMC-31898 SNI TCP'
+  - name: '263 🇨🇦 ORACLE-BMC-31898 TCP SNI'
     server: 01.montreal.can.anrun-ix.top
     type: vmess
     port: 13029
@@ -47,7 +99,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '145 🇨🇦 ORACLE-BMC-31898 SNI TCP'
+  - name: '308 🇨🇦 ORACLE-BMC-31898 TCP SNI'
     server: 02.toronto.can.anrun-ix.top
     type: vmess
     port: 13028
@@ -58,20 +110,16 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
-  - name: '239 🇨🇦 Linode  LLC SNI WS'
-    server: gz.daxun.cyou
+    servername: click.zoom.us
+  - name: '313 🇨🇦 ORACLE-BMC-31898 TCP SNI'
+    server: 01.toronto.can.anrun-ix.top
     type: vmess
-    port: 20631
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    port: 13027
+    uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /canada1
-      headers:
-        Host: config.teams.microsoft.com
+    network: tcp
+    servername: safebrowsing.google.com

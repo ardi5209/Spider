@@ -45,19 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "119 🇦🇺 CLOUDFLARENET SNI TCP",
-        "133 🇦🇺 CLOUDFLARENET SNI TCP",
-        "169 🇦🇺 CLOUDFLARENET SNI TCP",
-        "266 🇦🇺 CLOUDFLARENET SNI TCP",
-        "151 🇦🇺 ORACLE-BMC-31898 SNI TCP",
-        "158 🇦🇺 ORACLE-BMC-31898 SNI TCP"
+        "99 🇦🇺 CLOUDFLARENET TCP SNI",
+        "176 🇦🇺 CLOUDFLARENET TCP SNI",
+        "177 🇦🇺 CLOUDFLARENET TCP SNI",
+        "292 🇦🇺 CLOUDFLARENET TCP SNI",
+        "183 🇦🇺 ORACLE-BMC-31898 TCP SNI",
+        "185 🇦🇺 ORACLE-BMC-31898 TCP SNI",
+        "242 🇦🇺 AS-CHOOPA TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "119 🇦🇺 CLOUDFLARENET SNI TCP",
-      "server": "01.mel.aus.anrun-ix.top",
-      "server_port": 13023,
+      "tag": "99 🇦🇺 CLOUDFLARENET TCP SNI",
+      "server": "01.sdy.aus.anrun-ix.top",
+      "server_port": 13025,
       "uuid": "dd86a105-00c1-41ba-899c-c31aa74f4539",
       "security": "auto",
       "alter_id": 0,
@@ -69,7 +70,7 @@
     },
     {
       "type": "vmess",
-      "tag": "133 🇦🇺 CLOUDFLARENET SNI TCP",
+      "tag": "176 🇦🇺 CLOUDFLARENET TCP SNI",
       "server": "02.sdy.aus.anrun-ix.top",
       "server_port": 13026,
       "uuid": "dd86a105-00c1-41ba-899c-c31aa74f4539",
@@ -83,9 +84,9 @@
     },
     {
       "type": "vmess",
-      "tag": "169 🇦🇺 CLOUDFLARENET SNI TCP",
-      "server": "01.sdy.aus.anrun-ix.top",
-      "server_port": 13025,
+      "tag": "177 🇦🇺 CLOUDFLARENET TCP SNI",
+      "server": "01.mel.aus.anrun-ix.top",
+      "server_port": 13023,
       "uuid": "dd86a105-00c1-41ba-899c-c31aa74f4539",
       "security": "auto",
       "alter_id": 0,
@@ -97,7 +98,7 @@
     },
     {
       "type": "vmess",
-      "tag": "266 🇦🇺 CLOUDFLARENET SNI TCP",
+      "tag": "292 🇦🇺 CLOUDFLARENET TCP SNI",
       "server": "01.sdy.aus.anrun-ix.top",
       "server_port": 13025,
       "uuid": "dd86a105-00c1-41ba-899c-c31aa74f4539",
@@ -111,7 +112,7 @@
     },
     {
       "type": "trojan",
-      "tag": "151 🇦🇺 ORACLE-BMC-31898 SNI TCP",
+      "tag": "183 🇦🇺 ORACLE-BMC-31898 TCP SNI",
       "server": "jgwxn4.gaox.ml",
       "server_port": 443,
       "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
@@ -123,10 +124,22 @@
     },
     {
       "type": "trojan",
-      "tag": "158 🇦🇺 ORACLE-BMC-31898 SNI TCP",
+      "tag": "185 🇦🇺 ORACLE-BMC-31898 TCP SNI",
       "server": "jgwxn3.gaox.ml",
       "server_port": 443,
       "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "242 🇦🇺 AS-CHOOPA TCP SNI",
+      "server": "traau1.bnnodeservice.com",
+      "server_port": 32012,
+      "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
       "tls": {
         "enabled": true,
         "insecure": true,

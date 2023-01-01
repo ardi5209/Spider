@@ -1,9 +1,18 @@
 proxies:
-  - name: '111 🇷🇺 LLC Baxet SNI TCP'
-    server: 195.133.10.202
+  - name: '171 🇷🇺 LLC Baxet TCP SNI'
+    server: eu-east-ruo.openssl3.com
     type: trojan
-    port: 44976
-    password: tiUobCwrVb
+    port: 443
+    password: 9KogHwaY7hVD
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: news.microsoft.com
+  - name: '246 🇷🇺 EdgeCenter LLC TCP SNI'
+    server: traru1.bnnodeservice.com
+    type: trojan
+    port: 32008
+    password: c2b0106e-178a-4a41-ad37-380c587cf08a
     udp: true
     skip-cert-verify: true
     network: tcp

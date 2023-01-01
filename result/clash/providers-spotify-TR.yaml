@@ -1,5 +1,5 @@
 proxies:
-  - name: '138 🇹🇷 Hostigger INC. SNI TCP'
+  - name: '127 🇹🇷 Hostigger INC. TCP SNI'
     server: 36.kccic2pa.xyz
     type: vmess
     port: 50036
@@ -11,7 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '139 🇹🇷 Hostigger INC. SNI TCP'
+  - name: '267 🇹🇷 Hostigger INC. TCP SNI'
     server: 37.kccic2pa.xyz
     type: vmess
     port: 50037
@@ -19,6 +19,15 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '249 🇹🇷 Teknofirst Veri Merkezi Yazilim Bilisim Sanayi Ve Ticaret Limited Sirketi TCP SNI'
+    server: tratr1.bnnodeservice.com
+    type: trojan
+    port: 32014
+    password: c2b0106e-178a-4a41-ad37-380c587cf08a
     udp: true
     skip-cert-verify: true
     network: tcp
