@@ -46,7 +46,8 @@
       "tag": "select",
       "outbounds": [
         "42 🇰🇷 ORACLE-BMC-31898 WS CDN",
-        "70 🇰🇷 ORACLE-BMC-31898 WS CDN"
+        "83 🇰🇷 AMAZON-02 WS CDN",
+        "89 🇰🇷 AMAZON-02 WS CDN"
       ]
     },
     {
@@ -72,22 +73,43 @@
     },
     {
       "type": "vmess",
-      "tag": "70 🇰🇷 ORACLE-BMC-31898 WS CDN",
+      "tag": "83 🇰🇷 AMAZON-02 WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "uuid": "64c14f0f-bdc6-42d4-a0cc-bae4029bd390",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "surongwei.eu.org"
+        "server_name": "juzi1.82a.xyz"
       },
       "transport": {
         "type": "ws",
-        "path": "/reffs7y26g0ua",
+        "path": "/",
         "headers": {
-          "Host": "surongwei.eu.org"
+          "Host": "juzi1.82a.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "89 🇰🇷 AMAZON-02 WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "3d6bb1ca-0ec5-4c7c-a54b-50c72aadb8a0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "juzi3.82a.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "juzi3.82a.xyz"
         }
       }
     }

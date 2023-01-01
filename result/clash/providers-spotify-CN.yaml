@@ -1,6 +1,50 @@
 proxies:
-  - name: '234 🇨🇳 CHINA UNICOM China169 Backbone TCP SNI'
+  - name: '168 🇨🇳 CHINA UNICOM China169 Backbone TCP SNI'
     server: 112.132.215.189
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '189 🇨🇳 Beijing Baidu Netcom Science and Technology Co.  Ltd. WS SNI'
+    server: 106.12.168.13
+    type: vmess
+    port: 13156
+    uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '294 🇨🇳 Alibaba US Technology Co.  Ltd. WS SNI'
+    server: 478939162.skyjsq.space
+    type: vmess
+    port: 8602
+    uuid: 951fca76-89ad-1df5-4aba-f872c760f667
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '312 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. TCP SNI'
+    server: 39.103.165.178
     type: vmess
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

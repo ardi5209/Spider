@@ -45,27 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "81 🇵🇱 G-Core Labs S.A. TCP SNI",
-        "289 🇵🇱 G-Core Labs S.A. WS CDN"
+        "54 🇵🇱 G-Core Labs S.A. WS SNI",
+        "55 🇵🇱 G-Core Labs S.A. WS CDN",
+        "70 🇵🇱 G-Core Labs S.A. TCP SNI",
+        "187 🇵🇱 OVH SAS WS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "81 🇵🇱 G-Core Labs S.A. TCP SNI",
-      "server": "in06.my1188.org",
-      "server_port": 61077,
-      "uuid": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
+      "tag": "54 🇵🇱 G-Core Labs S.A. WS SNI",
+      "server": "gcspl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "289 🇵🇱 G-Core Labs S.A. WS CDN",
+      "tag": "55 🇵🇱 G-Core Labs S.A. WS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -81,6 +90,41 @@
         "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "gcspl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "70 🇵🇱 G-Core Labs S.A. TCP SNI",
+      "server": "in06.my1188.org",
+      "server_port": 61077,
+      "uuid": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "187 🇵🇱 OVH SAS WS SNI",
+      "server": "146.59.92.219",
+      "server_port": 2096,
+      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "undefined",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
         }
       }
     }

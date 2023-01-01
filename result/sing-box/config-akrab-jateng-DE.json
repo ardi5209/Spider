@@ -45,13 +45,57 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "62 🇩🇪 Hetzner Online GmbH WS CDN",
-        "254 🇩🇪 CLOUDFLARENET WS CDN"
+        "85 🇩🇪 DIGITALOCEAN-ASN WS CDN",
+        "124 🇩🇪 Hetzner Online GmbH WS CDN",
+        "165 🇩🇪 Hetzner Online GmbH WS CDN",
+        "186 🇩🇪 Hetzner Online GmbH WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "62 🇩🇪 Hetzner Online GmbH WS CDN",
+      "tag": "85 🇩🇪 DIGITALOCEAN-ASN WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "f5251f72-d880-43c1-f1cd-9783d1df3698",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dedo.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "dedo.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "124 🇩🇪 Hetzner Online GmbH WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sun.prxpro.cc"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/g7970d1b58m1ixn3i16i",
+        "headers": {
+          "Host": "sun.prxpro.cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "165 🇩🇪 Hetzner Online GmbH WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "ffffffff-ffff-ffff-ffff-ffffffffffff",
@@ -72,7 +116,7 @@
     },
     {
       "type": "vmess",
-      "tag": "254 🇩🇪 CLOUDFLARENET WS CDN",
+      "tag": "186 🇩🇪 Hetzner Online GmbH WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 2053,
       "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",

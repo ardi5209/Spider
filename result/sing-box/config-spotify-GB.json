@@ -45,23 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "43 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
-        "112 🇬🇧 PoloCloud-Computing WS SNI",
-        "264 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd TCP SNI",
-        "314 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
-        "314 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
-        "115 🇬🇧 Iomart Cloud Services Limited TCP SNI",
-        "161 🇬🇧 OVH SAS TCP SNI",
-        "166 🇬🇧 OVH SAS TCP SNI",
-        "180 🇬🇧 OVH SAS TCP SNI",
-        "181 🇬🇧 OVH SAS TCP SNI",
-        "236 🇬🇧 Stark Industries Solutions Ltd TCP SNI",
-        "245 🇬🇧 Datacamp Limited TCP SNI"
+        "32 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "33 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "76 🇬🇧 OVH SAS WS CDN",
+        "223 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd TCP SNI",
+        "233 🇬🇧 Kuroit Limited TCP SNI",
+        "309 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "114 🇬🇧 OVH SAS TCP SNI",
+        "116 🇬🇧 OVH SAS TCP SNI",
+        "178 🇬🇧 Iomart Cloud Services Limited TCP SNI",
+        "183 🇬🇧 Datacamp Limited TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "43 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "tag": "32 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "33 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -75,28 +87,28 @@
     },
     {
       "type": "vmess",
-      "tag": "112 🇬🇧 PoloCloud-Computing WS SNI",
-      "server": "gz.daxun.cyou",
-      "server_port": 20631,
-      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "tag": "76 🇬🇧 OVH SAS WS CDN",
+      "server": "investors.spotify.com",
+      "server_port": 2086,
+      "uuid": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "image-upload4.spotify.com"
+        "server_name": "UK.CLOUDFLARE.QUEST"
       },
       "transport": {
         "type": "ws",
-        "path": "/UK03",
+        "path": "/aries",
         "headers": {
-          "Host": "image-upload4.spotify.com"
+          "Host": "UK.CLOUDFLARE.QUEST"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "264 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd TCP SNI",
+      "tag": "223 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd TCP SNI",
       "server": "18.kccic2pa.xyz",
       "server_port": 50018,
       "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
@@ -110,7 +122,21 @@
     },
     {
       "type": "vmess",
-      "tag": "314 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "tag": "233 🇬🇧 Kuroit Limited TCP SNI",
+      "server": "19.kccic2pa.xyz",
+      "server_port": 50019,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "309 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -123,25 +149,11 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "314 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "115 🇬🇧 Iomart Cloud Services Limited TCP SNI",
-      "server": "88.150.137.177",
+      "tag": "114 🇬🇧 OVH SAS TCP SNI",
+      "server": "51.195.219.173",
       "server_port": 443,
-      "password": "shefelnak",
+      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -150,31 +162,7 @@
     },
     {
       "type": "trojan",
-      "tag": "161 🇬🇧 OVH SAS TCP SNI",
-      "server": "uk1.trojanvh.xyz",
-      "server_port": 443,
-      "password": "b640d791-ff83-4300-b509-c2a02f97f167",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "166 🇬🇧 OVH SAS TCP SNI",
-      "server": "uk1.trojanvh.xyz",
-      "server_port": 443,
-      "password": "211f5876-8c89-4d97-9004-ff16acddd506",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "180 🇬🇧 OVH SAS TCP SNI",
+      "tag": "116 🇬🇧 OVH SAS TCP SNI",
       "server": "t1.teslacdn1.live",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
@@ -186,10 +174,10 @@
     },
     {
       "type": "trojan",
-      "tag": "181 🇬🇧 OVH SAS TCP SNI",
-      "server": "ukt1.sshocean.net",
+      "tag": "178 🇬🇧 Iomart Cloud Services Limited TCP SNI",
+      "server": "88.150.137.177",
       "server_port": 443,
-      "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
+      "password": "shefelnak",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -198,19 +186,7 @@
     },
     {
       "type": "trojan",
-      "tag": "236 🇬🇧 Stark Industries Solutions Ltd TCP SNI",
-      "server": "146.19.230.241",
-      "server_port": 443,
-      "password": "xxoo",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "245 🇬🇧 Datacamp Limited TCP SNI",
+      "tag": "183 🇬🇧 Datacamp Limited TCP SNI",
       "server": "trauk1.bnnodeservice.com",
       "server_port": 32010,
       "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
