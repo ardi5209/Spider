@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "76 🇯🇵 G-Core Labs S.A. CDN WS"
+        "81 🇯🇵 G-Core Labs S.A. CDN WS",
+        "107 🇯🇵 ORACLE-BMC-31898 CDN WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "76 🇯🇵 G-Core Labs S.A. CDN WS",
+      "tag": "81 🇯🇵 G-Core Labs S.A. CDN WS",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -66,6 +67,27 @@
         "path": "/Falling42gcssjpnode",
         "headers": {
           "Host": "gcssjp.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107 🇯🇵 ORACLE-BMC-31898 CDN WS",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "0b873cff-11ab-4716-c41a-04f886135091",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "suzhihan.eu.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/roewesu",
+        "headers": {
+          "Host": "suzhihan.eu.org"
         }
       }
     }

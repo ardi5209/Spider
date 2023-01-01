@@ -45,76 +45,63 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "51 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-        "160 🇰🇷 CLOUDFLARENET SNI TCP",
-        "193 🇰🇷 CloudITIDC Global SNI TCP",
-        "267 🇰🇷 CLOUDFLARENET SNI TCP",
-        "298 🇰🇷 AMAZON-02 SNI WS",
-        "165 🇰🇷 AMAZON-02 SNI TCP",
-        "215 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-        "216 🇰🇷 ORACLE-BMC-31898 SNI TCP"
+        "125 🇰🇷 AMAZON-02 SNI WS",
+        "144 🇰🇷 ORACLE-BMC-31898 SNI WS",
+        "145 🇰🇷 AMAZON-02 SNI WS",
+        "153 🇰🇷 MOACK.Co.LTD SNI WS",
+        "157 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "190 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+        "209 🇰🇷 CloudITIDC Global SNI TCP",
+        "139 🇰🇷 AMAZON-02 SNI TCP",
+        "161 🇰🇷 AS-CHOOPA SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "51 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-      "server": "m4.40010010.xyz",
-      "server_port": 37121,
-      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
+      "tag": "125 🇰🇷 AMAZON-02 SNI WS",
+      "server": "kr01.170203.xyz",
+      "server_port": 45453,
+      "uuid": "d27a9a00-96bf-42de-a2f0-333bd64b36dd",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "160 🇰🇷 CLOUDFLARENET SNI TCP",
-      "server": "01hg.mealstream.xyz",
-      "server_port": 15201,
-      "uuid": "71f98616-2945-4149-b93d-5de936c4e0fd",
+      "tag": "144 🇰🇷 ORACLE-BMC-31898 SNI WS",
+      "server": "130.162.141.104",
+      "server_port": 443,
+      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/reffs7y26g0ua",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "193 🇰🇷 CloudITIDC Global SNI TCP",
-      "server": "103.138.80.193",
-      "server_port": 14485,
-      "uuid": "b687b974-701b-4a7b-e7a4-c7f8b5102723",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "267 🇰🇷 CLOUDFLARENET SNI TCP",
-      "server": "01hg.mealstream.xyz",
-      "server_port": 15201,
-      "uuid": "71f98616-2945-4149-b93d-5de936c4e0fd",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "298 🇰🇷 AMAZON-02 SNI WS",
-      "server": "54.180.150.171",
+      "tag": "145 🇰🇷 AMAZON-02 SNI WS",
+      "server": "54.180.117.118",
       "server_port": 42517,
       "uuid": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
       "security": "auto",
@@ -133,11 +120,62 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "165 🇰🇷 AMAZON-02 SNI TCP",
-      "server": "kr-s-2.fuckjdieng.uk",
-      "server_port": 50334,
-      "password": "38f06c85-4a37-4cad-811f-9fb7f6e9cab6",
+      "type": "vmess",
+      "tag": "153 🇰🇷 MOACK.Co.LTD SNI WS",
+      "server": "lc-kr02-direct01.lc-kr02.lc-node.com",
+      "server_port": 443,
+      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
+      "security": "auto",
+      "alter_id": 2,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "undefined",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "157 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "m4.40010010.xyz",
+      "server_port": 37121,
+      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "190 🇰🇷 ORACLE-BMC-31898 SNI TCP",
+      "server": "m4.40010010.xyz",
+      "server_port": 37121,
+      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "209 🇰🇷 CloudITIDC Global SNI TCP",
+      "server": "103.138.80.193",
+      "server_port": 14485,
+      "uuid": "b687b974-701b-4a7b-e7a4-c7f8b5102723",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -146,10 +184,10 @@
     },
     {
       "type": "trojan",
-      "tag": "215 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-      "server": "jgwcc2.gaox.ml",
-      "server_port": 443,
-      "password": "9c822f05-cfdc-479a-9534-60f3d4127435",
+      "tag": "139 🇰🇷 AMAZON-02 SNI TCP",
+      "server": "3.36.139.18",
+      "server_port": 50382,
+      "password": "b73a108c-1070-48aa-a2c4-d50630c47ee7",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -158,10 +196,10 @@
     },
     {
       "type": "trojan",
-      "tag": "216 🇰🇷 ORACLE-BMC-31898 SNI TCP",
-      "server": "jgw2.gaox.ml",
-      "server_port": 443,
-      "password": "f2117e99-9b6e-47fd-b0a9-634a0b15b998",
+      "tag": "161 🇰🇷 AS-CHOOPA SNI TCP",
+      "server": "trask1.bnnodeservice.com",
+      "server_port": 32005,
+      "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
       "tls": {
         "enabled": true,
         "insecure": true,

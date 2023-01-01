@@ -113,7 +113,7 @@
           "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-31 🇵🇱 G-Core Labs S.A. SNI WS"
+      "tag": "proxy-45 🇵🇱 G-Core Labs S.A. SNI WS"
     },
     {
       "mux": {
@@ -153,7 +153,47 @@
           "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-32 🇵🇱 G-Core Labs S.A. CDN WS"
+      "tag": "proxy-46 🇵🇱 G-Core Labs S.A. CDN WS"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gcorepl.sylu.cyou",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/Falling42gcoreplnode"
+        }
+      },
+      "tag": "proxy-85 🇵🇱 G-Core Labs S.A. SNI WS"
     },
     {
       "mux": {
@@ -193,75 +233,7 @@
           "path": "/Falling42gcoreplnode"
         }
       },
-      "tag": "proxy-71 🇵🇱 G-Core Labs S.A. CDN WS"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "in06.my1188.org",
-            "port": 61077,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c7d2d996-7159-3b34-8730-0bd396bfba7e",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-145 🇵🇱 G-Core Labs S.A. SNI TCP"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "in06.my1188.org",
-            "port": 61077,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "45b31da4-8aac-3d51-951b-b984ce15c7f9",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-148 🇵🇱 G-Core Labs S.A. SNI TCP"
+      "tag": "proxy-86 🇵🇱 G-Core Labs S.A. CDN WS"
     },
     {
       "mux": {
@@ -301,7 +273,7 @@
           "path": "/"
         }
       },
-      "tag": "proxy-164 🇵🇱 OVH SAS SNI WS"
+      "tag": "proxy-131 🇵🇱 OVH SAS SNI WS"
     }
   ],
   "dns": {

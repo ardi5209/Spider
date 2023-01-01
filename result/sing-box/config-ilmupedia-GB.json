@@ -45,50 +45,20 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "13 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-        "16 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-        "90 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
-        "127 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
-        "137 🇬🇧 Kuroit Limited SNI TCP",
-        "290 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-        "291 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
+        "74 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
+        "82 🇬🇧 Kuroit Limited SNI TCP",
+        "106 🇬🇧 OVH SAS SNI WS",
+        "210 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
+        "210 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
         "30 🇬🇧 OVH SAS SNI TCP",
-        "42 🇬🇧 OVH SAS SNI TCP",
-        "219 🇬🇧 Hydra Communications Ltd SNI TCP",
-        "226 🇬🇧 OVH SAS SNI TCP"
+        "50 🇬🇧 OVH SAS SNI TCP",
+        "147 🇬🇧 Hydra Communications Ltd SNI TCP",
+        "169 🇬🇧 Datacamp Limited SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "13 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-      "server": "161.35.47.70",
-      "server_port": 29210,
-      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "16 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
-      "server": "161.35.47.70",
-      "server_port": 13472,
-      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "90 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
+      "tag": "74 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
       "server": "18.kccic2pa.xyz",
       "server_port": 50018,
       "uuid": "ac736702-f7c5-4fd7-9eff-6c8918ed7f71",
@@ -102,21 +72,7 @@
     },
     {
       "type": "vmess",
-      "tag": "127 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP",
-      "server": "18.kccic2pa.xyz",
-      "server_port": 50018,
-      "uuid": "ac736702-f7c5-4fd7-9eff-6c8918ed7f71",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "137 🇬🇧 Kuroit Limited SNI TCP",
+      "tag": "82 🇬🇧 Kuroit Limited SNI TCP",
       "server": "19.kccic2pa.xyz",
       "server_port": 50019,
       "uuid": "ac736702-f7c5-4fd7-9eff-6c8918ed7f71",
@@ -130,7 +86,28 @@
     },
     {
       "type": "vmess",
-      "tag": "290 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
+      "tag": "106 🇬🇧 OVH SAS SNI WS",
+      "server": "51.75.171.211",
+      "server_port": 443,
+      "uuid": "989b7bb6-3734-4723-bebe-2c3ff7423e46",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "210 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
       "server": "161.35.47.70",
       "server_port": 29210,
       "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
@@ -144,7 +121,7 @@
     },
     {
       "type": "vmess",
-      "tag": "291 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
+      "tag": "210 🇬🇧 DIGITALOCEAN-ASN SNI TCP",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -159,7 +136,7 @@
     {
       "type": "trojan",
       "tag": "30 🇬🇧 OVH SAS SNI TCP",
-      "server": "51.89.22.228",
+      "server": "t1.teslacdn1.live",
       "server_port": 443,
       "password": "dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13",
       "tls": {
@@ -170,8 +147,8 @@
     },
     {
       "type": "trojan",
-      "tag": "42 🇬🇧 OVH SAS SNI TCP",
-      "server": "51.195.219.173",
+      "tag": "50 🇬🇧 OVH SAS SNI TCP",
+      "server": "ukt1.sshocean.net",
       "server_port": 443,
       "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
       "tls": {
@@ -182,8 +159,8 @@
     },
     {
       "type": "trojan",
-      "tag": "219 🇬🇧 Hydra Communications Ltd SNI TCP",
-      "server": "content-provider21.cdn-delivery.akamaicd.com",
+      "tag": "147 🇬🇧 Hydra Communications Ltd SNI TCP",
+      "server": "185.16.206.211",
       "server_port": 443,
       "password": "shefelnak",
       "tls": {
@@ -194,10 +171,10 @@
     },
     {
       "type": "trojan",
-      "tag": "226 🇬🇧 OVH SAS SNI TCP",
-      "server": "51.195.219.173",
-      "server_port": 443,
-      "password": "beccf31b-5e7e-4b44-a0a1-b80ba6f9306f",
+      "tag": "169 🇬🇧 Datacamp Limited SNI TCP",
+      "server": "trauk1.bnnodeservice.com",
+      "server_port": 32010,
+      "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
       "tls": {
         "enabled": true,
         "insecure": true,

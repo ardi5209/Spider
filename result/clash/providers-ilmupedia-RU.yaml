@@ -1,34 +1,9 @@
 proxies:
-  - name: '180 🇷🇺 RECONN LLC SNI WS'
-    server: 91.193.181.192
-    type: vmess
-    port: 8090
-    uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-  - name: '94 🇷🇺 LLC Baxet SNI TCP'
+  - name: '122 🇷🇺 LLC Baxet SNI TCP'
     server: eu-east-ruo.openssl3.com
     type: trojan
     port: 443
     password: 9KogHwaY7hVD
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: news.microsoft.com
-  - name: '167 🇷🇺 LLC Baxet SNI TCP'
-    server: xi.kanao.xyz
-    type: trojan
-    port: 58813
-    password: f9bd7760-9fc5-471f-9254-78257a7dbfa1
     udp: true
     skip-cert-verify: true
     network: tcp

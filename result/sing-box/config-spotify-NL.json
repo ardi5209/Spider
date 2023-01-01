@@ -45,17 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "73 🇳🇱 Online S.a.s. CDN WS",
-        "75 🇳🇱 Online S.a.s. SNI WS",
-        "119 🇳🇱 FDCSERVERS SNI TCP",
-        "133 🇳🇱 Scalaxy B.V. SNI WS",
-        "221 🇳🇱 DIGITALOCEAN-ASN SNI WS",
-        "228 🇳🇱 AS40676 SNI TCP"
+        "110 🇳🇱 Online S.a.s. CDN WS",
+        "111 🇳🇱 Online S.a.s. SNI WS",
+        "167 🇳🇱 AEZA GROUP Ltd SNI TCP",
+        "224 🇳🇱 G-Core Labs S.A. SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "73 🇳🇱 Online S.a.s. CDN WS",
+      "tag": "110 🇳🇱 Online S.a.s. CDN WS",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -76,7 +74,7 @@
     },
     {
       "type": "vmess",
-      "tag": "75 🇳🇱 Online S.a.s. SNI WS",
+      "tag": "111 🇳🇱 Online S.a.s. SNI WS",
       "server": "v12a.toddns.tk",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
@@ -96,67 +94,23 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "119 🇳🇱 FDCSERVERS SNI TCP",
-      "server": "in06.my1188.org",
-      "server_port": 64089,
-      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "167 🇳🇱 AEZA GROUP Ltd SNI TCP",
+      "server": "89.185.85.136",
+      "server_port": 39940,
+      "password": "9E9948FD-90E4-FE29-3D42-CABA01740EC0",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "133 🇳🇱 Scalaxy B.V. SNI WS",
-      "server": "nl.gongyiyun.cf",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "221 🇳🇱 DIGITALOCEAN-ASN SNI WS",
-      "server": "tray.tawanaclub.tk",
-      "server_port": 20672,
-      "uuid": "e3cf4021-5f21-4668-cd37-e8395841cb44",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tawanaproxy6",
-        "headers": {
-          "Host": "image-upload4.spotify.com"
-        }
       }
     },
     {
       "type": "trojan",
-      "tag": "228 🇳🇱 AS40676 SNI TCP",
-      "server": "185.212.200.75",
-      "server_port": 443,
-      "password": "Sp3eDVp",
+      "tag": "224 🇳🇱 G-Core Labs S.A. SNI TCP",
+      "server": "20011.purefast2.com",
+      "server_port": 20011,
+      "password": "357827e5-a45d-3f09-9b73-ef4431dfb323",
       "tls": {
         "enabled": true,
         "insecure": true,
