@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '104 🇬🇧 OVH SAS WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '130 🇬🇧 AMAZON-02 WS SNI'
     server: 18.133.149.100
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /websocket/
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '39 🇬🇧 OVH SAS TCP SNI'
     server: t1.teslacdn1.live
     type: trojan
@@ -95,7 +95,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '125 🇬🇧 OVH SAS TCP SNI'
     server: uk1.trojanvh.xyz
     type: trojan
@@ -104,7 +104,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '177 🇬🇧 ORACLE-BMC-31898 TCP SNI'
     server: jgwld1.gaox.ml
     type: trojan
@@ -113,7 +113,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '181 🇬🇧 Stark Industries Solutions Ltd TCP SNI'
     server: 146.19.230.241
     type: trojan
@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '183 🇬🇧 Hydra Communications Ltd TCP SNI'
     server: content-provider20.cdn-delivery.akamaicd.com
     type: trojan
@@ -131,4 +131,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
