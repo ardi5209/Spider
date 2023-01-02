@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '87 🇳🇱 Scalaxy B.V. WS SNI'
     server: nl.gongyiyun.cf
     type: vmess
@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '96 🇳🇱 Online S.a.s. WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '185 🇳🇱 AS40676 TCP SNI'
     server: content-provider24.cdn-delivery.akamaicd.com
     type: trojan
