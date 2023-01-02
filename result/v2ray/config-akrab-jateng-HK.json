@@ -104,16 +104,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "hk80.sanfen001.pics"
+          "serverName": "hk80-2.sanfen001.pics"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hk80.sanfen001.pics"
+            "Host": "hk80-2.sanfen001.pics"
           },
           "path": "/zh-cn/download"
         }
       },
-      "tag": "proxy-61 🇭🇰 AMAZON-02 WS CDN"
+      "tag": "proxy-62 🇭🇰 AMAZON-02 WS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "306cde05-3545-47c8-84eb-ef7b293eef45",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk1-cdn.emoooo.cloud"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk1-cdn.emoooo.cloud"
+          },
+          "path": "/index"
+        }
+      },
+      "tag": "proxy-86 🇭🇰 Akari Networks WS CDN"
     },
     {
       "mux": {
@@ -153,7 +193,7 @@
           "path": "/myblog"
         }
       },
-      "tag": "proxy-103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN"
+      "tag": "proxy-93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN"
     },
     {
       "mux": {
@@ -193,7 +233,7 @@
           "path": "/OB7jTM5cTTrL"
         }
       },
-      "tag": "proxy-104 🇭🇰 ADCDATA.COM WS CDN"
+      "tag": "proxy-107 🇭🇰 ADCDATA.COM WS CDN"
     },
     {
       "mux": {
@@ -234,46 +274,6 @@
         }
       },
       "tag": "proxy-143 🇭🇰 G-Core Labs S.A. WS CDN"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "main.millionaireaisle.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "25fcf9a0-f564-4ccc-bf3f-7edf1a9f3c66",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "db.cfyxdb.xyz"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "db.cfyxdb.xyz"
-          },
-          "path": "/2"
-        }
-      },
-      "tag": "proxy-294 🇭🇰 Layerstack Limited WS CDN"
     }
   ],
   "dns": {

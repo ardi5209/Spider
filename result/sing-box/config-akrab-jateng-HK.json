@@ -45,16 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "61 🇭🇰 AMAZON-02 WS CDN",
-        "103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
-        "104 🇭🇰 ADCDATA.COM WS CDN",
-        "143 🇭🇰 G-Core Labs S.A. WS CDN",
-        "294 🇭🇰 Layerstack Limited WS CDN"
+        "62 🇭🇰 AMAZON-02 WS CDN",
+        "86 🇭🇰 Akari Networks WS CDN",
+        "93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
+        "107 🇭🇰 ADCDATA.COM WS CDN",
+        "143 🇭🇰 G-Core Labs S.A. WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "61 🇭🇰 AMAZON-02 WS CDN",
+      "tag": "62 🇭🇰 AMAZON-02 WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "fe0c02e5-89e7-4a46-8f8d-172947ea70bb",
@@ -63,19 +63,40 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "hk80.sanfen001.pics"
+        "server_name": "hk80-2.sanfen001.pics"
       },
       "transport": {
         "type": "ws",
         "path": "/zh-cn/download",
         "headers": {
-          "Host": "hk80.sanfen001.pics"
+          "Host": "hk80-2.sanfen001.pics"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
+      "tag": "86 🇭🇰 Akari Networks WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "306cde05-3545-47c8-84eb-ef7b293eef45",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk1-cdn.emoooo.cloud"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/index",
+        "headers": {
+          "Host": "hk1-cdn.emoooo.cloud"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
@@ -96,7 +117,7 @@
     },
     {
       "type": "vmess",
-      "tag": "104 🇭🇰 ADCDATA.COM WS CDN",
+      "tag": "107 🇭🇰 ADCDATA.COM WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "e55ed7b2-ed4f-480c-8b99-08482da1e4c7",
@@ -133,27 +154,6 @@
         "path": "/Falling42gcsshkknode",
         "headers": {
           "Host": "gcsshkk.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "294 🇭🇰 Layerstack Limited WS CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "25fcf9a0-f564-4ccc-bf3f-7edf1a9f3c66",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "db.cfyxdb.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/2",
-        "headers": {
-          "Host": "db.cfyxdb.xyz"
         }
       }
     }

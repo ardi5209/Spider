@@ -1,20 +1,36 @@
 proxies:
-  - name: '108 🇩🇪 Contabo GmbH WS CDN'
+  - name: '44 🇩🇪 OVH SAS WS CDN'
     server: main.millionaireaisle.com
     type: vmess
-    port: 443
-    uuid: 3f52e850-b697-4f61-c82c-6d1ca0e6d1b1
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 51vfly1.win
+    servername: de.gongyiyun.cf
     ws-opts: 
-      path: /myblog
+      path: /
       headers:
-        Host: 51vfly1.win
+        Host: de.gongyiyun.cf
+  - name: '94 🇩🇪 Hetzner Online GmbH WS CDN'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: v2.chigua.tk
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: v2.chigua.tk
   - name: '109 🇩🇪 DIGITALOCEAN-ASN WS CDN'
     server: main.millionaireaisle.com
     type: vmess
@@ -31,35 +47,3 @@ proxies:
       path: /aries
       headers:
         Host: dedo.cloudflare.quest
-  - name: '197 🇩🇪 Hetzner Online GmbH WS CDN'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 2053
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: foxdeovz1.fovi.tk
-    ws-opts: 
-      path: /eisasqa
-      headers:
-        Host: foxdeovz1.fovi.tk
-  - name: '199 🇩🇪 myLoc managed IT AG WS CDN'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: 5668ff97-631f-4602-a13f-b56552c67abe
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: de-v.sshmax.xyz
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: de-v.sshmax.xyz

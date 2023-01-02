@@ -1,6 +1,6 @@
 proxies:
-  - name: '61 🇭🇰 AMAZON-02 WS CDN'
-    server: 104.17.70.206
+  - name: '62 🇭🇰 AMAZON-02 WS CDN'
+    server: 162.159.135.42
     type: vmess
     port: 443
     uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
@@ -10,13 +10,29 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: hk80.sanfen001.pics
+    servername: hk80-2.sanfen001.pics
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: hk80.sanfen001.pics
-  - name: '103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN'
-    server: 104.16.66.85
+        Host: hk80-2.sanfen001.pics
+  - name: '86 🇭🇰 Akari Networks WS CDN'
+    server: 141.193.213.10
+    type: vmess
+    port: 443
+    uuid: 306cde05-3545-47c8-84eb-ef7b293eef45
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hk1-cdn.emoooo.cloud
+    ws-opts: 
+      path: /index
+      headers:
+        Host: hk1-cdn.emoooo.cloud
+  - name: '93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN'
+    server: 104.16.51.111
     type: vmess
     port: 443
     uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
@@ -31,7 +47,7 @@ proxies:
       path: /myblog
       headers:
         Host: vfly6.xyz
-  - name: '104 🇭🇰 ADCDATA.COM WS CDN'
+  - name: '107 🇭🇰 ADCDATA.COM WS CDN'
     server: 162.159.128.7
     type: vmess
     port: 443
@@ -48,7 +64,7 @@ proxies:
       headers:
         Host: hkbn.pgypgykmoljklj.xyz
   - name: '143 🇭🇰 G-Core Labs S.A. WS CDN'
-    server: 162.159.128.7
+    server: 141.193.213.10
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -63,19 +79,3 @@ proxies:
       path: /Falling42gcsshkknode
       headers:
         Host: gcsshkk.sylu.cyou
-  - name: '294 🇭🇰 Layerstack Limited WS CDN'
-    server: 104.17.70.206
-    type: vmess
-    port: 443
-    uuid: 25fcf9a0-f564-4ccc-bf3f-7edf1a9f3c66
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: db.cfyxdb.xyz
-    ws-opts: 
-      path: /2
-      headers:
-        Host: db.cfyxdb.xyz

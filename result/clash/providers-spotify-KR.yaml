@@ -1,17 +1,5 @@
 proxies:
-  - name: '62 🇰🇷 ORACLE-BMC-31898 TCP SNI'
-    server: m4.40010010.xyz
-    type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '65 🇰🇷 AMAZON-02 TCP SNI'
+  - name: '75 🇰🇷 AMAZON-02 TCP SNI'
     server: kr-direct.node002.xyz
     type: vmess
     port: 5432
@@ -23,47 +11,39 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '110 🇰🇷 AMAZON-02 TCP SNI'
-    server: 7.ppyun1.top
-    type: vmess
-    port: 19107
-    uuid: 058690a2-8efd-3345-b20e-ee5d2e4d0d5d
-    alterId: 2
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '111 🇰🇷 AMAZON-02 WS CDN'
+  - name: '96 🇰🇷 ORACLE-BMC-31898 WS CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
-    uuid: 3d6bb1ca-0ec5-4c7c-a54b-50c72aadb8a0
+    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: juzi3.82a.xyz
+    servername: surongwei.eu.org
     ws-opts: 
-      path: /
+      path: /reffs7y26g0ua
       headers:
-        Host: juzi3.82a.xyz
-  - name: '125 🇰🇷 AMAZON-02 TCP SNI'
-    server: 44.ppyun2.top
+        Host: surongwei.eu.org
+  - name: '118 🇰🇷 AMAZON-02 WS SNI'
+    server: kr01.170203.xyz
     type: vmess
-    port: 19144
-    uuid: 058690a2-8efd-3345-b20e-ee5d2e4d0d5d
-    alterId: 2
+    port: 45453
+    uuid: 80c489d0-04dd-428e-abe6-fbf385113483
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: image-upload4.spotify.com
-  - name: '148 🇰🇷 AMAZON-02 WS SNI'
+    ws-opts: 
+      path: 
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '147 🇰🇷 AMAZON-02 WS SNI'
     server: 54.180.117.118
     type: vmess
     port: 42517
@@ -79,28 +59,12 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '150 🇰🇷 ORACLE-BMC-31898 WS CDN'
-    server: investors.spotify.com
+  - name: '169 🇰🇷 BGPNET Global ASN WS SNI'
+    server: 202.79.171.157
     type: vmess
     port: 443
-    uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sl2.mayaa.eu.org
-    ws-opts: 
-      path: /dsadsa144113s
-      headers:
-        Host: sl2.mayaa.eu.org
-  - name: '182 🇰🇷 ORACLE-BMC-31898 WS SNI'
-    server: 152.67.218.38
-    type: vmess
-    port: 443
-    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-    alterId: 0
+    uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
@@ -108,10 +72,10 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /
+      path: /path/243535322906
       headers:
         Host: image-upload4.spotify.com
-  - name: '193 🇰🇷 MOACK.Co.LTD WS SNI'
+  - name: '187 🇰🇷 MOACK.Co.LTD WS SNI'
     server: lc-kr02-direct01.lc-kr02.lc-node.com
     type: vmess
     port: 443
@@ -127,19 +91,7 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '206 🇰🇷 AMAZON-02 TCP SNI'
-    server: 44.ppyun2.top
-    type: vmess
-    port: 19144
-    uuid: 058690a2-8efd-3345-b20e-ee5d2e4d0d5d
-    alterId: 2
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '230 🇰🇷 ORACLE-BMC-31898 TCP SNI'
+  - name: '193 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: m4.40010010.xyz
     type: vmess
     port: 37121
@@ -151,23 +103,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '295 🇰🇷 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI'
-    server: 20.239.76.193
+  - name: '206 🇰🇷 ORACLE-BMC-31898 TCP SNI'
+    server: m4.40010010.xyz
     type: vmess
-    port: 44366
-    uuid: 7dfb2542-07fc-3ab0-ba63-34fa5550e0db
-    alterId: 2
+    port: 37121
+    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /zz
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '68 🇰🇷 ORACLE-BMC-31898 TCP SNI'
+  - name: '64 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: 138.2.115.240
     type: trojan
     port: 3052
@@ -176,7 +124,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '144 🇰🇷 AMAZON-02 TCP SNI'
+  - name: '147 🇰🇷 AMAZON-02 TCP SNI'
     server: 3.36.139.18
     type: trojan
     port: 50334
@@ -185,20 +133,38 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '176 🇰🇷 ORACLE-BMC-31898 TCP SNI'
-    server: kr1.api-aws.com
+  - name: '149 🇰🇷 AMAZON-02 TCP SNI'
+    server: kr-s-2.fuckjdieng.uk
     type: trojan
-    port: 443
-    password: ec129ab2-3c89-4e25-8b97-aee479ac06f1
+    port: 50382
+    password: b73a108c-1070-48aa-a2c4-d50630c47ee7
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '180 🇰🇷 ORACLE-BMC-31898 TCP SNI'
-    server: 146.56.176.239
+  - name: '176 🇰🇷 ORACLE-BMC-31898 TCP SNI'
+    server: jgwcc2.gaox.ml
+    type: trojan
+    port: 443
+    password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '178 🇰🇷 ORACLE-BMC-31898 TCP SNI'
+    server: kr1.api-aws.com
     type: trojan
     port: 443
     password: 98a68cfb-42c6-4498-ac6e-7e5c203924a7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '192 🇰🇷 ORACLE-BMC-31898 TCP SNI'
+    server: 146.56.189.146
+    type: trojan
+    port: 443
+    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
     udp: true
     skip-cert-verify: true
     network: tcp

@@ -45,30 +45,50 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "108 🇩🇪 Contabo GmbH WS CDN",
-        "109 🇩🇪 DIGITALOCEAN-ASN WS CDN",
-        "197 🇩🇪 Hetzner Online GmbH WS CDN",
-        "199 🇩🇪 myLoc managed IT AG WS CDN"
+        "44 🇩🇪 OVH SAS WS CDN",
+        "94 🇩🇪 Hetzner Online GmbH WS CDN",
+        "109 🇩🇪 DIGITALOCEAN-ASN WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "108 🇩🇪 Contabo GmbH WS CDN",
+      "tag": "44 🇩🇪 OVH SAS WS CDN",
       "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "3f52e850-b697-4f61-c82c-6d1ca0e6d1b1",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "51vfly1.win"
+        "server_name": "de.gongyiyun.cf"
       },
       "transport": {
         "type": "ws",
-        "path": "/myblog",
+        "path": "/",
         "headers": {
-          "Host": "51vfly1.win"
+          "Host": "de.gongyiyun.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "94 🇩🇪 Hetzner Online GmbH WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v2.chigua.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "v2.chigua.tk"
         }
       }
     },
@@ -90,48 +110,6 @@
         "path": "/aries",
         "headers": {
           "Host": "dedo.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "197 🇩🇪 Hetzner Online GmbH WS CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 2053,
-      "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "foxdeovz1.fovi.tk"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eisasqa",
-        "headers": {
-          "Host": "foxdeovz1.fovi.tk"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "199 🇩🇪 myLoc managed IT AG WS CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "de-v.sshmax.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "de-v.sshmax.xyz"
         }
       }
     }

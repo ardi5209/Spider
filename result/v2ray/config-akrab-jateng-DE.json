@@ -85,13 +85,13 @@
         "vnext": [
           {
             "address": "main.millionaireaisle.com",
-            "port": 443,
+            "port": 8080,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "3f52e850-b697-4f61-c82c-6d1ca0e6d1b1",
+                "id": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "51vfly1.win"
+          "serverName": "de.gongyiyun.cf"
         },
         "wsSettings": {
           "headers": {
-            "Host": "51vfly1.win"
+            "Host": "de.gongyiyun.cf"
           },
-          "path": "/myblog"
+          "path": "/"
         }
       },
-      "tag": "proxy-108 🇩🇪 Contabo GmbH WS CDN"
+      "tag": "proxy-44 🇩🇪 OVH SAS WS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "v2.chigua.tk"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "v2.chigua.tk"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-94 🇩🇪 Hetzner Online GmbH WS CDN"
     },
     {
       "mux": {
@@ -154,86 +194,6 @@
         }
       },
       "tag": "proxy-109 🇩🇪 DIGITALOCEAN-ASN WS CDN"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "main.millionaireaisle.com",
-            "port": 2053,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "foxdeovz1.fovi.tk"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "foxdeovz1.fovi.tk"
-          },
-          "path": "/eisasqa"
-        }
-      },
-      "tag": "proxy-197 🇩🇪 Hetzner Online GmbH WS CDN"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "main.millionaireaisle.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "5668ff97-631f-4602-a13f-b56552c67abe",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "de-v.sshmax.xyz"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "de-v.sshmax.xyz"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-199 🇩🇪 myLoc managed IT AG WS CDN"
     }
   ],
   "dns": {

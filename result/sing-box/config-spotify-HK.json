@@ -45,39 +45,32 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "60 🇭🇰 AMAZON-02 WS SNI",
-        "61 🇭🇰 AMAZON-02 WS CDN",
-        "67 🇭🇰 DMIT TCP SNI",
-        "103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
-        "104 🇭🇰 ADCDATA.COM WS CDN",
-        "112 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI",
-        "115 🇭🇰 Scloud Pte Ltd TCP SNI",
-        "138 🇭🇰 HKT Limited TCP SNI",
+        "61 🇭🇰 AMAZON-02 WS SNI",
+        "62 🇭🇰 AMAZON-02 WS CDN",
+        "63 🇭🇰 DMIT TCP SNI",
+        "71 🇭🇰 Tencent Building  Kejizhongyi Avenue WS SNI",
+        "76 🇭🇰 Akari Networks GRPC SNI",
+        "81 🇭🇰 Akari Networks GRPC SNI",
+        "82 🇭🇰 Akari Networks GRPC SNI",
+        "84 🇭🇰 Akari Networks GRPC SNI",
+        "86 🇭🇰 Akari Networks WS CDN",
+        "93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
+        "107 🇭🇰 ADCDATA.COM WS CDN",
+        "139 🇭🇰 Leaseweb Asia Pacific pte. ltd. WS SNI",
+        "140 🇭🇰 HKT Limited WS SNI",
         "143 🇭🇰 G-Core Labs S.A. WS CDN",
-        "145 🇭🇰 Netsec Limited WS SNI",
-        "174 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI",
-        "203 🇭🇰 HKT Limited TCP SNI",
-        "210 🇭🇰 Akari Networks TCP SNI",
-        "214 🇭🇰 Akari Networks TCP SNI",
-        "217 🇭🇰 HKT Limited TCP SNI",
-        "220 🇭🇰 HKT Limited TCP SNI",
-        "229 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI",
-        "242 🇭🇰 91440300MA5DH1CC86 TCP SNI",
-        "269 🇭🇰 DMIT TCP SNI",
-        "272 🇭🇰 HKT Limited TCP SNI",
-        "294 🇭🇰 Layerstack Limited WS CDN",
-        "296 🇭🇰 HKT Limited TCP SNI",
-        "298 🇭🇰 Akari Networks TCP SNI",
-        "300 🇭🇰 HKT Limited TCP SNI",
-        "71 🇭🇰 DMIT TCP SNI",
-        "85 🇭🇰 CNSERVERS TCP SNI",
-        "289 🇭🇰 G-Core Labs S.A. TCP SNI",
-        "297 🇭🇰 AMAZON-02 TCP SNI"
+        "146 🇭🇰 Netsec Limited WS SNI",
+        "156 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+        "187 🇭🇰 91440300MA5DH1CC86 TCP SNI",
+        "204 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+        "207 🇭🇰 91440300MA5DH1CC86 TCP SNI",
+        "228 🇭🇰 DMIT TCP SNI",
+        "113 🇭🇰 LUCIDACLOUD LIMITED TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "60 🇭🇰 AMAZON-02 WS SNI",
+      "tag": "61 🇭🇰 AMAZON-02 WS SNI",
       "server": "hk80-2.sanfen001.pics",
       "server_port": 443,
       "uuid": "fe0c02e5-89e7-4a46-8f8d-172947ea70bb",
@@ -98,7 +91,7 @@
     },
     {
       "type": "vmess",
-      "tag": "61 🇭🇰 AMAZON-02 WS CDN",
+      "tag": "62 🇭🇰 AMAZON-02 WS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "fe0c02e5-89e7-4a46-8f8d-172947ea70bb",
@@ -107,19 +100,19 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "hk80.sanfen001.pics"
+        "server_name": "hk80-2.sanfen001.pics"
       },
       "transport": {
         "type": "ws",
         "path": "/zh-cn/download",
         "headers": {
-          "Host": "hk80.sanfen001.pics"
+          "Host": "hk80-2.sanfen001.pics"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "67 🇭🇰 DMIT TCP SNI",
+      "tag": "63 🇭🇰 DMIT TCP SNI",
       "server": "103.135.251.200",
       "server_port": 9999,
       "uuid": "7b11c4a8-5e69-4599-ad38-8e04b66b315e",
@@ -133,7 +126,105 @@
     },
     {
       "type": "vmess",
-      "tag": "103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
+      "tag": "71 🇭🇰 Tencent Building  Kejizhongyi Avenue WS SNI",
+      "server": "43.154.182.177",
+      "server_port": 27643,
+      "uuid": "30297ab2-ceef-48ae-838f-9ca4bf625da8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "76 🇭🇰 Akari Networks GRPC SNI",
+      "server": "hk5.emoooo.cloud",
+      "server_port": 10081,
+      "uuid": "306cde05-3545-47c8-84eb-ef7b293eef45",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "81 🇭🇰 Akari Networks GRPC SNI",
+      "server": "ah.emoooo.club",
+      "server_port": 51691,
+      "uuid": "306cde05-3545-47c8-84eb-ef7b293eef45",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "82 🇭🇰 Akari Networks GRPC SNI",
+      "server": "ah.emoooo.club",
+      "server_port": 50633,
+      "uuid": "306cde05-3545-47c8-84eb-ef7b293eef45",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "84 🇭🇰 Akari Networks GRPC SNI",
+      "server": "ah.emoooo.club",
+      "server_port": 23670,
+      "uuid": "306cde05-3545-47c8-84eb-ef7b293eef45",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "86 🇭🇰 Akari Networks WS CDN",
+      "server": "investors.spotify.com",
+      "server_port": 443,
+      "uuid": "306cde05-3545-47c8-84eb-ef7b293eef45",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk1-cdn.emoooo.cloud"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/index",
+        "headers": {
+          "Host": "hk1-cdn.emoooo.cloud"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "6a69acd2-ffe1-44eb-c51c-1afc049c7541",
@@ -154,7 +245,7 @@
     },
     {
       "type": "vmess",
-      "tag": "104 🇭🇰 ADCDATA.COM WS CDN",
+      "tag": "107 🇭🇰 ADCDATA.COM WS CDN",
       "server": "investors.spotify.com",
       "server_port": 443,
       "uuid": "e55ed7b2-ed4f-480c-8b99-08482da1e4c7",
@@ -175,10 +266,10 @@
     },
     {
       "type": "vmess",
-      "tag": "112 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI",
-      "server": "petal.ga",
+      "tag": "139 🇭🇰 Leaseweb Asia Pacific pte. ltd. WS SNI",
+      "server": "hk2.safepn.net",
       "server_port": 443,
-      "uuid": "b744f5cc-eab2-d2cd-f477-76646d17987f",
+      "uuid": "ee76cecf-1219-42be-ae3f-6b8077e4cacc",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -188,7 +279,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/petalvws",
+        "path": "/",
         "headers": {
           "Host": "image-upload4.spotify.com"
         }
@@ -196,30 +287,23 @@
     },
     {
       "type": "vmess",
-      "tag": "115 🇭🇰 Scloud Pte Ltd TCP SNI",
-      "server": "3.ppyun1.top",
-      "server_port": 19103,
-      "uuid": "058690a2-8efd-3345-b20e-ee5d2e4d0d5d",
-      "security": "auto",
-      "alter_id": 2,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "138 🇭🇰 HKT Limited TCP SNI",
-      "server": "06.kccic2pa.xyz",
-      "server_port": 50006,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "tag": "140 🇭🇰 HKT Limited WS SNI",
+      "server": "ahk02.skyjsq.space",
+      "server_port": 2053,
+      "uuid": "8ac982a7-9b59-a7dc-cf4e-232f2fe72903",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ray",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
       }
     },
     {
@@ -245,7 +329,7 @@
     },
     {
       "type": "vmess",
-      "tag": "145 🇭🇰 Netsec Limited WS SNI",
+      "tag": "146 🇭🇰 Netsec Limited WS SNI",
       "server": "182.16.1.194",
       "server_port": 443,
       "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
@@ -266,10 +350,24 @@
     },
     {
       "type": "vmess",
-      "tag": "174 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI",
-      "server": "43.154.34.49",
-      "server_port": 23183,
-      "uuid": "b402a4af-285a-463e-c3a7-53f91efdec78",
+      "tag": "156 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "187 🇭🇰 91440300MA5DH1CC86 TCP SNI",
+      "server": "117.164.185.221",
+      "server_port": 16113,
+      "uuid": "38769e9f-edd8-3e53-83e3-50001dc93581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -280,12 +378,12 @@
     },
     {
       "type": "vmess",
-      "tag": "203 🇭🇰 HKT Limited TCP SNI",
-      "server": "04.kccic2pa.xyz",
-      "server_port": 50004,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "tag": "204 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+      "server": "hk1vdf-node.aiqiche123.com",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
       "security": "auto",
-      "alter_id": 0,
+      "alter_id": 10,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -294,79 +392,9 @@
     },
     {
       "type": "vmess",
-      "tag": "210 🇭🇰 Akari Networks TCP SNI",
-      "server": "11.kccic2pa.xyz",
-      "server_port": 50011,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "214 🇭🇰 Akari Networks TCP SNI",
-      "server": "11.kccic2pa.xyz",
-      "server_port": 50011,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "217 🇭🇰 HKT Limited TCP SNI",
-      "server": "27.kccic2pa.xyz",
-      "server_port": 50027,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "220 🇭🇰 HKT Limited TCP SNI",
-      "server": "01.kccic2pa.xyz",
-      "server_port": 50001,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "229 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI",
-      "server": "43.154.34.49",
-      "server_port": 23183,
-      "uuid": "b402a4af-285a-463e-c3a7-53f91efdec78",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "242 🇭🇰 91440300MA5DH1CC86 TCP SNI",
-      "server": "117.164.185.222",
-      "server_port": 16115,
+      "tag": "207 🇭🇰 91440300MA5DH1CC86 TCP SNI",
+      "server": "117.164.185.221",
+      "server_port": 16112,
       "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
       "security": "auto",
       "alter_id": 0,
@@ -378,7 +406,7 @@
     },
     {
       "type": "vmess",
-      "tag": "269 🇭🇰 DMIT TCP SNI",
+      "tag": "228 🇭🇰 DMIT TCP SNI",
       "server": "103.135.251.200",
       "server_port": 9999,
       "uuid": "7b11c4a8-5e69-4599-ad38-8e04b66b315e",
@@ -391,124 +419,11 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "272 🇭🇰 HKT Limited TCP SNI",
-      "server": "v1-hk.xtspeeder001.xyz",
-      "server_port": 18001,
-      "uuid": "7affa329-5e15-369e-8929-b6452cdf2616",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "294 🇭🇰 Layerstack Limited WS CDN",
-      "server": "investors.spotify.com",
-      "server_port": 443,
-      "uuid": "25fcf9a0-f564-4ccc-bf3f-7edf1a9f3c66",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "db.cfyxdb.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/2",
-        "headers": {
-          "Host": "db.cfyxdb.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "296 🇭🇰 HKT Limited TCP SNI",
-      "server": "03.kccic2pa.xyz",
-      "server_port": 50003,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "298 🇭🇰 Akari Networks TCP SNI",
-      "server": "10.kccic2pa.xyz",
-      "server_port": 50010,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "300 🇭🇰 HKT Limited TCP SNI",
-      "server": "05.kccic2pa.xyz",
-      "server_port": 50005,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "71 🇭🇰 DMIT TCP SNI",
-      "server": "azgp03.bestdong.xyz",
-      "server_port": 8001,
-      "password": "000d3d03-ec8b-3a08-b806-add573459287",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "85 🇭🇰 CNSERVERS TCP SNI",
-      "server": "azgp03.bestdong.xyz",
-      "server_port": 8005,
-      "password": "000d3d03-ec8b-3a08-b806-add573459287",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "289 🇭🇰 G-Core Labs S.A. TCP SNI",
-      "server": "20014.purefast2.com",
-      "server_port": 20014,
-      "password": "357827e5-a45d-3f09-9b73-ef4431dfb323",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "image-upload4.spotify.com"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "297 🇭🇰 AMAZON-02 TCP SNI",
-      "server": "agroup.node4.t.nodelist-gfwairport1.download",
-      "server_port": 50001,
-      "password": "26188b3e-c28e-4230-8bee-53d77ff5ff49",
+      "tag": "113 🇭🇰 LUCIDACLOUD LIMITED TCP SNI",
+      "server": "45.136.14.70",
+      "server_port": 15410,
+      "password": "6A30qqSh8W",
       "tls": {
         "enabled": true,
         "insecure": true,

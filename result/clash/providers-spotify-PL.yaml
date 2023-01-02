@@ -1,5 +1,5 @@
 proxies:
-  - name: '55 🇵🇱 G-Core Labs S.A. WS SNI'
+  - name: '46 🇵🇱 G-Core Labs S.A. WS SNI'
     server: gcspl.sylu.cyou
     type: vmess
     port: 443
@@ -15,7 +15,7 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: image-upload4.spotify.com
-  - name: '56 🇵🇱 G-Core Labs S.A. WS CDN'
+  - name: '47 🇵🇱 G-Core Labs S.A. WS CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -31,3 +31,19 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: gcspl.sylu.cyou
+  - name: '155 🇵🇱 OVH SAS WS SNI'
+    server: 146.59.92.219
+    type: vmess
+    port: 2096
+    uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com

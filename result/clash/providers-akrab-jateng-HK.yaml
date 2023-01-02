@@ -1,5 +1,5 @@
 proxies:
-  - name: '61 🇭🇰 AMAZON-02 WS CDN'
+  - name: '62 🇭🇰 AMAZON-02 WS CDN'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -10,12 +10,28 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: hk80.sanfen001.pics
+    servername: hk80-2.sanfen001.pics
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: hk80.sanfen001.pics
-  - name: '103 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN'
+        Host: hk80-2.sanfen001.pics
+  - name: '86 🇭🇰 Akari Networks WS CDN'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 306cde05-3545-47c8-84eb-ef7b293eef45
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hk1-cdn.emoooo.cloud
+    ws-opts: 
+      path: /index
+      headers:
+        Host: hk1-cdn.emoooo.cloud
+  - name: '93 🇭🇰 Alibaba US Technology Co.  Ltd. WS CDN'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -31,7 +47,7 @@ proxies:
       path: /myblog
       headers:
         Host: vfly6.xyz
-  - name: '104 🇭🇰 ADCDATA.COM WS CDN'
+  - name: '107 🇭🇰 ADCDATA.COM WS CDN'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -63,19 +79,3 @@ proxies:
       path: /Falling42gcsshkknode
       headers:
         Host: gcsshkk.sylu.cyou
-  - name: '294 🇭🇰 Layerstack Limited WS CDN'
-    server: main.millionaireaisle.com
-    type: vmess
-    port: 443
-    uuid: 25fcf9a0-f564-4ccc-bf3f-7edf1a9f3c66
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: db.cfyxdb.xyz
-    ws-opts: 
-      path: /2
-      headers:
-        Host: db.cfyxdb.xyz
