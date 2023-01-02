@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "149 🇸🇦 OVH SAS WS CDN"
+        "152 🇸🇦 OVH SAS WS CDN",
+        "178 🇸🇦 OVH SAS WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "149 🇸🇦 OVH SAS WS CDN",
-      "server": "162.159.135.42",
+      "tag": "152 🇸🇦 OVH SAS WS CDN",
+      "server": "104.16.66.85",
       "server_port": 443,
       "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
       "security": "auto",
@@ -64,6 +65,27 @@
       "transport": {
         "type": "ws",
         "path": "/",
+        "headers": {
+          "Host": "uk2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "178 🇸🇦 OVH SAS WS CDN",
+      "server": "141.193.213.10",
+      "server_port": 443,
+      "uuid": "0764a598-82c4-4b41-ba10-551a625beed5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "uk2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
         "headers": {
           "Host": "uk2.v2rayserv.com"
         }

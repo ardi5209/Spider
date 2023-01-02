@@ -45,15 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "34 🇵🇱 G-Core Labs S.A. WS SNI",
-        "37 🇵🇱 G-Core Labs S.A. WS CDN",
-        "54 🇵🇱 G-Core Labs S.A. WS CDN",
-        "55 🇵🇱 G-Core Labs S.A. WS SNI"
+        "55 🇵🇱 G-Core Labs S.A. WS SNI",
+        "56 🇵🇱 G-Core Labs S.A. WS CDN"
       ]
     },
     {
       "type": "vmess",
-      "tag": "34 🇵🇱 G-Core Labs S.A. WS SNI",
+      "tag": "55 🇵🇱 G-Core Labs S.A. WS SNI",
       "server": "gcspl.sylu.cyou",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -62,19 +60,19 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/Falling42gcsplnode",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "37 🇵🇱 G-Core Labs S.A. WS CDN",
+      "tag": "56 🇵🇱 G-Core Labs S.A. WS CDN",
       "server": "hohm.microsoft.com",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -90,48 +88,6 @@
         "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "gcspl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "54 🇵🇱 G-Core Labs S.A. WS CDN",
-      "server": "hohm.microsoft.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcorepl.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "gcorepl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "55 🇵🇱 G-Core Labs S.A. WS SNI",
-      "server": "gcorepl.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcoreplnode",
-        "headers": {
-          "Host": "safebrowsing.google.com"
         }
       }
     }

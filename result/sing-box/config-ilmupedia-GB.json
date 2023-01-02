@@ -45,21 +45,25 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "142 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd TCP SNI",
-        "283 🇬🇧 AMAZON-02 WS SNI",
-        "298 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
-        "299 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
-        "27 🇬🇧 OVH SAS TCP SNI",
-        "123 🇬🇧 OVH SAS TCP SNI",
-        "204 🇬🇧 Hydra Communications Ltd TCP SNI"
+        "27 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "29 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "122 🇬🇧 OVH SAS WS SNI",
+        "133 🇬🇧 AMAZON-02 WS SNI",
+        "155 🇬🇧 OVH SAS WS SNI",
+        "165 🇬🇧 OVH SAS WS SNI",
+        "255 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "263 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+        "53 🇬🇧 OVH SAS TCP SNI",
+        "173 🇬🇧 ORACLE-BMC-31898 TCP SNI",
+        "184 🇬🇧 Stark Industries Solutions Ltd TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "142 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd TCP SNI",
-      "server": "18.kccic2pa.xyz",
-      "server_port": 50018,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "tag": "27 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "server": "161.35.47.70",
+      "server_port": 29210,
+      "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -70,28 +74,7 @@
     },
     {
       "type": "vmess",
-      "tag": "283 🇬🇧 AMAZON-02 WS SNI",
-      "server": "18.133.149.100",
-      "server_port": 40899,
-      "uuid": "8026e383-7b25-4976-8221-bc2064c9ed3d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "news.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "news.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "298 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "tag": "29 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
       "server": "161.35.47.70",
       "server_port": 13472,
       "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
@@ -105,7 +88,91 @@
     },
     {
       "type": "vmess",
-      "tag": "299 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "tag": "122 🇬🇧 OVH SAS WS SNI",
+      "server": "51.75.171.211",
+      "server_port": 443,
+      "uuid": "989b7bb6-3734-4723-bebe-2c3ff7423e46",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "133 🇬🇧 AMAZON-02 WS SNI",
+      "server": "18.133.149.100",
+      "server_port": 40899,
+      "uuid": "8026e383-7b25-4976-8221-bc2064c9ed3d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "155 🇬🇧 OVH SAS WS SNI",
+      "server": "198.244.232.39",
+      "server_port": 2096,
+      "uuid": "df46384b-1ad5-40a6-812e-48d60fb80283",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "165 🇬🇧 OVH SAS WS SNI",
+      "server": "51.38.82.132",
+      "server_port": 443,
+      "uuid": "aca76f27-cda3-47f7-af79-7873034fd3bc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "255 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
       "server": "161.35.47.70",
       "server_port": 29210,
       "uuid": "582e74ff-e708-41b2-e1c0-7393dbff0c90",
@@ -118,9 +185,23 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "263 🇬🇧 DIGITALOCEAN-ASN TCP SNI",
+      "server": "161.35.47.70",
+      "server_port": 13472,
+      "uuid": "349d1072-5714-4daf-ffcc-4b87cf0eb798",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "27 🇬🇧 OVH SAS TCP SNI",
-      "server": "ukt1.sshocean.net",
+      "tag": "53 🇬🇧 OVH SAS TCP SNI",
+      "server": "51.195.219.173",
       "server_port": 443,
       "password": "0f5e6d9a-49af-4bc0-b04b-503102382144",
       "tls": {
@@ -131,10 +212,10 @@
     },
     {
       "type": "trojan",
-      "tag": "123 🇬🇧 OVH SAS TCP SNI",
-      "server": "uk1.trojanvh.xyz",
+      "tag": "173 🇬🇧 ORACLE-BMC-31898 TCP SNI",
+      "server": "132.145.51.172",
       "server_port": 443,
-      "password": "b640d791-ff83-4300-b509-c2a02f97f167",
+      "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -143,10 +224,10 @@
     },
     {
       "type": "trojan",
-      "tag": "204 🇬🇧 Hydra Communications Ltd TCP SNI",
-      "server": "content-provider22.cdn-delivery.akamaicd.com",
+      "tag": "184 🇬🇧 Stark Industries Solutions Ltd TCP SNI",
+      "server": "146.19.230.241",
       "server_port": 443,
-      "password": "shefelnak",
+      "password": "xxoo",
       "tls": {
         "enabled": true,
         "insecure": true,

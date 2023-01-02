@@ -1,5 +1,21 @@
 proxies:
-  - name: '103 🇳🇱 FDCSERVERS TCP SNI'
+  - name: '82 🇳🇱 Scalaxy B.V. WS CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: nl.gongyiyun.cf
+    ws-opts: 
+      path: /
+      headers:
+        Host: nl.gongyiyun.cf
+  - name: '83 🇳🇱 FDCSERVERS TCP SNI'
     server: in06.my1188.org
     type: vmess
     port: 64089
@@ -11,7 +27,39 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '242 🇳🇱 Online S.a.s. TCP SNI'
+  - name: '87 🇳🇱 Scalaxy B.V. WS SNI'
+    server: nl.gongyiyun.cf
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '96 🇳🇱 Online S.a.s. WS CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: v12a.toddns.tk
+    ws-opts: 
+      path: /nl-unlimitxxx
+      headers:
+        Host: v12a.toddns.tk
+  - name: '154 🇳🇱 Online S.a.s. TCP SNI'
     server: 35.kccic2pa.xyz
     type: vmess
     port: 50035
@@ -23,7 +71,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '201 🇳🇱 AS40676 TCP SNI'
+  - name: '185 🇳🇱 AS40676 TCP SNI'
     server: content-provider24.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
