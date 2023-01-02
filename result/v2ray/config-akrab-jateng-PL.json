@@ -104,6 +104,46 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
+          "serverName": "gcorepl.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcorepl.sylu.cyou"
+          },
+          "path": "/Falling42gcoreplnode"
+        }
+      },
+      "tag": "proxy-51 🇵🇱 G-Core Labs S.A. WS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
           "serverName": "gcspl.sylu.cyou"
         },
         "wsSettings": {
@@ -113,7 +153,47 @@
           "path": "/Falling42gcsplnode"
         }
       },
-      "tag": "proxy-47 🇵🇱 G-Core Labs S.A. WS CDN"
+      "tag": "proxy-53 🇵🇱 G-Core Labs S.A. WS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "00bcc99b-7dc1-4dba-a4c4-ccb46dbd72a2",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "waw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "waw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-99 🇵🇱 Online S.a.s. WS CDN"
     }
   ],
   "dns": {

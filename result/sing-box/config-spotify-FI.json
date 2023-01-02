@@ -45,15 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "156 🇫🇮 Hetzner Online GmbH WS SNI"
+        "140 🇫🇮 Hetzner Online GmbH WS SNI",
+        "143 🇫🇮 Hetzner Online GmbH WS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "156 🇫🇮 Hetzner Online GmbH WS SNI",
+      "tag": "140 🇫🇮 Hetzner Online GmbH WS SNI",
       "server": "135.181.235.21",
       "server_port": 12951,
       "uuid": "18827895-b647-4570-81e2-de3bd795fa04",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "image-upload4.spotify.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "image-upload4.spotify.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇫🇮 Hetzner Online GmbH WS SNI",
+      "server": "135.181.235.21",
+      "server_port": 25034,
+      "uuid": "e549fc8d-2416-46f7-aadc-8747553091b9",
       "security": "auto",
       "alter_id": 0,
       "tls": {

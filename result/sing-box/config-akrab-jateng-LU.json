@@ -45,7 +45,9 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "28 🇱🇺 PONYNET WS CDN"
+        "28 🇱🇺 PONYNET WS CDN",
+        "84 🇱🇺 Unknown WS CDN",
+        "133 🇱🇺 PONYNET WS CDN"
       ]
     },
     {
@@ -66,6 +68,48 @@
         "path": "/",
         "headers": {
           "Host": "22222.chaoxn.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "84 🇱🇺 Unknown WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "133 🇱🇺 PONYNET WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lu1.gogogoo.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/go",
+        "headers": {
+          "Host": "lu1.gogogoo.cyou"
         }
       }
     }

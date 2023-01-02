@@ -1,9 +1,9 @@
 proxies:
-  - name: '73 🇹🇼 Data Communication Business Group TCP SNI'
-    server: tw99-hinet.mynodes001.one
+  - name: '184 🇹🇼 Data Communication Business Group TCP SNI'
+    server: 221.229.0.110
     type: vmess
-    port: 5432
-    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    port: 19222
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
     alterId: 0
     cipher: auto
     tls: true
@@ -11,7 +11,59 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '241 🇹🇼 Taiwan Digital Streaming Co. WS SNI'
+  - name: '223 🇹🇼 Data Communication Business Group TCP SNI'
+    server: 117.164.185.222
+    type: vmess
+    port: 16130
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '261 🇹🇼 Data Communication Business Group TCP SNI'
+    server: twmx6l01b.b70rw85t.xyz
+    type: vmess
+    port: 39998
+    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '273 🇹🇼 Data Communication Business Group TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19221
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '274 🇹🇼 Taiwan Digital Streaming Co. WS CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: 22331.eutopiacloud.ml
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: 22331.eutopiacloud.ml
+  - name: '279 🇹🇼 Taiwan Digital Streaming Co. WS SNI'
     server: mc.xn--mes794a17ar33a.xyz
     type: vmess
     port: 2008
@@ -27,23 +79,24 @@ proxies:
       path: /xyf520
       headers:
         Host: image-upload4.spotify.com
-  - name: '242 🇹🇼 Data Communication Business Group TCP SNI'
-    server: 221.229.0.110
-    type: vmess
-    port: 19221
-    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '233 🇹🇼 Data Communication Business Group WS SNI'
-    server: 211.72.35.157
+  - name: '229 🇹🇼 Data Communication Business Group WS SNI'
+    server: 211.72.35.154
     type: trojan
     port: 3306
-    password: dc2d9db59868ba6b
+    password: 4bacb8f1a089763b
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /gateway/connect
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '262 🇹🇼 Data Communication Business Group WS SNI'
+    server: 211.72.35.153
+    type: trojan
+    port: 3306
+    password: 26a663656e575c0b
     udp: true
     skip-cert-verify: true
     network: ws

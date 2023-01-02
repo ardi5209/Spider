@@ -45,18 +45,22 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "73 🇹🇼 Data Communication Business Group TCP SNI",
-        "241 🇹🇼 Taiwan Digital Streaming Co. WS SNI",
-        "242 🇹🇼 Data Communication Business Group TCP SNI",
-        "233 🇹🇼 Data Communication Business Group WS SNI"
+        "184 🇹🇼 Data Communication Business Group TCP SNI",
+        "223 🇹🇼 Data Communication Business Group TCP SNI",
+        "261 🇹🇼 Data Communication Business Group TCP SNI",
+        "273 🇹🇼 Data Communication Business Group TCP SNI",
+        "274 🇹🇼 Taiwan Digital Streaming Co. WS CDN",
+        "279 🇹🇼 Taiwan Digital Streaming Co. WS SNI",
+        "229 🇹🇼 Data Communication Business Group WS SNI",
+        "262 🇹🇼 Data Communication Business Group WS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "73 🇹🇼 Data Communication Business Group TCP SNI",
-      "server": "tw99-hinet.mynodes001.one",
-      "server_port": 5432,
-      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
+      "tag": "184 🇹🇼 Data Communication Business Group TCP SNI",
+      "server": "221.229.0.110",
+      "server_port": 19222,
+      "uuid": "d3f8b9e4-2879-38c2-936c-1fe42becea4e",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -67,7 +71,70 @@
     },
     {
       "type": "vmess",
-      "tag": "241 🇹🇼 Taiwan Digital Streaming Co. WS SNI",
+      "tag": "223 🇹🇼 Data Communication Business Group TCP SNI",
+      "server": "117.164.185.222",
+      "server_port": 16130,
+      "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "261 🇹🇼 Data Communication Business Group TCP SNI",
+      "server": "twmx6l01b.b70rw85t.xyz",
+      "server_port": 39998,
+      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "273 🇹🇼 Data Communication Business Group TCP SNI",
+      "server": "221.229.0.110",
+      "server_port": 19221,
+      "uuid": "d3f8b9e4-2879-38c2-936c-1fe42becea4e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "news.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "274 🇹🇼 Taiwan Digital Streaming Co. WS CDN",
+      "server": "news.microsoft.com",
+      "server_port": 443,
+      "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "22331.eutopiacloud.ml"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xyf520",
+        "headers": {
+          "Host": "22331.eutopiacloud.ml"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "279 🇹🇼 Taiwan Digital Streaming Co. WS SNI",
       "server": "mc.xn--mes794a17ar33a.xyz",
       "server_port": 2008,
       "uuid": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
@@ -87,25 +154,30 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "242 🇹🇼 Data Communication Business Group TCP SNI",
-      "server": "221.229.0.110",
-      "server_port": 19221,
-      "uuid": "d3f8b9e4-2879-38c2-936c-1fe42becea4e",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "229 🇹🇼 Data Communication Business Group WS SNI",
+      "server": "211.72.35.154",
+      "server_port": 3306,
+      "password": "4bacb8f1a089763b",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "news.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gateway/connect",
+        "headers": {
+          "Host": "news.microsoft.com"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "233 🇹🇼 Data Communication Business Group WS SNI",
-      "server": "211.72.35.157",
+      "tag": "262 🇹🇼 Data Communication Business Group WS SNI",
+      "server": "211.72.35.153",
       "server_port": 3306,
-      "password": "dc2d9db59868ba6b",
+      "password": "26a663656e575c0b",
       "tls": {
         "enabled": true,
         "insecure": true,

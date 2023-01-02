@@ -1,5 +1,5 @@
 proxies:
-  - name: '48 🇯🇵 Linode  LLC TCP SNI'
+  - name: '25 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7302
@@ -11,19 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '49 🇯🇵 Linode  LLC TCP SNI'
-    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
-    type: vmess
-    port: 7304
-    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '50 🇯🇵 Linode  LLC TCP SNI'
+  - name: '26 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7301
@@ -34,20 +22,20 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
-  - name: '51 🇯🇵 Linode  LLC TCP SNI'
+    servername: config.teams.microsoft.com
+  - name: '28 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
-    port: 7302
-    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    port: 7303
+    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
-  - name: '52 🇯🇵 Linode  LLC TCP SNI'
+    servername: safebrowsing.google.com
+  - name: '34 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7303
@@ -59,7 +47,31 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '53 🇯🇵 Linode  LLC TCP SNI'
+  - name: '35 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7304
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '36 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7302
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '37 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7301
@@ -71,39 +83,35 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '54 🇯🇵 Linode  LLC WS SNI'
-    server: jp1.sanfen001.pics
+  - name: '38 🇯🇵 G-Core Labs S.A. WS SNI'
+    server: gcssjp.sylu.cyou
     type: vmess
     port: 443
-    uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
-      path: /zh-cn
+      path: /Falling42gcssjpnode
       headers:
-        Host: safebrowsing.google.com
-  - name: '55 🇯🇵 Linode  LLC WS SNI'
-    server: vjp3.0bad.com
+        Host: click.zoom.us
+  - name: '39 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+    server: 168.138.207.66
     type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    port: 21365
+    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '56 🇯🇵 Linode  LLC WS CDN'
+  - name: '40 🇯🇵 Linode  LLC WS CDN'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -119,79 +127,7 @@ proxies:
       path: /zh-cn
       headers:
         Host: jp1.sanfen001.pics
-  - name: '65 🇯🇵 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI'
-    server: 20.89.101.177
-    type: vmess
-    port: 16986
-    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '68 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: in06.my1188.org
-    type: vmess
-    port: 64005
-    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '72 🇯🇵 Tencent Building  Kejizhongyi Avenue WS SNI'
-    server: dj1-ss.htvviru.top
-    type: vmess
-    port: 11012
-    uuid: 1c57ea6e-f6b9-4a5f-a678-af59e308bfd0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: /dj1-ss
-      headers:
-        Host: click.zoom.us
-  - name: '74 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: in06.my1188.org
-    type: vmess
-    port: 64005
-    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '83 🇯🇵 G-Core Labs S.A. WS SNI'
-    server: gcssjp.sylu.cyou
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /Falling42gcssjpnode
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '85 🇯🇵 G-Core Labs S.A. WS CDN'
+  - name: '42 🇯🇵 G-Core Labs S.A. WS CDN'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -207,55 +143,23 @@ proxies:
       path: /Falling42gcssjpnode
       headers:
         Host: gcssjp.sylu.cyou
-  - name: '102 🇯🇵 Alibaba US Technology Co.  Ltd. WS CDN'
-    server: hohm.microsoft.com
+  - name: '69 🇯🇵 Tencent Building  Kejizhongyi Avenue WS SNI'
+    server: dj1-ss.htvviru.top
     type: vmess
-    port: 443
-    uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
+    port: 11012
+    uuid: 1c57ea6e-f6b9-4a5f-a678-af59e308bfd0
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: vfly3.win
+    servername: config.teams.microsoft.com
     ws-opts: 
-      path: /myblog
+      path: /dj1-ss
       headers:
-        Host: vfly3.win
-  - name: '120 🇯🇵 AMAZON-02 WS SNI'
-    server: jp04.170203.xyz
-    type: vmess
-    port: 23245
-    uuid: 80c489d0-04dd-428e-abe6-fbf385113483
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
-      path: 
-      headers:
-        Host: click.zoom.us
-  - name: '123 🇯🇵 ORACLE-BMC-31898 WS SNI'
-    server: 140.83.35.62
-    type: vmess
-    port: 443
-    uuid: 65fe4644-da7c-4c41-bb44-c4ea7a30be22
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /65fe4644-da7c-4c41-bb44-c4ea7a30be22
-      headers:
-        Host: safebrowsing.google.com
-  - name: '134 🇯🇵 Owl Limited WS CDN'
+        Host: config.teams.microsoft.com
+  - name: '86 🇯🇵 Owl Limited WS CDN'
     server: hohm.microsoft.com
     type: vmess
     port: 8080
@@ -271,35 +175,23 @@ proxies:
       path: /api/v3/download.getFile
       headers:
         Host: ssrsub.v02.asuka.buzz
-  - name: '194 🇯🇵 ORACLE-BMC-31898 WS SNI'
-    server: 141.147.181.219
+  - name: '109 🇯🇵 ORACLE-BMC-31898 WS SNI'
+    server: 140.83.35.62
     type: vmess
     port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    uuid: 65fe4644-da7c-4c41-bb44-c4ea7a30be22
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
-      path: /roewesu
+      path: /65fe4644-da7c-4c41-bb44-c4ea7a30be22
       headers:
-        Host: config.teams.microsoft.com
-  - name: '197 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: 168.138.207.66
-    type: vmess
-    port: 21365
-    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '198 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+        Host: safebrowsing.google.com
+  - name: '110 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 138.2.44.211
     type: vmess
     port: 20081
@@ -311,23 +203,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '200 🇯🇵 ORACLE-BMC-31898 WS SNI'
-    server: 150.230.104.38
-    type: vmess
-    port: 443
-    uuid: c426a2eb-acf5-42b9-b872-2efcdb0284f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: safebrowsing.google.com
-    ws-opts: 
-      path: /c426a2eb-acf5-42b9-b872-2efcdb0284f3
-      headers:
-        Host: safebrowsing.google.com
-  - name: '205 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+  - name: '119 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 152.69.197.60
     type: vmess
     port: 1069
@@ -338,8 +214,56 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
+    servername: click.zoom.us
+  - name: '198 🇯🇵 AS-CHOOPA TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19240
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '199 🇯🇵 AS-CHOOPA TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19241
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '201 🇯🇵 AMAZON-02 TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19238
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
     servername: config.teams.microsoft.com
-  - name: '208 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+  - name: '202 🇯🇵 AMAZON-02 TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19239
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '204 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 168.138.207.66
     type: vmess
     port: 21365
@@ -351,19 +275,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '211 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: 168.138.207.66
-    type: vmess
-    port: 21365
-    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '212 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+  - name: '206 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 138.2.44.211
     type: vmess
     port: 20081
@@ -374,8 +286,44 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
-  - name: '221 🇯🇵 Linode  LLC TCP SNI'
+    servername: config.teams.microsoft.com
+  - name: '218 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7302
+    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '226 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7303
+    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '227 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7303
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '228 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7304
@@ -386,8 +334,20 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
-  - name: '226 🇯🇵 Linode  LLC TCP SNI'
+    servername: safebrowsing.google.com
+  - name: '229 🇯🇵 Linode  LLC NONE SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7302
+    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: none
+    servername: safebrowsing.google.com
+  - name: '231 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7302
@@ -399,11 +359,23 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '229 🇯🇵 AMAZON-02 TCP SNI'
-    server: jp-direct.node002.xyz
+  - name: '239 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
-    port: 5432
-    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    port: 7303
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '240 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7302
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
     alterId: 0
     cipher: auto
     tls: true
@@ -411,7 +383,31 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '230 🇯🇵 AMAZON-02 TCP SNI'
+  - name: '241 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+    server: 168.138.207.66
+    type: vmess
+    port: 21365
+    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '244 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7304
+    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '246 🇯🇵 AMAZON-02 TCP SNI'
     server: jp-direct.node002.xyz
     type: vmess
     port: 5432
@@ -423,19 +419,67 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '232 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: 138.2.44.211
+  - name: '247 🇯🇵 AMAZON-02 TCP SNI'
+    server: jp-direct.node002.xyz
     type: vmess
-    port: 20081
-    uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-    alterId: 64
+    port: 5432
+    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '250 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7301
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '250 🇯🇵 Linode  LLC TCP SNI'
+    server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7303
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: safebrowsing.google.com
-  - name: '238 🇯🇵 ORACLE-BMC-31898 WS SNI'
+  - name: '252 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+    server: 168.138.207.66
+    type: vmess
+    port: 21365
+    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '259 🇯🇵 AMAZON-02 TCP SNI'
+    server: jp-direct.node002.xyz
+    type: vmess
+    port: 5432
+    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '266 🇯🇵 ORACLE-BMC-31898 WS SNI'
     server: 20.239.76.193
     type: vmess
     port: 21510
@@ -446,12 +490,24 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /zz
       headers:
-        Host: safebrowsing.google.com
-  - name: '240 🇯🇵 AMAZON-02 TCP SNI'
+        Host: config.teams.microsoft.com
+  - name: '267 🇯🇵 AMAZON-02 TCP SNI'
+    server: jp-direct.node002.xyz
+    type: vmess
+    port: 5432
+    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '270 🇯🇵 AMAZON-02 TCP SNI'
     server: 221.229.0.110
     type: vmess
     port: 19238
@@ -462,11 +518,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
-  - name: '243 🇯🇵 AS-CHOOPA TCP SNI'
+    servername: config.teams.microsoft.com
+  - name: '275 🇯🇵 AMAZON-02 TCP SNI'
     server: 221.229.0.110
     type: vmess
-    port: 19240
+    port: 19239
     uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
     alterId: 0
     cipher: auto
@@ -474,8 +530,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
-  - name: '244 🇯🇵 AS-CHOOPA TCP SNI'
+    servername: click.zoom.us
+  - name: '276 🇯🇵 AS-CHOOPA TCP SNI'
     server: 221.229.0.110
     type: vmess
     port: 19241
@@ -486,35 +542,29 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
-  - name: '7 🇯🇵 MIKU NETWORK LIMITED TCP SNI'
-    server: zzjp01.fuqiangren.com
-    type: trojan
-    port: 20221
-    password: 1425671f-0dda-4fcd-9e51-683504b00a9a
+    servername: click.zoom.us
+  - name: '278 🇯🇵 AS-CHOOPA TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19240
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '57 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: jgwdj4.gaox.ml
+  - name: '72 🇯🇵 SAKURA Internet Inc. TCP SNI'
+    server: os-tr-5.cats22.net
     type: trojan
     port: 443
-    password: c09eb137-bf68-4658-84e0-102d94b74168
+    password: 18844@zxcvbn
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
-  - name: '59 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: jgwdb3.gaox.ml
-    type: trojan
-    port: 443
-    password: 8d2d5953-d649-4034-94f2-72f2df2623da
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '60 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+  - name: '112 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: jgwdb4.gaox.ml
     type: trojan
     port: 443
@@ -522,44 +572,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
-  - name: '66 🇯🇵 ORACLE-BMC-31898 TCP SNI'
-    server: jgwdb2.gaox.ml
-    type: trojan
-    port: 443
-    password: c19d1432-8b3e-4818-8837-3d160cf65908
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: config.teams.microsoft.com
-  - name: '110 🇯🇵 SAKURA Internet Inc. TCP SNI'
-    server: tk-tr-4.cats22.net
-    type: trojan
-    port: 443
-    password: 18844@zxcvbn
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '128 🇯🇵 MIKU NETWORK LIMITED TCP SNI'
-    server: zzjp01.fuqiangren.com
-    type: trojan
-    port: 20221
-    password: 1bd63403-28a6-4036-b70f-5a027fbd6837
-    udp: true
-    skip-cert-verify: true
-    network: tcp
     servername: click.zoom.us
-  - name: '138 🇯🇵 AMAZON-02 TCP SNI'
-    server: jp-tk-31.fuckjdieng.uk
-    type: trojan
-    port: 50044
-    password: e0058714-f9c9-4653-8846-8855dae3e422
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: click.zoom.us
-  - name: '163 🇯🇵 AMAZON-02 TCP SNI'
+  - name: '126 🇯🇵 AMAZON-02 TCP SNI'
     server: jp-tk-32.fuckjdieng.uk
     type: trojan
     port: 50204
@@ -567,9 +581,9 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
-  - name: '186 🇯🇵 AMAZON-02 TCP SNI'
-    server: 18.177.58.124
+    servername: click.zoom.us
+  - name: '129 🇯🇵 AMAZON-02 TCP SNI'
+    server: jp-tk-31.fuckjdieng.uk
     type: trojan
     port: 50018
     password: db1e292f-5dbb-451f-a7ec-f85e1c80d5d8
@@ -577,3 +591,30 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: config.teams.microsoft.com
+  - name: '147 🇯🇵 AMAZON-02 TCP SNI'
+    server: jp-tk-32.fuckjdieng.uk
+    type: trojan
+    port: 50342
+    password: 14291005-87b6-4c5d-bc15-12d5c205c435
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '148 🇯🇵 AMAZON-02 TCP SNI'
+    server: jp-tk-32.fuckjdieng.uk
+    type: trojan
+    port: 50464
+    password: 2d5016d9-02d1-414d-b6c8-1fe3702698c6
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '171 🇯🇵 ORACLE-BMC-31898 TCP SNI'
+    server: 150.230.96.103
+    type: trojan
+    port: 443
+    password: da777aae-defb-41d0-a183-2c27da2b4677
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us

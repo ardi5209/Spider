@@ -113,7 +113,116 @@
           "path": "/sometimesnaive"
         }
       },
-      "tag": "proxy-195 🇨🇦 DIGITALOCEAN-ASN WS CDN"
+      "tag": "proxy-2 🇨🇦 DIGITALOCEAN-ASN WS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "awsypca.sylu.cyou",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "image-upload4.spotify.com"
+          },
+          "path": "/Falling42awsypcanode"
+        }
+      },
+      "tag": "proxy-46 🇨🇦 AMAZON-02 WS SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "investors.spotify.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "awsypca.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "awsypca.sylu.cyou"
+          },
+          "path": "/Falling42awsypcanode"
+        }
+      },
+      "tag": "proxy-48 🇨🇦 AMAZON-02 WS CDN"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "172-105-17-48.ipv4.rush.ml",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "cf4295378e209e70d12c5bdd017144dfd1c772d3",
+            "port": 8443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "image-upload4.spotify.com"
+        }
+      },
+      "tag": "proxy-281 🇨🇦 Linode  LLC TCP SNI"
     }
   ],
   "dns": {

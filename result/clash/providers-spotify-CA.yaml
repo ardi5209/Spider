@@ -1,5 +1,5 @@
 proxies:
-  - name: '195 🇨🇦 DIGITALOCEAN-ASN WS CDN'
+  - name: '2 🇨🇦 DIGITALOCEAN-ASN WS CDN'
     server: investors.spotify.com
     type: vmess
     port: 443
@@ -15,3 +15,44 @@ proxies:
       path: /sometimesnaive
       headers:
         Host: m3.pianyijc.top
+  - name: '46 🇨🇦 AMAZON-02 WS SNI'
+    server: awsypca.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: image-upload4.spotify.com
+    ws-opts: 
+      path: /Falling42awsypcanode
+      headers:
+        Host: image-upload4.spotify.com
+  - name: '48 🇨🇦 AMAZON-02 WS CDN'
+    server: investors.spotify.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: awsypca.sylu.cyou
+    ws-opts: 
+      path: /Falling42awsypcanode
+      headers:
+        Host: awsypca.sylu.cyou
+  - name: '281 🇨🇦 Linode  LLC TCP SNI'
+    server: 172-105-17-48.ipv4.rush.ml
+    type: trojan
+    port: 8443
+    password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com

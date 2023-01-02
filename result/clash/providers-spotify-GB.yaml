@@ -1,29 +1,5 @@
 proxies:
-  - name: '23 🇬🇧 DIGITALOCEAN-ASN TCP SNI'
-    server: 161.35.47.70
-    type: vmess
-    port: 29210
-    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '24 🇬🇧 DIGITALOCEAN-ASN TCP SNI'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: image-upload4.spotify.com
-  - name: '104 🇬🇧 OVH SAS WS CDN'
+  - name: '18 🇬🇧 OVH SAS WS CDN'
     server: investors.spotify.com
     type: vmess
     port: 2086
@@ -39,23 +15,7 @@ proxies:
       path: /aries
       headers:
         Host: UK.CLOUDFLARE.QUEST
-  - name: '122 🇬🇧 OVH SAS WS SNI'
-    server: 51.75.171.211
-    type: vmess
-    port: 443
-    uuid: 989b7bb6-3734-4723-bebe-2c3ff7423e46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: image-upload4.spotify.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: image-upload4.spotify.com
-  - name: '130 🇬🇧 AMAZON-02 WS SNI'
+  - name: '125 🇬🇧 AMAZON-02 WS SNI'
     server: 18.133.149.100
     type: vmess
     port: 40899
@@ -71,11 +31,11 @@ proxies:
       path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '167 🇬🇧 BLNWX WS SNI'
-    server: 37.32.23.122
+  - name: '137 🇬🇧 OVH SAS WS SNI'
+    server: 198.244.232.39
     type: vmess
-    port: 443
-    uuid: d12bc882-43c7-415e-87c5-2a7fdc8371c0
+    port: 2096
+    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
     alterId: 0
     cipher: auto
     tls: true
@@ -84,47 +44,89 @@ proxies:
     network: ws
     servername: image-upload4.spotify.com
     ws-opts: 
-      path: /websocket/
+      path: /
       headers:
         Host: image-upload4.spotify.com
-  - name: '39 🇬🇧 OVH SAS TCP SNI'
-    server: t1.teslacdn1.live
-    type: trojan
-    port: 443
-    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
+  - name: '186 🇬🇧 AMAZON-02 TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19248
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '125 🇬🇧 OVH SAS TCP SNI'
-    server: uk1.trojanvh.xyz
-    type: trojan
-    port: 443
-    password: b640d791-ff83-4300-b509-c2a02f97f167
+  - name: '203 🇬🇧 AMAZON-02 TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19248
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '177 🇬🇧 ORACLE-BMC-31898 TCP SNI'
-    server: jgwld1.gaox.ml
-    type: trojan
-    port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  - name: '205 🇬🇧 AMAZON-02 TCP SNI'
+    server: 221.229.0.110
+    type: vmess
+    port: 19247
+    uuid: d3f8b9e4-2879-38c2-936c-1fe42becea4e
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '181 🇬🇧 Stark Industries Solutions Ltd TCP SNI'
-    server: 146.19.230.241
-    type: trojan
-    port: 443
-    password: xxoo
+  - name: '236 🇬🇧 DIGITALOCEAN-ASN TCP SNI'
+    server: 161.35.47.70
+    type: vmess
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: image-upload4.spotify.com
-  - name: '183 🇬🇧 Hydra Communications Ltd TCP SNI'
-    server: content-provider20.cdn-delivery.akamaicd.com
+  - name: '236 🇬🇧 DIGITALOCEAN-ASN TCP SNI'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '124 🇬🇧 OVH SAS TCP SNI'
+    server: 51.195.219.173
+    type: trojan
+    port: 443
+    password: 0f5e6d9a-49af-4bc0-b04b-503102382144
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '170 🇬🇧 OVH SAS TCP SNI'
+    server: 51.195.219.173
+    type: trojan
+    port: 443
+    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '173 🇬🇧 Hydra Communications Ltd TCP SNI'
+    server: 185.16.206.212
     type: trojan
     port: 443
     password: shefelnak

@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw99-hinet.mynodes001.one",
-            "port": 5432,
+            "address": "221.229.0.110",
+            "port": 19222,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
+                "id": "d3f8b9e4-2879-38c2-936c-1fe42becea4e",
                 "level": 8,
                 "security": "auto"
               }
@@ -107,7 +107,149 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-73 🇹🇼 Data Communication Business Group TCP SNI"
+      "tag": "proxy-184 🇹🇼 Data Communication Business Group TCP SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "117.164.185.222",
+            "port": 16130,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-223 🇹🇼 Data Communication Business Group TCP SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "twmx6l01b.b70rw85t.xyz",
+            "port": 39998,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-261 🇹🇼 Data Communication Business Group TCP SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "221.229.0.110",
+            "port": 19221,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "d3f8b9e4-2879-38c2-936c-1fe42becea4e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-273 🇹🇼 Data Communication Business Group TCP SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "cef923f8-6a75-45ff-ab6b-7a4e248bd451",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "22331.eutopiacloud.ml"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "22331.eutopiacloud.ml"
+          },
+          "path": "/xyf520"
+        }
+      },
+      "tag": "proxy-274 🇹🇼 Taiwan Digital Streaming Co. WS CDN"
     },
     {
       "mux": {
@@ -147,41 +289,7 @@
           "path": "/xyf520"
         }
       },
-      "tag": "proxy-241 🇹🇼 Taiwan Digital Streaming Co. WS SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "221.229.0.110",
-            "port": 19221,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "d3f8b9e4-2879-38c2-936c-1fe42becea4e",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-242 🇹🇼 Data Communication Business Group TCP SNI"
+      "tag": "proxy-279 🇹🇼 Taiwan Digital Streaming Co. WS SNI"
     },
     {
       "mux": {
@@ -192,12 +300,12 @@
       "settings": {
         "servers": [
           {
-            "address": "211.72.35.157",
+            "address": "211.72.35.154",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "dc2d9db59868ba6b",
+            "password": "4bacb8f1a089763b",
             "port": 3306
           }
         ]
@@ -216,7 +324,42 @@
           "path": "/gateway/connect"
         }
       },
-      "tag": "proxy-233 🇹🇼 Data Communication Business Group WS SNI"
+      "tag": "proxy-229 🇹🇼 Data Communication Business Group WS SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "211.72.35.153",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "26a663656e575c0b",
+            "port": 3306
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/gateway/connect"
+        }
+      },
+      "tag": "proxy-262 🇹🇼 Data Communication Business Group WS SNI"
     }
   ],
   "dns": {

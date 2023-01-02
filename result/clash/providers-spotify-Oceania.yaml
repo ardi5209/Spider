@@ -1,5 +1,17 @@
 proxies:
-  - name: '129 🇳🇿 RELIABLESITE TCP SNI'
+  - name: '31 🇳🇿 RELIABLESITE TCP SNI'
+    server: 216.73.158.22
+    type: vmess
+    port: 30000
+    uuid: dc1639ca-9ba2-46f6-8a3c-bdef2266f0b7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '238 🇳🇿 RELIABLESITE TCP SNI'
     server: 216.73.158.22
     type: vmess
     port: 30000
@@ -7,6 +19,24 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '116 🇦🇺 ORACLE-BMC-31898 TCP SNI'
+    server: jgwxn4.gaox.ml
+    type: trojan
+    port: 443
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: image-upload4.spotify.com
+  - name: '174 🇦🇺 ORACLE-BMC-31898 TCP SNI'
+    server: 140.238.205.173
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
     udp: true
     skip-cert-verify: true
     network: tcp

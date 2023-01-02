@@ -1,6 +1,6 @@
 proxies:
-  - name: '46 🇵🇱 G-Core Labs S.A. WS SNI'
-    server: gcspl.sylu.cyou
+  - name: '50 🇵🇱 G-Core Labs S.A. WS SNI'
+    server: gcorepl.sylu.cyou
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -10,12 +10,28 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
-      path: /Falling42gcsplnode
+      path: /Falling42gcoreplnode
       headers:
-        Host: safebrowsing.google.com
-  - name: '47 🇵🇱 G-Core Labs S.A. WS CDN'
+        Host: click.zoom.us
+  - name: '51 🇵🇱 G-Core Labs S.A. WS CDN'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorepl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcoreplnode
+      headers:
+        Host: gcorepl.sylu.cyou
+  - name: '53 🇵🇱 G-Core Labs S.A. WS CDN'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -31,19 +47,35 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: gcspl.sylu.cyou
-  - name: '155 🇵🇱 OVH SAS WS SNI'
-    server: 146.59.92.219
+  - name: '99 🇵🇱 Online S.a.s. WS CDN'
+    server: hohm.microsoft.com
     type: vmess
-    port: 2096
-    uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
+    port: 2086
+    uuid: 00bcc99b-7dc1-4dba-a4c4-ccb46dbd72a2
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: waw.cloudflare.quest
     ws-opts: 
-      path: /
+      path: /aries
       headers:
-        Host: safebrowsing.google.com
+        Host: waw.cloudflare.quest
+  - name: '213 🇵🇱 G-Core Labs S.A. WS SNI'
+    server: 94.156.45.46
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: config.teams.microsoft.com
+    ws-opts: 
+      path: /Falling42gcsplnode
+      headers:
+        Host: config.teams.microsoft.com

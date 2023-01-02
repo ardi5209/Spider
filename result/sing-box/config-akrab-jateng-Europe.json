@@ -45,17 +45,110 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
+        "17 🇩🇪 OVH SAS WS CDN",
+        "18 🇬🇧 OVH SAS WS CDN",
+        "23 🇩🇪 G-Core Labs S.A. WS CDN",
+        "24 🇫🇷 Online S.a.s. WS CDN",
         "28 🇱🇺 PONYNET WS CDN",
-        "44 🇩🇪 OVH SAS WS CDN",
-        "47 🇵🇱 G-Core Labs S.A. WS CDN",
-        "67 🇫🇷 Online S.a.s. WS CDN",
-        "89 🇫🇷 Online S.a.s. WS CDN",
+        "30 🇩🇪 Hetzner Online GmbH WS CDN",
+        "43 🇫🇷 Online S.a.s. WS CDN",
+        "51 🇵🇱 G-Core Labs S.A. WS CDN",
+        "53 🇵🇱 G-Core Labs S.A. WS CDN",
+        "65 🇩🇪 SkyLink Data Center BV WS CDN",
+        "71 🇫🇷 Online S.a.s. WS CDN",
+        "84 🇱🇺 Unknown WS CDN",
+        "93 🇩🇪 myLoc managed IT AG WS CDN",
         "94 🇩🇪 Hetzner Online GmbH WS CDN",
-        "104 🇬🇧 OVH SAS WS CDN",
-        "108 🇳🇱 Online S.a.s. WS CDN",
-        "109 🇩🇪 DIGITALOCEAN-ASN WS CDN",
-        "119 🇫🇷 Online S.a.s. WS CDN"
+        "99 🇵🇱 Online S.a.s. WS CDN",
+        "133 🇱🇺 PONYNET WS CDN",
+        "144 🇫🇷 Online S.a.s. WS CDN",
+        "160 🇫🇷 OVH SAS WS CDN",
+        "175 🇩🇪 CLOUDFLARENET WS CDN"
       ]
+    },
+    {
+      "type": "vmess",
+      "tag": "17 🇩🇪 OVH SAS WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de.gongyiyun.cf"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "de.gongyiyun.cf"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "18 🇬🇧 OVH SAS WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2086,
+      "uuid": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "UK.CLOUDFLARE.QUEST"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "UK.CLOUDFLARE.QUEST"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "23 🇩🇪 G-Core Labs S.A. WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcsde.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsdenode",
+        "headers": {
+          "Host": "gcsde.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "24 🇫🇷 Online S.a.s. WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lg10.cfcdn1.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "lg10.cfcdn1.xyz"
+        }
+      }
     },
     {
       "type": "vmess",
@@ -80,49 +173,28 @@
     },
     {
       "type": "vmess",
-      "tag": "44 🇩🇪 OVH SAS WS CDN",
+      "tag": "30 🇩🇪 Hetzner Online GmbH WS CDN",
       "server": "main.millionaireaisle.com",
-      "server_port": 8080,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "server_port": 8443,
+      "uuid": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "de.gongyiyun.cf"
+        "server_name": "casperco.online"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "de.gongyiyun.cf"
+          "Host": "casperco.online"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "47 🇵🇱 G-Core Labs S.A. WS CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcspl.sylu.cyou"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsplnode",
-        "headers": {
-          "Host": "gcspl.sylu.cyou"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "67 🇫🇷 Online S.a.s. WS CDN",
+      "tag": "43 🇫🇷 Online S.a.s. WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
       "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
@@ -143,22 +215,127 @@
     },
     {
       "type": "vmess",
-      "tag": "89 🇫🇷 Online S.a.s. WS CDN",
+      "tag": "51 🇵🇱 G-Core Labs S.A. WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "v10a.toddns.tk"
+        "server_name": "gcorepl.sylu.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/fr-unlimitxxx",
+        "path": "/Falling42gcoreplnode",
         "headers": {
-          "Host": "v10a.toddns.tk"
+          "Host": "gcorepl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "53 🇵🇱 G-Core Labs S.A. WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcspl.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
+        "headers": {
+          "Host": "gcspl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "65 🇩🇪 SkyLink Data Center BV WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hosmatic.sylu.cyou"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42hosmaticnode",
+        "headers": {
+          "Host": "hosmatic.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "71 🇫🇷 Online S.a.s. WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "7b1b2fa3-e361-48cc-b73d-2c9636c76f4b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "v2ray1.zhujicn2.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/UMW36262",
+        "headers": {
+          "Host": "v2ray1.zhujicn2.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "84 🇱🇺 Unknown WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "hk.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "hk.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93 🇩🇪 myLoc managed IT AG WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "5668ff97-631f-4602-a13f-b56552c67abe",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de-v.sshmax.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "de-v.sshmax.xyz"
         }
       }
     },
@@ -185,85 +362,106 @@
     },
     {
       "type": "vmess",
-      "tag": "104 🇬🇧 OVH SAS WS CDN",
+      "tag": "99 🇵🇱 Online S.a.s. WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 2086,
-      "uuid": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
+      "uuid": "00bcc99b-7dc1-4dba-a4c4-ccb46dbd72a2",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "UK.CLOUDFLARE.QUEST"
+        "server_name": "waw.cloudflare.quest"
       },
       "transport": {
         "type": "ws",
         "path": "/aries",
         "headers": {
-          "Host": "UK.CLOUDFLARE.QUEST"
+          "Host": "waw.cloudflare.quest"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "108 🇳🇱 Online S.a.s. WS CDN",
+      "tag": "133 🇱🇺 PONYNET WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "faa4f60f-451d-4ce8-b48d-e770c2369bac",
+      "uuid": "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "nl.awsbest.com"
+        "server_name": "lu1.gogogoo.cyou"
       },
       "transport": {
         "type": "ws",
-        "path": "/shared",
+        "path": "/go",
         "headers": {
-          "Host": "nl.awsbest.com"
+          "Host": "lu1.gogogoo.cyou"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "109 🇩🇪 DIGITALOCEAN-ASN WS CDN",
-      "server": "main.millionaireaisle.com",
-      "server_port": 2086,
-      "uuid": "f5251f72-d880-43c1-f1cd-9783d1df3698",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "dedo.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "dedo.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "119 🇫🇷 Online S.a.s. WS CDN",
+      "tag": "144 🇫🇷 Online S.a.s. WS CDN",
       "server": "main.millionaireaisle.com",
       "server_port": 443,
-      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "uuid": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "lg10.cfcdn1.xyz"
+        "server_name": "fr1.trump2023.org"
       },
       "transport": {
         "type": "ws",
-        "path": "/A2DJOPFT",
+        "path": "/9JZFDTKE",
         "headers": {
-          "Host": "lg10.cfcdn1.xyz"
+          "Host": "fr1.trump2023.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "160 🇫🇷 OVH SAS WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 443,
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "fr2.v2rayserv.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "fr2.v2rayserv.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "175 🇩🇪 CLOUDFLARENET WS CDN",
+      "server": "main.millionaireaisle.com",
+      "server_port": 2053,
+      "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "foxdeovz1.fovi.tk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eisasqa",
+        "headers": {
+          "Host": "foxdeovz1.fovi.tk"
         }
       }
     }

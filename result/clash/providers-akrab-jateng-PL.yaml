@@ -1,5 +1,21 @@
 proxies:
-  - name: '47 🇵🇱 G-Core Labs S.A. WS CDN'
+  - name: '51 🇵🇱 G-Core Labs S.A. WS CDN'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorepl.sylu.cyou
+    ws-opts: 
+      path: /Falling42gcoreplnode
+      headers:
+        Host: gcorepl.sylu.cyou
+  - name: '53 🇵🇱 G-Core Labs S.A. WS CDN'
     server: main.millionaireaisle.com
     type: vmess
     port: 443
@@ -15,3 +31,19 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: gcspl.sylu.cyou
+  - name: '99 🇵🇱 Online S.a.s. WS CDN'
+    server: main.millionaireaisle.com
+    type: vmess
+    port: 2086
+    uuid: 00bcc99b-7dc1-4dba-a4c4-ccb46dbd72a2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: waw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: waw.cloudflare.quest
